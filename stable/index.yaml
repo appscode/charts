@@ -3,7 +3,7 @@ entries:
   csi-vault:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2018-12-14T04:01:06.698825826-08:00
+    created: 2018-12-14T13:54:30.803298665-08:00
     description: HashiCorp Vault CSI Driver for Kubernetes
     digest: a57afbfdf0f2cd53945acd2d1c58e2b2e94ad9bb6446441ae24ef49a28d19ed6
     home: https://github.com/kubevault/csi-driver
@@ -20,7 +20,7 @@ entries:
   g2:
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2018-12-14T04:01:06.70243492-08:00
+    created: 2018-12-14T13:54:30.807020906-08:00
     description: G2 by AppsCode - Gearman in Golang
     digest: 46dfebfc3b7358dce1679861a4b1851879de280b130d7ac3e158adc04a4bd4b0
     home: https://github.com/appscode/g2
@@ -36,7 +36,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2018-12-14T04:01:06.701664154-08:00
+    created: 2018-12-14T13:54:30.806545624-08:00
     description: G2 by AppsCode - Gearman in Golang
     digest: 5dbffcbeb339fcd3da9db574b37ac52ea424b43f041f9ca767d8bcb899fbf13a
     home: https://github.com/appscode/g2
@@ -52,7 +52,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2018-12-14T04:01:06.700734715-08:00
+    created: 2018-12-14T13:54:30.805990451-08:00
     description: G2 by AppsCode - Gearman in Golang
     digest: d4b888d5efed5f24c8d6828f1d1dac3d5b7cc845ae284e927ffd29f2b68b2007
     home: https://github.com/appscode/g2
@@ -68,7 +68,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2018-12-14T04:01:06.700204344-08:00
+    created: 2018-12-14T13:54:30.805006111-08:00
     description: G2 by AppsCode - Gearman in Golang
     digest: f0db91361b3cb869f82494d587682a2b29cd128226a15b8dfaf2f8293256486f
     home: https://github.com/appscode/g2
@@ -84,7 +84,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2018-12-14T04:01:06.699599049-08:00
+    created: 2018-12-14T13:54:30.804201926-08:00
     description: G2 by AppsCode - Gearman in Golang
     digest: d0f97f5df730c9437c0962e1c0a0387c633ff28b5c66410ef5aac7f07244380b
     home: https://github.com/appscode/g2
@@ -98,10 +98,45 @@ entries:
     urls:
     - https://charts.appscode.com/stable/g2/g2-0.1.0.tgz
     version: 0.1.0
+  git-apiserver:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2018-12-14T13:54:30.807553655-08:00
+    description: Git API server by AppsCode - Sync git repositories as Kubernetes
+      resources
+    digest: 6e6b2d32e0a22a1257edc0eb093a25dc7b72ce71a37a1a8bfa4910037c954c28
+    home: https://github.com/kube-ci/git-apiserver
+    icon: https://cdn.appscode.com/images/icon/kubeci.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: git-apiserver
+    sources:
+    - https://github.com/kube-ci/git-apiserver
+    urls:
+    - https://charts.appscode.com/stable/git-apiserver/git-apiserver-0.1.0.tgz
+    version: 0.1.0
+  kubeci-engine:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: 2018-12-14T13:54:30.80811006-08:00
+    description: KubeCI Engine by AppsCode - Kubernetes Native Workflow Engine
+    digest: baec328874162a58d0b812710479817ad2828173a3c7d3c6c6b4fee0fafd0337
+    home: https://github.com/kube-ci/engine
+    icon: https://cdn.appscode.com/images/icon/kubeci.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubeci-engine
+    sources:
+    - https://github.com/kube-ci/engine
+    urls:
+    - https://charts.appscode.com/stable/kubeci-engine/kubeci-engine-0.1.0.tgz
+    version: 0.1.0
   kubed:
   - apiVersion: v1
     appVersion: 0.8.0
-    created: 2018-12-14T04:01:06.712472827-08:00
+    created: 2018-12-14T13:54:30.815358785-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 142ea3e2e65741aaea1264f97e2c5094a4b788c5af026149b90f498a807f92cc
     home: https://github.com/appscode/kubed
@@ -117,7 +152,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 0.7.0
-    created: 2018-12-14T04:01:06.711476765-08:00
+    created: 2018-12-14T13:54:30.814376885-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 2a5c06ba78aa509602c797667581307584c32e4a2449d5355865240c1dae5dd3
     home: https://github.com/appscode/kubed
@@ -133,7 +168,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 0.7.0-rc.2
-    created: 2018-12-14T04:01:06.710734685-08:00
+    created: 2018-12-14T13:54:30.813691871-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 0f56f7218e5530f9fe06c321502e513138f971afbcfbc9f30ba8d5a6ecdfab2f
     home: https://github.com/appscode/kubed
@@ -149,7 +184,7 @@ entries:
     version: 0.7.0-rc.2
   - apiVersion: v1
     appVersion: 0.7.0-rc.1
-    created: 2018-12-14T04:01:06.709634687-08:00
+    created: 2018-12-14T13:54:30.812903976-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 92d65c1d36f2f3f0f0c0577c1e0c8aa0463ffe20611ab28552ca91dd4006b4af
     home: https://github.com/appscode/kubed
@@ -165,7 +200,7 @@ entries:
     version: 0.7.0-rc.1
   - apiVersion: v1
     appVersion: 0.7.0-rc.0
-    created: 2018-12-14T04:01:06.708160156-08:00
+    created: 2018-12-14T13:54:30.812130563-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 0ce34266b2620aa1b05a77845f53199f5fefda951cd0bcce7551eba03e554709
     home: https://github.com/appscode/kubed
@@ -181,7 +216,7 @@ entries:
     version: 0.7.0-rc.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2018-12-14T04:01:06.707300326-08:00
+    created: 2018-12-14T13:54:30.811447029-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 4208334e7bf9a668362c403d923c1bc5cd1511af4fd60f9ab74a6d5a8406e906
     home: https://github.com/appscode/kubed
@@ -197,7 +232,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2018-12-14T04:01:06.706811743-08:00
+    created: 2018-12-14T13:54:30.810987712-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: ccb7dd831c99707ac81a42be458401da87393008de964b02b10467ce293a83d0
     home: https://github.com/appscode/kubed
@@ -213,7 +248,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2018-12-14T04:01:06.70631565-08:00
+    created: 2018-12-14T13:54:30.810528171-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 528e2a6c819bf3fd89e2625b7802ef92b915ec035fa5f9fff5b2410f3ee43286
     home: https://github.com/appscode/kubed
@@ -229,7 +264,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: 2018-12-14T04:01:06.705765082-08:00
+    created: 2018-12-14T13:54:30.809883328-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: ad16c2bd5712ea20722cd6ea2104bc2278849bd6713192fc508aa5d145f395a6
     home: https://github.com/appscode/kubed
@@ -245,7 +280,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.3.0
-    created: 2018-12-14T04:01:06.705110986-08:00
+    created: 2018-12-14T13:54:30.809255177-08:00
     description: Kubed by AppsCode - Kubernetes daemon
     digest: 6468e0714701de03f98615379782f4239b83a441aee07a1bb671b15e84c02e64
     home: https://github.com/appscode/kubed
@@ -262,7 +297,7 @@ entries:
   kubedb:
   - apiVersion: v1
     appVersion: 0.9.0-rc.2
-    created: 2018-12-14T04:01:06.720419279-08:00
+    created: 2018-12-14T13:54:30.824623523-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: 7eab109bf211b8d737529aee026553c2330eacf96f70eb0b47a6e7b9f2d981dd
     home: https://github.com/kubedb/cli
@@ -278,7 +313,7 @@ entries:
     version: 0.9.0-rc.2
   - apiVersion: v1
     appVersion: 0.9.0-rc.1
-    created: 2018-12-14T04:01:06.719596178-08:00
+    created: 2018-12-14T13:54:30.823794423-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: 2e7af02e6f2968444a232793186671251faefd8a82bff7f426027eba3f53a80e
     home: https://github.com/kubedb/cli
@@ -294,7 +329,7 @@ entries:
     version: 0.9.0-rc.1
   - apiVersion: v1
     appVersion: 0.9.0-rc.0
-    created: 2018-12-14T04:01:06.718612422-08:00
+    created: 2018-12-14T13:54:30.82287802-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: c7e0e37b9528de229c144fa9bfb79f38708e7e43d1bcd79b02bafc3cf0298ffa
     home: https://github.com/kubedb/cli
@@ -310,7 +345,7 @@ entries:
     version: 0.9.0-rc.0
   - apiVersion: v1
     appVersion: 0.9.0-beta.1
-    created: 2018-12-14T04:01:06.7176306-08:00
+    created: 2018-12-14T13:54:30.821791921-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: bc5220109a0335cd948c78c2d4178373949fe89286dac84b75cf7bc89d3a8f6b
     home: https://github.com/kubedb/cli
@@ -326,7 +361,7 @@ entries:
     version: 0.9.0-beta.1
   - apiVersion: v1
     appVersion: 0.9.0-beta.0
-    created: 2018-12-14T04:01:06.716823315-08:00
+    created: 2018-12-14T13:54:30.820788907-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: c354f8f7c2a5266aefea46b1860628f3664ef25b0ee00bb18076abda78defb41
     home: https://github.com/kubedb/cli
@@ -342,7 +377,7 @@ entries:
     version: 0.9.0-beta.0
   - apiVersion: v1
     appVersion: 0.8.0
-    created: 2018-12-14T04:01:06.716017751-08:00
+    created: 2018-12-14T13:54:30.819759902-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: 8a6887e399afedf9e43a6579242ebbf380eafe29495f354828332bc09f1bec45
     home: https://github.com/kubedb/cli
@@ -358,7 +393,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 0.8.0-rc.0
-    created: 2018-12-14T04:01:06.715042591-08:00
+    created: 2018-12-14T13:54:30.818851201-08:00
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
     digest: b1bb7583ee0cdbbc11ca780d9edce27db0176ffb9154b7c028665a38dc925aab
     home: https://github.com/kubedb/cli
@@ -374,7 +409,7 @@ entries:
     version: 0.8.0-rc.0
   - apiVersion: v1
     appVersion: 0.8.0-beta.2
-    created: 2018-12-14T04:01:06.714281477-08:00
+    created: 2018-12-14T13:54:30.81794553-08:00
     description: KubeDB by AppsCode - Making running production-grade databases easy
       on Kubernetes
     digest: 47805a58891660e17b5ae7d16f39720f1a9ed3a4dd0287287c46ad2a19291de8
@@ -391,7 +426,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.8.0-beta.2
-    created: 2018-12-14T04:01:06.713710831-08:00
+    created: 2018-12-14T13:54:30.817280365-08:00
     description: KubeDB by AppsCode - Making running production-grade databases easy
       on Kubernetes
     digest: df80e12baa330c276b0b5e6de7c1948c23febb9abe52dc9ab5614ff8dc5eae1a
@@ -408,7 +443,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.8.0-beta.2
-    created: 2018-12-14T04:01:06.713129721-08:00
+    created: 2018-12-14T13:54:30.816649001-08:00
     description: KubeDB by AppsCode - Making running production-grade databases easy
       on Kubernetes
     digest: ac874fdc05d32e1e12ff673c15ca190fe0d77cb6c37369aa04bdb229846e99d3
@@ -426,7 +461,7 @@ entries:
   kubedb-catalog:
   - apiVersion: v1
     appVersion: 0.9.0-rc.2
-    created: 2018-12-14T04:01:06.723328392-08:00
+    created: 2018-12-14T13:54:30.827372635-08:00
     description: KubeDB Catalog by AppsCode - Catalog for database versions
     digest: 434cc1968df5409da40efe86d9daa850be688105c01db5e2b1d8680c26001f04
     home: https://github.com/kubedb/cli
@@ -442,7 +477,7 @@ entries:
     version: 0.9.0-rc.2
   - apiVersion: v1
     appVersion: 0.9.0-rc.1
-    created: 2018-12-14T04:01:06.722788802-08:00
+    created: 2018-12-14T13:54:30.826850461-08:00
     description: KubeDB Catalog by AppsCode - Catalog for database versions
     digest: df8ba23cae0cd4e40d9bab11941b2ae0a7371c680a0c16a4b4a9b6b006dfe267
     home: https://github.com/kubedb/cli
@@ -458,7 +493,7 @@ entries:
     version: 0.9.0-rc.1
   - apiVersion: v1
     appVersion: 0.9.0-rc.0
-    created: 2018-12-14T04:01:06.722228221-08:00
+    created: 2018-12-14T13:54:30.826354839-08:00
     description: KubeDB Catalog by AppsCode - Catalog for database versions
     digest: 9d1b5698a9031057659260983abb65ed1d063b7dc58df9995c6f1c28142852b1
     home: https://github.com/kubedb/cli
@@ -474,7 +509,7 @@ entries:
     version: 0.9.0-rc.0
   - apiVersion: v1
     appVersion: 0.9.0-beta.1
-    created: 2018-12-14T04:01:06.721558408-08:00
+    created: 2018-12-14T13:54:30.825771779-08:00
     description: KubeDB Catalog by AppsCode - Catalog for database versions
     digest: b83faf0ee9e917d83bb070fc3c1bf04eb00d52ad8bab19e1da6f65baf44bcfed
     home: https://github.com/kubedb/cli
@@ -490,7 +525,7 @@ entries:
     version: 0.9.0-beta.1
   - apiVersion: v1
     appVersion: 0.9.0-beta.0
-    created: 2018-12-14T04:01:06.721037044-08:00
+    created: 2018-12-14T13:54:30.82527263-08:00
     description: KubeDB Catalog by AppsCode - Catalog for database versions
     digest: 6609e0159c2d68bde973a2824f5e2a3617b6838562f6b90fd6fa5283f86817a4
     home: https://github.com/kubedb/cli
@@ -507,7 +542,7 @@ entries:
   searchlight:
   - apiVersion: v1
     appVersion: 7.0.0
-    created: 2018-12-14T04:01:06.73834423-08:00
+    created: 2018-12-14T13:54:30.831693222-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: aaef2c89acd3a58d3e7398c09937b272e0c6223e2a9157c801b5093e7d47fd5c
     home: https://github.com/appscode/searchlight
@@ -523,7 +558,7 @@ entries:
     version: 7.0.0
   - apiVersion: v1
     appVersion: 7.0.0-rc.0
-    created: 2018-12-14T04:01:06.737582073-08:00
+    created: 2018-12-14T13:54:30.83092358-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: 60796834e978bdd15c59a45c903d143df7622a45fe2cf04c32013367a5dd081e
     home: https://github.com/appscode/searchlight
@@ -539,7 +574,7 @@ entries:
     version: 7.0.0-rc.0
   - apiVersion: v1
     appVersion: 5.0.0
-    created: 2018-12-14T04:01:06.736622205-08:00
+    created: 2018-12-14T13:54:30.83009405-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: b591656bf56c1042d6ba40dc3fa7397b705f809de63f071235c2293765cecf64
     home: https://github.com/appscode/searchlight
@@ -555,7 +590,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 5.0.0
-    created: 2018-12-14T04:01:06.725607091-08:00
+    created: 2018-12-14T13:54:30.829508912-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: 94eb34a057c5e72fdafba6168195c8dd32be9f2380c88a14d48310cee82b6bcf
     home: https://github.com/appscode/searchlight
@@ -571,7 +606,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 5.0.0
-    created: 2018-12-14T04:01:06.724966864-08:00
+    created: 2018-12-14T13:54:30.828987634-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: 7e40b69e35aeb183c83b8cb6cf31dbee0fd6c118e5a28e0c970859264847a627
     home: https://github.com/appscode/searchlight
@@ -587,7 +622,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 5.0.0
-    created: 2018-12-14T04:01:06.724445345-08:00
+    created: 2018-12-14T13:54:30.828470454-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: 1479b734edd680687ad021deab9e1033dbbd11b70915d9f49108a38975a29b88
     home: https://github.com/appscode/searchlight
@@ -603,7 +638,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 4.0.0
-    created: 2018-12-14T04:01:06.723897938-08:00
+    created: 2018-12-14T13:54:30.827938328-08:00
     description: Searchlight by AppsCode - Alerts for Kubernetes
     digest: 98987768f52ed117072673e6091efd446b400aec1e5cf7fa69621bf63072a937
     home: https://github.com/appscode/searchlight
@@ -620,7 +655,7 @@ entries:
   stash:
   - apiVersion: v1
     appVersion: 0.8.1
-    created: 2018-12-14T04:01:06.746666472-08:00
+    created: 2018-12-14T13:54:30.842618077-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 14708391391bd4cc9c3f34329bd1c2f7de637180bea63431da3d721a18365fcb
     home: https://github.com/appscode/stash
@@ -636,7 +671,7 @@ entries:
     version: 0.8.1
   - apiVersion: v1
     appVersion: 0.8.0
-    created: 2018-12-14T04:01:06.745728734-08:00
+    created: 2018-12-14T13:54:30.841677548-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 8e47638a7ee9ab2dad3f8a8f65c0fd7dee783ef342af3f8f1cdd05bd28803468
     home: https://github.com/appscode/stash
@@ -652,7 +687,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 0.7.0
-    created: 2018-12-14T04:01:06.744892174-08:00
+    created: 2018-12-14T13:54:30.840864302-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 9afa151d5217bc2f33649f3dc676ebf774adbd0ec07feea6d2118b3207b1ca7f
     home: https://github.com/appscode/stash
@@ -668,7 +703,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 0.7.0-rc.5
-    created: 2018-12-14T04:01:06.744154438-08:00
+    created: 2018-12-14T13:54:30.840085155-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: b3c49f2992fbb6f338ef145c7065d54677ad53bdf6b9e9e769cf73b99a17ccdc
     home: https://github.com/appscode/stash
@@ -684,7 +719,7 @@ entries:
     version: 0.7.0-rc.5
   - apiVersion: v1
     appVersion: 0.7.0-rc.4
-    created: 2018-12-14T04:01:06.743260846-08:00
+    created: 2018-12-14T13:54:30.839225838-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 59eeb7d210226ed3a9070d22d89f067ada1ab4465457197f0dd6edf888ac0c9b
     home: https://github.com/appscode/stash
@@ -700,7 +735,7 @@ entries:
     version: 0.7.0-rc.4
   - apiVersion: v1
     appVersion: 0.7.0-rc.1
-    created: 2018-12-14T04:01:06.742311912-08:00
+    created: 2018-12-14T13:54:30.83810716-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: f7e8c61054289bba98965e6500119a5ff48e67e49485835ca56962481f0b532a
     home: https://github.com/appscode/stash
@@ -716,7 +751,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.7.0-rc.1
-    created: 2018-12-14T04:01:06.741736664-08:00
+    created: 2018-12-14T13:54:30.83728059-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 9cbfce76742672147d334283d3f277a0b4396f4db031e9eabf0b88a208ac5084
     home: https://github.com/appscode/stash
@@ -732,7 +767,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.7.0-rc.1
-    created: 2018-12-14T04:01:06.741190523-08:00
+    created: 2018-12-14T13:54:30.836556614-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 26bf88a5449f99eab4d4a0531960ebd3318c64e13b2de4a20320a6af7fa9c75e
     home: https://github.com/appscode/stash
@@ -748,7 +783,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.6.2
-    created: 2018-12-14T04:01:06.740622213-08:00
+    created: 2018-12-14T13:54:30.83570732-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: e44324f31954bf9b8066ffe37a34d48888e8b2df4a7b3fbd1ca82b1fee75ffa7
     home: https://github.com/appscode/stash
@@ -764,7 +799,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 0.6.2
-    created: 2018-12-14T04:01:06.740165361-08:00
+    created: 2018-12-14T13:54:30.834816996-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 904c08952f065582dfd74ff00aaf8a088822f8032956336ccfa4524791842a9e
     home: https://github.com/appscode/stash
@@ -780,7 +815,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.6.2
-    created: 2018-12-14T04:01:06.739715724-08:00
+    created: 2018-12-14T13:54:30.834071967-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 6863c50f2fe5927f4c83750ee0bc2a231af891fe633c8812bcffdc70b781a831
     home: https://github.com/appscode/stash
@@ -796,7 +831,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.5.1
-    created: 2018-12-14T04:01:06.739261471-08:00
+    created: 2018-12-14T13:54:30.833432144-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 1cbd11c5a242fe9b3052e33ad885b15373ab6748b256b9850a6fd17269021b4f
     home: https://github.com/appscode/stash
@@ -812,7 +847,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.3.1
-    created: 2018-12-14T04:01:06.738788922-08:00
+    created: 2018-12-14T13:54:30.832157727-08:00
     description: Stash by AppsCode - Backup your Kubernetes Volumes
     digest: 06814920d604d07b361bd3b420b41a86931571729a91937189c151235d425443
     home: https://github.com/appscode/stash
@@ -829,7 +864,7 @@ entries:
   swift:
   - apiVersion: v1
     appVersion: 0.10.0
-    created: 2018-12-14T04:01:06.747940188-08:00
+    created: 2018-12-14T13:54:30.843825585-08:00
     description: Swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: 52bb4cdceaebdad442182b12ba6108c374d4a62aedb903a2c26b48953e0cddf3
     home: https://github.com/appscode/swift
@@ -845,7 +880,7 @@ entries:
     version: 0.10.0
   - apiVersion: v1
     appVersion: 0.9.0
-    created: 2018-12-14T04:01:06.753543807-08:00
+    created: 2018-12-14T13:54:30.848646762-08:00
     description: Swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: e8835ef610c90febd72f7c60ce7e26533a882d2f1d7c28b2f0f27e3374da9659
     home: https://github.com/appscode/swift
@@ -861,7 +896,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 0.8.1
-    created: 2018-12-14T04:01:06.752980989-08:00
+    created: 2018-12-14T13:54:30.848105289-08:00
     description: Swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: f79f6355ddbe10601984accbe1c1771d6b2ec96442fde3bf5647b022d9092866
     home: https://github.com/appscode/swift
@@ -877,7 +912,7 @@ entries:
     version: 0.8.1
   - apiVersion: v1
     appVersion: 0.8.0
-    created: 2018-12-14T04:01:06.751880882-08:00
+    created: 2018-12-14T13:54:30.847577509-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: 515d0461048d6175fe8a036f678b960c2596d706e1cf6be0ffcc68b3cd096182
     home: https://github.com/appscode/swift
@@ -893,7 +928,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 0.7.3
-    created: 2018-12-14T04:01:06.751062697-08:00
+    created: 2018-12-14T13:54:30.847019015-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: c214306e292cdd4cce9172e5e2b388abf02ac56d8824dfea9376407c7fe5abaf
     home: https://github.com/appscode/swift
@@ -909,7 +944,7 @@ entries:
     version: 0.6.2
   - apiVersion: v1
     appVersion: 0.7.3
-    created: 2018-12-14T04:01:06.750626145-08:00
+    created: 2018-12-14T13:54:30.846561081-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: bdf500602f472009c41f8d1c26d4f56148a71881fed8c96f17e3efd7c8f8d298
     home: https://github.com/appscode/swift
@@ -925,7 +960,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 0.7.3
-    created: 2018-12-14T04:01:06.750179597-08:00
+    created: 2018-12-14T13:54:30.846053461-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: c60bda3a189742a1399daf300cd7e3736546eaa15ddfb59ae4ae4d4b7a0e9b3d
     home: https://github.com/appscode/swift
@@ -941,7 +976,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 0.7.2
-    created: 2018-12-14T04:01:06.74969856-08:00
+    created: 2018-12-14T13:54:30.845577144-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: d3cdf0f3a6159a2d63920da91505d610dca87a26fc5e111a1ca8f84d32fdde48
     home: https://github.com/appscode/swift
@@ -957,7 +992,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.2
-    created: 2018-12-14T04:01:06.749275679-08:00
+    created: 2018-12-14T13:54:30.845132095-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: 8553ac9485e2d9f5a2eca8a2f719cabb3acefccda64c192016581e499e25df9a
     home: https://github.com/appscode/swift
@@ -973,7 +1008,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.5.2
-    created: 2018-12-14T04:01:06.748842112-08:00
+    created: 2018-12-14T13:54:30.844706942-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: 922c90923f0cfb23b79c14cf9c2f487594f708b558c789a6d7d0cb0097f8abf7
     home: https://github.com/appscode/swift
@@ -989,7 +1024,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.5.1
-    created: 2018-12-14T04:01:06.74838612-08:00
+    created: 2018-12-14T13:54:30.844261628-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: 67df0a762383f756b9e2495b36cdac283fd319cdf8f8befbbce71da04be4fd18
     home: https://github.com/appscode/swift
@@ -1005,7 +1040,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.5.0
-    created: 2018-12-14T04:01:06.747250425-08:00
+    created: 2018-12-14T13:54:30.843188299-08:00
     description: swift by AppsCode - Ajax friendly Helm Tiller Proxy
     digest: c24d4c7e8a685cb206f97a45ab7fc431992a99a19ea92ea8055c9dbed943b98b
     home: https://github.com/appscode/swift
@@ -1022,7 +1057,7 @@ entries:
   vault-catalog:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2018-12-14T04:01:06.753778756-08:00
+    created: 2018-12-14T13:54:30.849069016-08:00
     description: Vault Catalog by AppsCode - Catalog for vault versions
     digest: e1c4eeb5b69a18da02e2ee75d9d320b1cd5fa609bca0b4dceb7f204538765c80
     home: https://github.com/kubevault/operator
@@ -1039,7 +1074,7 @@ entries:
   vault-operator:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2018-12-14T04:01:06.754332618-08:00
+    created: 2018-12-14T13:54:30.849873854-08:00
     description: Vault Operator by AppsCode - HashiCorp Vault Operator for Kubernetes
     digest: 19a2b5e84c779d3be72444cb6757b2bef81939e3ebafd0e8ff683f103b263444
     home: https://github.com/kubevault/operator
@@ -1056,7 +1091,7 @@ entries:
   voyager:
   - apiVersion: v1
     appVersion: 8.0.1
-    created: 2018-12-14T04:01:06.772473388-08:00
+    created: 2018-12-14T13:54:30.872175416-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: bb39ee60ff8adb59a243feee599a56dec1563f5930085b7445937ea529951c1c
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1071,7 +1106,7 @@ entries:
     version: 8.0.1
   - apiVersion: v1
     appVersion: 8.0.0
-    created: 2018-12-14T04:01:06.77159114-08:00
+    created: 2018-12-14T13:54:30.870945911-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: 322dacb83d7d52e8bc408f6e2ded4d4a0e3dea2868835c8226ca335d6c624bf2
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1086,7 +1121,7 @@ entries:
     version: 8.0.0
   - apiVersion: v1
     appVersion: 7.4.0
-    created: 2018-12-14T04:01:06.770757213-08:00
+    created: 2018-12-14T13:54:30.869923679-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: 64d295dad1cb3eccd1f6faa98e17b2da1a1c255755f2938a5d8a493932a644fb
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1101,7 +1136,7 @@ entries:
     version: 7.4.0
   - apiVersion: v1
     appVersion: 7.3.0
-    created: 2018-12-14T04:01:06.769473551-08:00
+    created: 2018-12-14T13:54:30.868911398-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: b527122a79be442c23e31767649c6d0d9e3cf0b42bd180a961c23376eeb28691
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1116,7 +1151,7 @@ entries:
     version: 7.3.0
   - apiVersion: v1
     appVersion: 7.2.0
-    created: 2018-12-14T04:01:06.768338815-08:00
+    created: 2018-12-14T13:54:30.867700607-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: 79cdd1f8ad15451f2b2e02b8eb5961b4108112c927e90598fd4c6d1143e92ffd
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1131,7 +1166,7 @@ entries:
     version: 7.2.0
   - apiVersion: v1
     appVersion: 7.1.1
-    created: 2018-12-14T04:01:06.767322054-08:00
+    created: 2018-12-14T13:54:30.86662625-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: 096c2ceada55826b0c0d17cba1d752d03ec129dd7aeac65a5d19e2b84b7c944b
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1146,7 +1181,7 @@ entries:
     version: 7.1.1
   - apiVersion: v1
     appVersion: 7.1.0
-    created: 2018-12-14T04:01:06.766581242-08:00
+    created: 2018-12-14T13:54:30.865890501-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: a8e2479b4bb58b72c10a8f60b3ea8db6dcb66de5b0768c6cc95c7e594fe11f3b
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1161,7 +1196,7 @@ entries:
     version: 7.1.0
   - apiVersion: v1
     appVersion: 7.0.0
-    created: 2018-12-14T04:01:06.765781161-08:00
+    created: 2018-12-14T13:54:30.865050475-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: a8378ff04604407d903315a12f1a7d7af8f4ee5cb20fe8fdb0a498ed32c0a4e8
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1176,7 +1211,7 @@ entries:
     version: 7.0.0
   - apiVersion: v1
     appVersion: 7.0.0-rc.3
-    created: 2018-12-14T04:01:06.76459385-08:00
+    created: 2018-12-14T13:54:30.863864121-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: 4195aa2d104c9c6c65b93d0d72eea889a0341b833949414f9c0517a5a9a6ceb2
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1191,7 +1226,7 @@ entries:
     version: 7.0.0-rc.3
   - apiVersion: v1
     appVersion: 7.0.0-rc.2
-    created: 2018-12-14T04:01:06.763796583-08:00
+    created: 2018-12-14T13:54:30.863016943-08:00
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
     digest: d4ef4f7c815154d52cbd2a836742a0147d97423d3a61cd141e3a375fb541a49f
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1206,7 +1241,7 @@ entries:
     version: 7.0.0-rc.2
   - apiVersion: v1
     appVersion: 7.0.0-rc.1
-    created: 2018-12-14T04:01:06.763123051-08:00
+    created: 2018-12-14T13:54:30.86226574-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: e43865816ea2b7ba95df17d59a94cc503a889a2d5a8b7f77b0b64dbcf9d6506d
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1221,7 +1256,7 @@ entries:
     version: 7.0.0-rc.1
   - apiVersion: v1
     appVersion: 7.0.0-rc.0
-    created: 2018-12-14T04:01:06.762274669-08:00
+    created: 2018-12-14T13:54:30.861374416-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 3a385cab822e49a420a7806a9a2e3c5887c562df633b1cb44a1246fbb2d3d961
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1236,7 +1271,7 @@ entries:
     version: 7.0.0-rc.0
   - apiVersion: v1
     appVersion: 5.0.0
-    created: 2018-12-14T04:01:06.761560105-08:00
+    created: 2018-12-14T13:54:30.860640547-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: c53dbc956bbecef93cb0f7d77a7dc6cd633c30ffa132ed9ce85bc9465ae5abda
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1251,7 +1286,7 @@ entries:
     version: 5.0.0
   - apiVersion: v1
     appVersion: 6.0.0
-    created: 2018-12-14T04:01:06.760913297-08:00
+    created: 2018-12-14T13:54:30.859969895-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 136bf65d357b82c3bd59807105c325ed3f1a486d878160e4a8819c8963c02763
     home: https://appscode.com/products/voyager/
@@ -1267,7 +1302,7 @@ entries:
     version: 3.2.3
   - apiVersion: v1
     appVersion: 6.0.0
-    created: 2018-12-14T04:01:06.760360888-08:00
+    created: 2018-12-14T13:54:30.859354735-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 06c130799e4061749e4016899a7e2585952776e05b176cefa71072a34f8fc065
     home: https://appscode.com/products/voyager/
@@ -1283,7 +1318,7 @@ entries:
     version: 3.2.2
   - apiVersion: v1
     appVersion: 6.0.0
-    created: 2018-12-14T04:01:06.759809546-08:00
+    created: 2018-12-14T13:54:30.858742139-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: c6afe6dbf884c9fdc5ece938be8914a69ccd8ccbb8cb0d681324727a8fec72f7
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1298,7 +1333,7 @@ entries:
     version: 3.2.1
   - apiVersion: v1
     appVersion: 6.0.0
-    created: 2018-12-14T04:01:06.75926622-08:00
+    created: 2018-12-14T13:54:30.858142642-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: a585045056cf3cac9c613c77f558dd45d74a0c34ba6adcb8641595a2f7c591ff
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1313,7 +1348,7 @@ entries:
     version: 3.2.0
   - apiVersion: v1
     appVersion: 6.0.0-rc.0
-    created: 2018-12-14T04:01:06.758708348-08:00
+    created: 2018-12-14T13:54:30.857553972-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 9bde604032d61b50d428d55f68561c46b50db773dede9dcb8d1fa9ab704f65e8
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1328,7 +1363,7 @@ entries:
     version: 3.1.0
   - apiVersion: v1
     appVersion: 6.0.0-rc.0
-    created: 2018-12-14T04:01:06.758159656-08:00
+    created: 2018-12-14T13:54:30.856999265-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 174d5c964638229477236df34f4b34114bea0224151c2e620e76bcd4c2fa055f
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1343,7 +1378,7 @@ entries:
     version: 3.0.0
   - apiVersion: v1
     appVersion: 5.0.0-rc.11
-    created: 2018-12-14T04:01:06.757562842-08:00
+    created: 2018-12-14T13:54:30.856388224-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 7c323090b834f2691f76afc65dd9f6972bf9bd721a5af8d66c161b996fb33ac7
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1358,7 +1393,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 5.0.0-rc.11
-    created: 2018-12-14T04:01:06.756893762-08:00
+    created: 2018-12-14T13:54:30.855455708-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 9756b6e377400a78a3b6e3b0d88a856d351d3a41bc1409e1dcd777bcfb776cae
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1373,7 +1408,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 5.0.0-rc.3
-    created: 2018-12-14T04:01:06.756330903-08:00
+    created: 2018-12-14T13:54:30.854567481-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: 026a99d8230c61cd2702fce0e19016d67f9f072a5063006b59b196098b25efb6
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1388,7 +1423,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 3.2.1
-    created: 2018-12-14T04:01:06.755850528-08:00
+    created: 2018-12-14T13:54:30.853570239-08:00
     description: Voyager by AppsCode - Secure Ingress Controller for Kubernetes
     digest: f82d75a183643b2d481c019452ca70adaf8fc498c147076174a2685e46cbadff
     icon: https://cdn.appscode.com/images/icon/voyager.png
@@ -1403,7 +1438,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 3.0.0
-    created: 2018-12-14T04:01:06.755427402-08:00
+    created: 2018-12-14T13:54:30.852658556-08:00
     description: Voyager provides controller for Ingress and Certificates for Kubernetes
       developed by AppsCode.
     digest: 7ebb80243b568a358cb52d069a07455353fd4ff55b8e0a2b7476e8c2ab1eae6f
@@ -1419,7 +1454,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 3.0.0
-    created: 2018-12-14T04:01:06.755055016-08:00
+    created: 2018-12-14T13:54:30.851317319-08:00
     description: Voyager provides controller for Ingress and Certificates for Kubernetes
       developed by AppsCode.
     digest: 6e0c12e28707d9e5f3b7d10fda04dd207d373dc5996076fccefdf38947bfac92
@@ -1434,7 +1469,7 @@ entries:
     - https://charts.appscode.com/stable/voyager/voyager-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
-    created: 2018-12-14T04:01:06.75468419-08:00
+    created: 2018-12-14T13:54:30.850383663-08:00
     description: Voyager provides controller for Ingress and Certificates for Kubernetes
       developed by AppsCode.
     digest: 497da3c0cb9339f02d2f794f4cbe00e4379ca1952e06ae37a98b7aae2467dbe3
@@ -1448,4 +1483,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: 2018-12-14T04:01:06.697764393-08:00
+generated: 2018-12-14T13:54:30.801405322-08:00
