@@ -1,8 +1,7 @@
 #!/bin/bash
 set -xeou pipefail
 
-GOPATH=$(go env GOPATH)
-REPO_ROOT="$GOPATH/src/github.com/appscode/charts"
+REPO_ROOT=$(dirname "${BASH_SOURCE[0]}")/..
 
 pushd $REPO_ROOT
 
