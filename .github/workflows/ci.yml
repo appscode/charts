@@ -14,19 +14,25 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: Configure Docker credential helper
+    - name: Install gcloud
       env:
         GOOGLE_SERVICE_ACCOUNT_JSON_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON_KEY }}
       run: |
         echo "install gcloud cli"
         echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
         curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-        sudo apt-get -qq update
+        sudo apt-get -qq update || true
         sudo apt-get install -y google-cloud-sdk
         echo
         echo "configure gcloud auth"
         echo "$GOOGLE_SERVICE_ACCOUNT_JSON_KEY" > "$HOME"/gcloud.json
         gcloud auth activate-service-account --key-file=$HOME/gcloud.json
 
+    - name: Install Helm 3
+      run: |
+        echo "install helm 3"
+        curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+
     - name: Publish charts
-      run: ./hack/publish.sh
+      run: |
+        ./hack/publish.sh
