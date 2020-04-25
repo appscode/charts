@@ -10,4 +10,10 @@ helm repo index stable/ --url https://charts.appscode.com/stable/
 gsutil rsync -d -r stable gs://appscode-charts/stable
 gsutil acl ch -u AllUsers:R -r gs://appscode-charts/stable
 
+sleep 10
+
+gcloud compute url-maps invalidate-cdn-cache cdn \
+  --host charts.appscode.com \
+  --path "/stable/index.yaml"
+
 popd
