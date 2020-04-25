@@ -13,6 +13,7 @@ gsutil acl ch -u AllUsers:R -r gs://appscode-charts/stable
 sleep 10
 
 gcloud compute url-maps invalidate-cdn-cache cdn \
+  --project appscode-domains \
   --host charts.appscode.com \
   --path "/stable/index.yaml"
 
