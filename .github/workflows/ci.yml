@@ -32,5 +32,6 @@ jobs:
           curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 
       - name: Publish charts
+        if: contains(github.event.pull_request.labels.*.name , 'autorelease') == false
         run: |
           ./hack/publish.sh
