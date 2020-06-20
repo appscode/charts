@@ -26,21 +26,52 @@ function cleanup() {
 }
 trap cleanup EXIT
 
-REPO_DIR=stable
+source $SCRIPT_ROOT/hack/scripts/common.sh
+
 [ -d "$REPO_DIR" ] || {
     echo "charts not found"
     exit 0
 }
 
-# helm repo index $REPO_DIR/ --url https://charts.appscode.com/$REPO_DIR/
+# helm repo index $REPO_DIR/ --url https://${REPO_DOMAIN}/${REPO_DIR}/
 
 # sync charts
-gsutil rsync -d -r $REPO_DIR gs://appscode-charts/$REPO_DIR
-gsutil acl ch -u AllUsers:R -r gs://appscode-charts/$REPO_DIR
+gsutil rsync -d -r $REPO_DIR gs://${BUCKET}/${REPO_DIR}
+gsutil acl ch -u AllUsers:R -r gs://${BUCKET}/${REPO_DIR}
 
 # invalidate cache
-sleep 10
-gcloud compute url-maps invalidate-cdn-cache cdn \
-    --project appscode-domains \
-    --host charts.appscode.com \
-    --path "/$REPO_DIR/index.yaml"
+if [ ! -z "$GCP_PROJECT" ]; then
+    sleep 5
+    gcloud compute url-maps invalidate-cdn-cache cdn \
+        --project $GCP_PROJECT \
+        --host $REPO_DOMAIN \
+        --path "/$REPO_DIR/index.yaml"
+fi
+
+PRODUCT_LINE=${PRODUCT_LINE:-}
+RELEASE=${RELEASE:-}
+RELEASE_TRACKER=${RELEASE_TRACKER:-}
+
+while IFS=$': \r\t' read -r marker v; do
+    case $marker in
+        ProductLine)
+            PRODUCT_LINE=$(echo $v | tr -d '\r\t')
+            ;;
+        Release)
+            RELEASE=$(echo $v | tr -d '\r\t')
+            ;;
+        Release-tracker)
+            RELEASE_TRACKER=$(echo $v | tr -d '\r\t')
+            ;;
+    esac
+done 9< <(git show -s --format=%b)
+
+[ ! -z "$RELEASE_TRACKER" ] || {
+    echo "Release-tracker url not found."
+    exit 0
+}
+
+parse_url $RELEASE_TRACKER
+api_url="repos/${RELEASE_TRACKER_OWNER}/${RELEASE_TRACKER_REPO}/issues/${RELEASE_TRACKER_PR}/comments"
+msg="/chart-published $RELEASE"
+hub api "$api_url" -f body="$msg"

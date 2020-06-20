@@ -27,22 +27,7 @@ function cleanup() {
 }
 trap cleanup EXIT
 
-# ref: https://gist.github.com/joshisa/297b0bc1ec0dcdda0d1625029711fa24
-parse_url() {
-    proto="$(echo $1 | grep :// | sed -e's,^\(.*://\).*,\1,g')"
-    # remove the protocol
-    url="$(echo ${1/$proto/})"
-
-    IFS='/'                  # / is set as delimiter
-    read -ra PARTS <<<"$url" # str is read into an array as tokens separated by IFS
-    if [ ${PARTS[0]} != 'github.com' ] || [ ${#PARTS[@]} -ne 5 ]; then
-        echo "failed to parse relase-tracker: $url"
-        exit 1
-    fi
-    export RELEASE_TRACKER_OWNER=${PARTS[1]}
-    export RELEASE_TRACKER_REPO=${PARTS[2]}
-    export RELEASE_TRACKER_PR=${PARTS[4]}
-}
+source $SCRIPT_ROOT/hack/scripts/common.sh
 
 if [ -z "$1" ]; then
     echo "Missing argument for instller directory."
@@ -52,9 +37,6 @@ fi
 
 INSTALLER_DIR=$1
 CHARTS_DIR=${2:-charts}
-
-REPO_DIR=stable
-REPO_URL=https://ci-charts.storage.googleapis.com/$REPO_DIR/
 
 cd $INSTALLER_DIR
 
