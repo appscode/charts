@@ -62,7 +62,7 @@ GIT_TAG=${GITHUB_REF#'refs/tags/'}
 PRODUCT_LINE=${PRODUCT_LINE:-}
 RELEASE=${RELEASE:-}
 RELEASE_TRACKER=${RELEASE_TRACKER:-}
-while IFS=$': \t' read -r marker v; do
+while IFS=$': \r\t' read -r marker v; do
     case $marker in
         ProductLine)
             PRODUCT_LINE=$v
