@@ -73,5 +73,5 @@ done 9< <(git show -s --format=%b)
 
 parse_url $RELEASE_TRACKER
 api_url="repos/${RELEASE_TRACKER_OWNER}/${RELEASE_TRACKER_REPO}/issues/${RELEASE_TRACKER_PR}/comments"
-msg="/chart-published $RELEASE"
+msg="/chart-published github.com/${GITHUB_REPOSITORY}"
 hub api "$api_url" -f body="$msg"
