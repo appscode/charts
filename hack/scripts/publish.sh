@@ -52,7 +52,7 @@ PRODUCT_LINE=${PRODUCT_LINE:-}
 RELEASE=${RELEASE:-}
 RELEASE_TRACKER=${RELEASE_TRACKER:-}
 
-while IFS=$': \r\t' read -r marker v; do
+while IFS=$': \r\t' read -r -u9 marker v; do
     case $marker in
         ProductLine)
             PRODUCT_LINE=$(echo $v | tr -d '\r\t')
