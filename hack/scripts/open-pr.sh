@@ -35,10 +35,10 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-INSTALLER_DIR=$1
+INSTALLER_ROOT=$1
 CHARTS_DIR=${2:-charts}
 
-cd $INSTALLER_DIR
+cd $INSTALLER_ROOT
 
 GIT_TAG=${GITHUB_REF#'refs/tags/'}
 PRODUCT_LINE=${PRODUCT_LINE:-}
@@ -85,7 +85,7 @@ while true; do
         git checkout -b $pr_branch --track origin/$pr_branch
     fi
     # package charts
-    cd $INSTALLER_DIR
+    cd $INSTALLER_ROOT
     find $CHARTS_DIR -maxdepth 1 -mindepth 1 -type d -exec helm package {} -d {} \;
     mkdir -p $SCRIPT_ROOT/$REPO_DIR
     if [ -f $SCRIPT_ROOT/$REPO_DIR/index.yaml ]; then
