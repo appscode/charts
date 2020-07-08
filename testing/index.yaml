@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   stash-postgres:
   - apiVersion: v1
+    appVersion: 11.1-beta.20200708
+    created: "2020-07-08T17:20:19.27843237Z"
+    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
+    digest: db7eabf7887119df28708eb538b4f5d1cf2179179cc8b1076110e1688af06799
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/icon/stash.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-postgres
+    sources:
+    - https://github.com/stashed/postgres
+    urls:
+    - https://charts.appscode.com/testing/stash-postgres/stash-postgres-11.1-beta.20200708.tgz
+    version: 11.1-beta.20200708
+  - apiVersion: v1
     appVersion: 10.6-beta.20200708
     created: "2020-07-08T17:20:13.190074864Z"
     description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://charts.appscode.com/testing/stash-postgres/stash-postgres-10.6-beta.20200708.tgz
     version: 10.6-beta.20200708
-generated: "2020-07-08T17:20:13.189465467Z"
+generated: "2020-07-08T17:20:19.277447167Z"
