@@ -14,11 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-GCP_PROJECT=appscode-domains
-BUCKET=appscode-charts
+GCP_PROJECT=${GCP_PROJECT:-appscode-domains}
+BUCKET=${BUCKET:-appscode-charts}
 
-REPO_DOMAIN=charts.appscode.com
-REPO_DIR=stable
+REPO_DOMAIN=${REPO_DOMAIN:-charts.appscode.com}
+REPO_DIR=${REPO_DIR:-stable}
 REPO_URL=https://${REPO_DOMAIN}/${REPO_DIR}/
 
 # ref: https://gist.github.com/joshisa/297b0bc1ec0dcdda0d1625029711fa24
