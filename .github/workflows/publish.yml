@@ -36,5 +36,4 @@ jobs:
           GITHUB_USER: 1gtm
           GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
         run: |
-          REPO_DIR=stable ./hack/scripts/publish.sh
-          REPO_DIR=testing ./hack/scripts/publish.sh
+          ./hack/scripts/publish.sh

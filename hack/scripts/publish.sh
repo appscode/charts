@@ -28,25 +28,33 @@ trap cleanup EXIT
 
 source $SCRIPT_ROOT/hack/scripts/common.sh
 
-[ -d "$REPO_DIR" ] || {
-    echo "charts not found"
-    exit 0
+function publish_dir() {
+    repo_dir=$1
+
+    [ -d "$repo_dir" ] || {
+        echo "charts not found"
+        return 0
+    }
+
+    # helm repo index $repo_dir/ --url https://${REPO_DOMAIN}/${REPO_DIR}/
+
+    # sync charts
+    gsutil rsync -d -r $repo_dir gs://${BUCKET}/${REPO_DIR}
+    gsutil acl ch -u AllUsers:R -r gs://${BUCKET}/${REPO_DIR}
+
+    # invalidate cache
+    if [ ! -z "$GCP_PROJECT" ]; then
+        sleep 5
+        gcloud compute url-maps invalidate-cdn-cache cdn \
+            --project $GCP_PROJECT \
+            --host $REPO_DOMAIN \
+            --path "/$repo_dir/index.yaml"
+    fi
 }
 
-# helm repo index $REPO_DIR/ --url https://${REPO_DOMAIN}/${REPO_DIR}/
-
-# sync charts
-gsutil rsync -d -r $REPO_DIR gs://${BUCKET}/${REPO_DIR}
-gsutil acl ch -u AllUsers:R -r gs://${BUCKET}/${REPO_DIR}
-
-# invalidate cache
-if [ ! -z "$GCP_PROJECT" ]; then
-    sleep 5
-    gcloud compute url-maps invalidate-cdn-cache cdn \
-        --project $GCP_PROJECT \
-        --host $REPO_DOMAIN \
-        --path "/$REPO_DIR/index.yaml"
-fi
+for repo_dir in stable testing; do
+    publish_dir $repo_dir
+done
 
 PRODUCT_LINE=${PRODUCT_LINE:-}
 RELEASE=${RELEASE:-}
