@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  csi-vault:
+  - apiVersion: v1
+    appVersion: v0.4.0-beta.0
+    created: "2020-07-09T12:58:10.258923677Z"
+    description: HashiCorp Vault CSI Driver for Kubernetes
+    digest: febeb470065bd01b21db12833c9d53bdd74145293db1b618614572e8f6a9fbbb
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: csi-vault
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/testing/csi-vault/csi-vault-v0.4.0-beta.0.tgz
+    version: v0.4.0-beta.0
   stash:
   - apiVersion: v1
     appVersion: v0.10.0-beta.0
@@ -496,4 +513,38 @@ entries:
     urls:
     - https://charts.appscode.com/testing/stash-postgres/stash-postgres-9.6-beta.20200708.tgz
     version: 9.6-beta.20200708
-generated: "2020-07-08T23:31:17.936371671Z"
+  vault-catalog:
+  - apiVersion: v1
+    appVersion: v0.4.0-beta.0
+    created: "2020-07-09T12:58:10.259273677Z"
+    description: Vault Catalog by AppsCode - Catalog for Vault versions
+    digest: d718df7df8e32d803af260febe949d341f0550a5802ce445f81e7b138114849c
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: vault-catalog
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/testing/vault-catalog/vault-catalog-v0.4.0-beta.0.tgz
+    version: v0.4.0-beta.0
+  vault-operator:
+  - apiVersion: v1
+    appVersion: v0.4.0-beta.0
+    created: "2020-07-09T12:58:10.260501378Z"
+    description: Vault Operator by AppsCode - HashiCorp Vault Operator for Kubernetes
+    digest: 4ec5593adf1bb98fda46f4b6509de7b701726c082d0462bcbc5e892f5ab5a40d
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: vault-operator
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/testing/vault-operator/vault-operator-v0.4.0-beta.0.tgz
+    version: v0.4.0-beta.0
+generated: "2020-07-09T12:58:10.257364576Z"
