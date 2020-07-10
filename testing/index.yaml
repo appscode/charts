@@ -17,6 +17,57 @@ entries:
     urls:
     - https://charts.appscode.com/testing/csi-vault/csi-vault-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
+  kubedb:
+  - apiVersion: v1
+    appVersion: v0.14.0-beta.1
+    created: "2020-07-10T08:43:48.700648384Z"
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: d6ce32c34eea2e3064391fa18f0c224ecac2c028e7b8fe2a5ca266a46d5450ec
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb/kubedb-v0.14.0-beta.1.tgz
+    version: v0.14.0-beta.1
+  kubedb-catalog:
+  - apiVersion: v1
+    appVersion: v0.14.0-beta.1
+    created: "2020-07-10T08:43:48.701653286Z"
+    description: KubeDB Catalog by AppsCode - Catalog for database versions
+    digest: d4545ba47e095ac28a16f3892d3072cd4b4c8f78858f27ac0c8b7b8632c3edb8
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-catalog
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-catalog/kubedb-catalog-v0.14.0-beta.1.tgz
+    version: v0.14.0-beta.1
+  kubedb-enterprise:
+  - apiVersion: v1
+    appVersion: v0.1.0-alpha.3
+    created: "2020-07-10T08:43:48.718568732Z"
+    description: KubeDB Enterprise by AppsCode - Enterprise features for KubeDB
+    digest: 59cae1c42a0f4a8538bfd6c1c27cafa347a0bda00bdf80fa01c59d59da73f6e9
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-enterprise
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-enterprise/kubedb-enterprise-v0.1.0-alpha.3.tgz
+    version: v0.1.0-alpha.3
   stash:
   - apiVersion: v1
     appVersion: v0.10.0-beta.1
@@ -923,4 +974,4 @@ entries:
     urls:
     - https://charts.appscode.com/testing/vault-operator/vault-operator-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
-generated: "2020-07-09T19:21:32.704128101Z"
+generated: "2020-07-10T08:43:48.69937348Z"
