@@ -32,27 +32,6 @@ source $SCRIPT_ROOT/hack/scripts/common.sh
 CHARTS_DIR=${1:-charts}
 TMP_DIR=$SCRIPT_ROOT/tmp
 
-cd $INSTALLER_ROOT
-
-cd $SCRIPT_ROOT
-# remove all unstagged changes
-git add --all
-git stash || true
-git stash drop || true
-# fetch latest remote
-git fetch origin --prune
-git gc
-# checkout pr branch
-if [ -z "$(git ls-remote --heads origin $pr_branch)" ]; then
-    # remote branch does NOT exists
-    git checkout master
-    git branch -D $pr_branch || true
-    git checkout -b $pr_branch
-else
-    git checkout master
-    git branch -D $pr_branch || true
-    git checkout -b $pr_branch --track origin/$pr_branch
-fi
 # update index
 cd $TMP_DIR
 mkdir -p $SCRIPT_ROOT/$REPO_DIR
@@ -65,9 +44,10 @@ mv $CHARTS_DIR/index.yaml $SCRIPT_ROOT/$REPO_DIR/index.yaml
 cd $CHARTS_DIR
 find . -maxdepth 1 -mindepth 1 -type d -exec mkdir -p $SCRIPT_ROOT/$REPO_DIR/{} \;
 find . -path ./$CHARTS_DIR -prune -o -name '*.tgz' -exec mv {} $SCRIPT_ROOT/$REPO_DIR/{} \;
+rm -rf $TMP_DIR
+
 # commit updated index
 cd $SCRIPT_ROOT
-rm -rf $TMP_DIR
 git add --all
 git commit -a -s -m "Update index"
 git push -u origin HEAD
