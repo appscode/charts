@@ -1157,6 +1157,22 @@ entries:
     version: 0.1.0
   stash:
   - apiVersion: v1
+    appVersion: v0.10.0-rc.1
+    created: "2020-08-27T00:10:07.655230414Z"
+    description: Stash by AppsCode - Backup your Kubernetes Volumes
+    digest: bc59c1bcefe74ce53be7da965822de811349b14ed1496bed0e52301d0c2eae5f
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/stash/stash-v0.10.0-rc.1.tgz
+    version: v0.10.0-rc.1
+  - apiVersion: v1
     appVersion: v0.10.0-rc.0
     created: "2020-08-26T10:47:35.896034064Z"
     description: Stash by AppsCode - Backup your Kubernetes Volumes
@@ -1767,6 +1783,22 @@ entries:
     version: 5.6.4-rc.20200826
   stash-enterprise:
   - apiVersion: v1
+    appVersion: v0.10.0-rc.0
+    created: "2020-08-27T00:10:07.656911187Z"
+    description: Stash Enterprise by AppsCode - Enterprise features for Stash
+    digest: 077ed67b4755957848afdedf0dcb212082882824c1a6f1f1cc5f591e834c5f4e
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-enterprise
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/stash-enterprise/stash-enterprise-v0.10.0-rc.0.tgz
+    version: v0.10.0-rc.0
+  - apiVersion: v1
     appVersion: v0.10.0-alpha.1
     created: "2020-08-26T10:47:35.897577871Z"
     description: Stash Enterprise by AppsCode - Enterprise features for Stash
@@ -2264,23 +2296,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7.tgz
     version: "5.7"
-  - apiVersion: v1
-    appVersion: 5.7-rc.20200826
-    created: "2020-08-26T23:58:13.591341824Z"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: 9267554a36f63a6de5f868803b30e50db965f4d7f4e4208e397d9ac1faceff49
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-rc.20200826.tgz
-    version: 5.7-rc.20200826
   stash-postgres:
   - apiVersion: v1
     appVersion: "11.2"
@@ -3257,4 +3272,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-26T23:58:13.579899116Z"
+generated: "2020-08-27T00:10:07.645386271Z"
