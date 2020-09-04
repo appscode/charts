@@ -19,6 +19,22 @@ entries:
     version: v0.4.0-beta.0
   kubedb:
   - apiVersion: v1
+    appVersion: v0.14.0-beta.2
+    created: "2020-09-04T03:21:21.459272502Z"
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: 840cca68cdfb34325261a23f3a19071f94bae63f88e23f6b62360159e389a8c3
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb/kubedb-v0.14.0-beta.2.tgz
+    version: v0.14.0-beta.2
+  - apiVersion: v1
     appVersion: v0.14.0-beta.1
     created: "2020-07-10T08:43:48.700648384Z"
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
@@ -35,6 +51,22 @@ entries:
     - https://charts.appscode.com/testing/kubedb/kubedb-v0.14.0-beta.1.tgz
     version: v0.14.0-beta.1
   kubedb-catalog:
+  - apiVersion: v1
+    appVersion: v0.14.0-beta.2
+    created: "2020-09-04T03:21:21.460578297Z"
+    description: KubeDB Catalog by AppsCode - Catalog for database versions
+    digest: 996eabb8a41ceed4e367ac9b656fba64e937f178a129df1bffe1aeebfc7ef2d6
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-catalog
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-catalog/kubedb-catalog-v0.14.0-beta.2.tgz
+    version: v0.14.0-beta.2
   - apiVersion: v1
     appVersion: v0.14.0-beta.1
     created: "2020-07-10T08:43:48.701653286Z"
@@ -54,11 +86,11 @@ entries:
   kubedb-enterprise:
   - apiVersion: v1
     appVersion: v0.1.0-alpha.3
-    created: "2020-07-10T08:43:48.718568732Z"
+    created: "2020-09-04T03:21:21.461605371Z"
     description: KubeDB Enterprise by AppsCode - Enterprise features for KubeDB
-    digest: 59cae1c42a0f4a8538bfd6c1c27cafa347a0bda00bdf80fa01c59d59da73f6e9
+    digest: 1a6451682e8008a37bcb152432c5e14e6e09a5cfcb12f71c27b40d8c368d59b1
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-enterprise-icon.png
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -1318,4 +1350,4 @@ entries:
     urls:
     - https://charts.appscode.com/testing/vault-operator/vault-operator-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
-generated: "2020-08-26T10:06:38.656160763Z"
+generated: "2020-09-04T03:21:21.457602381Z"
