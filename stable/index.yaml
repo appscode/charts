@@ -912,6 +912,23 @@ entries:
     version: 0.9.0-beta.0
   kubeform:
   - apiVersion: v1
+    appVersion: v0.2.0
+    created: "2020-10-13T22:04:59.977792176Z"
+    description: Kubeform by AppsCode - Provision cloud resources using Kubernetes
+      CRDs & Terraform
+    digest: ac8ecaf5a4cd5c70eab0c7f2686a12f6170783e718b9bda31ace504343836091
+    home: https://github.com/kubeform/kubeform
+    icon: https://cdn.appscode.com/images/products/kubeform/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubeform
+    sources:
+    - https://github.com/kubeform/kubeform
+    urls:
+    - https://charts.appscode.com/stable/kubeform/kubeform-v0.2.0.tgz
+    version: v0.2.0
+  - apiVersion: v1
     appVersion: v0.1.0
     created: "2020-06-14T06:50:14.344793439Z"
     description: Kubeform by AppsCode - Provision cloud resources using Kubernetes
@@ -3616,23 +3633,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7.tgz
     version: "5.7"
-  - apiVersion: v1
-    appVersion: 5.7-v2
-    created: "2020-09-19T14:13:02.58149708-07:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: e72e8f14418fc7c1fe4c088475ecf427e202fc6cf3f93005e032277532540b0a
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-v2.tgz
-    version: 5.7-v2
   stash-postgres:
   - apiVersion: v1
     appVersion: 12.4.0
@@ -4656,4 +4656,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-29T02:23:24.167447663-07:00"
+generated: "2020-10-13T22:04:59.976224851Z"
