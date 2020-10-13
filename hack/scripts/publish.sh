@@ -39,8 +39,8 @@ function publish_dir() {
     # helm repo index $repo_dir/ --url https://${REPO_DOMAIN}/$repo_dir/
 
     # sync charts
-    gsutil rsync -d -r $repo_dir gs://${BUCKET}/$repo_dir
-    gsutil acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
+    gsutil -m rsync -d -r $repo_dir gs://${BUCKET}/$repo_dir
+    gsutil -m acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
 
     # invalidate cache
     if [ ! -z "$GCP_PROJECT" ]; then
