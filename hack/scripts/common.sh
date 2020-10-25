@@ -14,7 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-GCP_PROJECT=${GCP_PROJECT:-appscode-domains}
+CLOUDFLARE_ZONE_ID=092ef15f721929a515232abd079f128b
+
 BUCKET=${BUCKET:-charts.appscode.com}
 
 REPO_DOMAIN=${REPO_DOMAIN:-charts.appscode.com}

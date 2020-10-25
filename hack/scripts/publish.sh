@@ -43,12 +43,15 @@ function publish_dir() {
     gsutil -m acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
 
     # invalidate cache
-    if [ ! -z "$GCP_PROJECT" ]; then
+    # ref: https://api.cloudflare.com/#zone-purge-files-by-url
+    if [ ! -z "$CLOUDFLARE_ZONE_ID" ]; then
         sleep 5
-        gcloud compute url-maps invalidate-cdn-cache cdn \
-            --project $GCP_PROJECT \
-            --host $REPO_DOMAIN \
-            --path "/$repo_dir/index.yaml"
+        index_url="https://${REPO_DOMAIN}/${repo_dir}/index.yaml"
+        echo "purging $index_url"
+        curl -X POST "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CLOUDFLARE_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{"files":["'${index_url}'"]}'
     fi
 }
 
