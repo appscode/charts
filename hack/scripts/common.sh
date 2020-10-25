@@ -15,7 +15,7 @@
 # limitations under the License.
 
 GCP_PROJECT=${GCP_PROJECT:-appscode-domains}
-BUCKET=${BUCKET:-appscode-charts}
+BUCKET=${BUCKET:-charts.appscode.com}
 
 REPO_DOMAIN=${REPO_DOMAIN:-charts.appscode.com}
 REPO_DIR=${REPO_DIR:-stable}
