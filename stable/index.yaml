@@ -507,6 +507,22 @@ entries:
     version: 0.1.0
   kubedb:
   - apiVersion: v1
+    appVersion: v0.14.0-rc.1
+    created: "2020-10-27T16:29:29.577904803Z"
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: cdbbfdfa59fd0f2389a68de451d70aa10b07cfb1fb16885db50a618a8a2bf970
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb/kubedb-v0.14.0-rc.1.tgz
+    version: v0.14.0-rc.1
+  - apiVersion: v1
     appVersion: v0.13.0-rc.0
     created: "2020-06-14T06:50:14.337437728Z"
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
@@ -751,6 +767,22 @@ entries:
     version: 0.1.0
   kubedb-catalog:
   - apiVersion: v1
+    appVersion: v0.14.0-rc.1
+    created: "2020-10-27T16:29:29.579466123Z"
+    description: KubeDB Catalog by AppsCode - Catalog for database versions
+    digest: 78023a1bc6d371ce362d6f002213c52a0c30de6e3e4b7a299cb5850af0f5cf40
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-catalog
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-catalog/kubedb-catalog-v0.14.0-rc.1.tgz
+    version: v0.14.0-rc.1
+  - apiVersion: v1
     appVersion: v0.13.0-rc.0
     created: "2020-06-14T06:50:14.344345633Z"
     description: KubeDB Catalog by AppsCode - Catalog for database versions
@@ -910,6 +942,23 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubedb-catalog/kubedb-catalog-0.9.0-beta.0.tgz
     version: 0.9.0-beta.0
+  kubedb-enterprise:
+  - apiVersion: v1
+    appVersion: v0.1.0-alpha.3
+    created: "2020-10-27T16:29:29.580767539Z"
+    description: KubeDB Enterprise by AppsCode - Enterprise features for KubeDB
+    digest: bbb192a3a1ad01d3ca2515e2c2fe26d34dcd4ea7c6704ae79aa6708e7a563668
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-enterprise-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-enterprise
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-enterprise/kubedb-enterprise-v0.1.0-alpha.3.tgz
+    version: v0.1.0-alpha.3
   kubeform:
   - apiVersion: v1
     appVersion: v0.2.0
@@ -4025,23 +4074,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7.tgz
     version: "5.7"
-  - apiVersion: v1
-    appVersion: 5.7-v3
-    created: "2020-10-22T08:39:04.111173679Z"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: eeda4d1aa7ee2b9b4253e29ac01eac4918df292651368ad562bfc5986f4c964c
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-v3.tgz
-    version: 5.7-v3
   stash-postgres:
   - apiVersion: v1
     appVersion: 12.4.0
@@ -5129,4 +5161,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-23T00:29:29.711731598-07:00"
+generated: "2020-10-27T16:29:29.576276183Z"
