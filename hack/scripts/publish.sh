@@ -52,6 +52,8 @@ function publish_dir() {
             -H "Authorization: Bearer ${CLOUDFLARE_TOKEN}" \
             -H "Content-Type: application/json" \
             --data '{"files":["'${index_url}'"]}'
+        # recommended by Cloudflare for purging to take effect
+        sleep 30
     fi
 }
 
