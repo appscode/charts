@@ -507,6 +507,22 @@ entries:
     version: 0.1.0
   kubedb:
   - apiVersion: v1
+    appVersion: v0.15.2
+    created: "2020-12-10T13:33:48.128817289Z"
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: d041cc0d6a9c5f29ce267a57ff75c31647eba572f12dfabc0cb670f11f50e8f3
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb/kubedb-v0.15.2.tgz
+    version: v0.15.2
+  - apiVersion: v1
     appVersion: v0.15.1
     created: "2020-11-12T09:09:50.417929821Z"
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
@@ -847,6 +863,22 @@ entries:
     version: 0.1.0
   kubedb-catalog:
   - apiVersion: v1
+    appVersion: v0.15.2
+    created: "2020-12-10T13:33:48.130967587Z"
+    description: KubeDB Catalog by AppsCode - Catalog for database versions
+    digest: efc97254fa290922dbb9629b3e9126e5689dc556036c180665d71ac80420ee65
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-catalog
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-catalog/kubedb-catalog-v0.15.2.tgz
+    version: v0.15.2
+  - apiVersion: v1
     appVersion: v0.15.1
     created: "2020-11-12T09:09:50.419432435Z"
     description: KubeDB Catalog by AppsCode - Catalog for database versions
@@ -1103,6 +1135,22 @@ entries:
     - https://charts.appscode.com/stable/kubedb-catalog/kubedb-catalog-0.9.0-beta.0.tgz
     version: 0.9.0-beta.0
   kubedb-enterprise:
+  - apiVersion: v1
+    appVersion: v0.2.2
+    created: "2020-12-10T13:33:48.132206186Z"
+    description: KubeDB Enterprise by AppsCode - Enterprise features for KubeDB
+    digest: a7f6e7405c5bda0c916167f1acd49fdbc3e822f31eae384506c43a2fdf9d00b7
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-enterprise-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-enterprise
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-enterprise/kubedb-enterprise-v0.2.2.tgz
+    version: v0.2.2
   - apiVersion: v1
     appVersion: v0.2.1
     created: "2020-11-12T09:09:50.420808648Z"
@@ -4819,142 +4867,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7.0.tgz
     version: 5.7.0
-  - apiVersion: v1
-    appVersion: "5.7"
-    created: "2020-11-17T11:52:50.155185088-08:00"
-    description: stash-percona-xtradb - PerconaXtraDB database backup and restore
-      plugin for Stash by AppsCode
-    digest: 0b7a27822e05362057fd603111bb86cbeeede058e88993328aae4620d180d5e5
-    home: https://github.com/stashed/percona-xtradb
-    icon: https://cdn.appscode.com/images/icon/stash.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7.tgz
-    version: "5.7"
-  - apiVersion: v1
-    appVersion: 5.7-v4
-    created: "2020-11-17T11:52:50.153967874-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: c058933a63a3e20ad09b383fc062f5e024a1cab01b1d5f73038144d68e0c4d7c
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-v4.tgz
-    version: 5.7-v4
-  - apiVersion: v1
-    appVersion: 5.7-v3
-    created: "2020-11-17T11:52:50.153324812-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: eeda4d1aa7ee2b9b4253e29ac01eac4918df292651368ad562bfc5986f4c964c
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-v3.tgz
-    version: 5.7-v3
-  - apiVersion: v1
-    appVersion: 5.7-v2
-    created: "2020-11-17T11:52:50.15266864-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: e72e8f14418fc7c1fe4c088475ecf427e202fc6cf3f93005e032277532540b0a
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-v2.tgz
-    version: 5.7-v2
-  - apiVersion: v1
-    appVersion: 5.7-v1
-    created: "2020-11-17T11:52:50.151946302-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: bf025a200a3a0c3fae8b6926162460bbf0637d8163b8f2b0f9a0dfa1ec2665eb
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-v1.tgz
-    version: 5.7-v1
-  - apiVersion: v1
-    appVersion: 5.7-rc.20200827
-    created: "2020-11-17T11:52:50.151241878-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: 8106db38b0e36f6f6d5372d06a97800b47bd975c90aca1490cfa9c4cad0f75c0
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-rc.20200827.tgz
-    version: 5.7-rc.20200827
-  - apiVersion: v1
-    appVersion: 5.7-rc.20200826
-    created: "2020-11-17T11:52:50.150489789-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: 9267554a36f63a6de5f868803b30e50db965f4d7f4e4208e397d9ac1faceff49
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-rc.20200826.tgz
-    version: 5.7-rc.20200826
-  - apiVersion: v1
-    appVersion: 5.7-beta.20200708
-    created: "2020-11-17T11:52:50.148772075-08:00"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
-      AppsCode
-    digest: 103728f2194b37746606f095c9ea0a58de0ea05c948a013476e9703eefb5f8ef
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/icon/stash.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-percona-xtradb
-    sources:
-    - https://github.com/stashed/percona-xtradb
-    urls:
-    - https://charts.appscode.com/stable/stash-percona-xtradb/stash-percona-xtradb-5.7-beta.20200708.tgz
-    version: 5.7-beta.20200708
   stash-postgres:
   - apiVersion: v1
     appVersion: 13.1.0
@@ -5118,54 +5030,6 @@ entries:
     - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.2.tgz
     version: "11.2"
   - apiVersion: v1
-    appVersion: 11.2-v1
-    created: "2020-11-17T11:52:50.169545306-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 59ca99d36bb6f6ecc4cc8e14d953836b69fd8829962475c248256b3adba63076
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.2-v1.tgz
-    version: 11.2-v1
-  - apiVersion: v1
-    appVersion: 11.2-rc.20200827
-    created: "2020-11-17T11:52:50.168898553-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: acbf278a7dcd16bcd69275dc3bf4648fa502acc3de28993c96152115c19baf27
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.2-rc.20200827.tgz
-    version: 11.2-rc.20200827
-  - apiVersion: v1
-    appVersion: 11.2-rc.20200826
-    created: "2020-11-17T11:52:50.168047438-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: a557d25e59c4fead9a86b7c314ae4d3f83fcc7199eafdd4efc7085da4efa2cf1
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.2-rc.20200826.tgz
-    version: 11.2-rc.20200826
-  - apiVersion: v1
     appVersion: "11.1"
     created: "2020-06-14T06:50:14.396480619Z"
     description: stash-postgres - PostgreSQL database backup and restore plugin for
@@ -5182,54 +5046,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.1.tgz
     version: "11.1"
-  - apiVersion: v1
-    appVersion: 11.1-v1
-    created: "2020-11-17T11:52:50.166200191-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 5f817d0b68279845076e7c240c2c0af79479e0f385159ff8940a1a5c76e49217
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.1-v1.tgz
-    version: 11.1-v1
-  - apiVersion: v1
-    appVersion: 11.1-rc.20200827
-    created: "2020-11-17T11:52:50.165494638-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: df4f2c55f22e87e4d62813df59260aba138985b256b1a3b733e79d6f6a7d50fc
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.1-rc.20200827.tgz
-    version: 11.1-rc.20200827
-  - apiVersion: v1
-    appVersion: 11.1-rc.20200826
-    created: "2020-11-17T11:52:50.164804839-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 0df61099afdb1c096cba1aa3ac9cec59c3b91992c49041c9e5cd9bdd7bb96e07
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-11.1-rc.20200826.tgz
-    version: 11.1-rc.20200826
   - apiVersion: v1
     appVersion: 10.14.0
     created: "2020-09-19T14:13:02.582317539-07:00"
@@ -5312,54 +5128,6 @@ entries:
     - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.6.tgz
     version: "10.6"
   - apiVersion: v1
-    appVersion: 10.6-v1
-    created: "2020-11-17T11:52:50.163454994-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 17317a3f3289553aee40c0cb1d96d756a3796c75a16f8bdf6cbbcdc0960a468a
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.6-v1.tgz
-    version: 10.6-v1
-  - apiVersion: v1
-    appVersion: 10.6-rc.20200827
-    created: "2020-11-17T11:52:50.162704416-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: d12aad83e3fc82781d459e693e999a45850d51148f5e6960f4bd11b031a5d60e
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.6-rc.20200827.tgz
-    version: 10.6-rc.20200827
-  - apiVersion: v1
-    appVersion: 10.6-rc.20200826
-    created: "2020-11-17T11:52:50.162010258-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 5d48e00f6af2bed3bd3ad7196a7d0b2dd696a88de1059c2e82989913839647f0
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.6-rc.20200826.tgz
-    version: 10.6-rc.20200826
-  - apiVersion: v1
     appVersion: "10.2"
     created: "2020-06-14T06:50:14.395312002Z"
     description: stash-postgres - PostgreSQL database backup and restore plugin for
@@ -5376,54 +5144,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.2.tgz
     version: "10.2"
-  - apiVersion: v1
-    appVersion: 10.2-v1
-    created: "2020-11-17T11:52:50.160607233-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 29194b476b684fbc9e96f3e3bf16ef676d2b3d6b1d19af5dca4c69dea35e0528
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.2-v1.tgz
-    version: 10.2-v1
-  - apiVersion: v1
-    appVersion: 10.2-rc.20200827
-    created: "2020-11-17T11:52:50.159680855-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: 8353a116f207a346cd13878b8622cf6c368f86be91ed8f4c61a718eff6bf0cdc
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.2-rc.20200827.tgz
-    version: 10.2-rc.20200827
-  - apiVersion: v1
-    appVersion: 10.2-rc.20200826
-    created: "2020-11-17T11:52:50.158524654-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: eb5359d70b5b83e490895d80b1e61da5beddc742427ed42e1fde837fb4868c90
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-10.2-rc.20200826.tgz
-    version: 10.2-rc.20200826
   - apiVersion: v1
     appVersion: 9.6.19
     created: "2020-09-19T14:13:02.588589543-07:00"
@@ -5488,71 +5208,6 @@ entries:
     urls:
     - https://charts.appscode.com/stable/stash-postgres/stash-postgres-9.6.19-v1.tgz
     version: 9.6.19-v1
-  - apiVersion: v1
-    appVersion: "9.6"
-    created: "2020-11-17T11:52:50.18717073-08:00"
-    description: stash-postgres - PostgreSQL database backup and restore plugin for
-      Stash by AppsCode
-    digest: 227c8c78777999b91216b6f4942ba2426ce510729d880eb31d8e4c5cfe9c5c92
-    home: https://github.com/stashed/postgres
-    icon: https://cdn.appscode.com/images/icon/stash.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-9.6.tgz
-    version: "9.6"
-  - apiVersion: v1
-    appVersion: 9.6-v1
-    created: "2020-11-17T11:52:50.18395695-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: f75c0453475c445358b5291dea6b15d0b6299e84c88c57051735c34514822232
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-9.6-v1.tgz
-    version: 9.6-v1
-  - apiVersion: v1
-    appVersion: 9.6-rc.20200827
-    created: "2020-11-17T11:52:50.183325194-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: b5669596938271ab9dc348300b38caccda81ae246e0888f3ebc3086630a25ff7
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-9.6-rc.20200827.tgz
-    version: 9.6-rc.20200827
-  - apiVersion: v1
-    appVersion: 9.6-rc.20200826
-    created: "2020-11-17T11:52:50.182653755-08:00"
-    description: stash-postgres - PostgreSQL database plugin for Stash by AppsCode
-    digest: fc49b178f92c5b3e6e6ed36145c50c1af152039c391297eb90543c3a433d0d15
-    home: https://stash.run
-    icon: https://cdn.appscode.com/images/products/stash/addons/postgres-stash-addon.png
-    maintainers:
-    - email: support@appscode.com
-      name: appscode
-    name: stash-postgres
-    sources:
-    - https://github.com/stashed/postgres
-    urls:
-    - https://charts.appscode.com/stable/stash-postgres/stash-postgres-9.6-rc.20200826.tgz
-    version: 9.6-rc.20200826
   swift:
   - apiVersion: v1
     appVersion: v0.12.1
@@ -6443,4 +6098,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-17T18:59:19.727836097Z"
+generated: "2020-12-10T13:33:48.126832292Z"
