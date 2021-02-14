@@ -181,6 +181,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/identity-server/identity-server-v0.1.1.tgz
     version: v0.1.1
+  kmodules-crds:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-02-14T20:53:34.268081636Z"
+    description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
+    digest: 959dca36146237afe37bef4dc8df3d143fa4558bda29ebb8095eb3c5221fc244
+    home: https://appscode.com
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kmodules-crds
+    sources:
+    - https://github.com/kmodules/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kmodules-crds/kmodules-crds-v0.1.0.tgz
+    version: v0.1.0
   kubeci-engine:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -1569,9 +1587,9 @@ entries:
   prepare-kubernetes-cluster:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2021-02-02T10:34:28.713612494Z"
+    created: "2021-02-14T20:53:34.269007738Z"
     description: Prepare Kubernetes Cluster by AppsCode
-    digest: cdb98c1d62519839a14c82ef4d7bb01278af7610a95bca43373c4e273a6daf5b
+    digest: 5ee4ce80803c2f40d708cdbe518bda8114e2d0747a6e372eb18fe7b3a81dfce0
     home: https://appscode.com
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -7005,4 +7023,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-02T10:34:28.712601979Z"
+generated: "2021-02-14T20:53:34.267405635Z"
