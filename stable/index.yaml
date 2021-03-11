@@ -577,6 +577,36 @@ entries:
     - https://charts.appscode.com/stable/kubed/kubed-0.1.0.tgz
     version: 0.1.0
   kubedb:
+  - apiVersion: v2
+    appVersion: v2021.03.11
+    created: "2021-03-11T16:12:18.826921181Z"
+    dependencies:
+    - condition: kubedb-catalog.enabled
+      name: kubedb-catalog
+      repository: file://../kubedb-catalog
+    - condition: kubedb-community.enabled
+      name: kubedb-community
+      repository: file://../kubedb-community
+    - condition: kubedb-enterprise.enabled
+      name: kubedb-enterprise
+      repository: file://../kubedb-enterprise
+    - condition: kubedb-autoscaler.enabled
+      name: kubedb-autoscaler
+      repository: file://../kubedb-autoscaler
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: 77d7ba3d87de83c11886310f8993d2846528c1658e050993d2b10022cba2149e
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb/kubedb-v2021.03.11.tgz
+    version: v2021.03.11
   - apiVersion: v1
     appVersion: v0.16.2
     created: "2021-01-26T12:08:03.635065489Z"
@@ -996,9 +1026,9 @@ entries:
   kubedb-autoscaler:
   - apiVersion: v1
     appVersion: v0.2.0
-    created: "2021-03-11T15:55:33.648415514Z"
+    created: "2021-03-11T16:12:18.828303026Z"
     description: KubeDB Autoscaler by AppsCode - Autoscale KubeDB operated Databases
-    digest: 97b4cfc0ca1ed7a532ff485ebd0e9338f40ce3b6125a8fc2eb988ab36d25e92f
+    digest: d0b4b4b883835ef75948dcfe6d6a07256ef5b525d91b8055ef501195fcb4bc32
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-autoscaler-icon.png
     maintainers:
@@ -1077,9 +1107,9 @@ entries:
   kubedb-catalog:
   - apiVersion: v1
     appVersion: v0.17.0
-    created: "2021-03-11T15:55:33.651971236Z"
+    created: "2021-03-11T16:12:18.830086785Z"
     description: KubeDB Catalog by AppsCode - Catalog for database versions
-    digest: bb7fd46893a39362937933118f6e25b5854f177dd773a9ec0006e2067315e7e8
+    digest: 113905397e2e58953e3b1efd294ec446241a2da5e8832e5d2548b8e5b69bef6c
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/icon/kubedb.png
     maintainers:
@@ -1430,9 +1460,9 @@ entries:
   kubedb-community:
   - apiVersion: v1
     appVersion: v0.17.0
-    created: "2021-03-11T15:55:33.653332444Z"
+    created: "2021-03-11T16:12:18.831446229Z"
     description: KubeDB Community by AppsCode - Community features for KubeDB
-    digest: 4968dc1b46b2bad389584e789cda66ee44f277e9c399cdf44ac8788c735dcdf8
+    digest: 549c91cc0df60bcb6acc916558ea6741155c41b84a3174b5d6c9dd0ac80b076d
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
     maintainers:
@@ -1463,9 +1493,9 @@ entries:
   kubedb-crds:
   - apiVersion: v2
     appVersion: v0.17.0
-    created: "2021-03-11T15:55:33.66106229Z"
+    created: "2021-03-11T16:12:18.839165081Z"
     description: KubeDB Custom Resource Definitions
-    digest: d0ccaacceac92eb2a082250859e138c4f4d9019c778caac87797e0b716686318
+    digest: f7db434f8dade8365243eddf5ecc0cb71f48eeb97f619ad1be60e202a73b39e8
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
     maintainers:
@@ -1498,9 +1528,9 @@ entries:
   kubedb-enterprise:
   - apiVersion: v1
     appVersion: v0.4.0
-    created: "2021-03-11T15:55:33.662402198Z"
+    created: "2021-03-11T16:12:18.840448122Z"
     description: KubeDB Enterprise by AppsCode - Enterprise features for KubeDB
-    digest: 3f5ad28592a48942a41ff63b0f6a56c8ca337f572916d46175a5d64615d1e05e
+    digest: c31c22fc1115060666900b7d7d1679c2ae205e3c96ddaf7e9c4b5f84bdb4c4c4
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-enterprise-icon.png
     maintainers:
@@ -7793,4 +7823,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-11T15:55:33.646872605Z"
+generated: "2021-03-11T16:12:18.819032924Z"
