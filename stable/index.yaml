@@ -7965,6 +7965,22 @@ entries:
     version: 0.1.0
   voyager:
   - apiVersion: v1
+    appVersion: v13.0.0-rc.0
+    created: "2021-04-25T01:20:38.720579735Z"
+    description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
+    digest: ad57611c4f4e315a3a5c1394d5495b93ac41ddcdc3b2db012c00ba471a8e4d83
+    home: https://voyagermesh.com/
+    icon: https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: voyager
+    sources:
+    - https://github.com/voyagermesh/voyager
+    urls:
+    - https://charts.appscode.com/stable/voyager/voyager-v2021.04.24-rc.0.tgz
+    version: v2021.04.24-rc.0
+  - apiVersion: v1
     appVersion: v13.0.0-beta.1
     created: "2020-06-14T06:50:14.449717723Z"
     description: Voyager by AppsCode - Secure HAProxy Ingress Controller for Kubernetes
@@ -8511,4 +8527,22 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager/voyager-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-16T12:36:52.20607301Z"
+  voyager-crds:
+  - apiVersion: v2
+    appVersion: v13.0.0-rc.0
+    created: "2021-04-25T01:20:38.727233024Z"
+    description: Voyager Custom Resource Definitions
+    digest: f339efacbc8c545cd48bb7bf106535d1eb37999edd027b9d8c445f057c2ec7d9
+    home: https://voyager.com
+    icon: https://cdn.appscode.com/images/products/voyager/voyager-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: voyager-crds
+    sources:
+    - https://github.com/voyagermesh
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
+    version: v2021.04.24-rc.0
+generated: "2021-04-25T01:20:38.719056947Z"
