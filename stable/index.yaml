@@ -56,6 +56,22 @@ entries:
     version: 1.2.0
   csi-vault:
   - apiVersion: v1
+    appVersion: v0.4.0-rc.0
+    created: "2021-07-15T09:46:24.973383855Z"
+    description: HashiCorp Vault CSI Driver for Kubernetes
+    digest: 16c68e0e9266bd5d33c0ccb50336b208b00e119449dbbb91993f81203b8cbed8
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: csi-vault
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/csi-vault/csi-vault-v0.4.0-rc.0.tgz
+    version: v0.4.0-rc.0
+  - apiVersion: v1
     appVersion: v0.3.0
     created: "2020-06-14T06:50:14.300978078Z"
     description: HashiCorp Vault CSI Driver for Kubernetes
@@ -10005,7 +10021,72 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubepack-operator/kubepack-operator-v0.1.0.tgz
     version: v0.1.0
+  kubevault:
+  - apiVersion: v2
+    appVersion: v2021.07.14-rc.0
+    created: "2021-07-15T09:46:24.983433459Z"
+    dependencies:
+    - condition: kubevault-crds.enabled
+      name: kubevault-crds
+      repository: file://../kubevault-crds
+    - condition: kubevault-catalog.enabled
+      name: kubevault-catalog
+      repository: file://../kubevault-catalog
+    - condition: kubevault-operator.enabled
+      name: kubevault-operator
+      repository: file://../kubevault-operator
+    - condition: csi-vault.enabled
+      name: csi-vault
+      repository: file://../csi-vault
+    description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: 86415ca2969ae390900208d9bf5d94bff9c58f176fcb31daedb17b850f2b56ed
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault/kubevault-v2021.07.14-rc.0.tgz
+    version: v2021.07.14-rc.0
+  kubevault-catalog:
+  - apiVersion: v1
+    appVersion: v2021.07.14-rc.0
+    created: "2021-07-15T09:46:24.983936564Z"
+    description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
+    digest: 78d1bfd9a8b34983b45409851bdf8b4a38fd739c0e7c45ef4949de6469649502
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-catalog
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.07.14-rc.0.tgz
+    version: v2021.07.14-rc.0
   kubevault-crds:
+  - apiVersion: v2
+    appVersion: v2021.07.14-rc.0
+    created: "2021-07-15T09:46:24.988310009Z"
+    description: KubeVault Custom Resource Definitions
+    digest: 28222ab794434f1951f76a4d6b3d27fdf7fa9d60accdbd5b7b6a2c1541a25c1c
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-crds
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v2021.07.14-rc.0.tgz
+    version: v2021.07.14-rc.0
   - apiVersion: v2
     appVersion: v0.4.0-beta.0
     created: "2021-02-14T13:09:51.48064914-08:00"
@@ -10023,6 +10104,23 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
+  kubevault-operator:
+  - apiVersion: v1
+    appVersion: v0.4.0-rc.0
+    created: "2021-07-15T09:46:24.990163428Z"
+    description: KubeVault Operator by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: b811161841f8d441915db394532534c0e078a95b625270b3922a9d2890d46c1a
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-operator
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-operator/kubevault-operator-v0.4.0-rc.0.tgz
+    version: v0.4.0-rc.0
   prepare-kubernetes-cluster:
   - apiVersion: v2
     appVersion: v0.1.0
@@ -16838,4 +16936,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2021-07-03T19:25:59.820330741Z"
+generated: "2021-07-15T09:46:24.971772539Z"
