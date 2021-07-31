@@ -26228,6 +26228,36 @@ entries:
     version: v0.1.0
   kubevault:
   - apiVersion: v2
+    appVersion: v2021.08.02
+    created: "2021-07-31T05:50:45.56868792Z"
+    dependencies:
+    - condition: kubevault-crds.enabled
+      name: kubevault-crds
+      repository: file://../kubevault-crds
+      version: v2021.08.02
+    - condition: kubevault-catalog.enabled
+      name: kubevault-catalog
+      repository: file://../kubevault-catalog
+      version: v2021.08.02
+    - condition: kubevault-operator.enabled
+      name: kubevault-operator
+      repository: file://../kubevault-operator
+      version: v0.4.0
+    description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: c18818c686fbf326e0fe0271bdc265bc9f128b4c3c1c30d3889ca8454202823f
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault/kubevault-v2021.08.02.tgz
+    version: v2021.08.02
+  - apiVersion: v2
     appVersion: v2021.07.14-rc.0
     created: "2021-07-15T09:46:24.983433459Z"
     dependencies:
@@ -26259,6 +26289,22 @@ entries:
     version: v2021.07.14-rc.0
   kubevault-catalog:
   - apiVersion: v1
+    appVersion: v2021.08.02
+    created: "2021-07-31T05:50:45.569096626Z"
+    description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
+    digest: 463a3f19393bc38207f1f4d0cecfba7fa5b4b8d482761807bc3c69d8bb087038
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-catalog
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.08.02.tgz
+    version: v2021.08.02
+  - apiVersion: v1
     appVersion: v2021.07.14-rc.0
     created: "2021-07-15T09:46:24.983936564Z"
     description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
@@ -26275,6 +26321,23 @@ entries:
     - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.07.14-rc.0.tgz
     version: v2021.07.14-rc.0
   kubevault-crds:
+  - apiVersion: v2
+    appVersion: v2021.08.02
+    created: "2021-07-31T05:50:45.573126491Z"
+    description: KubeVault Custom Resource Definitions
+    digest: cfee574c42e98fe8613183f86b38420dd5f3c7628633adc2258028730dd444b5
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-crds
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v2021.08.02.tgz
+    version: v2021.08.02
   - apiVersion: v2
     appVersion: v2021.07.14-rc.0
     created: "2021-07-15T09:46:24.988310009Z"
@@ -26310,6 +26373,22 @@ entries:
     - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
   kubevault-operator:
+  - apiVersion: v1
+    appVersion: v0.4.0
+    created: "2021-07-31T05:50:45.57430191Z"
+    description: KubeVault Operator by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: 32d4d83f07e009289c800dfa1b325bc612d4ff7ea16d3c629e2bd1107ab6c10c
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-operator
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-operator/kubevault-operator-v0.4.0.tgz
+    version: v0.4.0
   - apiVersion: v1
     appVersion: v0.4.0-rc.0
     created: "2021-07-15T09:46:24.990163428Z"
@@ -33141,4 +33220,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2021-07-28T08:02:20.801594704Z"
+generated: "2021-07-31T05:50:45.56310633Z"
