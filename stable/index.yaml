@@ -42019,6 +42019,40 @@ entries:
     version: v0.1.0
   kubevault:
   - apiVersion: v2
+    appVersion: v2021.10.11
+    created: "2021-10-09T23:10:44.507859878Z"
+    dependencies:
+    - condition: kubevault-crds.enabled
+      name: kubevault-crds
+      repository: file://../kubevault-crds
+      version: v2021.10.11
+    - condition: kubevault-catalog.enabled
+      name: kubevault-catalog
+      repository: file://../kubevault-catalog
+      version: v2021.10.11
+    - condition: kubevault-operator.enabled
+      name: kubevault-operator
+      repository: file://../kubevault-operator
+      version: v0.5.1
+    - condition: kubevault-metrics.enabled
+      name: kubevault-metrics
+      repository: file://../kubevault-metrics
+      version: v2021.10.11
+    description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: 656935b3b277cb4b193a4333f3e122253a54ebdb99eed4a9c5b137ed36200781
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault/kubevault-v2021.10.11.tgz
+    version: v2021.10.11
+  - apiVersion: v2
     appVersion: v2021.09.27
     created: "2021-09-27T17:49:36.097316927Z"
     dependencies:
@@ -42110,6 +42144,22 @@ entries:
     version: v2021.07.14-rc.0
   kubevault-catalog:
   - apiVersion: v1
+    appVersion: v2021.10.11
+    created: "2021-10-09T23:10:44.508598779Z"
+    description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
+    digest: 99a27c2ac25f2aa45c1803d127cbcfd2d30fd48e5de018393e2eb933e71e903d
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-catalog
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.10.11.tgz
+    version: v2021.10.11
+  - apiVersion: v1
     appVersion: v2021.09.27
     created: "2021-09-27T17:49:36.097737529Z"
     description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
@@ -42158,6 +42208,23 @@ entries:
     - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.07.14-rc.0.tgz
     version: v2021.07.14-rc.0
   kubevault-crds:
+  - apiVersion: v2
+    appVersion: v2021.10.11
+    created: "2021-10-09T23:10:44.511899579Z"
+    description: KubeVault Custom Resource Definitions
+    digest: f2c1801ae1a580c1962c0ee02f0ab7d207ad9aa0c4da71f650e75c25e8986b64
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-crds
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v2021.10.11.tgz
+    version: v2021.10.11
   - apiVersion: v2
     appVersion: v2021.09.27
     created: "2021-09-27T17:49:36.101072648Z"
@@ -42226,7 +42293,41 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
+  kubevault-metrics:
+  - apiVersion: v2
+    appVersion: v2021.10.11
+    created: "2021-10-09T23:10:44.512404479Z"
+    description: KubeVault State Metrics
+    digest: 13187c48da9bbaad58e5140340b7801bccdb531697d0daf25216f18bd03b81fa
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-metrics
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-metrics/kubevault-metrics-v2021.10.11.tgz
+    version: v2021.10.11
   kubevault-operator:
+  - apiVersion: v1
+    appVersion: v0.5.1
+    created: "2021-10-09T23:10:44.51395398Z"
+    description: KubeVault Operator by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: 82e554bc3908c9e26be27ae78e8d69d399024d3168506b634aaa63ad9f7e6fd6
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-operator
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-operator/kubevault-operator-v0.5.1.tgz
+    version: v0.5.1
   - apiVersion: v1
     appVersion: v0.5.0
     created: "2021-09-27T17:49:36.102405455Z"
@@ -49374,4 +49475,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2021-10-09T21:05:37.750786831Z"
+generated: "2021-10-09T23:10:44.497795176Z"
