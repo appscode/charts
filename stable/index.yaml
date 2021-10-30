@@ -21,9 +21,9 @@ entries:
   auditor:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2021-10-06T20:09:50.30115154Z"
+    created: "2021-10-30T04:53:59.759644408Z"
     description: Kubernetes Auditor by AppsCode
-    digest: 704b7c484b5e8b09e33696d70cff47b8c0cfbed9f459708a5eb66862ab29c6ba
+    digest: 402941477864f36f8b744a4869249aa7fe40ddfb560658f0032de7119738adf6
     home: https://github.com/kubeops/auditor
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -71,6 +71,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/cert-manager-crds/cert-manager-crds-1.2.0.tgz
     version: 1.2.0
+  cert-manager-csi-driver-cacerts:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-10-30T04:53:59.760561208Z"
+    description: A Helm chart for cert-manager-csi-driver-cacerts
+    digest: 8112e3ebb0cc2e4ee2febdcb002a38c687840bb7b64be17938b8639982aef281
+    home: https://github.com/kubeops/csi-driver-cacerts
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cert-manager-csi-driver-cacerts
+    sources:
+    - https://github.com/kubeops/csi-driver-cacerts
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cert-manager-csi-driver-cacerts/cert-manager-csi-driver-cacerts-v2021.10.29.tgz
+    version: v2021.10.29
   csi-vault:
   - apiVersion: v1
     appVersion: v0.4.0-rc.0
@@ -59816,9 +59834,9 @@ entries:
   panopticon:
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2021-10-06T20:09:50.30271976Z"
+    created: "2021-10-30T04:53:59.762497508Z"
     description: Kubernetes Panopticon by AppsCode
-    digest: c947ada791e32e8ce7750cb155bc0541914d9d2f4e06486ccd417518489704f3
+    digest: 1f5dfdce945bfc5c4b856b7a72fb0b072d1c757b49a2ebdce63716d425387ddd
     home: https://github.com/kubeops/panopticon
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -67011,4 +67029,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2021-10-29T20:03:35.079380703Z"
+generated: "2021-10-30T04:53:59.751824207Z"
