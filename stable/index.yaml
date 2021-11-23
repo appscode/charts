@@ -271,12 +271,30 @@ entries:
     urls:
     - https://charts.appscode.com/stable/git-apiserver/git-apiserver-0.1.0.tgz
     version: 0.1.0
+  grafana-configurator:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-11-23T20:52:23.344519359Z"
+    description: A Helm chart for grafana-configurator by AppsCode
+    digest: fc08bdef29e0ec366acb584defe10407fc72928e8ac9149b07a9572c70d8c202
+    home: https://github.com/open-viz
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-configurator
+    sources:
+    - https://github.com/open-viz/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-configurator/grafana-configurator-v2021.11.16.tgz
+    version: v2021.11.16
   grafana-operator:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2021-11-17T04:35:27.384402154Z"
+    created: "2021-11-23T20:52:23.34578863Z"
     description: A Helm chart for Grafana Operator by AppsCode
-    digest: 1b1b71938f926ff9418fdf08451440b24a9359a8bb5e6030ec2b66d695ef3efd
+    digest: 0dd0d83e2a345e20797d37b33ae92bc731f4074ab7d087ea9426109faf8f9631
     home: https://github.com/open-viz/grafana-operator
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -288,6 +306,24 @@ entries:
     type: application
     urls:
     - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v2021.11.16.tgz
+    version: v2021.11.16
+  grafana-ui-server:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-11-23T20:52:23.347002697Z"
+    description: A Helm chart for grafana-ui-server by AppsCode
+    digest: c75d9d7b3db5b700c138a7870a2d39fddcc4741eafca9d7baafa1ca3896083e0
+    home: https://github.com/kubeops/grafana-ui-server
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-ui-server
+    sources:
+    - https://github.com/kubeops/grafana-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-ui-server/grafana-ui-server-v2021.11.16.tgz
     version: v2021.11.16
   identity-server:
   - apiVersion: v1
@@ -67184,4 +67220,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2021-11-17T11:42:58.661734649Z"
+generated: "2021-11-23T20:52:23.343854722Z"
