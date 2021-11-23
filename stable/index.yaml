@@ -21,9 +21,9 @@ entries:
   auditor:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2021-11-10T09:52:21.602695501Z"
+    created: "2021-11-23T21:26:52.199098486Z"
     description: Kubernetes Auditor by AppsCode
-    digest: cc0abd70e1c092dac7dc0551110d300e1633094607b5c13ec59f0ede295f38a8
+    digest: af8df56b28dcbd873edde4e5a27e5aec92232ef1d9f820ed821d17097bb00ae0
     home: https://github.com/kubeops/auditor
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -74,9 +74,9 @@ entries:
   cert-manager-csi-driver-cacerts:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2021-11-10T09:52:21.603806409Z"
+    created: "2021-11-23T21:26:52.199943518Z"
     description: A Helm chart for cert-manager-csi-driver-cacerts
-    digest: 12be78694631dabb3678be801eb7170746ba5e2f09893d5cca132eb8d5ee5438
+    digest: f632b248b6b2799018ab3fd4db1febbcd6072fd8470cc9d48eabe0ecbbb1dec9
     home: https://github.com/kubeops/csi-driver-cacerts
     icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
     maintainers:
@@ -92,9 +92,9 @@ entries:
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2021-11-10T09:52:21.604377513Z"
+    created: "2021-11-23T21:26:52.200495438Z"
     description: A Helm chart for cluster-connector
-    digest: a4c62441d9593fc365cdddcfab759a91ab90c3236d8bec451665fd9a097b5e50
+    digest: e72ce204137906bfa007d894b904890f553250adaaf8c74019c6842740fc7aa9
     home: https://github.com/kubeops/cluster-connector
     icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
     maintainers:
@@ -360,6 +360,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kmodules-crds/kmodules-crds-v0.1.0.tgz
     version: v0.1.0
+  kube-ui-server:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2021-11-23T21:26:52.201481076Z"
+    description: A Helm chart for kube-ui-server by AppsCode
+    digest: 3bbde604d1a752b6019db6a9aa0ea5a3b701d782e0681499c3b9ca5ece715892
+    home: https://github.com/kubeops/kube-ui-server
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kube-ui-server
+    sources:
+    - https://github.com/kubeops/kube-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kube-ui-server/kube-ui-server-v2021.11.18.tgz
+    version: v2021.11.18
   kubeci-engine:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -60025,9 +60043,9 @@ entries:
   panopticon:
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2021-11-10T09:52:21.606293226Z"
+    created: "2021-11-23T21:26:52.202756124Z"
     description: Kubernetes Panopticon by AppsCode
-    digest: 88e1b97fabdb2d13a832e65eab679468430a05abdde1f513bcd8e7af6114850d
+    digest: a83d657341d0727b6ad639b96834ae6530c643abf1adeb3a0d854f85fb447268
     home: https://github.com/kubeops/panopticon
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -67220,4 +67238,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2021-11-23T20:52:23.343854722Z"
+generated: "2021-11-23T21:26:52.196461487Z"
