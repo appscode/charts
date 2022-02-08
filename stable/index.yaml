@@ -38,9 +38,9 @@ entries:
   bytebuilders-crds:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2022-01-04T23:10:03.495962001Z"
+    created: "2022-02-08T19:04:12.766299574Z"
     description: Resource Models for ByteBuilders
-    digest: 7feff58672e26762fe87f4a83ddba1d1fd8affb111c3262442f0f90ec949f36f
+    digest: 45cf9afc5ec69a192e1debe01b19bec8ccd44be0c1b85b0eb32ddf37ced584eb
     home: https://byte.builders
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -60779,6 +60779,44 @@ entries:
     version: v0.4.0-rc.0
   opscenter-runtime:
   - apiVersion: v2
+    appVersion: v2022.02.08
+    created: "2022-02-08T19:04:12.77363326Z"
+    dependencies:
+    - condition: kube-ui-server.enabled
+      name: kube-ui-server
+      repository: https://charts.appscode.com/stable/
+      version: v2022.02.08
+    - condition: panopticon.enabled
+      name: panopticon
+      repository: https://charts.appscode.com/stable/
+      version: v2021.11.25
+    - condition: grafana-operator.enabled
+      name: grafana-operator
+      repository: https://charts.appscode.com/stable/
+      version: v2021.11.16
+    - condition: grafana-ui-server.enabled
+      name: grafana-ui-server
+      repository: https://charts.appscode.com/stable/
+      version: v2021.11.16
+    - condition: grafana-configurator.enabled
+      name: grafana-configurator
+      repository: https://charts.appscode.com/stable/
+      version: v2021.11.16
+    description: ByteBuilders Opscenter Runtime by AppsCode
+    digest: 7c04f49fafcf82d2d8a20991681b187884161aba7c9c6e701453296394fe0264
+    home: https://byte.builders
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: opscenter-runtime
+    sources:
+    - https://github.com/bytebuilders
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/opscenter-runtime/opscenter-runtime-v2022.02.08.tgz
+    version: v2022.02.08
+  - apiVersion: v2
     appVersion: v2022.01.04
     created: "2022-01-04T23:10:03.503363749Z"
     dependencies:
@@ -68250,4 +68288,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2022-02-08T11:43:37.115497218Z"
+generated: "2022-02-08T19:04:12.765589737Z"
