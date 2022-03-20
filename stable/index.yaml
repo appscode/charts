@@ -37,10 +37,27 @@ entries:
     version: v2021.08.22
   bytebuilders-crds:
   - apiVersion: v2
-    appVersion: v0.1.0
-    created: "2022-03-14T11:24:47.163197462Z"
+    appVersion: v2022.03.20
+    created: "2022-03-20T16:17:42.231010453Z"
     description: Resource Models for ByteBuilders
-    digest: b7bfd5a5d3d5b7025be7b01e8233b70121d59c45cdb1123f51f604d76882fed3
+    digest: b1fb7319beb5abd5b4fa0d7f9a4ebd0ab49abb9126232c683fbdc57688dab174
+    home: https://byte.builders
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: bytebuilders-crds
+    sources:
+    - https://github.com/bytebuilders/resource-model
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/bytebuilders-crds/bytebuilders-crds-v2022.03.20.tgz
+    version: v2022.03.20
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-03-20T16:15:42.573913305Z"
+    description: Resource Models for ByteBuilders
+    digest: e1a7baca605ff3f4c6352ccb04c145205b2419b2a36f846d26571a29fa7ef35d
     home: https://byte.builders
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -61236,10 +61253,27 @@ entries:
     version: v0.4.0-rc.0
   opscenter-config:
   - apiVersion: v2
-    appVersion: v2022.03.07
-    created: "2022-03-14T11:24:47.163884396Z"
+    appVersion: v2022.03.20
+    created: "2022-03-20T16:17:42.23185956Z"
     description: ByteBuilders Opscenter Configuration
-    digest: 9f07547e9f1f84819ada6a8085eaac1e4deeb6f762837c093a1ed58ef0e37769
+    digest: 79e6f749db7e6cc6643551c947b59606275610a441c9f6273f948e305f599056
+    home: https://github.com/bytebuilders
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: opscenter-config
+    sources:
+    - https://github.com/bytebuilders/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/opscenter-config/opscenter-config-v2022.03.20.tgz
+    version: v2022.03.20
+  - apiVersion: v2
+    appVersion: v2022.03.07
+    created: "2022-03-20T16:15:42.574560714Z"
+    description: ByteBuilders Opscenter Configuration
+    digest: 601dc00071c408ad59b6e9e4e9a4e1cd6829fcfb04de39b966316e405a569a52
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -61254,8 +61288,8 @@ entries:
     version: v2022.03.07
   opscenter-core:
   - apiVersion: v2
-    appVersion: v2022.03.07
-    created: "2022-03-14T11:24:47.171085156Z"
+    appVersion: v2022.03.20
+    created: "2022-03-20T16:17:42.240423226Z"
     dependencies:
     - condition: kube-ui-server.enabled
       name: kube-ui-server
@@ -61268,13 +61302,55 @@ entries:
     - condition: grafana-operator.enabled
       name: grafana-operator
       repository: https://charts.appscode.com/stable/
-      version: v2021.11.16
+      version: v2022.03.20
     - condition: grafana-ui-server.enabled
       name: grafana-ui-server
       repository: https://charts.appscode.com/stable/
-      version: v2021.11.16
+      version: v2022.03.20
+    - condition: kube-grafana-dashboards.enabled
+      name: kube-grafana-dashboards
+      repository: https://charts.appscode.com/stable/
+      version: v2022.03.20
     description: ByteBuilders Opscenter Core by AppsCode
-    digest: 8a736bebaead1e2146a0fb20939cae24559bf8b4d4352d3b4805060df7a59394
+    digest: 4fc4ff0d1871851daafa0b68e962a0a0800038177463fb4caddb0eaff4810647
+    home: https://byte.builders
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: opscenter-core
+    sources:
+    - https://github.com/bytebuilders
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/opscenter-core/opscenter-core-v2022.03.20.tgz
+    version: v2022.03.20
+  - apiVersion: v2
+    appVersion: v2022.03.07
+    created: "2022-03-20T16:15:42.58368363Z"
+    dependencies:
+    - condition: kube-ui-server.enabled
+      name: kube-ui-server
+      repository: https://charts.appscode.com/stable/
+      version: v2022.03.07
+    - condition: panopticon.enabled
+      name: panopticon
+      repository: https://charts.appscode.com/stable/
+      version: v2021.11.25
+    - condition: grafana-operator.enabled
+      name: grafana-operator
+      repository: https://charts.appscode.com/stable/
+      version: v2022.03.20
+    - condition: grafana-ui-server.enabled
+      name: grafana-ui-server
+      repository: https://charts.appscode.com/stable/
+      version: v2022.03.20
+    - condition: kube-grafana-dashboards.enabled
+      name: kube-grafana-dashboards
+      repository: https://charts.appscode.com/stable/
+      version: v2022.03.20
+    description: ByteBuilders Opscenter Core by AppsCode
+    digest: 927e54fa8f8df130e999148bbf11cfdd7b6bd5a75ce14b5d30ff2698e896dfe2
     home: https://byte.builders
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -69048,4 +69124,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2022-03-20T15:23:37.02858119Z"
+generated: "2022-03-20T16:17:42.230279747Z"
