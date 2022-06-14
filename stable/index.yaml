@@ -424,6 +424,23 @@ entries:
     version: 0.1.0
   grafana-operator:
   - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-06-14T12:12:13.619365799Z"
+    description: A Helm chart for Grafana Operator by AppsCode
+    digest: b36eafb96316032994231ec2331b0b306e740f5070a8aaa9a41e62744c955cde
+    home: https://github.com/open-viz/grafana-operator
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-operator
+    sources:
+    - https://github.com/open-viz/grafana-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v2022.06.14.tgz
+    version: v2022.06.14
+  - apiVersion: v2
     appVersion: v2022.04.04
     created: "2022-04-15T05:50:22.204258747Z"
     description: A Helm chart for Grafana Operator by AppsCode
@@ -475,6 +492,23 @@ entries:
     - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v2021.11.16.tgz
     version: v2021.11.16
   grafana-ui-server:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-06-14T12:12:13.621343425Z"
+    description: A Helm chart for grafana-ui-server by AppsCode
+    digest: 0392d7e165f44df8731c70eaefce43a1dc69bdbc60497f8d10a34d777a70900c
+    home: https://github.com/kubeops/grafana-ui-server
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-ui-server
+    sources:
+    - https://github.com/kubeops/grafana-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-ui-server/grafana-ui-server-v2022.06.14.tgz
+    version: v2022.06.14
   - apiVersion: v2
     appVersion: v2022.04.04
     created: "2022-04-15T05:50:22.20524874Z"
@@ -562,6 +596,28 @@ entries:
     - https://charts.appscode.com/stable/kmodules-crds/kmodules-crds-v0.1.0.tgz
     version: v0.1.0
   kube-grafana-dashboards:
+  - apiVersion: v2
+    appVersion: v2022.06.14
+    created: "2022-06-14T12:12:13.625400384Z"
+    description: Grafana dashboards for end-to-end Kubernetes cluster monitoring
+    digest: 9bb124f722d655496cbf695af9dd7aba77188ba999ba1015f29d6022ba1eeee0
+    home: https://github.com/open-viz
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    keywords:
+    - openviz
+    - appscode
+    - bytebuilders
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kube-grafana-dashboards
+    sources:
+    - https://github.com/open-viz/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kube-grafana-dashboards/kube-grafana-dashboards-v2022.06.14.tgz
+    version: v2022.06.14
   - apiVersion: v2
     appVersion: v2022.04.04
     created: "2022-04-15T05:50:22.208072921Z"
@@ -88896,4 +88952,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2022-06-14T08:44:15.31972444Z"
+generated: "2022-06-14T12:12:13.617920107Z"
