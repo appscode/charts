@@ -39,7 +39,9 @@ function publish_dir() {
     # helm repo index $repo_dir/ --url https://${REPO_DOMAIN}/$repo_dir/
 
     # sync charts
-    gsutil -m rsync -d -r $repo_dir gs://${BUCKET}/$repo_dir
+    # https://stackoverflow.com/a/38466192
+    # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+    gsutil -m -h "Cache-Control:public, max-age=600" rsync -d -r $repo_dir gs://${BUCKET}/$repo_dir
     gsutil -m acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
 
     # invalidate cache
