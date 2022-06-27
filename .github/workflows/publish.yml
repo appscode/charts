@@ -10,6 +10,7 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
+
 jobs:
   build:
     name: Build
@@ -17,16 +18,16 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Install gcloud
+      - name: Configure gcloud
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON_KEY: ${{ secrets.CHART_REPO_SERVICE_ACCOUNT_JSON_KEY }}
         run: |
-          echo "install gcloud cli"
-          echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-          curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-          sudo apt-get -qq update || true
-          sudo apt-get install -y google-cloud-sdk
-          echo
+          # echo "install gcloud cli"
+          # echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+          # curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+          # sudo apt-get -qq update || true
+          # sudo apt-get install -y google-cloud-sdk
+          # echo
           echo "configure gcloud auth"
           echo "$GOOGLE_SERVICE_ACCOUNT_JSON_KEY" > "$HOME"/gcloud.json
           gcloud auth activate-service-account --key-file=$HOME/gcloud.json
