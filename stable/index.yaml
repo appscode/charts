@@ -102,9 +102,9 @@ entries:
   application-crds:
   - apiVersion: v2
     appVersion: v0.8.3
-    created: "2021-02-20T11:57:02.914456265Z"
+    created: "2022-10-12T19:39:23.15814851Z"
     description: Kubernetes Application CRDs
-    digest: 539d64222c72730cefcedc80cb9c641c60793ed777af32b383396b26b5f94375
+    digest: 3412342d80863cec9168f8b3151c42fad6d0e4b76fd289d5c22955c4e7763eed
     home: https://github.com/kmodules/application
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -254,6 +254,23 @@ entries:
     - https://charts.appscode.com/stable/bytebuilders-crds/bytebuilders-crds-v0.1.0.tgz
     version: v0.1.0
   cert-manager-crds:
+  - apiVersion: v2
+    appVersion: v1.9.1
+    created: "2022-10-12T19:39:23.160665712Z"
+    description: Jetstack cert-manager CRDs
+    digest: 34a5fcc4100d382036b17cc0aa60790fabeecfb2db137439fef214687ab3f9bb
+    home: https://cert-manager.io
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cert-manager-crds
+    sources:
+    - https://github.com/jetstack/cert-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cert-manager-crds/cert-manager-crds-1.9.1.tgz
+    version: 1.9.1
   - apiVersion: v2
     appVersion: v1.2.0
     created: "2021-02-20T11:57:02.921945904Z"
@@ -749,6 +766,23 @@ entries:
     - https://charts.appscode.com/stable/identity-server/identity-server-v0.1.1.tgz
     version: v0.1.1
   kmodules-crds:
+  - apiVersion: v2
+    appVersion: v0.25.1
+    created: "2022-10-12T19:39:23.161113912Z"
+    description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
+    digest: ada66c9dd374bcccf405152d08592f667c530db029b7f37cd99a4d4d37d4157e
+    home: https://appscode.com
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kmodules-crds
+    sources:
+    - https://github.com/kmodules/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kmodules-crds/kmodules-crds-v0.25.1.tgz
+    version: v0.25.1
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2021-02-20T11:57:02.922245405Z"
@@ -82429,9 +82463,9 @@ entries:
   prepare-kubernetes-cluster:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2021-02-20T11:57:02.922911509Z"
+    created: "2022-10-12T19:39:23.162229613Z"
     description: Prepare Kubernetes Cluster by AppsCode
-    digest: 256d32ab9f2a76aa40cc67e81f6d2b58aec8369b41d1e1ac3fed4774fb1568e0
+    digest: 7ac3da72b8f97ed561d1f7b55133998cd9af16270781c267959c4f79bc053e2b
     home: https://appscode.com
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -82463,6 +82497,23 @@ entries:
     - https://charts.appscode.com/stable/prom-proxy/prom-proxy-v2022.06.14.tgz
     version: v2022.06.14
   prometheus-operator-crds:
+  - apiVersion: v2
+    appVersion: v0.60.1
+    created: "2022-10-12T19:39:23.164654615Z"
+    description: Prometheus Operator CRDs
+    digest: b9fd27d0dbb467bc2fbe02409141290357ed645d7581557150dca73ef666a42b
+    home: https://github.com/prometheus-operator/prometheus-operator
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: prometheus-operator-crds
+    sources:
+    - https://github.com/prometheus-operator/prometheus-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/prometheus-operator-crds/prometheus-operator-crds-v0.60.1.tgz
+    version: v0.60.1
   - apiVersion: v2
     appVersion: v0.45.0
     created: "2021-02-20T11:57:02.927535233Z"
@@ -91497,4 +91548,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2022-10-12T19:13:23.447137913Z"
+generated: "2022-10-12T19:39:23.157615709Z"
