@@ -55,4 +55,4 @@ jobs:
         run: |
           export REGISTRY_0=oci://index.docker.io/appscode
           export REGISTRY_1=oci://ghcr.io/appscode
-          ./hack/scripts/pubish-oci-charts.sh $(pwd) stable
+          ./hack/scripts/publish-oci-stable.sh
