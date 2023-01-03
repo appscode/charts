@@ -84292,6 +84292,40 @@ entries:
     version: v2022.06.14
   stash:
   - apiVersion: v2
+    appVersion: v2023.01.05
+    created: "2023-01-03T13:25:43.142184482Z"
+    dependencies:
+    - condition: features.community
+      name: stash-community
+      repository: file://../stash-community
+      version: v0.25.0
+    - condition: features.enterprise
+      name: stash-enterprise
+      repository: file://../stash-enterprise
+      version: v0.25.0
+    - condition: features.enterprise
+      name: stash-catalog
+      repository: file://../stash-catalog
+      version: v2023.01.05
+    - condition: features.enterprise
+      name: stash-metrics
+      repository: file://../stash-metrics
+      version: v2023.01.05
+    description: Stash by AppsCode - Backup your Kubernetes native applications
+    digest: ea118f5c619cc81711e4854c69eba2ee3ab5b9ca1ffb4eaf34815c703f88f8a7
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash/stash-v2023.01.05.tgz
+    version: v2023.01.05
+  - apiVersion: v2
     appVersion: v2022.12.11
     created: "2022-12-11T13:00:14.192120183Z"
     dependencies:
@@ -85418,6 +85452,23 @@ entries:
     version: 0.1.0
   stash-catalog:
   - apiVersion: v2
+    appVersion: v2023.01.05
+    created: "2023-01-03T13:25:43.144633288Z"
+    description: Stash Catalog by AppsCode - Catalog of Stash Addons
+    digest: a8241731d7af358a0a4fa788d86410bd9b00a2605e3845ae1275d953b2501646
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-catalog
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash-catalog/stash-catalog-v2023.01.05.tgz
+    version: v2023.01.05
+  - apiVersion: v2
     appVersion: v2022.12.11
     created: "2022-12-11T13:00:14.194693975Z"
     description: Stash Catalog by AppsCode - Catalog of Stash Addons
@@ -85742,6 +85793,22 @@ entries:
     version: v0.11.11
   stash-community:
   - apiVersion: v1
+    appVersion: v0.25.0
+    created: "2023-01-03T13:25:43.145936492Z"
+    description: Free community features for Stash by AppsCode
+    digest: 9169273f836d5d2a12a560e8e5d582ab52694863d87ac85ad0cd0c739a4a298d
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-community
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/stash-community/stash-community-v0.25.0.tgz
+    version: v0.25.0
+  - apiVersion: v1
     appVersion: v0.24.0
     created: "2022-12-11T13:00:14.196119471Z"
     description: Free community features for Stash by AppsCode
@@ -86062,6 +86129,23 @@ entries:
     - https://charts.appscode.com/stable/stash-community/stash-community-v0.11.9.tgz
     version: v0.11.9
   stash-crds:
+  - apiVersion: v2
+    appVersion: v2023.01.05
+    created: "2023-01-03T13:25:43.154928214Z"
+    description: Stash Custom Resource Definitions
+    digest: 01dff7cf502565b21e472fb593b22039823e42d6497ffe54ed785dd501d8bcdb
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-crds
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash-crds/stash-crds-v2023.01.05.tgz
+    version: v2023.01.05
   - apiVersion: v2
     appVersion: v2022.12.11
     created: "2022-12-11T13:00:14.205825341Z"
@@ -87782,6 +87866,22 @@ entries:
     version: 5.6.4-rc.20200826
   stash-enterprise:
   - apiVersion: v1
+    appVersion: v0.25.0
+    created: "2023-01-03T13:25:43.156267517Z"
+    description: Enterprise features for Stash by AppsCode
+    digest: 0c90cb26d826a01ed022193ed5c2cb3b0f878a123daead30778f5f1ac5162966
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-enterprise-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-enterprise
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/stash-enterprise/stash-enterprise-v0.25.0.tgz
+    version: v0.25.0
+  - apiVersion: v1
     appVersion: v0.24.0
     created: "2022-12-11T13:00:14.207319637Z"
     description: Enterprise features for Stash by AppsCode
@@ -88295,6 +88395,23 @@ entries:
     version: v0.10.0-alpha.1
   stash-grafana-dashboards:
   - apiVersion: v2
+    appVersion: v2023.01.05
+    created: "2023-01-03T13:25:43.156845519Z"
+    description: A Helm chart for stash-grafana-dashboards by AppsCode
+    digest: 0c9eab7379e95beb149f42211c8bede8532d522a62f8d929303b8686503c8d54
+    home: https://github.com/stashed
+    icon: https://cdn.appscode.com/images/products/stash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-grafana-dashboards
+    sources:
+    - https://github.com/stashed/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash-grafana-dashboards/stash-grafana-dashboards-v2023.01.05.tgz
+    version: v2023.01.05
+  - apiVersion: v2
     appVersion: v2022.12.11
     created: "2022-12-11T13:00:14.207946035Z"
     description: A Helm chart for stash-grafana-dashboards by AppsCode
@@ -88481,6 +88598,23 @@ entries:
     - https://charts.appscode.com/stable/stash-mariadb/stash-mariadb-10.5.8-v1.tgz
     version: 10.5.8-v1
   stash-metrics:
+  - apiVersion: v2
+    appVersion: v2023.01.05
+    created: "2023-01-03T13:25:43.157233319Z"
+    description: Stash State Metrics
+    digest: 00912119c6a148cf3ff82f2ec9dca73ff88ec0bfaae775a6e64bc92f3b1468c7
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-metrics
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash-metrics/stash-metrics-v2023.01.05.tgz
+    version: v2023.01.05
   - apiVersion: v2
     appVersion: v2022.12.11
     created: "2022-12-11T13:00:14.208354633Z"
@@ -90894,6 +91028,36 @@ entries:
     version: 5.7.25-rc.20200826
   stash-opscenter:
   - apiVersion: v2
+    appVersion: v2023.01.05
+    created: "2023-01-03T13:25:43.160762528Z"
+    dependencies:
+    - condition: stash-ui-server.enabled
+      name: stash-ui-server
+      repository: file://../stash-ui-server
+      version: v0.7.0
+    - condition: stash-metrics.enabled
+      name: stash-metrics
+      repository: file://../stash-metrics
+      version: v2023.01.05
+    - condition: stash-grafana-dashboards.enabled
+      name: stash-grafana-dashboards
+      repository: file://../stash-grafana-dashboards
+      version: v2023.01.05
+    description: Stash Opscenter by AppsCode
+    digest: 67b0a9781026d71df80f6a535904ef98da98de40971d5f97979aa464c20666b0
+    home: https://stash.run
+    icon: https://cdn.appscode.com/images/products/stash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-opscenter
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash-opscenter/stash-opscenter-v2023.01.05.tgz
+    version: v2023.01.05
+  - apiVersion: v2
     appVersion: v2022.12.11
     created: "2022-12-11T13:00:14.210397727Z"
     dependencies:
@@ -91717,6 +91881,23 @@ entries:
     - https://charts.appscode.com/stable/stash-postgres/stash-postgres-9.6.19-v1.tgz
     version: 9.6.19-v1
   stash-ui-server:
+  - apiVersion: v2
+    appVersion: v0.7.0
+    created: "2023-01-03T13:25:43.161711031Z"
+    description: A Helm chart for stash-ui-server by AppsCode
+    digest: 2d995526be32293d9c2bf8064fe08f37d81481db1ad7e3facf1a0a0b9118834e
+    home: https://github.com/stashed/stash-ui-server
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: stash-ui-server
+    sources:
+    - https://github.com/stashed/stash-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/stash-ui-server/stash-ui-server-v0.7.0.tgz
+    version: v0.7.0
   - apiVersion: v2
     appVersion: v0.6.0
     created: "2022-12-11T13:00:14.211260524Z"
@@ -93225,4 +93406,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2022-12-28T12:04:28.511414005Z"
+generated: "2023-01-03T13:25:43.132634059Z"
