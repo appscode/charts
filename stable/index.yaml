@@ -416,6 +416,23 @@ entries:
     urls:
     - https://charts.appscode.com/stable/cluster-ui/cluster-ui-v2022.06.14.tgz
     version: v2022.06.14
+  config-syncer:
+  - apiVersion: v1
+    appVersion: v0.14.0-rc.0
+    created: "2023-01-12T05:54:29.041905759Z"
+    description: Config Syncer by AppsCode - Kubernetes daemon
+    digest: c145baa2e1b7623586f3933f3ed7f24ce3985020348b5e27a09ec891c6d4b08b
+    home: https://github.com/kubeops/config-syncer
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: config-syncer
+    sources:
+    - https://github.com/kubeops/config-syncer
+    urls:
+    - https://charts.appscode.com/stable/config-syncer/config-syncer-v0.14.0-rc.0.tgz
+    version: v0.14.0-rc.0
   csi-vault:
   - apiVersion: v1
     appVersion: v0.4.0-rc.0
@@ -93484,4 +93501,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-01-11T22:43:16.360253246Z"
+generated: "2023-01-12T05:54:29.041105448Z"
