@@ -41,8 +41,8 @@ function publish_dir() {
     # sync charts
     # https://stackoverflow.com/a/38466192
     # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
-    gsutil -m -h "Cache-Control:public, max-age=600" rsync -d -r $repo_dir gs://${BUCKET}/$repo_dir
-    gsutil -m acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
+    gsutil -m -h "Cache-Control:public, max-age=600" rsync -a public-read -d -r $repo_dir gs://${BUCKET}/$repo_dir
+    # gsutil -m acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
 
     # invalidate cache
     # ref: https://api.cloudflare.com/#zone-purge-files-by-url
