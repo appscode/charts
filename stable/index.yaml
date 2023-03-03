@@ -82834,6 +82834,40 @@ entries:
     version: v0.1.0
   kubevault:
   - apiVersion: v2
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.525682004Z"
+    dependencies:
+    - condition: kubevault-crds.enabled
+      name: kubevault-crds
+      repository: file://../kubevault-crds
+      version: v2023.03.03
+    - condition: kubevault-catalog.enabled
+      name: kubevault-catalog
+      repository: file://../kubevault-catalog
+      version: v2023.03.03
+    - condition: kubevault-operator.enabled
+      name: kubevault-operator
+      repository: file://../kubevault-operator
+      version: v0.14.0
+    - condition: kubevault-webhook-server.enabled
+      name: kubevault-webhook-server
+      repository: file://../kubevault-webhook-server
+      version: v0.14.0
+    description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: 11c35cf6e9fa5400e557dec67a75bfecb98df3775507d4903be40ea41bb2677b
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault/kubevault-v2023.03.03.tgz
+    version: v2023.03.03
+  - apiVersion: v2
     appVersion: v2022.12.28
     created: "2023-01-19T13:10:30.844021129Z"
     dependencies:
@@ -83265,6 +83299,22 @@ entries:
     version: v2021.07.14-rc.0
   kubevault-catalog:
   - apiVersion: v1
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.526748816Z"
+    description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
+    digest: 5714d1af7ccad604f6995265e6f0eb9fa23614abd528a0ce6ac14aa84ad9e19f
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-catalog
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2023.03.03.tgz
+    version: v2023.03.03
+  - apiVersion: v1
     appVersion: v2022.12.28
     created: "2023-01-19T13:10:30.844601943Z"
     description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
@@ -83473,6 +83523,23 @@ entries:
     - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.07.14-rc.0.tgz
     version: v2021.07.14-rc.0
   kubevault-crds:
+  - apiVersion: v2
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.53319949Z"
+    description: KubeVault Custom Resource Definitions
+    digest: 86870d9e0a001c3dffb59dce3165ecfad204b8045a4b6cfc5ddfaec09cee6317
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-crds
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v2023.03.03.tgz
+    version: v2023.03.03
   - apiVersion: v2
     appVersion: v2022.12.28
     created: "2023-01-19T13:10:30.850922591Z"
@@ -83711,7 +83778,42 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubevault-crds/kubevault-crds-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
+  kubevault-grafana-dashboards:
+  - apiVersion: v2
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.534134501Z"
+    description: A Helm chart for kubevault-grafana-dashboards by AppsCode
+    digest: 2b60bd3896e79d787642f569e020f1a50fa10813f037f92e6e50f81d1f25df54
+    home: https://github.com/kubevault
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-grafana-dashboards
+    sources:
+    - https://github.com/kubevault/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-grafana-dashboards/kubevault-grafana-dashboards-v2023.03.03.tgz
+    version: v2023.03.03
   kubevault-metrics:
+  - apiVersion: v2
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.53491161Z"
+    description: KubeVault State Metrics
+    digest: 4786de0052d27c8c30c11e972c612c07ee8e7bd8e791edff0b3ab91a4e7cb378
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-metrics
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-metrics/kubevault-metrics-v2023.03.03.tgz
+    version: v2023.03.03
   - apiVersion: v2
     appVersion: v2022.12.28
     created: "2023-01-19T13:10:30.8513062Z"
@@ -83883,6 +83985,22 @@ entries:
     - https://charts.appscode.com/stable/kubevault-metrics/kubevault-metrics-v2021.10.11.tgz
     version: v2021.10.11
   kubevault-operator:
+  - apiVersion: v1
+    appVersion: v0.14.0
+    created: "2023-03-03T22:00:26.543366807Z"
+    description: KubeVault Operator by AppsCode - HashiCorp Vault operator for Kubernetes
+    digest: 22288e32f7667ded3c9d2de696f41fb2fa1a68d882c1a1c540b7a886c12105d2
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-operator
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-operator/kubevault-operator-v0.14.0.tgz
+    version: v0.14.0
   - apiVersion: v1
     appVersion: v0.13.0
     created: "2023-01-19T13:10:30.858852077Z"
@@ -84091,7 +84209,50 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubevault-operator/kubevault-operator-v0.4.0-rc.0.tgz
     version: v0.4.0-rc.0
+  kubevault-opscenter:
+  - apiVersion: v2
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.544961125Z"
+    dependencies:
+    - condition: kubevault-metrics.enabled
+      name: kubevault-metrics
+      repository: file://../kubevault-metrics
+      version: v2023.03.03
+    - condition: kubevault-grafana-dashboards.enabled
+      name: kubevault-grafana-dashboards
+      repository: file://../kubevault-grafana-dashboards
+      version: v2023.03.03
+    description: KubeVault Opscenter by AppsCode
+    digest: ee2f93d8e3081337fb81c29e77a382c89844901d163e16205c4adeb56f434935
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-opscenter
+    sources:
+    - https://github.com/kubevault
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubevault-opscenter/kubevault-opscenter-v2023.03.03.tgz
+    version: v2023.03.03
   kubevault-webhook-server:
+  - apiVersion: v1
+    appVersion: v0.14.0
+    created: "2023-03-03T22:00:26.546107039Z"
+    description: KubeVault Webhook Server by AppsCode
+    digest: 1ccbaee8ab0795a769544df15f264fb0eb0c1b6623656b0c22a556fef1acee32
+    home: https://kubevault.com
+    icon: https://cdn.appscode.com/images/products/kubevault/kubevault-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubevault-webhook-server
+    sources:
+    - https://github.com/kubevault
+    urls:
+    - https://charts.appscode.com/stable/kubevault-webhook-server/kubevault-webhook-server-v0.14.0.tgz
+    version: v0.14.0
   - apiVersion: v1
     appVersion: v0.13.0
     created: "2023-01-19T13:10:30.860591418Z"
@@ -84918,6 +85079,23 @@ entries:
     - https://charts.appscode.com/stable/searchlight/searchlight-0.1.0.tgz
     version: 0.1.0
   secrets-store-reader:
+  - apiVersion: v2
+    appVersion: v2023.03.03
+    created: "2023-03-03T22:00:26.547031449Z"
+    description: A Helm chart for secrets-store-reader by AppsCode
+    digest: 40059db5bbc7547f53e907e4b4b5afb1f529f122c9842a01c91b2d24d22588a7
+    home: https://github.com/kubevault/secrets-store-reader
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: secrets-store-reader
+    sources:
+    - https://github.com/kubevault/secrets-store-reader
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/secrets-store-reader/secrets-store-reader-v2023.03.03.tgz
+    version: v2023.03.03
   - apiVersion: v2
     appVersion: v2022.12.28
     created: "2023-01-19T13:10:30.861683344Z"
@@ -94486,4 +94664,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-03-03T09:09:31.638207881Z"
+generated: "2023-03-03T22:00:26.508499807Z"
