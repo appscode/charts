@@ -31,7 +31,7 @@ function cleanup() {
 }
 trap cleanup EXIT
 
-CHARTS_DIR=${2:-stable}
+CHARTS_DIR=${CHARTS_DIR:-stable}
 
 REGISTRY_0=${REGISTRY_0:-}
 REGISTRY_1=${REGISTRY_1:-}
