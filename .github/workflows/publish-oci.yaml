@@ -45,5 +45,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
           CHART_REPOSITORY: github.com/appscode/charts
         run: |
-          export REGISTRY_1=oci://ghcr.io/appscode-charts
+          REGISTRY_0=oci://ghcr.io/appscode-charts \
           ./hack/scripts/publish-oci-stable.sh
