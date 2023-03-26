@@ -805,6 +805,54 @@ entries:
     urls:
     - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v2021.11.16.tgz
     version: v2021.11.16
+  - apiVersion: v2
+    appVersion: v0.0.2
+    created: "2023-03-26T02:10:39.195363417Z"
+    description: A Helm chart for Grafana Operator by AppsCode
+    digest: 74103207628f6a895f10f36ec6eea76a8f7016a6cc6689665d1b7ffac495cba7
+    home: https://github.com/open-viz/grafana-operator
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-operator
+    sources:
+    - https://github.com/open-viz/grafana-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v0.0.2.tgz
+    version: v0.0.2
+  grafana-opscenter:
+  - apiVersion: v2
+    appVersion: v2023.03.23
+    created: "2023-03-26T02:10:39.202299636Z"
+    dependencies:
+    - condition: grafana-operator.enabled
+      name: grafana-operator
+      repository: file://../grafana-operator
+      version: v0.0.2
+    - condition: grafana-ui-server.enabled
+      name: grafana-ui-server
+      repository: file://../grafana-ui-server
+      version: v0.0.2
+    - condition: kube-grafana-dashboards.enabled
+      name: kube-grafana-dashboards
+      repository: file://../kube-grafana-dashboards
+      version: v2023.03.23
+    description: Grafana Opscenter by AppsCode
+    digest: 91dc257c2908ccfa6100b6d844bc42eec821fa836d565e9422204431c832a1f0
+    home: https://appscode.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-opscenter
+    sources:
+    - https://github.com/open-viz
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-opscenter/grafana-opscenter-v2023.03.23.tgz
+    version: v2023.03.23
   grafana-ui-server:
   - apiVersion: v2
     appVersion: v0.0.1
@@ -874,6 +922,23 @@ entries:
     urls:
     - https://charts.appscode.com/stable/grafana-ui-server/grafana-ui-server-v2021.11.16.tgz
     version: v2021.11.16
+  - apiVersion: v2
+    appVersion: v0.0.2
+    created: "2023-03-26T02:10:39.203209052Z"
+    description: A Helm chart for grafana-ui-server by AppsCode
+    digest: 40c7daf3ddc4195ffccccb3f466597be2a8fb66fb987aec1060f0213e69f592c
+    home: https://github.com/kubeops/grafana-ui-server
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-ui-server
+    sources:
+    - https://github.com/kubeops/grafana-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-ui-server/grafana-ui-server-v0.0.2.tgz
+    version: v0.0.2
   identity-server:
   - apiVersion: v1
     appVersion: v0.1.1
@@ -927,6 +992,28 @@ entries:
     - https://charts.appscode.com/stable/kmodules-crds/kmodules-crds-v0.1.0.tgz
     version: v0.1.0
   kube-grafana-dashboards:
+  - apiVersion: v2
+    appVersion: v2023.03.23
+    created: "2023-03-26T02:10:39.205509092Z"
+    description: Grafana dashboards for end-to-end Kubernetes cluster monitoring
+    digest: db04744122ec071960fe813ab4e966a76d66324b3f93093111fc96b9780a428a
+    home: https://github.com/open-viz
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    keywords:
+    - openviz
+    - appscode
+    - bytebuilders
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kube-grafana-dashboards
+    sources:
+    - https://github.com/open-viz/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kube-grafana-dashboards/kube-grafana-dashboards-v2023.03.23.tgz
+    version: v2023.03.23
   - apiVersion: v2
     appVersion: v2022.06.14
     created: "2023-01-19T20:11:26.273816586Z"
@@ -93998,6 +94085,23 @@ entries:
   trickster:
   - apiVersion: v2
     appVersion: v2.0.0-beta3
+    created: "2023-03-26T02:10:39.206690212Z"
+    description: A Helm chart for Trickster by AppsCode
+    digest: 91b8ee3fec9fb99e55a619ecc1b954bada039c74aae730467542f590c4d2b564
+    home: https://github.com/open-viz/trickster
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: trickster
+    sources:
+    - https://github.com/open-viz/trickster
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/trickster/trickster-v2023.03.23.tgz
+    version: v2023.03.23
+  - apiVersion: v2
+    appVersion: v2.0.0-beta3
     created: "2023-01-19T20:11:26.276088875Z"
     description: A Helm chart for Trickster by AppsCode
     digest: 219d8757a86bf40ee12e45d06b0e6e99b68fb550d3270992863d4c3190c137e2
@@ -95176,4 +95280,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-03-26T00:25:57.495446472Z"
+generated: "2023-03-26T02:10:39.194089395Z"
