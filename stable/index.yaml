@@ -1063,6 +1063,30 @@ entries:
     urls:
     - https://charts.appscode.com/stable/gatekeeper-library/gatekeeper-library-v2023.03.23.tgz
     version: v2023.03.23
+  gateway-helm:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-06-16T04:59:40.854120432Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 63a8d5278d55cddfdb6b375136366b2713a37ee08f05f864cd28cc32c06bee5e
+    home: https://gateway.envoyproxy.io/
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    maintainers:
+    - name: envoy-gateway-steering-committee
+      url: https://github.com/envoyproxy/gateway/blob/main/GOVERNANCE.md
+    - name: envoy-gateway-maintainers
+      url: https://github.com/envoyproxy/gateway/blob/main/CODEOWNERS
+    name: gateway-helm
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/gateway-helm/gateway-helm-v0.0.0-latest.tgz
+    version: v0.0.0-latest
   git-apiserver:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -21448,9 +21472,9 @@ entries:
   voyager:
   - apiVersion: v1
     appVersion: v17.0.2
-    created: "2023-05-16T23:44:41.43020173Z"
+    created: "2023-06-16T04:59:40.855203833Z"
     description: Voyager by AppsCode - Secure L7/L4 Ingress Controller for Kubernetes
-    digest: 97ee81aca7c7105adc175070aad8b7521858952489b183dfb4f9924168ba9f15
+    digest: e2f3273bdc3db2edfcdcae930ee5ac62f2483e0e7c0655362491bff03e309765
     home: https://voyagermesh.com/
     icon: https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png
     maintainers:
@@ -22255,9 +22279,9 @@ entries:
   voyager-crds:
   - apiVersion: v2
     appVersion: v17.0.2
-    created: "2023-05-16T23:44:41.433233918Z"
+    created: "2023-06-16T04:59:40.856924036Z"
     description: Voyager Custom Resource Definitions
-    digest: 8e56613eec8ea7c56f313cb99ce28af04795e99de4f40c4ffa5439afd8d93ec8
+    digest: ffefcc106696a799c3183cfcee995b266cccc60dacb29d5a90db91fc1e64ac1e
     home: https://voyager.com
     icon: https://cdn.appscode.com/images/products/voyager/voyager-community-icon.png
     maintainers:
@@ -22525,4 +22549,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-06-15T04:10:15.342198132Z"
+generated: "2023-06-16T04:59:40.848534822Z"
