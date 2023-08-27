@@ -40,7 +40,7 @@ jobs:
       - name: Install Helm 3
         run: |
           echo "install helm 3"
-          curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+          pushd /usr/local/bin && sudo curl -fsSLO https://github.com/x-helm/helm/releases/latest/download/helm && sudo chmod +x helm && popd
 
       - name: Publish charts
         env:
