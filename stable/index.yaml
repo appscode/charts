@@ -9947,10 +9947,32 @@ entries:
     urls:
     - https://charts.appscode.com/stable/kubepack-operator/kubepack-operator-v0.1.0.tgz
     version: v0.1.0
+  kubestash:
+  - apiVersion: v2
+    appVersion: v2023.04.14
+    created: "2023-09-14T22:41:23.901272286Z"
+    dependencies:
+    - name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.1.0
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 411b87e41d330509acbcce70d8f648ccb43d8950c8c032bdf88832118b516039
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2023.04.14.tgz
+    version: v2023.04.14
   kubestash-operator:
   - apiVersion: v1
     appVersion: v0.1.0
-    created: "2023-09-14T22:24:40.100360472Z"
+    created: "2023-09-14T22:41:23.902697768Z"
     description: KubeStash, Kubernetes native backup operator by AppsCode
     digest: b30e0ddb1118ce8d9cd1438b3b5d00dad4acf6338d7f1d1de167315bcc1391ac
     home: https://kubestash.com/
@@ -23680,4 +23702,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-09-14T22:24:40.097192787Z"
+generated: "2023-09-14T22:41:23.898660536Z"
