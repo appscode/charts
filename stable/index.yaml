@@ -1289,6 +1289,23 @@ entries:
     - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v2021.11.16.tgz
     version: v2021.11.16
   - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-09-23T10:22:13.858534552Z"
+    description: A Helm chart for Grafana Operator by AppsCode
+    digest: 455bca024cec15645c6ddc14aa45aa94ad122484162cfcdd468c76a47eb61a16
+    home: https://github.com/open-viz/grafana-operator
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: grafana-operator
+    sources:
+    - https://github.com/open-viz/grafana-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/grafana-operator/grafana-operator-v0.0.3.tgz
+    version: v0.0.3
+  - apiVersion: v2
     appVersion: v0.0.2
     created: "2023-08-09T11:57:20.007666245Z"
     description: A Helm chart for Grafana Operator by AppsCode
@@ -1543,6 +1560,28 @@ entries:
     - https://charts.appscode.com/stable/kube-bind-server/kube-bind-server-v2023.03.23.tgz
     version: v2023.03.23
   kube-grafana-dashboards:
+  - apiVersion: v2
+    appVersion: v2023.10.1
+    created: "2023-09-23T10:22:13.86341518Z"
+    description: Grafana dashboards for end-to-end Kubernetes cluster monitoring
+    digest: bedbc753b1ae86bfcdde040f5d371beedf3f745690141c132c4ed1ef5c224076
+    home: https://github.com/open-viz
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    keywords:
+    - openviz
+    - appscode
+    - bytebuilders
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kube-grafana-dashboards
+    sources:
+    - https://github.com/open-viz/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kube-grafana-dashboards/kube-grafana-dashboards-v2023.10.1.tgz
+    version: v2023.10.1
   - apiVersion: v2
     appVersion: v2023.03.23
     created: "2023-08-09T11:57:20.017656671Z"
@@ -12092,6 +12131,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/monitoring-config/monitoring-config-v2023.03.23.tgz
     version: v2023.03.23
+  monitoring-operator:
+  - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-09-23T10:22:13.864600887Z"
+    description: A Helm chart for monitoring-operator by AppsCode
+    digest: b078c9198fac8665e9c26d0fd6d698038653e78bf2e4dea401efb1b8c57a1e74
+    home: https://github.com/kubeops/monitoring-operator
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: monitoring-operator
+    sources:
+    - https://github.com/kubeops/monitoring-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/monitoring-operator/monitoring-operator-v0.0.3.tgz
+    version: v0.0.3
   monitoring-ui-presets:
   - apiVersion: v2
     appVersion: v2023.03.23
@@ -22514,6 +22571,23 @@ entries:
   trickster:
   - apiVersion: v2
     appVersion: v2.0.0-beta3
+    created: "2023-09-23T10:22:13.867220402Z"
+    description: A Helm chart for Trickster by AppsCode
+    digest: 033a2fec6a1497d9ebe7bdafb08e0296ee83deec9de36a0649b1f64d0f8cc837
+    home: https://github.com/open-viz/trickster
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: trickster
+    sources:
+    - https://github.com/open-viz/trickster
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/trickster/trickster-v2023.10.1.tgz
+    version: v2023.10.1
+  - apiVersion: v2
+    appVersion: v2.0.0-beta3
     created: "2023-08-09T11:57:20.020759241Z"
     description: A Helm chart for Trickster by AppsCode
     digest: 8dd17bcd052874da82b2ad1fc467512b731d3f3242a6dfb98d91c1a6b329fc3c
@@ -23827,4 +23901,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-09-23T07:51:57.769806914Z"
+generated: "2023-09-23T10:22:13.857054144Z"
