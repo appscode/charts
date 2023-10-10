@@ -613,10 +613,10 @@ entries:
     version: v0.1.0
   capa-vpc-peering-operator:
   - apiVersion: v2
-    appVersion: v0.0.2
-    created: "2023-10-03T18:24:38.266258036Z"
+    appVersion: v0.0.3
+    created: "2023-10-10T11:06:10.380019976Z"
     description: A Helm chart for CAPA VPC Peering Operator by AppsCode
-    digest: ed71bb341dbb1bd9e1cb9226af5cf4bf727edf3185af386957ac7ef8dda754ff
+    digest: baa7ecc8e2520e9272dae215942daa23e354a863549ae5b7775ff1bd4f2bce50
     home: https://github.com/bytebuilders/capa-vpc-peering-operator
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -1222,6 +1222,23 @@ entries:
     - https://charts.appscode.com/stable/dns-proxy/dns-proxy-v2022.06.14.tgz
     version: v2022.06.14
   docker-machine-operator:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2023-10-10T11:06:10.380961588Z"
+    description: A Helm chart for Docker Machine Operator by AppsCode
+    digest: b339428afcda45f0bb248f8de4339019fa1236fe59e6fa56669fd1361d3dc97b
+    home: https://github.com/cluster-api/docker-machine-operator
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: docker-machine-operator
+    sources:
+    - https://github.com/cluster-api/docker-machine-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/docker-machine-operator/docker-machine-operator-v2023.10.1.tgz
+    version: v2023.10.1
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2023-09-01T07:40:33.363915094Z"
@@ -25085,4 +25102,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-10-10T08:49:03.973071485Z"
+generated: "2023-10-10T11:06:10.378958864Z"
