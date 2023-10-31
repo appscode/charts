@@ -11520,7 +11520,7 @@ entries:
   kubevault:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.094424958Z"
+    created: "2023-10-31T00:10:50.291778016Z"
     dependencies:
     - condition: kubevault-crds.enabled
       name: kubevault-crds
@@ -11539,7 +11539,7 @@ entries:
       repository: file://../kubevault-webhook-server
       version: v0.16.0
     description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
-    digest: 372aeea7f9f365513368227342b53e886cb1dc10ce8f9267356a9ebd82331e7f
+    digest: 98182aeba6108c90822671820beed65d549aff29d8aa2bde20846d7207c96cfc
     home: https://kubevault.com
     icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
     maintainers:
@@ -12087,9 +12087,9 @@ entries:
   kubevault-catalog:
   - apiVersion: v1
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.09506546Z"
+    created: "2023-10-31T00:10:50.292273322Z"
     description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
-    digest: b0da6e62c3459a1307ce9021bc16fea2d3ee82a65bdfec32d875a83861d49033
+    digest: b28cc329f74fe80a61fee97b8b62cf04db396dd4010785f647fa6621b1ab081d
     home: https://kubevault.com
     icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
     maintainers:
@@ -12360,7 +12360,7 @@ entries:
   kubevault-crds:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.103725186Z"
+    created: "2023-10-31T00:10:50.300018002Z"
     description: KubeVault Custom Resource Definitions
     digest: 65266131d8c369fae36c6a078e875a2fa1c0be71219cbd363e65ce7b465e3531
     home: https://kubevault.com
@@ -12667,7 +12667,7 @@ entries:
   kubevault-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.104736089Z"
+    created: "2023-10-31T00:10:50.300883411Z"
     description: A Helm chart for kubevault-grafana-dashboards by AppsCode
     digest: d2952b8e3d6c5beb3c70135c86bc297cd9dc2fd1db8fa7528d2bf8afd9ef945c
     home: https://github.com/kubevault
@@ -12736,7 +12736,7 @@ entries:
   kubevault-metrics:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.105235291Z"
+    created: "2023-10-31T00:10:50.301357916Z"
     description: KubeVault State Metrics
     digest: b36f3995770fb16e1a4e7a2e3ab5b2b498a928c07479d79a1a6c415de48b3020
     home: https://kubevault.com
@@ -12975,7 +12975,7 @@ entries:
   kubevault-operator:
   - apiVersion: v1
     appVersion: v0.16.2
-    created: "2023-10-26T22:16:51.11467682Z"
+    created: "2023-10-31T00:10:50.308233788Z"
     description: KubeVault Operator by AppsCode - HashiCorp Vault operator for Kubernetes
     digest: 529048c0a36f78ecd0129a0436ea4f8468c8310a9632ee7c283c4beadb30c9c3
     home: https://kubevault.com
@@ -13232,7 +13232,7 @@ entries:
   kubevault-opscenter:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.116329625Z"
+    created: "2023-10-31T00:10:50.309914405Z"
     dependencies:
     - condition: kubevault-metrics.enabled
       name: kubevault-metrics
@@ -13243,7 +13243,7 @@ entries:
       repository: file://../kubevault-grafana-dashboards
       version: v2023.10.26-rc.0
     description: KubeVault Opscenter by AppsCode
-    digest: 5c05b306377a5092b80255df600b5a68d803cfedf4dfa4f34dccafb7cb630507
+    digest: 0a0fc477c6a1082476acf61977d682b038109ff0387e942c05834feb77e9147d
     home: https://kubevault.com
     icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
     maintainers:
@@ -13337,7 +13337,7 @@ entries:
   kubevault-webhook-server:
   - apiVersion: v1
     appVersion: v0.16.2
-    created: "2023-10-26T22:16:51.117673029Z"
+    created: "2023-10-31T00:10:50.311572423Z"
     description: KubeVault Webhook Server by AppsCode
     digest: 8c75b4b9c6a4d169001ca7a3c5dbb7872565a2747e11df9005a72df8083ff384
     home: https://kubevault.com
@@ -15005,7 +15005,7 @@ entries:
   secrets-store-reader:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-26T22:16:51.119622135Z"
+    created: "2023-10-31T00:10:50.312914937Z"
     description: A Helm chart for secrets-store-reader by AppsCode
     digest: 2d4c3b75b8aa96b94143df65025e378a5718039c2f58236dad69ae3c2f6e660c
     home: https://github.com/kubevault/secrets-store-reader
@@ -26031,4 +26031,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-10-31T00:03:26.112059256Z"
+generated: "2023-10-31T00:10:50.268789077Z"
