@@ -3046,7 +3046,7 @@ entries:
   kubedb:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.126247029Z"
+    created: "2023-11-01T07:39:20.091633089Z"
     dependencies:
     - condition: kubedb-catalog.enabled
       name: kubedb-catalog
@@ -3081,7 +3081,7 @@ entries:
       repository: file://../kubedb-metrics
       version: v2023.10.26-rc.0
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
-    digest: 5f7f11ec00e6989c7e07340f0e3fc6594481e5d7a8379207535efedeabfe6e3f
+    digest: 022f0dd54733eb938cf8d7abc7a1e79bc2d020aab1d892c372f45bc352a05d52
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
@@ -4829,7 +4829,7 @@ entries:
   kubedb-autoscaler:
   - apiVersion: v1
     appVersion: v0.21.0
-    created: "2023-10-31T00:03:26.127401008Z"
+    created: "2023-11-01T07:39:20.092611524Z"
     description: KubeDB Autoscaler by AppsCode - Autoscale KubeDB operated Databases
     digest: 05a4d4ca2f1a53f12ebae477848014481f5a2ceaad47f97bae2727cc0db9b8fe
     home: https://kubedb.com
@@ -5390,9 +5390,9 @@ entries:
   kubedb-catalog:
   - apiVersion: v1
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.130589427Z"
+    created: "2023-11-01T07:39:20.095714034Z"
     description: KubeDB Catalog by AppsCode - Catalog for database versions
-    digest: f16678035171a698aa3d7f9a281702b80f310be9e70386685a9d5c1e062f0bea
+    digest: 7bda44edab4bc448243897b8365463aa3fdc5dbb1666852a68d2b858947ac0f9
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/icon/kubedb.png
     maintainers:
@@ -6448,7 +6448,7 @@ entries:
   kubedb-crds:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.145467071Z"
+    created: "2023-11-01T07:39:20.108631393Z"
     description: KubeDB Custom Resource Definitions
     digest: 547ee707f00e9cbd80899aef6716bb0ceb184c6328d54a7b16afb95b596290d3
     home: https://kubedb.com
@@ -7010,7 +7010,7 @@ entries:
   kubedb-dashboard:
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2023-10-31T00:03:26.146586528Z"
+    created: "2023-11-01T07:39:20.109605528Z"
     description: KubeDB Dashboard by AppsCode
     digest: 6305d23412ac32032fd91442bd4cf386dd02cd49eb3c4d2fe4776045632a5797
     home: https://github.com/kubedb
@@ -7703,7 +7703,7 @@ entries:
   kubedb-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.152931552Z"
+    created: "2023-11-01T07:39:20.115429934Z"
     description: A Helm chart for kubedb-grafana-dashboards by AppsCode
     digest: e354deacc783143eb2612d86d79547807708590299366c679da88c22f167f9e1
     home: https://github.com/kubedb
@@ -8044,7 +8044,7 @@ entries:
   kubedb-metrics:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.154062109Z"
+    created: "2023-11-01T07:39:20.116116459Z"
     description: KubeDB State Metrics
     digest: 4adbcf0e80b8f58f7ff6c759969cec61567051eb80283b66472129bb798a4afa
     home: https://kubedb.com
@@ -8504,7 +8504,7 @@ entries:
   kubedb-one:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.171071577Z"
+    created: "2023-11-01T07:39:20.129927149Z"
     dependencies:
     - condition: kubedb-catalog.enabled
       name: kubedb-catalog
@@ -8551,7 +8551,7 @@ entries:
       repository: https://charts.appscode.com/stable/
       version: v2023.10.9
     description: KubeDB and Stash by AppsCode - Production ready databases on Kubernetes
-    digest: 2a822e4cd2d04fd8f87afb0db7953c28a6bfca1634d4c563e325fb2aafd9c30d
+    digest: 967ba2fc821eb26c4533a31a120fa60ac14a63359124035bc9ed0d0428252079
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
@@ -8996,7 +8996,7 @@ entries:
   kubedb-ops-manager:
   - apiVersion: v1
     appVersion: v0.23.2
-    created: "2023-10-31T00:03:26.172424046Z"
+    created: "2023-11-01T07:39:20.131039089Z"
     description: KubeDB Ops Manager by AppsCode - Enterprise features for KubeDB
     digest: dab60397fd3516c6faaa92728ce861501b72a2ff0239bd01882785fa88ea3b1f
     home: https://kubedb.com
@@ -9301,7 +9301,7 @@ entries:
   kubedb-opscenter:
   - apiVersion: v2
     appVersion: v2023.10.26-rc.0
-    created: "2023-10-31T00:03:26.192233055Z"
+    created: "2023-11-01T07:39:20.144811678Z"
     dependencies:
     - condition: kubedb-metrics.enabled
       name: kubedb-metrics
@@ -9980,7 +9980,7 @@ entries:
   kubedb-provisioner:
   - apiVersion: v1
     appVersion: v0.36.2
-    created: "2023-10-31T00:03:26.193419116Z"
+    created: "2023-11-01T07:39:20.145814713Z"
     description: KubeDB Provisioner by AppsCode - Community features for KubeDB
     digest: a6bbc2c438b9ca02c60ac2328ed15acb146c387dc04f3d734b2760a2fe6e9d90
     home: https://kubedb.com
@@ -10285,7 +10285,7 @@ entries:
   kubedb-schema-manager:
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2023-10-31T00:03:26.194496171Z"
+    created: "2023-11-01T07:39:20.146722345Z"
     description: KubeDB Schema Manager by AppsCode
     digest: f39346e097a292cfccd37704c50db8046cc96100073eac567b753082d55cb251
     home: https://github.com/kubedb
@@ -10729,7 +10729,7 @@ entries:
     version: v2021.11.24
   - apiVersion: v2
     appVersion: v0.12.1
-    created: "2023-10-31T00:03:26.20605976Z"
+    created: "2023-11-01T07:39:20.156178381Z"
     description: A Helm chart for kubedb-ui-server by AppsCode
     digest: 0c0f88c0591c421b9ad71e55105ec8e1402576d77bea41ab21f8b45fc8699a2c
     home: https://github.com/kubedb/kubedb-ui-server
@@ -11053,7 +11053,7 @@ entries:
   kubedb-webhook-server:
   - apiVersion: v1
     appVersion: v0.12.0
-    created: "2023-10-31T00:03:26.207392128Z"
+    created: "2023-11-01T07:39:20.157677634Z"
     description: KubeDB Webhook Server by AppsCode
     digest: abdae1d2f79fb281adba90c4d86baa04a3251bdc897e19fd4e285dcd8bc64150
     home: https://kubedb.com
@@ -26068,4 +26068,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
-generated: "2023-11-01T07:17:31.739672749Z"
+generated: "2023-11-01T07:39:20.079581362Z"
