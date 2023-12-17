@@ -742,7 +742,7 @@ entries:
   application-crds:
   - apiVersion: v2
     appVersion: v0.8.3
-    created: "2023-12-13T12:59:55.589017554Z"
+    created: "2023-12-17T17:12:01.431794628Z"
     description: Kubernetes Application CRDs
     digest: 28659a7a4713f2df5f01cefbc4711aa818efcbbe40a6b60b054ae55588c94852
     home: https://github.com/kmodules/application
@@ -760,7 +760,7 @@ entries:
   auditor:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2023-12-13T12:59:55.589722203Z"
+    created: "2023-12-17T17:12:01.432531663Z"
     description: Kubernetes Auditor by AppsCode
     digest: a1caf50c32218cb71fb5bca01564be705aff2d6c93d6dccc4a92f22fd566c480
     home: https://github.com/kubeops/auditor
@@ -1255,7 +1255,7 @@ entries:
   cert-manager-crds:
   - apiVersion: v2
     appVersion: v1.9.1
-    created: "2023-12-13T12:59:55.591427455Z"
+    created: "2023-12-17T17:12:01.43446192Z"
     description: Jetstack cert-manager CRDs
     digest: 27537c7c4f3cccb861b4ce8595aae1fc673c2397a7d5bc8678ba7d1301205e52
     home: https://cert-manager.io
@@ -1290,7 +1290,7 @@ entries:
   cert-manager-csi-driver-cacerts:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2023-12-13T12:59:55.592248537Z"
+    created: "2023-12-17T17:12:01.435259477Z"
     description: A Helm chart for cert-manager-csi-driver-cacerts
     digest: ae31a3d8d6c38306ae1edc1634ff9b984c2e26e367216d3a42e18934edd490be
     home: https://github.com/kubeops/csi-driver-cacerts
@@ -1461,7 +1461,7 @@ entries:
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.12
-    created: "2023-12-13T12:59:55.592913611Z"
+    created: "2023-12-17T17:12:01.43580265Z"
     description: A Helm chart for cluster-connector
     digest: f4f1e12cd2da23126f2c668a4d67b27648bcb4863edceda5458d54fdbd88c6b0
     home: https://github.com/kubeops/cluster-connector
@@ -1736,7 +1736,7 @@ entries:
   config-syncer:
   - apiVersion: v1
     appVersion: v0.14.4
-    created: "2023-12-13T12:59:55.593545764Z"
+    created: "2023-12-17T17:12:01.436471839Z"
     description: Config Syncer by AppsCode
     digest: c91fad31d31d8416a7a78f1c83f03c0ad4fac87c10bfa0ae701001ca65c57c9b
     home: https://github.com/kubeops/config-syncer
@@ -2157,7 +2157,7 @@ entries:
   external-dns-operator:
   - apiVersion: v2
     appVersion: v0.0.5
-    created: "2023-12-13T12:59:55.59417454Z"
+    created: "2023-12-17T17:12:01.437086756Z"
     description: A Helm chart for External DNS Operator by AppsCode
     digest: 17fd46cc12be63f4405052811ba01f0c89f8fa8f8762e393835e61caca85347b
     home: https://github.com/kubeops/external-dns-operator
@@ -2209,7 +2209,7 @@ entries:
   falco-ui-server:
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2023-12-13T12:59:55.59523809Z"
+    created: "2023-12-17T17:12:01.438258902Z"
     description: Falco UI Server by AppsCode
     digest: 301cc920ba4925ec33e4d60965da31ab8858ffa0dd73145a38748065bc45f85a
     home: https://github.com/kubeops/falco-ui-server
@@ -2323,7 +2323,7 @@ entries:
   gatekeeper-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2023-12-13T12:59:55.595559672Z"
+    created: "2023-12-17T17:12:01.438588217Z"
     description: A Helm chart for Gatekeeper Grafana Dashboards
     digest: 52cf84e6948a1c1768852f21ff98962423171df4a920c87ec3cf4b4f4653b21e
     home: https://github.com/appscode/grafana-dashboards
@@ -2358,7 +2358,7 @@ entries:
   gatekeeper-library:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2023-12-13T12:59:55.596952889Z"
+    created: "2023-12-17T17:12:01.440029356Z"
     description: A Helm chart for OPA Gatekeeper Library
     digest: 9d53d0bed07afecf26b909bf5d01fbcddb7270b4030b50029694a7444d20fc7b
     home: https://github.com/kubeops/installer
@@ -2777,7 +2777,7 @@ entries:
   kmodules-crds:
   - apiVersion: v2
     appVersion: v0.25.1
-    created: "2023-12-13T12:59:55.597243042Z"
+    created: "2023-12-17T17:12:01.440598277Z"
     description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
     digest: f5783dd75e5aa5bda11ec59d4b837fc0ec628e5ef072cd1bcf808b409a4d2a3e
     home: https://appscode.com
@@ -3095,6 +3095,23 @@ entries:
     - https://charts.appscode.com/stable/kube-grafana-dashboards/kube-grafana-dashboards-v2022.03.20.tgz
     version: v2022.03.20
   kube-ui-server:
+  - apiVersion: v2
+    appVersion: v0.0.37
+    created: "2023-12-17T17:12:01.442250761Z"
+    description: A Helm chart for kube-ui-server by AppsCode
+    digest: d6bed12575a36c28b16ba59a672fcca940bffbcd5563bc5d46b584b91172c60b
+    home: https://github.com/kubeops/kube-ui-server
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kube-ui-server
+    sources:
+    - https://github.com/kubeops/kube-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kube-ui-server/kube-ui-server-v2023.12.18.tgz
+    version: v2023.12.18
   - apiVersion: v2
     appVersion: v0.0.36
     created: "2023-12-13T12:59:55.599178988Z"
@@ -16226,7 +16243,7 @@ entries:
   opencost-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2023-12-13T12:59:55.599689183Z"
+    created: "2023-12-17T17:12:01.442777173Z"
     description: A Helm chart for Opencost Grafana Dashboards
     digest: b6a9451491188ebdb6b2bbbb4e89734831629bfa25ed856af54af36da28006a4
     home: https://github.com/appscode/grafana-dashboards
@@ -16624,7 +16641,7 @@ entries:
   panopticon:
   - apiVersion: v1
     appVersion: v0.0.10
-    created: "2023-12-13T12:59:55.600602863Z"
+    created: "2023-12-17T17:12:01.443741792Z"
     description: Kubernetes Panopticon by AppsCode
     digest: 94ff7a64a9d7b5d11c694facf1e6b2c3c376be0a06f742a8654182b5b3e57512
     home: https://github.com/kubeops/panopticon
@@ -17272,7 +17289,7 @@ entries:
   prometheus-operator-crds:
   - apiVersion: v2
     appVersion: v0.60.1
-    created: "2023-12-13T12:59:55.602263475Z"
+    created: "2023-12-17T17:12:01.445522545Z"
     description: Prometheus Operator CRDs
     digest: 96da532129dd95f022905d7725adf007463d655048b7458136ced74f1a49365a
     home: https://github.com/prometheus-operator/prometheus-operator
@@ -17377,7 +17394,7 @@ entries:
   scanner:
   - apiVersion: v1
     appVersion: v0.0.16
-    created: "2023-12-13T12:59:55.603491282Z"
+    created: "2023-12-17T17:12:01.4468604Z"
     description: Docker Image Scanner by AppsCode
     digest: 743a1e122cd4f6a0fe8d7f000ea05d44f98282f997d30ef508fd91cd803cc941
     home: https://github.com/kubeops/scanner
@@ -17840,7 +17857,7 @@ entries:
   sidekick:
   - apiVersion: v2
     appVersion: v0.0.4
-    created: "2023-12-13T12:59:55.605092098Z"
+    created: "2023-12-17T17:12:01.448669265Z"
     description: A Helm chart for Sidekick Operator by AppsCode
     digest: a786206cdb908ea8da8653c4ed56246e5c8a1b60d756727343f138450f704c03
     home: https://github.com/kubeops/sidekick
@@ -27024,7 +27041,7 @@ entries:
   supervisor:
   - apiVersion: v2
     appVersion: v0.0.3
-    created: "2023-12-13T12:59:55.60590566Z"
+    created: "2023-12-17T17:12:01.449581386Z"
     description: A Helm chart for Supervisor by AppsCode
     digest: 2b90f7f9d6eb5b386c9c869cab4b7cdf6310ce7d71ccae607684202d744bae9f
     home: https://github.com/kubeops/supervisor
@@ -28707,4 +28724,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2023-12-15T14:08:53.534669779Z"
+generated: "2023-12-17T17:12:01.431382989Z"
