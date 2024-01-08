@@ -18,6 +18,64 @@ entries:
     - https://charts.appscode.com/testing/csi-vault/csi-vault-v0.4.0-beta.0.tgz
     version: v0.4.0-beta.0
   kubedb:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.765927816Z"
+    dependencies:
+    - condition: kubedb-crd-manager.enabled
+      name: kubedb-crd-manager
+      repository: file://../kubedb-crd-manager
+      version: v2024.1.7-beta.0
+    - condition: kubedb-provisioner.enabled
+      name: kubedb-provisioner
+      repository: file://../kubedb-provisioner
+      version: v0.41.0-beta.0
+    - condition: kubedb-ops-manager.enabled
+      name: kubedb-ops-manager
+      repository: file://../kubedb-ops-manager
+      version: v0.28.0-beta.0
+    - condition: kubedb-autoscaler.enabled
+      name: kubedb-autoscaler
+      repository: file://../kubedb-autoscaler
+      version: v0.26.0-beta.0
+    - condition: kubedb-dashboard.enabled
+      name: kubedb-dashboard
+      repository: file://../kubedb-dashboard
+      version: v0.17.0-beta.0
+    - condition: kubedb-schema-manager.enabled
+      name: kubedb-schema-manager
+      repository: file://../kubedb-schema-manager
+      version: v0.17.0-beta.0
+    - condition: kubedb-webhook-server.enabled
+      name: kubedb-webhook-server
+      repository: file://../kubedb-webhook-server
+      version: v0.17.0-beta.0
+    - condition: kubedb-metrics.enabled
+      name: kubedb-metrics
+      repository: file://../kubedb-metrics
+      version: v2024.1.7-beta.0
+    - condition: kubedb-catalog.enabled
+      name: kubedb-catalog
+      repository: file://../kubedb-catalog
+      version: v2024.1.7-beta.0
+    - condition: kubedb-kubestash-catalog.enabled
+      name: kubedb-kubestash-catalog
+      repository: file://../kubedb-kubestash-catalog
+      version: v2024.1.7-beta.0
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: 2906202237e3a8367ecdf401995b6fdf855d366f10276ea4aed0cad7d3f92af8
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb/kubedb-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
   - apiVersion: v1
     appVersion: v0.14.0-beta.6
     created: "2020-10-27T14:28:00.561532836Z"
@@ -98,7 +156,40 @@ entries:
     urls:
     - https://charts.appscode.com/testing/kubedb/kubedb-v0.14.0-beta.1.tgz
     version: v0.14.0-beta.1
+  kubedb-autoscaler:
+  - apiVersion: v1
+    appVersion: v0.26.0-beta.0
+    created: "2024-01-08T19:36:17.766674834Z"
+    description: KubeDB Autoscaler by AppsCode - Autoscale KubeDB operated Databases
+    digest: e9c94904240e907be16f33da927ab08722a22193e9c4e3c964f7d743a15fd403
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-autoscaler-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-autoscaler
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-autoscaler/kubedb-autoscaler-v0.26.0-beta.0.tgz
+    version: v0.26.0-beta.0
   kubedb-catalog:
+  - apiVersion: v1
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.768796732Z"
+    description: KubeDB Catalog by AppsCode - Catalog for database versions
+    digest: c0a0ac5e4622ae0afd44f17ca0e54aa27063d3cb6c6b21f933296ef19387a949
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-catalog
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-catalog/kubedb-catalog-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
   - apiVersion: v1
     appVersion: v0.14.0-beta.6
     created: "2020-10-27T14:28:00.563498227Z"
@@ -179,6 +270,59 @@ entries:
     urls:
     - https://charts.appscode.com/testing/kubedb-catalog/kubedb-catalog-v0.14.0-beta.1.tgz
     version: v0.14.0-beta.1
+  kubedb-crd-manager:
+  - apiVersion: v1
+    appVersion: v0.0.1
+    created: "2024-01-08T19:36:17.769319727Z"
+    description: KubeDB CRD Manager by AppsCode
+    digest: 25a8a95b26434ec14c05a67367b75750fa3b1df63f219204046883c1bce14bd4
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-ops-manager-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-crd-manager
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-crd-manager/kubedb-crd-manager-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-crds:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.780051813Z"
+    description: KubeDB Custom Resource Definitions
+    digest: 0b8a2a5e76aae08cefaf790bc5be729da1a24ff503bef26a2646a0be2aef66cf
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-crds
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-crds/kubedb-crds-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-dashboard:
+  - apiVersion: v2
+    appVersion: v0.17.0-beta.0
+    created: "2024-01-08T19:36:17.780714312Z"
+    description: KubeDB Dashboard by AppsCode
+    digest: cfae984c131630bff96611564d36540032df50a75509b574a766667aa02314ab
+    home: https://github.com/kubedb
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-dashboard
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-dashboard/kubedb-dashboard-v0.17.0-beta.0.tgz
+    version: v0.17.0-beta.0
   kubedb-enterprise:
   - apiVersion: v1
     appVersion: v0.1.0-alpha.3
@@ -196,6 +340,317 @@ entries:
     urls:
     - https://charts.appscode.com/testing/kubedb-enterprise/kubedb-enterprise-v0.1.0-alpha.3.tgz
     version: v0.1.0-alpha.3
+  kubedb-grafana-dashboards:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.784466791Z"
+    description: A Helm chart for kubedb-grafana-dashboards by AppsCode
+    digest: 2e1d10e965161bfe44b3a3e1e78cdbd7995360efae90cf3b31042974c279db3e
+    home: https://github.com/kubedb
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-grafana-dashboards
+    sources:
+    - https://github.com/kubedb/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-grafana-dashboards/kubedb-grafana-dashboards-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-kubestash-catalog:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.786070913Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: 6f31206a893bb8f06d855516e1c557293f18caf6e77e94f993d05d7a2eb40d44
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-kubestash-catalog/kubedb-kubestash-catalog-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-metrics:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.78658419Z"
+    description: KubeDB State Metrics
+    digest: 7849b352fc5b2c3c0cfe0ed16e7cd53a90b90fae773611624c623590c9f3cab8
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-metrics
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-metrics/kubedb-metrics-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-one:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.798846994Z"
+    dependencies:
+    - condition: kubedb-crd-manager.enabled
+      name: kubedb-crd-manager
+      repository: file://../kubedb-crd-manager
+      version: v2024.1.7-beta.0
+    - condition: kubedb-provisioner.enabled
+      name: kubedb-provisioner
+      repository: file://../kubedb-provisioner
+      version: v0.41.0-beta.0
+    - condition: kubedb-ops-manager.enabled
+      name: kubedb-ops-manager
+      repository: file://../kubedb-ops-manager
+      version: v0.28.0-beta.0
+    - condition: kubedb-autoscaler.enabled
+      name: kubedb-autoscaler
+      repository: file://../kubedb-autoscaler
+      version: v0.26.0-beta.0
+    - condition: kubedb-dashboard.enabled
+      name: kubedb-dashboard
+      repository: file://../kubedb-dashboard
+      version: v0.17.0-beta.0
+    - condition: kubedb-schema-manager.enabled
+      name: kubedb-schema-manager
+      repository: file://../kubedb-schema-manager
+      version: v0.17.0-beta.0
+    - condition: kubedb-webhook-server.enabled
+      name: kubedb-webhook-server
+      repository: file://../kubedb-webhook-server
+      version: v0.17.0-beta.0
+    - condition: kubedb-metrics.enabled
+      name: kubedb-metrics
+      repository: file://../kubedb-metrics
+      version: v2024.1.7-beta.0
+    - condition: kubedb-catalog.enabled
+      name: kubedb-catalog
+      repository: file://../kubedb-catalog
+      version: v2024.1.7-beta.0
+    - condition: stash-enterprise.enabled
+      name: stash-enterprise
+      repository: https://charts.appscode.com/stable/
+      version: v0.32.0
+    - condition: stash-catalog.enabled
+      name: stash-catalog
+      repository: https://charts.appscode.com/stable/
+      version: v2023.10.9
+    - condition: stash-metrics.enabled
+      name: stash-metrics
+      repository: https://charts.appscode.com/stable/
+      version: v2023.10.9
+    description: KubeDB and Stash by AppsCode - Production ready databases on Kubernetes
+    digest: 66868a72f048e1bd4576d339411b1b23a4336a6e92b1b98c76551963c9bc5d40
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-one
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-one/kubedb-one-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-ops-manager:
+  - apiVersion: v1
+    appVersion: v0.28.0-beta.0
+    created: "2024-01-08T19:36:17.799702987Z"
+    description: KubeDB Ops Manager by AppsCode - Enterprise features for KubeDB
+    digest: aba4ea7e03b5fa62a9875d0d3e7d8e78d7baec65c63064b8e528ccadf242ec2c
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-ops-manager-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-ops-manager
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-ops-manager/kubedb-ops-manager-v0.28.0-beta.0.tgz
+    version: v0.28.0-beta.0
+  kubedb-opscenter:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.811484195Z"
+    dependencies:
+    - condition: kubedb-metrics.enabled
+      name: kubedb-metrics
+      repository: file://../kubedb-metrics
+      version: v2024.1.7-beta.0
+    - condition: kubedb-ui-server.enabled
+      name: kubedb-ui-server
+      repository: file://../kubedb-ui-server
+      version: v0.17.0-beta.0
+    - condition: kubedb-grafana-dashboards.enabled
+      name: kubedb-grafana-dashboards
+      repository: file://../kubedb-grafana-dashboards
+      version: v2024.1.7-beta.0
+    description: KubeDB Opscenter by AppsCode
+    digest: c51df672e9f2b77e8e14b76044d2701cd89dbcd010feccec52bb58c3141b61e4
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-opscenter
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-opscenter/kubedb-opscenter-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-provider-aws:
+  - apiVersion: v2
+    appVersion: v0.3.0-beta.0
+    created: "2024-01-08T19:36:17.816837852Z"
+    description: A Helm chart for KubeDB AWS Provider for Crossplane
+    digest: a87fa3f7557e4a506756fbcf9086ec1eb617149c4555e475f6be48c6a17263e6
+    home: https://github.com/kubedb/provider-aws
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provider-aws
+    sources:
+    - https://github.com/kubedb/provider-aws
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-provider-aws/kubedb-provider-aws-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-provider-azure:
+  - apiVersion: v2
+    appVersion: v0.3.0-beta.0
+    created: "2024-01-08T19:36:17.822323246Z"
+    description: A Helm chart for KubeDB Azure Provider for Crossplane
+    digest: c201aa21db79994484eb318866f3bc76b0e9b35194bb7c875758aab9e3ea2e4f
+    home: https://github.com/kubedb/provider-azure
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provider-azure
+    sources:
+    - https://github.com/kubedb/provider-azure
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-provider-azure/kubedb-provider-azure-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-provider-gcp:
+  - apiVersion: v2
+    appVersion: v0.3.0-beta.0
+    created: "2024-01-08T19:36:17.824789152Z"
+    description: A Helm chart for KubeDB GCP Provider for Crossplane
+    digest: e39b651c4a9e8c5767c232321cacb6a83c0e491b0d48258099b50ebe78911465
+    home: https://github.com/kubedb/provider-gcp
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provider-gcp
+    sources:
+    - https://github.com/kubedb/provider-gcp
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-provider-gcp/kubedb-provider-gcp-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
+  kubedb-provisioner:
+  - apiVersion: v1
+    appVersion: v0.41.0-beta.0
+    created: "2024-01-08T19:36:17.825470095Z"
+    description: KubeDB Provisioner by AppsCode - Community features for KubeDB
+    digest: 7fa9f0383a112ceef55efc0025aff5e3f38f34dde52f1b316ec2637d5cf97b51
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provisioner
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-provisioner/kubedb-provisioner-v0.41.0-beta.0.tgz
+    version: v0.41.0-beta.0
+  kubedb-schema-manager:
+  - apiVersion: v2
+    appVersion: v0.17.0-beta.0
+    created: "2024-01-08T19:36:17.826105723Z"
+    description: KubeDB Schema Manager by AppsCode
+    digest: 4abb98560a7ff98577789438b1a99e90c73e50ee22f59aee19870f0175d62cbd
+    home: https://github.com/kubedb
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-schema-manager
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-schema-manager/kubedb-schema-manager-v0.17.0-beta.0.tgz
+    version: v0.17.0-beta.0
+  kubedb-ui-server:
+  - apiVersion: v2
+    appVersion: v0.17.0-beta.0
+    created: "2024-01-08T19:36:17.832545495Z"
+    description: A Helm chart for kubedb-ui-server by AppsCode
+    digest: e463effb7ae6a46cba1504cf91675f07d889d3889c0586b1f1278e60b3cadf4e
+    home: https://github.com/kubedb/kubedb-ui-server
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-ui-server
+    sources:
+    - https://github.com/kubedb/kubedb-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/kubedb-ui-server/kubedb-ui-server-v0.17.0-beta.0.tgz
+    version: v0.17.0-beta.0
+  kubedb-webhook-server:
+  - apiVersion: v1
+    appVersion: v0.17.0-beta.0
+    created: "2024-01-08T19:36:17.833408321Z"
+    description: KubeDB Webhook Server by AppsCode
+    digest: e105a2d34eeb77c4aa4c50f6a9d0c24d164b3f7388f63b1ee4fb10208c77593f
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-webhook-server
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/testing/kubedb-webhook-server/kubedb-webhook-server-v0.17.0-beta.0.tgz
+    version: v0.17.0-beta.0
+  prepare-cluster:
+  - apiVersion: v2
+    appVersion: v2024.1.7-beta.0
+    created: "2024-01-08T19:36:17.833985448Z"
+    description: Prepare Kubernetes Cluster by AppsCode
+    digest: 883c480d1352ba1f8421ed45541af22eca45ef42730a777409c519880d5d4f35
+    home: https://appscode.com
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: prepare-cluster
+    sources:
+    - https://github.com/kmodules/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/testing/prepare-cluster/prepare-cluster-v2024.1.7-beta.0.tgz
+    version: v2024.1.7-beta.0
   stash:
   - apiVersion: v1
     appVersion: v0.10.0-beta.1
@@ -233,7 +688,8 @@ entries:
   - apiVersion: v1
     appVersion: 7.3.2-beta.20200826
     created: "2020-08-26T09:15:59.81407206Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 736d9fa8d8dc48497ce242d4d51198ac0dc435b9c4d0968d0c8ac94439f7c3ad
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -249,7 +705,8 @@ entries:
   - apiVersion: v1
     appVersion: 7.3.2-beta.20200709
     created: "2020-07-09T18:12:26.437063576Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 383c5ddd6097d4d7aaa8578d765093ef5f2298a7508b58df336d3cc9c3b958b6
     home: https://stash.run
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -265,7 +722,8 @@ entries:
   - apiVersion: v1
     appVersion: 7.3.2-beta.20200708
     created: "2020-07-08T19:22:07.934716602Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: fca82d9f39a0e558d0fb5b3ac44540dd87c7c774ce73adaedc3aa17b982a8fbc
     home: https://stash.run
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -281,7 +739,8 @@ entries:
   - apiVersion: v1
     appVersion: 7.2.0-beta.20200826
     created: "2020-08-26T09:16:23.980829283Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: a61551f481f05174ccd59bb7d7090c324baa4c8965514894f9f2ac8eedf8ce22
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -297,7 +756,8 @@ entries:
   - apiVersion: v1
     appVersion: 7.2.0-beta.20200709
     created: "2020-07-09T18:12:31.06816574Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 506e77d3c12175c1dc7dfe23869bec23bf624bce3d0ca237e2222b6743cd7b81
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -313,7 +773,8 @@ entries:
   - apiVersion: v1
     appVersion: 7.2.0-beta.20200708
     created: "2020-07-08T19:22:18.877344716Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 6f635ff8473a912eb66213514228b854ef1aa5c047f69cfb795524e5ebbec883
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -329,7 +790,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.8.0-beta.20200826
     created: "2020-08-26T09:15:50.078722495Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: e4dab5f181c934c56c69ad7f748ab9b36966a169fa803704b871e3b1d6c0fa37
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -345,7 +807,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.8.0-beta.20200709
     created: "2020-07-09T18:12:38.810735763Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 75a4fbdf6614380b371e5dfc03f32ee3cdb69ee3a36d7a5978ae720b93fa927f
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -361,7 +824,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.8.0-beta.20200708
     created: "2020-07-08T19:21:51.158386716Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 6a4953cd6f3837c1d197665243859d93ded0efc1632f24bc4717dd5153899696
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -377,7 +841,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.5.3-beta.20200826
     created: "2020-08-26T09:15:39.85529592Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: ce3f58b09986825fd57855481ee151bb865bc144d4b264f69aed54652aecdc49
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -393,7 +858,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.5.3-beta.20200709
     created: "2020-07-09T18:12:19.480843145Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 037ccfbd32b61f5fe4a2d48d20638e57c37d130fdd30113009e0cab9c36ef990
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -409,7 +875,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.5.3-beta.20200708
     created: "2020-07-08T19:22:00.104157083Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 7948e7fa04de43aeab0100c498891e85f52bd8325642a50fb393b12831c891eb
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -425,7 +892,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.4.0-beta.20200826
     created: "2020-08-26T09:15:35.678265262Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: a95969e142725f9dfae215e9f73aab018778c3774fcccb4b5ee0a814d981fbf2
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -441,7 +909,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.4.0-beta.20200709
     created: "2020-07-09T18:12:51.228384126Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 6663a7b0d0da3937ebed27ae204899f42230b4c7717f6b231a960f39644d6d11
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -457,7 +926,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.4.0-beta.20200708
     created: "2020-07-08T19:21:43.785091699Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 7c3dfb7f0fe99a9e857eb8fdebba81180db8c9a841a1dc1e96e51b16a28823b2
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -473,7 +943,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.3.0-beta.20200826
     created: "2020-08-26T09:16:13.57290378Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: e048eba6ab6f3cf7b3b98587dd66538fd4c6ae10f64595ac470a52abe5b61a6e
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -489,7 +960,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.3.0-beta.20200709
     created: "2020-07-09T18:13:21.02010068Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 17f78d477fffdd2092456c9fa984a7ee69145a2108ef2bc7207f6d12fdb15af7
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -505,7 +977,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.3.0-beta.20200708
     created: "2020-07-08T19:21:27.065859025Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: f7289e2fb39584c97c01b67088e5262936cc82c0775c5e3fab632ac958dcb781
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -521,7 +994,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.2.4-beta.20200826
     created: "2020-08-26T09:15:56.180580671Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 2147370e73744e1db31c896a8cac9b26a8cbfb43810e05a7b1d62837163aa1ad
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -537,7 +1011,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.2.4-beta.20200709
     created: "2020-07-09T18:11:56.461421056Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 8b952aebe2b0d57199c83680c334e0f0059bc99626711b77043c65d3105864de
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -553,7 +1028,8 @@ entries:
   - apiVersion: v1
     appVersion: 6.2.4-beta.20200708
     created: "2020-07-08T19:21:54.752538958Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 7fc322b34a229709208daf395ba01237b08b717f1928e546626d7e7eb21f00c9
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -569,7 +1045,8 @@ entries:
   - apiVersion: v1
     appVersion: 5.6.4-beta.20200826
     created: "2020-08-26T09:15:25.204582103Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 988e3dbc43ab9c5d175c42c9985f940a5152c26925ac10a4bd0fb346a917e853
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/elasticsearch-stash-addon.png
@@ -585,7 +1062,8 @@ entries:
   - apiVersion: v1
     appVersion: 5.6.4-beta.20200709
     created: "2020-07-09T18:12:07.019774754Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: 2d8640aedb85b1fe1a02707c3876cbebcfefae90eb0c616712ac810ddf56c3e3
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -601,7 +1079,8 @@ entries:
   - apiVersion: v1
     appVersion: 5.6.4-beta.20200708
     created: "2020-07-08T19:21:15.71816275Z"
-    description: stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
+    description: stash-elasticsearch - Elasticsearch database plugin for Stash by
+      AppsCode
     digest: a7a381821f89955b5fb15f02fcff53c10eb16de58536b86e0bf8bbccb97d976b
     home: https://github.com/stashed/elasticsearch
     icon: https://cdn.appscode.com/images/icon/stash.png
@@ -1293,7 +1772,8 @@ entries:
   - apiVersion: v1
     appVersion: 5.7-beta.20200826
     created: "2020-08-26T10:06:38.657151065Z"
-    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by AppsCode
+    description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
+      AppsCode
     digest: e49fa1924f92e1094bbee259080aabe86ee6bfab1cf28e397b339b74896c1a57
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/addons/perconaxtradb-stash-addon.png
@@ -1456,4 +1936,4 @@ entries:
     urls:
     - https://charts.appscode.com/testing/voyager-crds/voyager-crds-v2021.04.20-beta.2.tgz
     version: v2021.04.20-beta.2
-generated: "2021-04-25T00:32:17.592624142Z"
+generated: "2024-01-08T19:36:17.754588661Z"
