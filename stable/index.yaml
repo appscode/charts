@@ -3,9 +3,9 @@ entries:
   accounts-ui:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.211678519Z"
+    created: "2024-02-12T07:04:48.225768881Z"
     description: A Helm chart for Kubernetes
-    digest: 49af63d0117e7ab5e2b4a4ec13d9d584807777703d7a9e430f11c7b45838e9e7
+    digest: 9efed961fa17559af3f9458ba2b45d75f9e4d1574bba2b989ad6b8feb06f795b
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -123,7 +123,7 @@ entries:
   ace:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.226207254Z"
+    created: "2024-02-12T07:04:48.240210514Z"
     dependencies:
     - condition: platform-ui.enabled
       name: platform-ui
@@ -156,6 +156,10 @@ entries:
     - condition: platform-links.enabled
       name: platform-links
       repository: file://../platform-links
+      version: v2023.12.20
+    - condition: inbox-ui.enabled
+      name: inbox-ui
+      repository: file://../inbox-ui
       version: v2023.12.20
     - condition: billing.enabled
       name: billing
@@ -190,7 +194,7 @@ entries:
       repository: https://nats-io.github.io/k8s/helm/charts/
       version: 0.19.17
     description: A Helm chart for Kubernetes
-    digest: 3d3fe1259b4532ec6fc862131044808962711239a20da78ddbf20b8a8b23ccd0
+    digest: aad4832167a4938752509d5de20ba0fed83cdd25d3c6019c2823c129d2c80f12
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -702,9 +706,9 @@ entries:
   ace-installer:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.227395628Z"
+    created: "2024-02-12T07:04:48.24139262Z"
     description: ACE Installer
-    digest: a870994389e2e7a4e25613e784ae398415431adf372c81e613e6e58e0a73757f
+    digest: 6c204edd9706c2ee077929b8682821ea2206d3b51f657df8e605e6042c7fa044
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -805,9 +809,9 @@ entries:
   ace-ocm-addons:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.228039203Z"
+    created: "2024-02-12T07:04:48.242023536Z"
     description: A Helm chart for ACE OCM Addons
-    digest: d105040729cb327e8584a0e443712566d8339269fd82d3c27249411920703124
+    digest: c5ac28d07fac7e994bb33af25a7551650abfcdcd5e6c22d4165fb9a066006808
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -974,9 +978,9 @@ entries:
   billing:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.228505525Z"
+    created: "2024-02-12T07:04:48.242523509Z"
     description: A Helm chart for Kubernetes
-    digest: c80f9ffd285bf1c8dfb5ea7c78b9770f056e7c9fee3bf6e71fe624536679d138
+    digest: b201094689708b8900f9d78d9fa6bed04b82e57353991478190b9ba2cfecb248
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -1094,9 +1098,9 @@ entries:
   billing-ui:
   - apiVersion: v2
     appVersion: 0.1.5-alpha.1
-    created: "2024-02-08T20:31:32.228904162Z"
+    created: "2024-02-12T07:04:48.242893339Z"
     description: A Helm chart for Kubernetes
-    digest: 1404d7484995dbb6d3e96b37c96acfc93a5ca0ffaf872fd4e9ff1cb9e4ae223c
+    digest: ec64a694785b616ca23bbca4646b880dc872535b02bd2ce10fa9887db6b8001f
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -1335,9 +1339,9 @@ entries:
   capi-cluster-presets:
   - apiVersion: v2
     appVersion: v2023.11.14
-    created: "2024-02-08T20:31:32.229123382Z"
+    created: "2024-02-12T07:04:48.243109492Z"
     description: CAPI Cluster Presets
-    digest: 2144809a72a9ccb2c908574b0f04a840c8c45b6a187b9e298ea783e1779c28a0
+    digest: 994ba0230c79d90bb5e44039b919a22277a57fff9e2daccbeb4a49e5e1922a50
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -1543,10 +1547,10 @@ entries:
   cert-manager-webhook-ace:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2024-02-08T20:31:32.22954983Z"
+    created: "2024-02-12T07:04:48.243537901Z"
     description: A webhook to use AppsCode DNS Proxy for Cloudfare as a DNS issuer
       for cert-manager
-    digest: af76e566f3d79801a754a12295975b767f5c7a8e8105197c38fdb0377afc37dc
+    digest: 2c66264668ae40c335a5c271cc42559169687e57c52013ad4757df76c430abd5
     home: https://github.com/bytebuilders/cert-manager-webhook-ace
     keywords:
     - cert-manager
@@ -1731,9 +1735,9 @@ entries:
   cluster-importer:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2024-02-08T20:31:32.229903302Z"
+    created: "2024-02-12T07:04:48.243891781Z"
     description: A Helm chart for Kubernetes
-    digest: 147bbe38fa76e55d20903d3801a58cef36e4896765e8689bfbaabb02185a496c
+    digest: 703f944e6429e1716b12437ea860e18414a5c3c902a26a7a7457c284577e4d07
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -1816,10 +1820,10 @@ entries:
     version: v2023.10.1
   cluster-ui:
   - apiVersion: v2
-    appVersion: 0.8.3
-    created: "2024-02-08T20:31:32.230265219Z"
+    appVersion: 0.8.5
+    created: "2024-02-12T07:04:48.244245251Z"
     description: A Helm chart for Kubernetes
-    digest: e5a4b13e5d02019f02440e077cc4d06f917e21d320e483b606b4d33ef46efc61
+    digest: 45c4d5b2eaed62d226d87f50e84c35da8b7dea195d4e00052544f77a26526640
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -2131,9 +2135,9 @@ entries:
   deploy-ui:
   - apiVersion: v2
     appVersion: 0.3.6-rc.1
-    created: "2024-02-08T20:31:32.230621456Z"
+    created: "2024-02-12T07:04:48.244609771Z"
     description: A Helm chart for Kubernetes
-    digest: fa8ca906f0e2e10c3652a7c9da4210558b3d8a131740bd192032e819447acd92
+    digest: 0be726507770346e26a705f660be9972fab9fe523e5009311f0eba1473a09469
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -2217,9 +2221,9 @@ entries:
   dns-proxy:
   - apiVersion: v2
     appVersion: v0.0.3
-    created: "2024-02-08T20:31:32.231411906Z"
+    created: "2024-02-12T07:04:48.245081942Z"
     description: A Helm chart for Kubernetes
-    digest: ce68098478da219c2a0cfb2cf97deb31bae1be22badfbf729ca87a44c8ef8f23
+    digest: 34dc3658095df5fb51c9cb13a5c957012c78bba70d8512e3844513d8e9bbe488
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -2707,9 +2711,9 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: v2023.07.10
-    created: "2024-02-08T20:31:32.232390377Z"
+    created: "2024-02-12T07:04:48.245659268Z"
     description: A Helm chart for Kubernetes
-    digest: ad6989fecbfd360faf63f195c4d4279db8092f22595fdf3dd5807b5ce597aa06
+    digest: 8b667998c51da3104dcd0146576b0c361683a22b315ea3cb0be3da75906ac838
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -3040,6 +3044,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/identity-server/identity-server-v0.1.1.tgz
     version: v0.1.1
+  inbox-ui:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-02-12T07:04:48.24607277Z"
+    description: A Helm chart for Kubernetes
+    digest: e08391243c7f96515ac06230220919ea41ba9e3c5b07a985c200b5409ac336ec
+    home: https://github.com/bytebuilders
+    icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: inbox-ui
+    sources:
+    - https://github.com/bytebuilders
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/inbox-ui/inbox-ui-v2023.12.20.tgz
+    version: v2023.12.20
   kmodules-crds:
   - apiVersion: v2
     appVersion: v0.25.1
@@ -14572,10 +14594,10 @@ entries:
     version: v0.1.0
   kubedb-ui:
   - apiVersion: v2
-    appVersion: 0.6.3
-    created: "2024-02-08T20:31:32.232818108Z"
+    appVersion: 0.6.4
+    created: "2024-02-12T07:04:48.246884484Z"
     description: A Helm chart for Kubernetes
-    digest: 648e0782afe29019e1de7e96852266fe1546ae3dd404db41e7d5d8eff4090edb
+    digest: 97aa0ade1e02adfd7fa8de58bb2e0c143efc282d0bdcce777768d7e53119928d
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -18849,9 +18871,9 @@ entries:
   license-proxyserver:
   - apiVersion: v1
     appVersion: v0.0.6
-    created: "2024-02-08T20:31:32.233501768Z"
+    created: "2024-02-12T07:04:48.247737139Z"
     description: Kubernetes license-proxyserver by AppsCode
-    digest: 1ab65fd96d74834b411eef6424eff1ef15884a1ac0d898c2f5db27335a7105c4
+    digest: 84745547274b231c448caef6e45c0c4c497c0aea92612f3a3ff617f8ddaea2ba
     home: https://github.com/bytebuilders/license-proxyserver
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -18930,9 +18952,9 @@ entries:
   license-proxyserver-addon-manager:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2024-02-08T20:31:32.234247353Z"
+    created: "2024-02-12T07:04:48.248492508Z"
     description: AppsCode License Proxy Server Addon Manager
-    digest: d83b69e240733eea34b56920cc9630bc9fee41760fcd864decec6936883fc189
+    digest: a50eee1fc50dd1e6bb7b9a6c30f8b43e34f6c80816e8c9408cd2a9ff21791bcd
     home: https://github.com/bytebuilders/license-proxyserver
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -18982,9 +19004,9 @@ entries:
   marketplace-ui:
   - apiVersion: v2
     appVersion: 0.3.1-rc.1
-    created: "2024-02-08T20:31:32.234607858Z"
+    created: "2024-02-12T07:04:48.248857809Z"
     description: A Helm chart for Kubernetes
-    digest: a0ef6f83b7859a940c744d1834cc45b9325d0f6b033044b1e39ca5402e19bd49
+    digest: 37b00c9ed489be5867c74ff5a8989512e60e0b9e8cea3657f2bb615402c9e830
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -19068,9 +19090,9 @@ entries:
   minio:
   - apiVersion: v2
     appVersion: RELEASE.2023-01-12T02-06-16Z
-    created: "2024-02-08T20:31:32.235041119Z"
+    created: "2024-02-12T07:04:48.249295947Z"
     description: A Helm chart for MinIO Demo Deployment
-    digest: a3bdc8fbc3da2235b7f93ca32a0e2a63e1555c9736781e0f58e787755a735f72
+    digest: f1ec8efbb396cb3b8b6f924343787590348d736fcb6602e96139684545f03896
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -19613,9 +19635,9 @@ entries:
   opscenter-features:
   - apiVersion: v2
     appVersion: v0.4.18
-    created: "2024-02-08T20:31:32.236247016Z"
+    created: "2024-02-12T07:04:48.250525169Z"
     description: ACE Opscenter Configuration
-    digest: d21d1b3127f25893e3b33c2b3f699c11fba3a3db0823b3e3f7c3f97c29164347
+    digest: 98a1b146b98fa4689469b4b7ffc47c31b77dc7ee700d60d11b2856a28f001fa5
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -19913,9 +19935,9 @@ entries:
   platform-api:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.237171507Z"
+    created: "2024-02-12T07:04:48.251036684Z"
     description: A Helm chart for Kubernetes
-    digest: ba1bf61f5c2f89d5450098fdd55d5a83f9aa8cb8e7333a88f590583c6dbf87bc
+    digest: 2b27c1e4c24576d147687dc721ab540c98fbf1e99f415966867a2a09f1ac7ae1
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -20033,9 +20055,9 @@ entries:
   platform-links:
   - apiVersion: v2
     appVersion: v2023.12.20
-    created: "2024-02-08T20:31:32.23809211Z"
+    created: "2024-02-12T07:04:48.252243209Z"
     description: A Helm chart for Kubernetes
-    digest: 15326d503850104196a431a1f219edd183466215a423fa5a9119ff558e57565e
+    digest: 57136831cc84ff510515924c893ec11afb55bcb3a93f557676c4f47649abf482
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -20135,10 +20157,10 @@ entries:
     version: v2023.03.23
   platform-ui:
   - apiVersion: v2
-    appVersion: 0.7.2
-    created: "2024-02-08T20:31:32.238506496Z"
+    appVersion: 0.7.5
+    created: "2024-02-12T07:04:48.25268296Z"
     description: A Helm chart for Kubernetes
-    digest: 1cf3802c1a0da09d3f6733fb73581f65eb58258e90af0f5866f2291e735aa30c
+    digest: 0cac07b31ba9b16d0abfadd0caae16cf66100e2aedcdeeaee0108110b2883834
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -21254,9 +21276,9 @@ entries:
   smtprelay:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2024-02-08T20:31:32.239066594Z"
+    created: "2024-02-12T07:04:48.253266388Z"
     description: A Helm chart for Kubernetes
-    digest: d3ec04cced30567c55099ba2532bcfcb9792d7214864bde104e83b89b428e287
+    digest: e7662b144d27e77c61c731b8ea9860a44f9c36d265596dda5c0457f5d42fe518
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -30166,9 +30188,9 @@ entries:
   stash-presets:
   - apiVersion: v2
     appVersion: v2023.11.14
-    created: "2024-02-08T20:31:32.240382477Z"
+    created: "2024-02-12T07:04:48.254614042Z"
     description: Stash Presets
-    digest: 2c415d99f5446ef2766da67d80d5171ebfe9f85d82aeadb8c3b38db641257863
+    digest: cc24f2109ad9e717eb8374477ab46eb937c4d65ea7402dc232f56483174fcba7
     home: https://github.com/bytebuilders
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -32212,4 +32234,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-02-12T02:02:49.082537793Z"
+generated: "2024-02-12T07:04:48.225070157Z"
