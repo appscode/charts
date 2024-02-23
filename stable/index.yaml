@@ -16466,6 +16466,30 @@ entries:
     version: v0.1.0
   kubestash:
   - apiVersion: v2
+    appVersion: v2024.2.22
+    created: "2024-02-23T06:55:34.193522351Z"
+    dependencies:
+    - name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.6.0
+    - name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2024.2.22
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 7313e7021c35299bf0a98e4a9ee824c49e8f2619d528092aad66a981ee80ef3d
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/stashed
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2024.2.22.tgz
+    version: v2024.2.22
+  - apiVersion: v2
     appVersion: v2024.2.5
     created: "2024-02-12T07:19:01.19915101Z"
     dependencies:
@@ -16701,6 +16725,23 @@ entries:
     version: v2023.04.14
   kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2024.2.22
+    created: "2024-02-23T06:55:34.193995868Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: 94d4c66a9e9fac04c679561d1d03ca016a5ab2acfaa30a5058f4116481a2ce3d
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2024.2.22.tgz
+    version: v2024.2.22
+  - apiVersion: v2
     appVersion: v2024.2.5
     created: "2024-02-12T07:19:01.199657221Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -16837,6 +16878,22 @@ entries:
     - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2023.11.28-rc.1.tgz
     version: v2023.11.28-rc.1
   kubestash-operator:
+  - apiVersion: v1
+    appVersion: v0.6.0
+    created: "2024-02-23T06:55:34.1989973Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: c0a3125fd2d50e16d30fdddc18ffc4d8bf401d992e656cb09997fbcf94b0c7f7
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.6.0.tgz
+    version: v0.6.0
   - apiVersion: v1
     appVersion: v0.5.0
     created: "2024-02-12T07:19:01.205012096Z"
@@ -33288,4 +33345,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-02-22T08:52:46.703481227Z"
+generated: "2024-02-23T06:55:34.187004738Z"
