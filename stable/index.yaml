@@ -1818,6 +1818,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/cert-manager-webhook-ace/cert-manager-webhook-ace-v2023.03.23.tgz
     version: v2023.03.23
+  cluster-auth-manager:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2024-02-25T08:44:39.252429308Z"
+    description: A Helm chart for Kubernetes Auth Manager by AppsCode
+    digest: 286da3904e4a36f26529f1610bf6c7e89562db1b8ba1ee75ed328bf604ba719b
+    home: https://github.com/kluster-manager/cluster-auth
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cluster-auth-manager
+    sources:
+    - https://github.com/bytebuilders/cluster-auth-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-auth-manager/cluster-auth-manager-v2024.2.25.tgz
+    version: v2024.2.25
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.12
@@ -1921,6 +1939,28 @@ entries:
     urls:
     - https://charts.appscode.com/stable/cluster-connector/cluster-connector-v2021.11.08.tgz
     version: v2021.11.08
+  cluster-gateway:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-25T08:44:39.252679279Z"
+    description: A Helm chart for Cluster-Gateway
+    digest: 3cd6247778d1428334c3e73b4c587792d0082a9cba3b76a89edc80af1d521a95
+    name: cluster-gateway
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-gateway/cluster-gateway-v2024.2.25.tgz
+    version: v2024.2.25
+  cluster-gateway-addon-manager:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-25T08:44:39.252970899Z"
+    description: A Helm chart for Cluster-Gateway Addon-Manager
+    digest: 869029d30d3e370099345afbe61e6805c01dbc1e02e06acc6ff03621c30bd246
+    name: cluster-gateway-addon-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-gateway-addon-manager/cluster-gateway-addon-manager-v2024.2.25.tgz
+    version: v2024.2.25
   cluster-importer:
   - apiVersion: v2
     appVersion: v0.0.2
@@ -2024,6 +2064,51 @@ entries:
     urls:
     - https://charts.appscode.com/stable/cluster-importer/cluster-importer-v2023.10.1.tgz
     version: v2023.10.1
+  cluster-manager-hub:
+  - apiVersion: v2
+    appVersion: v0.12.0
+    created: "2024-02-25T08:44:39.253470801Z"
+    description: A Helm chart for Open Cluster Manager Hub
+    digest: 6ef76f837bf47091d0f829ace3ed5a89a53a59b1b0ff6eebae3d521a1276ca38
+    home: https://open-cluster-management.io
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cluster-manager-hub
+    sources:
+    - https://github.com/kluster-manager/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-manager-hub/cluster-manager-hub-v2024.2.25.tgz
+    version: v2024.2.25
+  cluster-manager-spoke:
+  - apiVersion: v2
+    appVersion: v0.12.0
+    created: "2024-02-25T08:44:39.254624734Z"
+    description: A Helm chart to join a spoke cluster to Open Cluster Manager Hub
+    digest: 1e6308f2d8eb39e0068c9586224d27a8615d271044409297c57b0614eb7c6a29
+    home: https://open-cluster-management.io
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cluster-manager-spoke
+    sources:
+    - https://github.com/kluster-manager/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-manager-spoke/cluster-manager-spoke-v2024.2.25.tgz
+    version: v2024.2.25
+  cluster-proxy:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-25T08:44:39.255173649Z"
+    description: A Helm chart for Cluster-Proxy OCM Addon
+    digest: aac4b1b09c817bdb56d117eb323719136626182d9a73d7443e8e076f78e5d23b
+    name: cluster-proxy
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-proxy/cluster-proxy-v2024.2.25.tgz
+    version: v2024.2.25
   cluster-ui:
   - apiVersion: v2
     appVersion: 0.8.5
@@ -2715,6 +2800,17 @@ entries:
     urls:
     - https://charts.appscode.com/stable/falco-ui-server/falco-ui-server-v2023.03.23.tgz
     version: v2023.03.23
+  fluxcd-addon-manager:
+  - apiVersion: v1
+    appVersion: v0.0.2
+    created: "2024-02-25T08:44:39.255939834Z"
+    description: Installs FluxCD in managed clusters
+    digest: b9530ef3ce2196f69b6287051f80feb9fe6b6585b3b284d3771269c5e81e0b4f
+    name: fluxcd-addon-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/fluxcd-addon-manager/fluxcd-addon-manager-v2024.2.25.tgz
+    version: v2024.2.25
   g2:
   - apiVersion: v1
     appVersion: 0.5.0
@@ -19708,6 +19804,17 @@ entries:
     urls:
     - https://charts.appscode.com/stable/license-proxyserver-addon-manager/license-proxyserver-addon-manager-v2023.12.20.tgz
     version: v2023.12.20
+  managed-serviceaccount:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-25T08:44:39.256460415Z"
+    description: A Helm chart for Managed ServiceAccount Addon
+    digest: 5bcd37216d89194601ba0e1ea26cd9ca253ce695946de2394c712c3bdfe154d0
+    name: managed-serviceaccount
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/managed-serviceaccount/managed-serviceaccount-v2024.2.25.tgz
+    version: v2024.2.25
   mariadb-alerts:
   - apiVersion: v2
     appVersion: v0.2.0
@@ -33345,4 +33452,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-02-25T00:56:22.02124889Z"
+generated: "2024-02-25T08:44:39.250498367Z"
