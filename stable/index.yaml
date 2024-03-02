@@ -1838,9 +1838,9 @@ entries:
   cluster-auth-agent:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2024-03-01T22:38:18.340701612Z"
+    created: "2024-03-02T09:07:48.470538822Z"
     description: Cluster Auth Agent
-    digest: fd71844381c9c9a06b470d58a1bf0f598026860da955a1f1fa1cfceef2e03af0
+    digest: 8237276515c904a477313dba85685c93eb70ac88e6d4af8f34eec59f2b4f4d28
     home: https://github.com/kluster-manager/cluster-auth
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -1855,9 +1855,9 @@ entries:
   cluster-auth-manager:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2024-03-01T22:38:18.341368018Z"
+    created: "2024-03-02T09:07:48.471244011Z"
     description: Cluster Auth Manager
-    digest: 07830a3fc53ae31ab353f0cbda77336b765165550cf0deaa6735ded13f427ae2
+    digest: d51e745da44a712170c5be11a6f99a5cc9214b88a2e600e9f35bb5cb8b223f50
     home: https://github.com/kluster-manager/cluster-auth
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -1975,9 +1975,9 @@ entries:
   cluster-gateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-01T22:38:18.341635484Z"
+    created: "2024-03-02T09:07:48.47149458Z"
     description: A Helm chart for Cluster-Gateway
-    digest: 7e9f8c4e29668a04caa286ebd88c71f75286df8640082f4f58f560ab8e499aa8
+    digest: 36492499d30fdce982b8709a9b882a101c2b3edbef00abbc90b3254ddd2804f5
     name: cluster-gateway
     type: application
     urls:
@@ -1997,9 +1997,9 @@ entries:
   cluster-gateway-manager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-01T22:38:18.341902039Z"
+    created: "2024-03-02T09:07:48.47176185Z"
     description: A Helm chart for Cluster-Gateway Addon-Manager
-    digest: 7ff5540dae50e1809bdc4c8b1e1a6735ab371e54520ec22ca25d0dd780acc9c0
+    digest: b4685c5a9d00f7494b912ba92978cad2f8838a44e25ce975b2b31452b697b5bf
     name: cluster-gateway-manager
     type: application
     urls:
@@ -2111,9 +2111,9 @@ entries:
   cluster-manager-hub:
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2024-03-01T22:38:18.34235038Z"
+    created: "2024-03-02T09:07:48.47221092Z"
     description: A Helm chart for Open Cluster Manager Hub
-    digest: 4dc5ea4f99a4ad7930bc7abdb687e04b81cbf0c6cda3377b6349ea93ebdbf19e
+    digest: 1ca7c0eb89c6a0741001e78732d6e899aa941b91683b11ffaeb74bcd58ad84c1
     home: https://open-cluster-management.io
     maintainers:
     - email: support@appscode.com
@@ -2128,9 +2128,9 @@ entries:
   cluster-manager-spoke:
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2024-03-01T22:38:18.342815944Z"
+    created: "2024-03-02T09:07:48.472660061Z"
     description: A Helm chart to join a spoke cluster to Open Cluster Manager Hub
-    digest: 9da250be2d4dabfb654cccbefd2cd3ecbeb9cdde2ce34f84f9512724b626d27f
+    digest: 0ef539a4db8d1f62695537d833994751f45110cd7de6435f3829e093a4f1313e
     home: https://open-cluster-management.io
     maintainers:
     - email: support@appscode.com
@@ -2145,13 +2145,13 @@ entries:
   cluster-proxy:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-01T22:38:18.343310882Z"
+    created: "2024-03-02T09:07:48.474171492Z"
     description: A Helm chart for Cluster-Proxy OCM Addon
-    digest: 55615f9b044f573df24e2c11df1cbf13f44d3351352c8917f9579d9347cfe199
+    digest: b318258d856d128a31e322d90fc5defd5be54b7f36f7dc82122d8fdfa6212cc0
     name: cluster-proxy
     type: application
     urls:
-    - https://charts.appscode.com/stable/cluster-proxy/cluster-proxy-v2024.2.25.tgz
+    - https://charts.appscode.com/stable/cluster-proxy-manager/cluster-proxy-v2024.2.25.tgz
     version: v2024.2.25
   cluster-ui:
   - apiVersion: v2
@@ -2858,9 +2858,9 @@ entries:
   fluxcd-manager:
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2024-03-01T22:38:18.344624471Z"
+    created: "2024-03-02T09:07:48.475201278Z"
     description: Installs FluxCD in managed clusters
-    digest: a3cb83ab8f5c05cfd3c7c81775e9251e8d131639f5e4caf8e7dc47b69bce7b7e
+    digest: 90b4ae95feb934eb1d04910b1902ff209f5440e220fca83b4e225481c559fe55
     name: fluxcd-manager
     type: application
     urls:
@@ -19919,6 +19919,17 @@ entries:
     urls:
     - https://charts.appscode.com/stable/managed-serviceaccount/managed-serviceaccount-v2024.2.25.tgz
     version: v2024.2.25
+  managed-serviceaccount-manager:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2024-03-02T09:07:48.475843029Z"
+    description: A Helm chart for Managed ServiceAccount Addon Manager
+    digest: 053f58964ff19d46f123eb9bacaca2f132e0652592766b2c7fec6a6be76565f8
+    name: managed-serviceaccount-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/managed-serviceaccount-manager/managed-serviceaccount-manager-v2024.2.25.tgz
+    version: v2024.2.25
   mariadb-alerts:
   - apiVersion: v2
     appVersion: v0.2.0
@@ -33556,4 +33567,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-03-02T06:50:07.257078613Z"
+generated: "2024-03-02T09:07:48.469784982Z"
