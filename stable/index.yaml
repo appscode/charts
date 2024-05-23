@@ -1431,9 +1431,9 @@ entries:
   application-crds:
   - apiVersion: v2
     appVersion: v0.8.3
-    created: "2024-05-22T19:54:09.90848877Z"
+    created: "2024-05-23T18:33:53.024764087Z"
     description: Kubernetes Application CRDs
-    digest: a1ba7e0d196bbf1f387a023b19c7931fa898a29ca6d847f990f9b904a162083d
+    digest: ba6d006bf6471735106efc5e9d4f989957c4a375f09802ba662682608e8d9d77
     home: https://github.com/kmodules/application
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -2166,9 +2166,9 @@ entries:
   cert-manager-crds:
   - apiVersion: v2
     appVersion: v1.9.1
-    created: "2024-05-22T19:54:09.910057089Z"
+    created: "2024-05-23T18:33:53.026762179Z"
     description: Jetstack cert-manager CRDs
-    digest: c204186a520620e62591398f366a4b4a8f0cc16bbb84b2033daef85d7712a677
+    digest: bdc353d5a467dbaa4d05f1ecefb6a85ab4e7cee9fe47ff75e50a29462d810938
     home: https://cert-manager.io
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -2201,9 +2201,9 @@ entries:
   cert-manager-csi-driver-cacerts:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2024-05-22T19:54:09.911084331Z"
+    created: "2024-05-23T18:33:53.027392128Z"
     description: A Helm chart for cert-manager-csi-driver-cacerts
-    digest: 846f4b88e87c15a547319c6999f9df7ef539a03826968dcdf4cbbb1589ff2af1
+    digest: 6c7345aa5476a90ced85244970117a25b03768f2c95b7560e216e17b2e855b39
     home: https://github.com/kubeops/csi-driver-cacerts
     icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
     maintainers:
@@ -2423,9 +2423,9 @@ entries:
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.12
-    created: "2024-05-22T19:54:09.911635918Z"
+    created: "2024-05-23T18:33:53.027934947Z"
     description: A Helm chart for cluster-connector
-    digest: 74412ceb13576486fd295fe41ec7491d3a6cdd9afc94128a5492465bb77b2389
+    digest: 1f0b8a926a3617806b9e50a01f24c7e1eccbe78d7ee2d757adfc16ba2acf0d4e
     home: https://github.com/kubeops/cluster-connector
     icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
     maintainers:
@@ -2955,6 +2955,22 @@ entries:
     - https://charts.appscode.com/stable/cluster-ui/cluster-ui-v2022.06.14.tgz
     version: v2022.06.14
   config-syncer:
+  - apiVersion: v1
+    appVersion: v0.15.1
+    created: "2024-05-23T18:33:53.028573415Z"
+    description: Config Syncer by AppsCode
+    digest: 282738e4d2da524a2dcb86fa23c1ddbe301bc38ed041250e15e51a2e58baaebc
+    home: https://github.com/kubeops/config-syncer
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: config-syncer
+    sources:
+    - https://github.com/kubeops/config-syncer
+    urls:
+    - https://charts.appscode.com/stable/config-syncer/config-syncer-v0.15.1.tgz
+    version: v0.15.1
   - apiVersion: v1
     appVersion: v0.15.0
     created: "2024-05-22T19:54:09.912289647Z"
@@ -3488,9 +3504,9 @@ entries:
   external-dns-operator:
   - apiVersion: v2
     appVersion: v0.0.8
-    created: "2024-05-22T19:54:09.912912438Z"
+    created: "2024-05-23T18:33:53.029193398Z"
     description: A Helm chart for External DNS Operator by AppsCode
-    digest: 36c187f2aa4310d728f212f7d507d4325a3b410a3fa69a7d275a19d144d2a43a
+    digest: cccff854cbe36b4e79b8187949af89bc862aa292a6909ff992ab7b9569e72efe
     home: https://github.com/kubeops/external-dns-operator
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -3557,9 +3573,9 @@ entries:
   falco-ui-server:
   - apiVersion: v1
     appVersion: v0.0.4
-    created: "2024-05-22T19:54:09.914057281Z"
+    created: "2024-05-23T18:33:53.030339119Z"
     description: Falco UI Server by AppsCode
-    digest: afbdf09e5ee0a95808c2bac77d00cefb546f7b3aad2cb437155f0d1f1a72fc83
+    digest: 4cd3ab32bcbac425096ccd2c2d6096e3406be6e95439cc02c19a4445217a8a8f
     home: https://github.com/kubeops/falco-ui-server
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -3747,9 +3763,9 @@ entries:
   gatekeeper-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2024-05-22T19:54:09.914390328Z"
+    created: "2024-05-23T18:33:53.030663072Z"
     description: A Helm chart for Gatekeeper Grafana Dashboards
-    digest: c69fc87cf7e844c1aa6f6012ba9dfe4deaf6b62935e4833d8a2a91f75309d38e
+    digest: 00a059073d1a0299bc74f733f2823ce684a9d693ec8c77f3ec9a3d3600828438
     home: https://github.com/appscode/grafana-dashboards
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -3782,9 +3798,9 @@ entries:
   gatekeeper-library:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2024-05-22T19:54:09.916485445Z"
+    created: "2024-05-23T18:33:53.032664749Z"
     description: A Helm chart for OPA Gatekeeper Library
-    digest: 7d14ada5102abe9986604d279af303ce7d7c30737320856702c105b736beb160
+    digest: 552b7f7baa07ef66f1081a9215bc76de8f40462b727493069658862dfb8f23d0
     home: https://github.com/kubeops/installer
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -4481,9 +4497,9 @@ entries:
   kmodules-crds:
   - apiVersion: v2
     appVersion: v0.25.1
-    created: "2024-05-22T19:54:09.916799275Z"
+    created: "2024-05-23T18:33:53.033012035Z"
     description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
-    digest: 94f877e7a74d6419252d00405d1acb11946d1a577651e97c3a2b93782949f0f1
+    digest: 129c9558aee19b25d4fefacfd2102c31c98e016a5f5edcce3cfdd506ea297df3
     home: https://appscode.com
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -4801,9 +4817,9 @@ entries:
   kube-ui-server:
   - apiVersion: v2
     appVersion: v0.0.41
-    created: "2024-05-22T19:54:09.918673229Z"
+    created: "2024-05-23T18:33:53.034888535Z"
     description: A Helm chart for kube-ui-server by AppsCode
-    digest: da92de25fdf025163a836d24e161547ec93873556e2516827667b6c87fc86295
+    digest: 99761cae40e31b905888834ab126bc2d8b135e616493f6e3f686ff3219f1d031
     home: https://github.com/kubeops/kube-ui-server
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -22901,9 +22917,9 @@ entries:
   opencost-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2024-05-22T19:54:09.919417108Z"
+    created: "2024-05-23T18:33:53.035394136Z"
     description: A Helm chart for Opencost Grafana Dashboards
-    digest: af249178342f4f7a09a23a93f06c3e5767ad93689f8e0edc34d5ae56168730e2
+    digest: 35297a8468f138d2a2ab2bfb690e4cd0ecd1066764fcd5818a5eaaec56b8a265
     home: https://github.com/appscode/grafana-dashboards
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -23384,9 +23400,9 @@ entries:
   panopticon:
   - apiVersion: v1
     appVersion: v0.0.13
-    created: "2024-05-22T19:54:09.920819899Z"
+    created: "2024-05-23T18:33:53.036867937Z"
     description: Kubernetes Panopticon by AppsCode
-    digest: 0c042a00d7542f75f2e5da44eaee022a4a865d013aab946e57dca901d8ed0310
+    digest: d7fc4526a406c95fab293adac23467b58a48703f266214841a86093124552089
     home: https://github.com/kubeops/panopticon
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -23580,9 +23596,9 @@ entries:
   petset:
   - apiVersion: v1
     appVersion: v0.0.5
-    created: "2024-05-22T19:54:09.921758965Z"
+    created: "2024-05-23T18:33:53.038063025Z"
     description: Petset Operator by AppsCode
-    digest: 30679aeb98c25b3eb494dc4ffe2a5b54a8376eaed3ce48ea332758fdfa09f285
+    digest: f70f27fdf3d572241436daec9403d9403aadf06317e041e156e48014ca3c4efb
     home: https://kubedb.com/
     icon: https://cdn.appscode.com/images/products/stash/petset-icon.png
     maintainers:
@@ -24597,9 +24613,9 @@ entries:
   prometheus-operator-crds:
   - apiVersion: v2
     appVersion: v0.60.1
-    created: "2024-05-22T19:54:09.923362688Z"
+    created: "2024-05-23T18:33:53.039020737Z"
     description: Prometheus Operator CRDs
-    digest: d2ab3ceedeb322ac196b1d1c8263efa221c9b02a8e8fca364c5d24c41e6655af
+    digest: f576019ed5d8763ed8b36c08267f07ee4debefc09f3a53a3beb5bce8be939315
     home: https://github.com/prometheus-operator/prometheus-operator
     icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
     maintainers:
@@ -24702,9 +24718,9 @@ entries:
   scanner:
   - apiVersion: v1
     appVersion: v0.0.17
-    created: "2024-05-22T19:54:09.924644769Z"
+    created: "2024-05-23T18:33:53.040830433Z"
     description: Docker Image Scanner by AppsCode
-    digest: 1a70d881288ceeee5e53ea6165b2c81da2205f1a3f982f35090453eb6ccd984c
+    digest: 18b52f5e431d4f67850db65aa58b98a43980e1e0735946393248bc582897783b
     home: https://github.com/kubeops/scanner
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -25319,9 +25335,9 @@ entries:
   sidekick:
   - apiVersion: v2
     appVersion: v0.0.5
-    created: "2024-05-22T19:54:09.926342031Z"
+    created: "2024-05-23T18:33:53.042528792Z"
     description: A Helm chart for Sidekick Operator by AppsCode
-    digest: 45af14513dd51a60132ddbeffd959183a87ebce7044a1c90b7ddd1c829cf2b05
+    digest: a408840c10637b50b5b2f1818fd6e0eff9c59c45408088143eb7c1344d224f69
     home: https://github.com/kubeops/sidekick
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -35106,9 +35122,9 @@ entries:
   supervisor:
   - apiVersion: v2
     appVersion: v0.0.4
-    created: "2024-05-22T19:54:09.927153166Z"
+    created: "2024-05-23T18:33:53.043346312Z"
     description: A Helm chart for Supervisor by AppsCode
-    digest: 866b59b5bbefc00b85f0132588243fbde5d1875b0cd7007f60175a879cfb3b1d
+    digest: e04ac2ed172468f92ae7c8c8e081e6f7a2bb7d087982636e1da50887c92dae02
     home: https://github.com/kubeops/supervisor
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -36902,4 +36918,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-05-22T19:57:51.462698013Z"
+generated: "2024-05-23T18:33:53.024403196Z"
