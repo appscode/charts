@@ -6852,6 +6852,72 @@ entries:
     version: 0.1.0
   kubedb:
   - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.768163398Z"
+    dependencies:
+    - condition: petset.enabled
+      name: petset
+      repository: oci://ghcr.io/appscode-charts
+      version: v2024.6.3
+    - condition: sidekick.enabled
+      name: sidekick
+      repository: oci://ghcr.io/appscode-charts
+      version: v2024.2.6
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: oci://ghcr.io/appscode-charts
+      version: v2024.2.6
+    - condition: kubedb-crd-manager.enabled
+      name: kubedb-crd-manager
+      repository: file://../kubedb-crd-manager
+      version: v0.2.0-rc.1
+    - condition: kubedb-provisioner.enabled
+      name: kubedb-provisioner
+      repository: file://../kubedb-provisioner
+      version: v0.47.0-rc.1
+    - condition: kubedb-ops-manager.enabled
+      name: kubedb-ops-manager
+      repository: file://../kubedb-ops-manager
+      version: v0.34.0-rc.1
+    - condition: kubedb-autoscaler.enabled
+      name: kubedb-autoscaler
+      repository: file://../kubedb-autoscaler
+      version: v0.32.0-rc.1
+    - condition: kubedb-schema-manager.enabled
+      name: kubedb-schema-manager
+      repository: file://../kubedb-schema-manager
+      version: v0.23.0-rc.1
+    - condition: kubedb-webhook-server.enabled
+      name: kubedb-webhook-server
+      repository: file://../kubedb-webhook-server
+      version: v0.23.0-rc.1
+    - condition: kubedb-metrics.enabled
+      name: kubedb-metrics
+      repository: file://../kubedb-metrics
+      version: v2024.7.11-rc.1
+    - condition: kubedb-catalog.enabled
+      name: kubedb-catalog
+      repository: file://../kubedb-catalog
+      version: v2024.7.11-rc.1
+    - condition: kubedb-kubestash-catalog.enabled
+      name: kubedb-kubestash-catalog
+      repository: file://../kubedb-kubestash-catalog
+      version: v2024.7.11-rc.1
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: 8df4bb168674d9f6fd363c4420b44d865444a308c28a3335ffad1f3fdbd3dc2e
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb/kubedb-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
+  - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.151580874Z"
     dependencies:
@@ -9513,6 +9579,22 @@ entries:
     version: 0.1.0
   kubedb-autoscaler:
   - apiVersion: v1
+    appVersion: v0.32.0-rc.1
+    created: "2024-07-12T05:01:27.768976814Z"
+    description: KubeDB Autoscaler by AppsCode - Autoscale KubeDB operated Databases
+    digest: 50ab07a5ab8cda99323c22760e337b6a86e85374b09f39a74aec7eb3ed63161b
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-autoscaler-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-autoscaler
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-autoscaler/kubedb-autoscaler-v0.32.0-rc.1.tgz
+    version: v0.32.0-rc.1
+  - apiVersion: v1
     appVersion: v0.31.0
     created: "2024-07-04T14:57:50.152380094Z"
     description: KubeDB Autoscaler by AppsCode - Autoscale KubeDB operated Databases
@@ -10297,6 +10379,22 @@ entries:
     - https://charts.appscode.com/stable/kubedb-autoscaler/kubedb-autoscaler-v0.1.0-rc.0.tgz
     version: v0.1.0-rc.0
   kubedb-catalog:
+  - apiVersion: v1
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.771375212Z"
+    description: KubeDB Catalog by AppsCode - Catalog for database versions
+    digest: 10b0c03cfa933cdeb7c114fce90007c47952a54fd4317c0d3e90bd72975e9551
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-catalog
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-catalog/kubedb-catalog-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
   - apiVersion: v1
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.155659088Z"
@@ -11596,6 +11694,22 @@ entries:
     version: v0.16.2
   kubedb-crd-manager:
   - apiVersion: v1
+    appVersion: v0.2.0-rc.1
+    created: "2024-07-12T05:01:27.772151508Z"
+    description: KubeDB CRD Manager by AppsCode
+    digest: 77eb154124e6b54c79a505e21e4b44ef4f319b74d13d2bb86228002634f97c6d
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-ops-manager-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-crd-manager
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-crd-manager/kubedb-crd-manager-v0.2.0-rc.1.tgz
+    version: v0.2.0-rc.1
+  - apiVersion: v1
     appVersion: v0.2.0-rc.0
     created: "2024-07-04T14:57:50.156267581Z"
     description: KubeDB CRD Manager by AppsCode
@@ -11756,6 +11870,23 @@ entries:
     - https://charts.appscode.com/stable/kubedb-crd-manager/kubedb-crd-manager-v0.0.2.tgz
     version: v0.0.2
   kubedb-crds:
+  - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.797593759Z"
+    description: KubeDB Custom Resource Definitions
+    digest: eb8de0d188d1c741671428ee4168c99dfaa4b640b2ac65ad2d6104956bd504d9
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-crds
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-crds/kubedb-crds-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
   - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.184319794Z"
@@ -12573,6 +12704,23 @@ entries:
     - https://charts.appscode.com/stable/kubedb-crds/kubedb-crds-v0.16.2.tgz
     version: v0.16.2
   kubedb-dashboard:
+  - apiVersion: v2
+    appVersion: v0.23.0-rc.1
+    created: "2024-07-12T05:01:27.798382228Z"
+    description: KubeDB Dashboard by AppsCode
+    digest: 8ccac69fb5a8686c58d0d7bb8f2e9fcfa15499a9f9312b4081e626b427863b0c
+    home: https://github.com/kubedb
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-dashboard
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-dashboard/kubedb-dashboard-v0.23.0-rc.1.tgz
+    version: v0.23.0-rc.1
   - apiVersion: v2
     appVersion: v0.23.0-rc.0
     created: "2024-07-04T14:57:50.185090491Z"
@@ -13522,6 +13670,23 @@ entries:
     version: v0.1.0-alpha.3
   kubedb-grafana-dashboards:
   - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.807432643Z"
+    description: A Helm chart for kubedb-grafana-dashboards by AppsCode
+    digest: b2e44844bf913911ff5caf2b7d0e35db5cbf83018dfcdd51cb9ac60b8f16b170
+    home: https://github.com/kubedb
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-grafana-dashboards
+    sources:
+    - https://github.com/kubedb/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-grafana-dashboards/kubedb-grafana-dashboards-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
+  - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.192674176Z"
     description: A Helm chart for kubedb-grafana-dashboards by AppsCode
@@ -14118,6 +14283,23 @@ entries:
     version: v2022.02.22
   kubedb-kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.809363294Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: 0d5295abc621d4ee8d21a9d75cf236b0b86b775689c647c1063ea912bc513f24
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-kubestash-catalog/kubedb-kubestash-catalog-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
+  - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.194739282Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -14356,6 +14538,23 @@ entries:
     - https://charts.appscode.com/stable/kubedb-kubestash-catalog/kubedb-kubestash-catalog-v2023.11.29-rc.0.tgz
     version: v2023.11.29-rc.0
   kubedb-metrics:
+  - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.810021178Z"
+    description: KubeDB State Metrics
+    digest: 556a7332414257b76c654cc118c8a0e16aa104e09251826b620ed8f7e83bfb3f
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-metrics
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-metrics/kubedb-metrics-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
   - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.195416743Z"
@@ -15998,6 +16197,22 @@ entries:
     version: v2023.01.31
   kubedb-ops-manager:
   - apiVersion: v1
+    appVersion: v0.34.0-rc.1
+    created: "2024-07-12T05:01:27.810961291Z"
+    description: KubeDB Ops Manager by AppsCode - Enterprise features for KubeDB
+    digest: 823c174e72bb17bf81a6967152457a498ef024cbea52a303d0297c8b023e219d
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-ops-manager-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-ops-manager
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-ops-manager/kubedb-ops-manager-v0.34.0-rc.1.tgz
+    version: v0.34.0-rc.1
+  - apiVersion: v1
     appVersion: v0.33.0
     created: "2024-07-04T14:57:50.196260667Z"
     description: KubeDB Ops Manager by AppsCode - Enterprise features for KubeDB
@@ -16526,6 +16741,36 @@ entries:
     - https://charts.appscode.com/stable/kubedb-ops-manager/kubedb-ops-manager-v0.12.0.tgz
     version: v0.12.0
   kubedb-opscenter:
+  - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.821286618Z"
+    dependencies:
+    - condition: kubedb-metrics.enabled
+      name: kubedb-metrics
+      repository: file://../kubedb-metrics
+      version: v2024.7.11-rc.1
+    - condition: kubedb-ui-server.enabled
+      name: kubedb-ui-server
+      repository: file://../kubedb-ui-server
+      version: v0.23.0-rc.1
+    - condition: kubedb-grafana-dashboards.enabled
+      name: kubedb-grafana-dashboards
+      repository: file://../kubedb-grafana-dashboards
+      version: v2024.7.11-rc.1
+    description: KubeDB Opscenter by AppsCode
+    digest: 5ef46130ffc422c36cac299b98b10573951591e9a891528f27c778aa7c861ba5
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-opscenter
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-opscenter/kubedb-opscenter-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
   - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.207223676Z"
@@ -17656,6 +17901,23 @@ entries:
     version: v2021.11.24
   kubedb-provider-aws:
   - apiVersion: v2
+    appVersion: v0.9.0-rc.1
+    created: "2024-07-12T05:01:27.825848294Z"
+    description: A Helm chart for KubeDB AWS Provider for Crossplane
+    digest: ec30046a9a8884bde16eab417117e3cb456d2eb3fb0394109ed01efd53d54d7e
+    home: https://github.com/kubedb/provider-aws
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provider-aws
+    sources:
+    - https://github.com/kubedb/provider-aws
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-provider-aws/kubedb-provider-aws-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
+  - apiVersion: v2
     appVersion: v0.9.0-rc.0
     created: "2024-07-04T14:57:50.212095852Z"
     description: A Helm chart for KubeDB AWS Provider for Crossplane
@@ -17877,6 +18139,23 @@ entries:
     - https://charts.appscode.com/stable/kubedb-provider-aws/kubedb-provider-aws-v0.0.1.tgz
     version: v0.0.1
   kubedb-provider-azure:
+  - apiVersion: v2
+    appVersion: v0.9.0-rc.1
+    created: "2024-07-12T05:01:27.832444748Z"
+    description: A Helm chart for KubeDB Azure Provider for Crossplane
+    digest: e6a3b559223e043e822cb4bb7434f90899cac6f1b3f07884cd4b1c0fda38949c
+    home: https://github.com/kubedb/provider-azure
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provider-azure
+    sources:
+    - https://github.com/kubedb/provider-azure
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-provider-azure/kubedb-provider-azure-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
   - apiVersion: v2
     appVersion: v0.9.0-rc.0
     created: "2024-07-04T14:57:50.21837152Z"
@@ -18100,6 +18379,23 @@ entries:
     version: v0.0.1
   kubedb-provider-gcp:
   - apiVersion: v2
+    appVersion: v0.9.0-rc.1
+    created: "2024-07-12T05:01:27.834448856Z"
+    description: A Helm chart for KubeDB GCP Provider for Crossplane
+    digest: d349dec6ba96bef0523ddc3fd4b6d3141ee9acb6790fae740eb2137d98b73f58
+    home: https://github.com/kubedb/provider-gcp
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provider-gcp
+    sources:
+    - https://github.com/kubedb/provider-gcp
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-provider-gcp/kubedb-provider-gcp-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
+  - apiVersion: v2
     appVersion: v0.9.0-rc.0
     created: "2024-07-04T14:57:50.220735948Z"
     description: A Helm chart for KubeDB GCP Provider for Crossplane
@@ -18321,6 +18617,22 @@ entries:
     - https://charts.appscode.com/stable/kubedb-provider-gcp/kubedb-provider-gcp-v0.0.1.tgz
     version: v0.0.1
   kubedb-provisioner:
+  - apiVersion: v1
+    appVersion: v0.47.0-rc.1
+    created: "2024-07-12T05:01:27.835210445Z"
+    description: KubeDB Provisioner by AppsCode - Community features for KubeDB
+    digest: 07e5468f83b41ef140ec17ae059d9a8ecb639bc96a946eac67523cc068602673
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-provisioner
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-provisioner/kubedb-provisioner-v0.47.0-rc.1.tgz
+    version: v0.47.0-rc.1
   - apiVersion: v1
     appVersion: v0.47.0-rc.0
     created: "2024-07-04T14:57:50.221478201Z"
@@ -18866,6 +19178,23 @@ entries:
     - https://charts.appscode.com/stable/kubedb-provisioner/kubedb-provisioner-v0.25.0.tgz
     version: v0.25.0
   kubedb-schema-manager:
+  - apiVersion: v2
+    appVersion: v0.23.0-rc.1
+    created: "2024-07-12T05:01:27.835921699Z"
+    description: KubeDB Schema Manager by AppsCode
+    digest: 8a9f815346e14dcf7f9a1d0065509fc5b4349f2ec8a9b7401fa68031e7eac700
+    home: https://github.com/kubedb
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-schema-manager
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-schema-manager/kubedb-schema-manager-v0.23.0-rc.1.tgz
+    version: v0.23.0-rc.1
   - apiVersion: v2
     appVersion: v0.23.0-rc.0
     created: "2024-07-04T14:57:50.22216507Z"
@@ -19839,6 +20168,23 @@ entries:
     - https://charts.appscode.com/stable/kubedb-ui-server/kubedb-ui-server-v2021.11.24.tgz
     version: v2021.11.24
   - apiVersion: v2
+    appVersion: v0.23.0-rc.1
+    created: "2024-07-12T05:01:27.836579332Z"
+    description: A Helm chart for kubedb-ui-server by AppsCode
+    digest: 8a15a3aef934c322fe50bce47b1095b49cd5bd55946f29427fef3a7f0b2441b9
+    home: https://github.com/kubedb/kubedb-ui-server
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-ui-server
+    sources:
+    - https://github.com/kubedb/kubedb-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubedb-ui-server/kubedb-ui-server-v0.23.0-rc.1.tgz
+    version: v0.23.0-rc.1
+  - apiVersion: v2
     appVersion: v0.23.0-rc.0
     created: "2024-07-04T14:57:50.222810802Z"
     description: A Helm chart for kubedb-ui-server by AppsCode
@@ -20417,6 +20763,22 @@ entries:
     - https://charts.appscode.com/stable/kubedb-ui-server/kubedb-ui-server-v0.1.0.tgz
     version: v0.1.0
   kubedb-webhook-server:
+  - apiVersion: v1
+    appVersion: v0.23.0-rc.1
+    created: "2024-07-12T05:01:27.838447177Z"
+    description: KubeDB Webhook Server by AppsCode
+    digest: 889be9e0243f2ee243a6bbe4ccab0848c80ceb6ab89134949b5cc35c021de87c
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb-webhook-server
+    sources:
+    - https://github.com/kubedb
+    urls:
+    - https://charts.appscode.com/stable/kubedb-webhook-server/kubedb-webhook-server-v0.23.0-rc.1.tgz
+    version: v0.23.0-rc.1
   - apiVersion: v1
     appVersion: v0.23.0-rc.0
     created: "2024-07-04T14:57:50.223743693Z"
@@ -27455,6 +27817,23 @@ entries:
     - https://charts.appscode.com/stable/postgres-alerts/postgres-alerts-v2023.04.10.tgz
     version: v2023.04.10
   prepare-cluster:
+  - apiVersion: v2
+    appVersion: v2024.7.11-rc.1
+    created: "2024-07-12T05:01:27.839084853Z"
+    description: Prepare Kubernetes Cluster by AppsCode
+    digest: 72e737f1d572f6d6df202df0ca9078e3814fcefeb839cd6a93d69836502c01e4
+    home: https://appscode.com
+    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: prepare-cluster
+    sources:
+    - https://github.com/kmodules/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/prepare-cluster/prepare-cluster-v2024.7.11-rc.1.tgz
+    version: v2024.7.11-rc.1
   - apiVersion: v2
     appVersion: v2024.7.3-rc.0
     created: "2024-07-04T14:57:50.23158336Z"
@@ -40294,4 +40673,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-07-12T03:43:56.680929281Z"
+generated: "2024-07-12T05:01:27.751396492Z"
