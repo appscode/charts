@@ -21891,6 +21891,33 @@ entries:
     version: v0.1.0
   kubestash:
   - apiVersion: v2
+    appVersion: v2024.8.14
+    created: "2024-08-14T19:11:48.624818025Z"
+    dependencies:
+    - name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.11.0
+    - name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2024.8.14
+    - name: kubestash-metrics
+      repository: file://../kubestash-metrics
+      version: v2024.8.14
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 2b582ba7b5c890edbff54349f71c015bf199d4bdbd732cfe27e80565e79eb5ba
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/kubestash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2024.8.14.tgz
+    version: v2024.8.14
+  - apiVersion: v2
     appVersion: v2024.7.1
     created: "2024-07-02T17:25:45.548716217Z"
     dependencies:
@@ -22255,6 +22282,23 @@ entries:
     version: v2023.04.14
   kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2024.8.14
+    created: "2024-08-14T19:11:48.625324664Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: cc011fcb491faeb9f36f2ba158b5292d8240ce9719f164d527b18675e7353b5e
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2024.8.14.tgz
+    version: v2024.8.14
+  - apiVersion: v2
     appVersion: v2024.7.1
     created: "2024-07-02T17:25:45.549219145Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -22477,6 +22521,23 @@ entries:
     version: v2023.11.28-rc.1
   kubestash-metrics:
   - apiVersion: v2
+    appVersion: v2024.8.14
+    created: "2024-08-14T19:11:48.625638311Z"
+    description: KubeStash State Metrics
+    digest: 985b7bab7fcc0613620ecf1433e8bd14957cd0e1adf44932464f2596eca9f2bc
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-metrics
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.8.14.tgz
+    version: v2024.8.14
+  - apiVersion: v2
     appVersion: v2024.7.1
     created: "2024-07-02T17:25:45.549526629Z"
     description: KubeStash State Metrics
@@ -22528,6 +22589,22 @@ entries:
     - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.4.27.tgz
     version: v2024.4.27
   kubestash-operator:
+  - apiVersion: v1
+    appVersion: v0.11.0
+    created: "2024-08-14T19:11:48.63095348Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: 6f6687937845b9dbfadddb58ba3d9dbf89ff6c451d348e08fa168b7ccc09ac5d
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.11.0.tgz
+    version: v0.11.0
   - apiVersion: v1
     appVersion: v0.10.0
     created: "2024-07-02T17:25:45.554761876Z"
@@ -41200,4 +41277,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-08-14T18:29:56.155810713Z"
+generated: "2024-08-14T19:11:48.617451455Z"
