@@ -3889,9 +3889,9 @@ entries:
   cluster-auth-agent:
   - apiVersion: v1
     appVersion: v0.1.0
-    created: "2024-10-15T11:41:00.055704869Z"
+    created: "2024-10-16T17:25:11.415969557Z"
     description: Cluster Auth Agent
-    digest: 72c4bb60e150f78fa30d39cf7c5c5606dea423164d24a585ec247447dc425a70
+    digest: 72dd68940906a41eae8666545c0c8e437908803be75735d544914e166f0b128c
     home: https://github.com/kluster-manager/cluster-auth
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -3970,9 +3970,9 @@ entries:
   cluster-auth-manager:
   - apiVersion: v1
     appVersion: v0.1.0
-    created: "2024-10-15T11:41:00.057219841Z"
+    created: "2024-10-16T17:25:11.416803882Z"
     description: Cluster Auth Manager
-    digest: 981f5edae5510c9f3d4943a3c66a92df47776e448e7712f637df628d37dbf0eb
+    digest: f5b2d41a563d46d533b04a06014ef515455d781ca61071e43c849491f89e096a
     home: https://github.com/kluster-manager/cluster-auth
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -4154,9 +4154,9 @@ entries:
   cluster-gateway:
   - apiVersion: v2
     appVersion: v1.9.1
-    created: "2024-10-15T11:41:00.057461231Z"
+    created: "2024-10-16T17:25:11.417011499Z"
     description: A Helm chart for Cluster-Gateway
-    digest: 5cd0bd6473dc870d8b79c8ee79f4318a5abcc550d55cda8583ce0d99b40211a2
+    digest: d43c9dbe95c3acc497f1e3f4522a29e67d1ea594479a46bd88a9081ebb6e3068
     name: cluster-gateway
     type: application
     urls:
@@ -4196,9 +4196,9 @@ entries:
   cluster-gateway-manager:
   - apiVersion: v2
     appVersion: v1.9.1
-    created: "2024-10-15T11:41:00.058155847Z"
+    created: "2024-10-16T17:25:11.417676339Z"
     description: A Helm chart for Cluster-Gateway Addon-Manager
-    digest: bcb64f8d7f37c4cff59b48b6b35ca1d3fb02a6d5d67dab4b043f9a57432c539e
+    digest: 74101c9ceff250743c8a1a45f426b173b46071ca41e587f0e78daebc8237aaa6
     name: cluster-gateway-manager
     type: application
     urls:
@@ -4517,9 +4517,9 @@ entries:
   cluster-manager-hub:
   - apiVersion: v2
     appVersion: v0.14.0
-    created: "2024-10-15T11:41:00.058668203Z"
+    created: "2024-10-16T17:25:11.418135885Z"
     description: A Helm chart for Open Cluster Manager Hub
-    digest: ce3fd8138a5d4a9968bc3003e1e4681bf0ddc4a07672639507e5c5197b84b46f
+    digest: 61cc188d224e3c8b65ad527efa4ee4dd2b572101c19ec21fbbb419b4ddbd7735
     home: https://open-cluster-management.io
     maintainers:
     - email: support@appscode.com
@@ -4550,9 +4550,9 @@ entries:
   cluster-manager-spoke:
   - apiVersion: v2
     appVersion: v0.14.0
-    created: "2024-10-15T11:41:00.059188985Z"
+    created: "2024-10-16T17:25:11.418655324Z"
     description: A Helm chart to join a spoke cluster to Open Cluster Manager Hub
-    digest: 11108d9bcec7f3421a3704ea290f4c15a5af83c02f322be49bded498d05ea941
+    digest: ec93a2aabd69722c9d504d7bf0e737713a5aa00c2bfe24033324668976abc30c
     home: https://open-cluster-management.io
     maintainers:
     - email: support@appscode.com
@@ -4751,6 +4751,22 @@ entries:
     version: v2024.6.3
   cluster-profile-manager:
   - apiVersion: v1
+    appVersion: v0.2.0
+    created: "2024-10-16T17:25:11.420071773Z"
+    description: Cluster Profile Manager
+    digest: 1a09ca3da82b978b023afe39ce61b983ce8dd340f9d4492132c21a2f4af6e302
+    home: https://github.com/kluster-manager/cluster-profile
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cluster-profile-manager
+    sources:
+    - https://github.com/kluster-manager/cluster-profile
+    urls:
+    - https://charts.appscode.com/stable/cluster-profile-manager/cluster-profile-manager-v2024.10.17.tgz
+    version: v2024.10.17
+  - apiVersion: v1
     appVersion: v0.1.0
     created: "2024-10-15T11:41:00.060009145Z"
     description: Cluster Profile Manager
@@ -4796,9 +4812,9 @@ entries:
   cluster-proxy-manager:
   - apiVersion: v2
     appVersion: v0.5.0
-    created: "2024-10-15T11:41:00.060671801Z"
+    created: "2024-10-16T17:25:11.420759696Z"
     description: A Helm chart for Cluster-Proxy OCM Addon
-    digest: 9cab715c46ab80f7638cb33881d2a88211cad05fbef7142346942f00715c6eb9
+    digest: c4e9ca25fb311a89666360836677156fd1c9b643ebbeb8647bfde450a87579fc
     name: cluster-proxy-manager
     type: application
     urls:
@@ -5930,9 +5946,9 @@ entries:
   fluxcd-manager:
   - apiVersion: v2
     appVersion: v0.0.4
-    created: "2024-10-15T11:41:00.061891123Z"
+    created: "2024-10-16T17:25:11.4215554Z"
     description: Installs FluxCD in managed clusters
-    digest: 90b7045b519fb43f00da700b73cab7dd59bdfbb947080c2610d895076c2ab845
+    digest: 4f5df35f55d4cd94d7b2e8d34b78cd327435b97cf49bb3854cf25ee236e7816c
     home: https://open-cluster-management.io
     maintainers:
     - email: support@appscode.com
@@ -6769,9 +6785,9 @@ entries:
   hub-cluster-robot:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2024-10-15T11:41:00.062380284Z"
+    created: "2024-10-16T17:25:11.421821686Z"
     description: Hub Cluster Robot
-    digest: 2d783e324319de2d8bf3d512194608d81c7fdb56fac038e34fd522326c638aba
+    digest: 758742f207079b0f7f2763d3471301fea468533e02eea43204fd391504d4ca0f
     home: https://github.com/kluster-manager/cluster-auth
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -28737,9 +28753,9 @@ entries:
   managed-serviceaccount-manager:
   - apiVersion: v2
     appVersion: v0.6.0
-    created: "2024-10-15T11:41:00.063015058Z"
+    created: "2024-10-16T17:25:11.422412187Z"
     description: A Helm chart for Managed ServiceAccount Addon Manager
-    digest: 3abe2ecdf34693fe9b0fcb8085bf3ef9bbd06c302eaea2a85b00c6980d3d51b7
+    digest: 2f5a59dce2870711ce31e79a09056c6fc31eb7c58b3bc55eedb974d793be87f3
     name: managed-serviceaccount-manager
     type: application
     urls:
@@ -29289,9 +29305,9 @@ entries:
   multicluster-controlplane:
   - apiVersion: v2
     appVersion: v0.5.0
-    created: "2024-10-15T11:41:00.063415305Z"
+    created: "2024-10-16T17:25:11.422824656Z"
     description: A Helm chart for multicluster-controlplane
-    digest: 19468e78df200e601947d1c87780df57c776a02a62c7366621cb459383ce31f6
+    digest: 9ab8bc7a84c953691db6065ffd52123db9b58f3a47bc695b5335852bcdad3091
     name: multicluster-controlplane
     type: application
     urls:
@@ -29310,9 +29326,9 @@ entries:
   multicluster-ingress-reader:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2024-10-15T11:41:00.063714944Z"
+    created: "2024-10-16T17:25:11.423114917Z"
     description: A Helm chart for Kubernetes
-    digest: 4ab8b45caa1b5a8609e9168e2d2cdacb701bec4c855247cdbf5efa522a031d39
+    digest: e9dd35c04bcc0a607d2eab83b2310678eb97c881739477817a40cdd8bc8acd3e
     home: https://github.com/kluster-manager/installer
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -33127,9 +33143,9 @@ entries:
   spoke-cluster-addons:
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2024-10-15T11:41:00.064043568Z"
+    created: "2024-10-16T17:25:11.423425737Z"
     description: Spoke Cluster Addons
-    digest: cee8d0e05d47b93999f41bfd1a7d8712babf7182b411cf1e5a17f508d42b0f47
+    digest: e9f25258fba6c417c6c4813c23248f499bcd8008ca8718b32c81c9979a0fcd40
     home: https://github.com/kluster-manager/cluster-proxy
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     maintainers:
@@ -45200,4 +45216,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-10-16T16:33:58.883844676Z"
+generated: "2024-10-16T17:25:11.415157091Z"
