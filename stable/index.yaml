@@ -26426,6 +26426,36 @@ entries:
     version: v0.1.0
   kubestash:
   - apiVersion: v2
+    appVersion: v2024.12.9
+    created: "2024-12-07T19:50:15.143043902Z"
+    dependencies:
+    - condition: kubestash-operator.enabled
+      name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.14.0
+    - condition: kubestash-catalog.enabled
+      name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2024.12.9
+    - condition: kubestash-metrics.enabled
+      name: kubestash-metrics
+      repository: file://../kubestash-metrics
+      version: v2024.12.9
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 1d80adc1e87fb34453d23bc9be27a7bd442bf74b93e86735ae4961aa4629745a
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/kubestash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2024.12.9.tgz
+    version: v2024.12.9
+  - apiVersion: v2
     appVersion: v2024.9.30
     created: "2024-10-23T22:38:14.704782912Z"
     dependencies:
@@ -26874,6 +26904,23 @@ entries:
     version: v2023.04.14
   kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2024.12.9
+    created: "2024-12-07T19:50:15.143547079Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: d0de1d97177cab5bc56f38b0750ecfb4a9790cf16c8224a1bb30ea95b7ff401c
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2024.12.9.tgz
+    version: v2024.12.9
+  - apiVersion: v2
     appVersion: v2024.9.30
     created: "2024-10-23T22:38:14.705291363Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -27147,6 +27194,23 @@ entries:
     version: v2023.11.28-rc.1
   kubestash-metrics:
   - apiVersion: v2
+    appVersion: v2024.12.9
+    created: "2024-12-07T19:50:15.143878548Z"
+    description: KubeStash State Metrics
+    digest: b1dc5419aee3de52a37bd96d8468af7605c9a9b0c2d448eb3eeabbc9972691fc
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-metrics
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.12.9.tgz
+    version: v2024.12.9
+  - apiVersion: v2
     appVersion: v2024.9.30
     created: "2024-10-23T22:38:14.705730214Z"
     description: KubeStash State Metrics
@@ -27249,6 +27313,22 @@ entries:
     - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.4.27.tgz
     version: v2024.4.27
   kubestash-operator:
+  - apiVersion: v1
+    appVersion: v0.14.0
+    created: "2024-12-07T19:50:15.150077165Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: a0f8dc9f1f059adfe8670d4550f4f0761d23443ded9fea8c9df43a3b9c090b50
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.14.0.tgz
+    version: v0.14.0
   - apiVersion: v1
     appVersion: v0.13.0
     created: "2024-10-23T22:38:14.711252425Z"
@@ -48208,4 +48288,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v0.6.0.tgz
     version: v0.6.0
-generated: "2024-12-06T16:31:04.667169307Z"
+generated: "2024-12-07T19:50:15.134919168Z"
