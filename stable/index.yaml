@@ -27422,6 +27422,36 @@ entries:
     version: v0.1.0
   kubestash:
   - apiVersion: v2
+    appVersion: v2025.1.9
+    created: "2025-01-08T14:44:49.225802793Z"
+    dependencies:
+    - condition: kubestash-operator.enabled
+      name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.15.0
+    - condition: kubestash-catalog.enabled
+      name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2025.1.9
+    - condition: kubestash-metrics.enabled
+      name: kubestash-metrics
+      repository: file://../kubestash-metrics
+      version: v2025.1.9
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 371351d43fcad9b46b369da54117eaecd0d67595b30e32c388a55747a839b473
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/kubestash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2025.1.9.tgz
+    version: v2025.1.9
+  - apiVersion: v2
     appVersion: v2024.12.9
     created: "2024-12-17T13:00:07.709118322Z"
     dependencies:
@@ -27900,6 +27930,23 @@ entries:
     version: v2023.04.14
   kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2025.1.9
+    created: "2025-01-08T14:44:49.226336345Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: 6e1009be8280276d09bce4ee72db56c2ee7f110eae84beece5c2d8733121a71d
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2025.1.9.tgz
+    version: v2025.1.9
+  - apiVersion: v2
     appVersion: v2024.12.9
     created: "2024-12-17T13:00:07.709693163Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -28190,6 +28237,23 @@ entries:
     version: v2023.11.28-rc.1
   kubestash-metrics:
   - apiVersion: v2
+    appVersion: v2025.1.9
+    created: "2025-01-08T14:44:49.226655419Z"
+    description: KubeStash State Metrics
+    digest: e4c6a74f77c74802e45233e26b9f242147a4ca6a1552b4a74bb66b9da31caadb
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-metrics
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2025.1.9.tgz
+    version: v2025.1.9
+  - apiVersion: v2
     appVersion: v2024.12.9
     created: "2024-12-17T13:00:07.710023698Z"
     description: KubeStash State Metrics
@@ -28309,6 +28373,22 @@ entries:
     - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.4.27.tgz
     version: v2024.4.27
   kubestash-operator:
+  - apiVersion: v1
+    appVersion: v0.15.0
+    created: "2025-01-08T14:44:49.232593776Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: 99ff6817b67515219b68200d7529b4e8b9851e2e9e0998f521e84873d6aa33f9
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.15.0.tgz
+    version: v0.15.0
   - apiVersion: v1
     appVersion: v0.14.0
     created: "2024-12-17T13:00:07.716794704Z"
@@ -50093,4 +50173,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-01-07T12:45:01.123752961Z"
+generated: "2025-01-08T14:44:49.216872531Z"
