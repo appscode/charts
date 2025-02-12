@@ -3399,6 +3399,33 @@ entries:
     urls:
     - https://charts.appscode.com/stable/application-crds/application-crds-v0.8.3.tgz
     version: v0.8.3
+  appscode-otel-stack:
+  - apiVersion: v2
+    appVersion: v2025.2.28
+    created: "2025-02-12T08:01:30.259366026Z"
+    dependencies:
+    - condition: kube-prometheus-stack.enabled
+      name: kube-prometheus-stack
+      repository: oci://ghcr.io/appscode-charts
+      version: 69.2.2
+    - condition: opentelemetry-kube-stack.enabled
+      name: opentelemetry-kube-stack
+      repository: oci://ghcr.io/appscode-charts
+      version: 0.3.13
+    description: AppsCode OpenTelemetry Stack
+    digest: 35432f68aba6ad2759fa8d70a3a66602ef678c9c403322aab8b8e8ea90ab3fae
+    home: https://github.com/ops-center
+    icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: appscode-otel-stack
+    sources:
+    - https://github.com/ops-center
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/appscode-otel-stack/appscode-otel-stack-v2025.2.28.tgz
+    version: v2025.2.28
   auditor:
   - apiVersion: v1
     appVersion: v0.0.1
@@ -8824,9 +8851,9 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2025-02-12T07:53:50.006059219Z"
+    created: "2025-02-12T08:01:30.260489874Z"
     description: Inbox Agent by AppsCode
-    digest: 67cacfa9eb4259bcb0636b64c8e44c4a9e09af90daa8b06c2f66e12dca74594e
+    digest: 9b354e93c6137ce7161a625b5960f00c10983edd6243bbd4f04eb002c4827e32
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -8857,9 +8884,9 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-02-12T07:53:50.007794858Z"
+    created: "2025-02-12T08:01:30.262181222Z"
     description: Inbox Server by AppsCode
-    digest: 48fa1e389fde4849cd121a3300c7827e0552865cf4d5883e6db64dcb6f3dc3e2
+    digest: 582000d77474a9e6f4d6390a2e5126640c58cda63c38ec796f329317ceb3f09b
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -52524,4 +52551,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-02-12T07:53:50.004994652Z"
+generated: "2025-02-12T08:01:30.220303634Z"
