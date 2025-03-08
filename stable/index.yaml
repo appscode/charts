@@ -52277,6 +52277,29 @@ entries:
     urls:
     - https://charts.appscode.com/stable/virtual-secrets/virtual-secrets-v2025.1.1.tgz
     version: v2025.1.1
+  virtual-secrets-server:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2025-03-08T12:10:17.346747895Z"
+    dependencies:
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    description: A Helm chart for Virtual Secrets Server by AppsCode
+    digest: 06920722f9cdd61f635720d9a069cb074290f5f02c4f4c8b2dc016edc834a2f5
+    home: https://virtual-secrets.dev
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: virtual-secrets-server
+    sources:
+    - https://github.com/virtual-secrets
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/virtual-secrets-server/virtual-secrets-server-v2025.3.14.tgz
+    version: v2025.3.14
   voyager:
   - apiVersion: v1
     appVersion: v17.2.0
@@ -53722,4 +53745,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-03-08T09:42:24.255910327Z"
+generated: "2025-03-08T12:10:17.345340181Z"
