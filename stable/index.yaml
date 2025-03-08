@@ -39491,6 +39491,25 @@ entries:
     urls:
     - https://charts.appscode.com/stable/searchlight/searchlight-0.1.0.tgz
     version: 0.1.0
+  secrets-store-csi-driver-provider-virtual-secrets:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2025-03-08T12:44:31.326589048Z"
+    description: A Helm chart for Virtual Secrets Provider for Secret Store CSI Driver
+      by AppsCode
+    digest: 642f103897d077beae14da5890991d7ef971d455e9cbf76cf588084b3b050115
+    home: https://virtual-secrets.dev
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: secrets-store-csi-driver-provider-virtual-secrets
+    sources:
+    - https://github.com/virtual-secrets
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/secrets-store-csi-driver-provider-virtual-secrets/secrets-store-csi-driver-provider-virtual-secrets-v2025.3.14.tgz
+    version: v2025.3.14
   secrets-store-reader:
   - apiVersion: v2
     appVersion: v2024.9.30
@@ -52280,14 +52299,14 @@ entries:
   virtual-secrets-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-03-08T12:38:32.687195201Z"
+    created: "2025-03-08T12:44:31.327756052Z"
     dependencies:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: oci://ghcr.io/appscode-charts
       version: v2025.3.14
     description: A Helm chart for Virtual Secrets Server by AppsCode
-    digest: 58b3e7e839bc11db457173fe577feee10710feb710123232d5c40ba5c7bae53e
+    digest: 84d208280feb8d474575fa64835f2c52c3033e933bd020493d6c40c9cdce53d8
     home: https://virtual-secrets.dev
     icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
     maintainers:
@@ -53745,4 +53764,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-03-08T12:41:06.184657607Z"
+generated: "2025-03-08T12:44:31.326059577Z"
