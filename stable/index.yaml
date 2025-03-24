@@ -29873,6 +29873,40 @@ entries:
     version: v0.1.0
   kubestash:
   - apiVersion: v2
+    appVersion: v2025.3.24
+    created: "2025-03-24T18:52:28.91196857Z"
+    dependencies:
+    - condition: kubestash-operator.enabled
+      name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.17.0
+    - condition: kubestash-catalog.enabled
+      name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2025.3.24
+    - condition: kubestash-metrics.enabled
+      name: kubestash-metrics
+      repository: file://../kubestash-metrics
+      version: v2025.3.24
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: f2d47ae04fdc9bb6062e255c79109a691a75c9979347823b1bd3a46e486a771a
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/kubestash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2025.3.24.tgz
+    version: v2025.3.24
+  - apiVersion: v2
     appVersion: v2025.3.19-rc.0
     created: "2025-03-23T17:25:47.929229651Z"
     dependencies:
@@ -30483,6 +30517,23 @@ entries:
     version: v2023.04.14
   kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2025.3.24
+    created: "2025-03-24T18:52:28.912750162Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: f1a9dd6790b50c9327c49abd9bd88c2138793e16b58870bcb419f3ca2d0975a9
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2025.3.24.tgz
+    version: v2025.3.24
+  - apiVersion: v2
     appVersion: v2025.3.19-rc.0
     created: "2025-03-23T17:25:47.929776559Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -30841,6 +30892,23 @@ entries:
     version: v2023.11.28-rc.1
   kubestash-metrics:
   - apiVersion: v2
+    appVersion: v2025.3.24
+    created: "2025-03-24T18:52:28.913364452Z"
+    description: KubeStash State Metrics
+    digest: ec5229621bba282e9f036af3a995fa2d054fc5421ef2fc5a3f12e520cee26b5f
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-metrics
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2025.3.24.tgz
+    version: v2025.3.24
+  - apiVersion: v2
     appVersion: v2025.3.19-rc.0
     created: "2025-03-23T17:25:47.930402625Z"
     description: KubeStash State Metrics
@@ -31028,6 +31096,22 @@ entries:
     - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.4.27.tgz
     version: v2024.4.27
   kubestash-operator:
+  - apiVersion: v1
+    appVersion: v0.17.0
+    created: "2025-03-24T18:52:28.920440955Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: f8145dd7b7d9742325654bf9223aba8b003c10bfe6039936810e03a8938ecdc5
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.17.0.tgz
+    version: v0.17.0
   - apiVersion: v1
     appVersion: v0.17.0-rc.0
     created: "2025-03-23T17:25:47.937539892Z"
@@ -54435,4 +54519,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-03-24T08:23:37.35607506Z"
+generated: "2025-03-24T18:52:28.903081535Z"
