@@ -8468,9 +8468,9 @@ entries:
   gateway-api:
   - apiVersion: v2
     appVersion: v1.2.1
-    created: "2025-03-25T04:23:32.206535679Z"
+    created: "2025-03-26T07:48:41.706819987Z"
     description: Kubernetes Gateway API
-    digest: 059b0462706a56918aa06788bae60f8f653cbb2b629cdd5063a83ceaa49fe83f
+    digest: feed173a1b151f98de0b1d36212666cb9366ce26fc325c88cc2b951db015dabd
     home: https://gateway-api.sigs.k8s.io
     icon: https://cdn.appscode.com/images/products/voyager/voyager-community-icon.png
     maintainers:
@@ -8554,9 +8554,9 @@ entries:
   gateway-converter:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2025-03-25T04:23:32.207271451Z"
+    created: "2025-03-26T07:48:41.707513802Z"
     description: Gateway Converter by AppsCode
-    digest: 1650f25eb3abd00cb2a644072cce0c1393e422953610658d21bfda20cbdb2670
+    digest: e5b604fe4c5e61f38181cf47874f97436707db6f5d3a77f1474bebd36bb5f13d
     home: https://voyagermesh.com
     icon: https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png
     maintainers:
@@ -53511,9 +53511,9 @@ entries:
   voyager:
   - apiVersion: v1
     appVersion: v17.2.0
-    created: "2025-03-25T04:23:32.209086999Z"
+    created: "2025-03-26T07:48:41.709881863Z"
     description: Voyager by AppsCode - Secure L7/L4 Ingress Controller for Kubernetes
-    digest: 34451d3aada5b0c069900e756452a58d5300752e6a853568f88afccb9c119af9
+    digest: 62d9b812148bd1e645facb9872227e6506a6d589ca9145db85008ec873a5d45c
     home: https://voyagermesh.com/
     icon: https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png
     maintainers:
@@ -54366,9 +54366,9 @@ entries:
   voyager-crds:
   - apiVersion: v2
     appVersion: v17.2.0
-    created: "2025-03-25T04:23:32.21096992Z"
+    created: "2025-03-26T07:48:41.711154057Z"
     description: Voyager Custom Resource Definitions
-    digest: 33c72e21e17cf8ffba2642c2fb1ef90b87ac7143f34710a7698eef1470a43b82
+    digest: 4c995068ba1a0077dda6adc81b710e81c1abff0098cc56062603377fa0cdb63a
     home: https://voyager.com
     icon: https://cdn.appscode.com/images/products/voyager/voyager-community-icon.png
     maintainers:
@@ -54689,15 +54689,15 @@ entries:
     version: v2021.04.24-rc.0
   voyager-gateway:
   - apiVersion: v2
-    appVersion: v1.3.0
-    created: "2025-03-25T04:23:32.222481192Z"
+    appVersion: v1.3.1
+    created: "2025-03-26T07:48:41.723118809Z"
     dependencies:
     - condition: gateway-converter.enabled
       name: gateway-converter
       repository: file://../gateway-converter
       version: v2024.8.30
     description: The Helm chart for Voyager Gateway
-    digest: 492f47bcebac8a234af36795dfc519af3cf894af495b693f381ff743721abe79
+    digest: a0c72916bd1f55732776accb614f8bd528874825c64abefdff9d1ef0d05a67ab
     home: https://gateway.voyagermesh.com/
     keywords:
     - gateway-api
@@ -54979,4 +54979,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-03-26T07:00:08.745821187Z"
+generated: "2025-03-26T07:48:41.705003077Z"
