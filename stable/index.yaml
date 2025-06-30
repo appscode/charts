@@ -10346,7 +10346,7 @@ entries:
   gateway-api:
   - apiVersion: v2
     appVersion: v1.2.1
-    created: "2025-06-30T17:20:22.663914126Z"
+    created: "2025-06-30T18:53:35.862256628Z"
     description: Kubernetes Gateway API
     digest: 144721f1fb30136dba1310f33a143f7597b0a16ca3d9d3c6d6654ab127f8f149
     home: https://gateway-api.sigs.k8s.io
@@ -10432,7 +10432,7 @@ entries:
   gateway-converter:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2025-06-30T17:20:22.664661718Z"
+    created: "2025-06-30T18:53:35.863219675Z"
     description: Gateway Converter by AppsCode
     digest: aabe3ef2a08c656b9e8ade5d1d8b5267369c212964e2db0a5e7f8f793ef7593c
     home: https://voyagermesh.com
@@ -59324,7 +59324,7 @@ entries:
   voyager:
   - apiVersion: v1
     appVersion: v17.3.0
-    created: "2025-06-30T17:20:22.666395323Z"
+    created: "2025-06-30T18:53:35.86503983Z"
     description: Voyager by AppsCode - Secure L7/L4 Ingress Controller for Kubernetes
     digest: 003f7cedfece5cc4c0939e4f9404b90854c9918e2a8364f6919398b306f45038
     home: https://voyagermesh.com/
@@ -60195,7 +60195,7 @@ entries:
   voyager-crds:
   - apiVersion: v2
     appVersion: v17.3.0
-    created: "2025-06-30T17:20:22.668157635Z"
+    created: "2025-06-30T18:53:35.866493237Z"
     description: Voyager Custom Resource Definitions
     digest: 34aaa88b06a638aabd90144ab1b66a453b902e66693b72db9bde86030d6aaed6
     home: https://voyager.com
@@ -60536,14 +60536,14 @@ entries:
   voyager-gateway:
   - apiVersion: v2
     appVersion: v1.4.1
-    created: "2025-06-30T17:20:22.680016624Z"
+    created: "2025-06-30T18:53:35.879704624Z"
     dependencies:
     - condition: gateway-converter.enabled
       name: gateway-converter
       repository: file://../gateway-converter
       version: v2024.8.30
     description: The Helm chart for Voyager Gateway
-    digest: 1bf1adca20a9ae8292ed09923f1760a04bdf8b0c4cd4eaff63fb4596b009d2ce
+    digest: 65dcf6608e87a3a864733173ba37deb7da267b4a937caac48a1f4fbf1b912b75
     home: https://gateway.voyagermesh.com/
     keywords:
     - gateway-api
@@ -60979,4 +60979,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-06-30T17:20:22.661240785Z"
+generated: "2025-06-30T18:53:35.859625412Z"
