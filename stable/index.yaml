@@ -33503,6 +33503,44 @@ entries:
     version: v0.1.0
   kubestash:
   - apiVersion: v2
+    appVersion: v2025.6.30
+    created: "2025-06-30T16:35:02.520303579Z"
+    dependencies:
+    - condition: kubestash-operator.enabled
+      name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.19.0
+    - condition: kubestash-catalog.enabled
+      name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2025.6.30
+    - condition: kubestash-metrics.enabled
+      name: kubestash-metrics
+      repository: file://../kubestash-metrics
+      version: v2025.6.30
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    - condition: global.taskQueue.enabled
+      name: taskqueue
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.6.30
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 6b8121cc323ee2f3161f0a57a047abc1e1b74d8d794240ad36fd55be47c965b9
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/kubestash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2025.6.30.tgz
+    version: v2025.6.30
+  - apiVersion: v2
     appVersion: v2025.4.30
     created: "2025-05-04T07:38:28.918122413Z"
     dependencies:
@@ -34181,6 +34219,23 @@ entries:
     version: v2023.04.14
   kubestash-catalog:
   - apiVersion: v2
+    appVersion: v2025.6.30
+    created: "2025-06-30T16:35:02.520864631Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: c3982a8d8be3636026221db817cd95a439547c457961316978a9569a987cb957
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2025.6.30.tgz
+    version: v2025.6.30
+  - apiVersion: v2
     appVersion: v2025.4.30
     created: "2025-05-04T07:38:28.919025825Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
@@ -34573,6 +34628,23 @@ entries:
     version: v2023.11.28-rc.1
   kubestash-metrics:
   - apiVersion: v2
+    appVersion: v2025.6.30
+    created: "2025-06-30T16:35:02.52111656Z"
+    description: KubeStash State Metrics
+    digest: aac1d3f3bb2fe92ae5f13b0c7c7fd8ddf727aa235c9cc39d3358f0c20c43ece8
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-metrics
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2025.6.30.tgz
+    version: v2025.6.30
+  - apiVersion: v2
     appVersion: v2025.4.30
     created: "2025-05-04T07:38:28.919511362Z"
     description: KubeStash State Metrics
@@ -34794,6 +34866,22 @@ entries:
     - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.4.27.tgz
     version: v2024.4.27
   kubestash-operator:
+  - apiVersion: v1
+    appVersion: v0.19.0
+    created: "2025-06-30T16:35:02.527711825Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: cf687e3fe82a4a602431474795bb660233c8f0160db0e51cd703679509b8a19b
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.19.0.tgz
+    version: v0.19.0
   - apiVersion: v1
     appVersion: v0.18.0
     created: "2025-05-04T07:38:28.926949169Z"
@@ -47450,7 +47538,7 @@ entries:
   stash:
   - apiVersion: v2
     appVersion: v2025.6.30
-    created: "2025-06-27T01:15:57.445029039Z"
+    created: "2025-06-30T16:36:02.637247684Z"
     dependencies:
     - condition: features.community
       name: stash-community
@@ -47477,7 +47565,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2025.6.30
     description: Stash by AppsCode - Backup your Kubernetes native applications
-    digest: 03aaaea5d12f9d60e91adc32f7eddcad5a87d647cc98359330988cbe6b9461fb
+    digest: b6afc9fc15d3eb3424a20a030023ff5f6acdf7f3b1d686490f789f853a30d6e8
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/stash-icon.png
     maintainers:
@@ -49090,7 +49178,7 @@ entries:
   stash-catalog:
   - apiVersion: v2
     appVersion: v2025.6.30
-    created: "2025-06-27T01:15:57.447301074Z"
+    created: "2025-06-30T16:36:02.63952297Z"
     description: Stash Catalog by AppsCode - Catalog of Stash Addons
     digest: ab3b875d40f2b31b3226fffd078ccb5a5d1d05110b07997ae41888280df87218
     home: https://stash.run
@@ -49703,7 +49791,7 @@ entries:
   stash-community:
   - apiVersion: v2
     appVersion: v0.40.0
-    created: "2025-06-27T01:15:57.454879357Z"
+    created: "2025-06-30T16:36:02.640881324Z"
     description: Free community features for Stash by AppsCode
     digest: cea527b4c88286281f901ac77670381ece7512218c76dcdd0305e2a6ac752a81
     home: https://stash.run
@@ -50296,7 +50384,7 @@ entries:
   stash-crds:
   - apiVersion: v2
     appVersion: v2025.6.30
-    created: "2025-06-27T01:15:57.456737225Z"
+    created: "2025-06-30T16:36:02.64294839Z"
     description: Stash Custom Resource Definitions
     digest: d3ec4fd5fe6d85ea97261793a2e6adc76fb275a5ab5b68435209df2ef8729678
     home: https://stash.run
@@ -52304,9 +52392,9 @@ entries:
   stash-enterprise:
   - apiVersion: v2
     appVersion: v0.40.0
-    created: "2025-06-27T01:15:57.464217295Z"
+    created: "2025-06-30T16:36:02.644414035Z"
     description: Enterprise features for Stash by AppsCode
-    digest: 287e163230024442a95a93d9dca85484d3d364126ac36631ef220b484da7d3d9
+    digest: df4a862796e90a429687647a163e19a7ee77b0b2fafea04e8ed07307328762a4
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/stash-enterprise-icon.png
     maintainers:
@@ -53089,7 +53177,7 @@ entries:
   stash-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2025.6.30
-    created: "2025-06-27T01:15:57.464639501Z"
+    created: "2025-06-30T16:36:02.644852406Z"
     description: A Helm chart for stash-grafana-dashboards by AppsCode
     digest: 936f8cb25ae15d568a1ca3f9411f34f13777f9d9c9e952d13ccffb4ef651cadd
     home: https://github.com/stashed
@@ -53565,7 +53653,7 @@ entries:
   stash-metrics:
   - apiVersion: v2
     appVersion: v2025.6.30
-    created: "2025-06-27T01:15:57.464879799Z"
+    created: "2025-06-30T16:36:02.645050707Z"
     description: Stash State Metrics
     digest: 02e435b8d1d29c809906d1a4bffaa9c500e52e15e18f0032a93e1154778bb6f7
     home: https://stash.run
@@ -56266,7 +56354,7 @@ entries:
   stash-opscenter:
   - apiVersion: v2
     appVersion: v2025.6.30
-    created: "2025-06-27T01:15:57.466586307Z"
+    created: "2025-06-30T16:36:02.647414038Z"
     dependencies:
     - condition: stash-ui-server.enabled
       name: stash-ui-server
@@ -56285,7 +56373,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2024.9.30
     description: Stash Opscenter by AppsCode
-    digest: b86c9b942255c10c160f525d372273821bbfd321758729a5f57b85f8a329750b
+    digest: 72707ed8019821b4cd256953a28cfd0108b9c4fa9a447317444c5c9b34f75df7
     home: https://stash.run
     icon: https://cdn.appscode.com/images/products/stash/stash-icon.png
     maintainers:
@@ -58085,7 +58173,7 @@ entries:
   stash-ui-server:
   - apiVersion: v2
     appVersion: v0.21.0
-    created: "2025-06-27T01:15:57.467425981Z"
+    created: "2025-06-30T16:36:02.648122084Z"
     description: A Helm chart for stash-ui-server by AppsCode
     digest: 642bd918536ab251c070a39418bd407ce7a916e2ae34225c29bde562768e59d0
     home: https://github.com/stashed/stash-ui-server
@@ -60865,4 +60953,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-06-30T09:59:43.88354691Z"
+generated: "2025-06-30T16:36:02.607512954Z"
