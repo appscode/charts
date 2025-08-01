@@ -47672,10 +47672,10 @@ entries:
   secrets-store-csi-driver-provider-virtual-secrets:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-03-25T12:57:02.777206488Z"
+    created: "2025-08-01T10:43:19.940637609Z"
     description: A Helm chart for Virtual Secrets Provider for Secret Store CSI Driver
       by AppsCode
-    digest: 9b67699682e7beaf0df33848b2b9f1f328c2364903598d3ad256b56f84f9f66c
+    digest: d657bc3f3d15c15aed68d6f98e5ec1ab0a2c4c8d9f9bd085e1ca5472abcdf95e
     home: https://virtual-secrets.dev
     icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
     maintainers:
@@ -61701,15 +61701,15 @@ entries:
     version: v2025.1.1
   virtual-secrets-server:
   - apiVersion: v2
-    appVersion: v0.0.1
-    created: "2025-03-25T12:57:02.778478238Z"
+    appVersion: v0.1.0
+    created: "2025-08-01T10:43:19.941828284Z"
     dependencies:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: oci://ghcr.io/appscode-charts
       version: v2025.3.14
     description: A Helm chart for Virtual Secrets Server by AppsCode
-    digest: ff94265a74e8f8323ebb1bd5a50476772b4cdff88c81a6b83d9d9242e7eca756
+    digest: 34273036233abfc060c36236d8c264c29b167c30ff10c287f24afb0fefbc43b1
     home: https://virtual-secrets.dev
     icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
     maintainers:
@@ -63431,4 +63431,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-07-29T12:41:03.628959972Z"
+generated: "2025-08-01T10:43:19.940147086Z"
