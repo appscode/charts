@@ -3,7 +3,7 @@ entries:
   acaas:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.088751363Z"
+    created: "2025-08-07T22:09:27.934162136Z"
     dependencies:
     - condition: billing.enabled
       name: billing
@@ -34,7 +34,7 @@ entries:
       repository: file://../website
       version: v2025.7.31
     description: A Helm chart for ACE Hosted Service
-    digest: 15ce276e71beb2c63ac9d02c65c1f7a8756425827cd4671cbc115e52b47c6bae
+    digest: 5618a3455de8da2892cf00521f9538094b1790f3650712cbe9fe8b3e98cc731c
     home: https://github.com/appscode-cloud
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -518,7 +518,7 @@ entries:
   accounts-ui:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.089294609Z"
+    created: "2025-08-07T22:09:27.93471194Z"
     description: A Helm chart for Kubernetes
     digest: 9c5cdf98d142db96c6f17305b39b4188c6e57963cf4fdba12769ed5bcf5b5b43
     home: https://github.com/appscode-cloud
@@ -1080,7 +1080,7 @@ entries:
   ace:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.11048853Z"
+    created: "2025-08-07T22:09:27.95596652Z"
     dependencies:
     - condition: platform-ui.enabled
       name: platform-ui
@@ -1131,7 +1131,7 @@ entries:
       repository: file://../outbox-syncer
       version: v2025.7.31
     description: A Helm chart for AppsCode Container Engine
-    digest: 19f9ecd279fc65acf88eb2b24c63afa34087611af4ab66486e90d27526402eb9
+    digest: c73d35a93f8019b06103e1e34b70a5a04003b190ce1979b7817f81fb2a0c2f12
     home: https://github.com/appscode-cloud
     icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
     maintainers:
@@ -3615,9 +3615,9 @@ entries:
   ace-installer:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.112893536Z"
+    created: "2025-08-07T22:09:27.958285833Z"
     description: ACE Installer
-    digest: 22fa9d0e2900940cdb2b4246f12dedd971cf7c3d3f17bb3a65b77362b6c28812
+    digest: f9f455771a5938061ad49496cdb4db8d2ef6327dbd9665cb4bf2d65ee7572568
     home: https://github.com/appscode-cloud
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -4448,7 +4448,7 @@ entries:
   acerproxy:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-08-07T04:50:32.113433606Z"
+    created: "2025-08-07T22:09:27.958824467Z"
     description: A Helm chart for Rancher aware proxy of ACE api
     digest: b430846814da1277e3c2575cfc0413744ee0abca998857ae72a953a7855d0b9f
     home: https://github.com/kubedb/acerproxy
@@ -4500,7 +4500,7 @@ entries:
   aceshifter:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-07T04:50:32.113968377Z"
+    created: "2025-08-07T22:09:27.959349285Z"
     description: A Helm chart for OpenShift
     digest: 78f5148a4c27587f5022af9829234a272437cc575899697283776861f98019ba
     home: https://github.com/appscode-cloud
@@ -4901,7 +4901,7 @@ entries:
   billing:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.114458123Z"
+    created: "2025-08-07T22:09:27.959852443Z"
     description: A Helm chart for Kubernetes
     digest: 3d856ffca6e2d347392a7d1309fa875ea9deb0a3cccbd3f1d76a61463fc1a9df
     home: https://github.com/appscode-cloud
@@ -5463,7 +5463,7 @@ entries:
   billing-ui:
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2025-08-07T04:50:32.114831211Z"
+    created: "2025-08-07T22:09:27.960209619Z"
     description: A Helm chart for Kubernetes
     digest: 299a11bff96864d60f6323fe393e092bd9190802d1231a2285b6ac81e898c590
     home: https://github.com/appscode-cloud
@@ -6399,7 +6399,7 @@ entries:
   catalog-manager:
   - apiVersion: v2
     appVersion: v0.6.2
-    created: "2025-08-07T04:50:32.119569659Z"
+    created: "2025-08-07T22:09:27.965918401Z"
     description: A Helm chart for AppsCode SaaS Calalog
     digest: 12f5b9eb878887d2c9c40d0b89fb0f0fb51421dffc029997884b3f7f345a28b2
     home: https://github.com/appscode-cloud/catalog-manager
@@ -6912,7 +6912,7 @@ entries:
   cert-manager-webhook-ace:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-07T04:50:32.120511924Z"
+    created: "2025-08-07T22:09:27.966369822Z"
     description: A webhook to use AppsCode DNS Proxy for Cloudfare as a DNS issuer
       for cert-manager
     digest: d9051fe14aed3908a207606664b6a2d4b26b720dd0e7389ba27f2339082476f0
@@ -7666,7 +7666,7 @@ entries:
   cluster-importer:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2025-08-07T04:50:32.12092135Z"
+    created: "2025-08-07T22:09:27.966728631Z"
     description: A Helm chart for Kubernetes
     digest: 653fc1626d84e93bc99df5a9aa819d2b30e037d04179145d6344eb40c091b5a7
     home: https://github.com/appscode-cloud
@@ -8388,7 +8388,7 @@ entries:
   cluster-presets:
   - apiVersion: v2
     appVersion: v0.0.9
-    created: "2025-08-07T04:50:32.121442706Z"
+    created: "2025-08-07T22:09:27.967267445Z"
     description: A Helm chart for Kubernetes
     digest: 56dca9ac86a2968520ce1b2bab024a593dbbf44496fc18c094d1ee526229500b
     home: https://github.com/appscode-cloud
@@ -8960,7 +8960,7 @@ entries:
   cluster-ui:
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2025-08-07T04:50:32.12181395Z"
+    created: "2025-08-07T22:09:27.967627436Z"
     description: A Helm chart for Kubernetes
     digest: bc268d65d3c6f6de9f43277dd8a0736d5776e39d2f34e5d31d0dbfb9b3dc89cb
     home: https://github.com/appscode-cloud
@@ -9924,7 +9924,7 @@ entries:
   deploy-ui:
   - apiVersion: v2
     appVersion: 0.3.6
-    created: "2025-08-07T04:50:32.122165958Z"
+    created: "2025-08-07T22:09:27.968001483Z"
     description: A Helm chart for Kubernetes
     digest: fd82c31be869b94d5e2f8e9ab65d40dc77ba51f0448260c8773a44e4f27ac648
     home: https://github.com/appscode-cloud
@@ -10282,7 +10282,7 @@ entries:
   dns-proxy:
   - apiVersion: v2
     appVersion: v0.0.4
-    created: "2025-08-07T04:50:32.122687604Z"
+    created: "2025-08-07T22:09:27.968525029Z"
     description: A Helm chart for Kubernetes
     digest: 2ba44c60b7a05bc201e789638bbca22bce3732e5d382e73399068b9ebafa104e
     home: https://github.com/appscode-cloud
@@ -11354,7 +11354,7 @@ entries:
   gh-ci-webhook:
   - apiVersion: v2
     appVersion: v0.0.20
-    created: "2025-08-07T04:50:32.123130353Z"
+    created: "2025-08-07T22:09:27.968941906Z"
     description: A Helm chart for Kubernetes
     digest: 317f4fe6549bcb1f20fe20e32bca1fc54f3be9931f5271789a3f365fd2600b0f
     home: https://github.com/appscode-cloud
@@ -11492,7 +11492,7 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: v2025.2.3
-    created: "2025-08-07T04:50:32.12362634Z"
+    created: "2025-08-07T22:09:27.96952839Z"
     description: A Helm chart for Kubernetes
     digest: cef3df455c9ad301ebe290f688323eef04b4c3eeebbf59974986c097e43c5f1e
     home: https://github.com/appscode-cloud
@@ -12360,7 +12360,7 @@ entries:
   inbox-ui:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2025-08-07T04:50:32.124035446Z"
+    created: "2025-08-07T22:09:27.97001146Z"
     description: A Helm chart for Kubernetes
     digest: 90617980305e95a46d2e32f0cd6916f01ded7c5b9408e574ffc6063a6bd77592
     home: https://github.com/appscode-cloud
@@ -33019,7 +33019,7 @@ entries:
   kubedb-ui:
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2025-08-07T04:50:32.124385731Z"
+    created: "2025-08-07T22:09:27.970452622Z"
     description: A Helm chart for Kubernetes
     digest: e3e3570f98829da88be7e31a2aea7f1c3f39aa183152a2d2c46672af652fb36f
     home: https://github.com/appscode-cloud
@@ -33581,7 +33581,7 @@ entries:
   kubedb-ui-presets:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.125433571Z"
+    created: "2025-08-07T22:09:27.971560998Z"
     description: KubeDB UI Presets
     digest: 674a117f112014575c8795730272e230afb9204f3e179fc7632eeb6ab4392c9d
     home: https://github.com/bytebuilders
@@ -41209,7 +41209,7 @@ entries:
   license-proxyserver:
   - apiVersion: v1
     appVersion: v0.0.23
-    created: "2025-08-07T04:50:32.12623501Z"
+    created: "2025-08-07T22:09:27.972211751Z"
     description: Kubernetes license-proxyserver by AppsCode
     digest: ded13e2dc050ab0cfea81d103d1137fa50721ad7a5f6dfde8d11ea66c6d66d66
     home: https://github.com/appscode-cloud/license-proxyserver
@@ -41627,7 +41627,7 @@ entries:
   license-proxyserver-manager:
   - apiVersion: v1
     appVersion: v0.0.23
-    created: "2025-08-07T04:50:32.127179517Z"
+    created: "2025-08-07T22:09:27.973150451Z"
     description: AppsCode License Proxy Server OCM Addon Manager
     digest: a5e27a560a613b0cf811e3696436b2ed0a1c3f488068b27735420d5122264367
     home: https://github.com/appscode-cloud/license-proxyserver
@@ -42066,7 +42066,7 @@ entries:
   marketplace-api:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.128173436Z"
+    created: "2025-08-07T22:09:27.973733738Z"
     description: A Helm chart for Kubernetes
     digest: 3448f143c494d6873cdb4a2c203521eaaf39b33b498ca3359413d05950ed1885
     home: https://github.com/appscode-cloud
@@ -42254,7 +42254,7 @@ entries:
   marketplace-ui:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2025-08-07T04:50:32.128754178Z"
+    created: "2025-08-07T22:09:27.974783866Z"
     description: A Helm chart for Kubernetes
     digest: 11985de51d997c864fc33d28c71384e5202e9aa77c1974815c7bb22ea733c500
     home: https://github.com/appscode-cloud
@@ -42494,7 +42494,7 @@ entries:
   minio:
   - apiVersion: v2
     appVersion: RELEASE.2023-01-12T02-06-16Z
-    created: "2025-08-07T04:50:32.129223506Z"
+    created: "2025-08-07T22:09:27.97568756Z"
     description: A Helm chart for MinIO Demo Deployment
     digest: 677d1a775b302630bdcf0faefbb6f9042df4bb50ce35bcc498e4090ecf4e3698
     home: https://github.com/appscode-cloud
@@ -43388,7 +43388,7 @@ entries:
   offline-license-server:
   - apiVersion: v2
     appVersion: v0.0.69
-    created: "2025-08-07T04:50:32.129673367Z"
+    created: "2025-08-07T22:09:27.976183314Z"
     description: A Helm chart for Kubernetes
     digest: 9eba91f72b46a52f5f9716836981c146a4eda6fd6c0397d653aea9dc460dcd61
     home: https://github.com/appscode-cloud
@@ -43855,9 +43855,9 @@ entries:
   opscenter-features:
   - apiVersion: v2
     appVersion: v0.21.0
-    created: "2025-08-07T04:50:32.131510063Z"
+    created: "2025-08-07T22:09:27.978126997Z"
     description: ACE Opscenter Configuration
-    digest: 72b42e5ab1d4deedd7ee51540934c96d996abd18cd6e3401dcca5eb0ac0b92a3
+    digest: 86e91d4466ee8b947489f2db40c73536d730154c378cbebfef125a6bb3e838ee
     home: https://github.com/appscode-cloud
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     maintainers:
@@ -44400,7 +44400,7 @@ entries:
   outbox-syncer:
   - apiVersion: v2
     appVersion: v0.2.0
-    created: "2025-08-07T04:50:32.132010118Z"
+    created: "2025-08-07T22:09:27.978630225Z"
     description: A Helm chart for Kubernetes
     digest: 805fac9d7258dc81508f3bb560582ef3ca9e4a59b4a2a890611f9b61f1bb86fe
     home: https://github.com/appscode-cloud
@@ -45330,7 +45330,7 @@ entries:
   platform-api:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.132605281Z"
+    created: "2025-08-07T22:09:27.979253277Z"
     description: A Helm chart for Kubernetes
     digest: 65fb802833ece2f20338ef86583935b9a8cb9811c5e2a95e955551a56e6b83d1
     home: https://github.com/appscode-cloud
@@ -45892,7 +45892,7 @@ entries:
   platform-links:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-07T04:50:32.133945989Z"
+    created: "2025-08-07T22:09:27.980040427Z"
     description: A Helm chart for Kubernetes
     digest: d6db021efdc4eead2a0f2be63fed5d702ded8fa971ea0ac6a23823c022718b8a
     home: https://github.com/appscode-cloud
@@ -46437,7 +46437,7 @@ entries:
   platform-ui:
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2025-08-07T04:50:32.134374181Z"
+    created: "2025-08-07T22:09:27.980941296Z"
     description: A Helm chart for Kubernetes
     digest: 1e02565e26322f71f03d32633ff92d7eeed995244f1a8e7bb04dcd7df7aa1692
     home: https://github.com/appscode-cloud
@@ -47994,7 +47994,7 @@ entries:
   s3proxy:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-07T04:50:32.134827609Z"
+    created: "2025-08-07T22:09:27.981397326Z"
     description: A Helm chart for MinIO Demo Deployment
     digest: 4c6bd34a3953ca28c0d76fdc2863ccdf66903d6fb5dd73add5e9c681a3d05fc2
     home: https://github.com/appscode-cloud
@@ -48902,7 +48902,7 @@ entries:
   service-backend:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-07T04:50:32.135568885Z"
+    created: "2025-08-07T22:09:27.981994118Z"
     description: A Helm chart for Kubernetes
     digest: 9c8a92db080d6a6098de66e09c96c25cecbee217eccacd2c872bd9bd33aa2685
     home: https://github.com/appscode-cloud
@@ -49274,7 +49274,7 @@ entries:
   service-gateway:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.149992298Z"
+    created: "2025-08-07T22:09:27.997048026Z"
     dependencies:
     - alias: gateway
       name: voyager-gateway
@@ -49561,7 +49561,7 @@ entries:
   service-gateway-presets:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.151938699Z"
+    created: "2025-08-07T22:09:27.999184328Z"
     description: ACE Service Gateway Presets
     digest: d740f803b597df37a4f0994719adba3d02260b781d01fbc1044c653ca86a8bc7
     home: https://github.com/appscode-cloud
@@ -49869,7 +49869,7 @@ entries:
   service-provider:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2025-08-07T04:50:32.153061006Z"
+    created: "2025-08-07T22:09:28.000034363Z"
     description: AppsCode SaaS Provider
     digest: c01cb889ca58e7e0c6f96c3d39bc77089abecd0234823c93c85a70c127a4eb19
     home: https://github.com/appscode-cloud
@@ -50142,7 +50142,7 @@ entries:
   service-vault:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.160918434Z"
+    created: "2025-08-07T22:09:28.006743411Z"
     description: ACE Centralized Vault Service
     digest: 45b3bed28722559b0c92631669ea3a0b87aa89d51121ff9683e576a51792fa1a
     home: https://github.com/appscode-cloud
@@ -50468,7 +50468,7 @@ entries:
   smtprelay:
   - apiVersion: v2
     appVersion: v0.0.4
-    created: "2025-08-07T04:50:32.161484954Z"
+    created: "2025-08-07T22:09:28.007315748Z"
     description: A Helm chart for Kubernetes
     digest: 8c787fb03c8f117e51cad8ad29fd5c9a0f46e2c7fddeea7ca3aa429dec1cd192
     home: https://github.com/appscode-cloud
@@ -61160,7 +61160,7 @@ entries:
   stash-presets:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.161984268Z"
+    created: "2025-08-07T22:09:28.007804489Z"
     description: Stash Presets
     digest: 037d3ca0d63c1098a36db5644abcbc311347f62d67f052c979a403cb4c42bef5
     home: https://github.com/appscode-cloud
@@ -64342,7 +64342,7 @@ entries:
   website:
   - apiVersion: v2
     appVersion: v2025.7.31
-    created: "2025-08-07T04:50:32.16233263Z"
+    created: "2025-08-07T22:09:28.008173507Z"
     description: A Helm chart for Kubernetes
     digest: b44516ca6a990b89362729c098fada3496aeeb81ce85acdbf7573a712b0fe421
     home: https://github.com/appscode-cloud
@@ -64579,4 +64579,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-08-07T21:34:08.067122225Z"
+generated: "2025-08-07T22:09:27.929089391Z"
