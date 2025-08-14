@@ -4938,7 +4938,7 @@ entries:
   appscode-otel-stack:
   - apiVersion: v2
     appVersion: v2025.2.28
-    created: "2025-05-08T10:37:59.236590188Z"
+    created: "2025-08-14T10:26:30.040248689Z"
     dependencies:
     - condition: kube-prometheus-stack.enabled
       name: kube-prometheus-stack
@@ -4949,7 +4949,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: 0.3.13
     description: AppsCode OpenTelemetry Stack
-    digest: 8f56b54751d3a3428433ad0ec5bf5379826ed4b8205cca367067ae50ae370bcb
+    digest: 531fd723998cf67aaea022828e9ded87a4498c17dcc636d6305a830319064e9b
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -12675,9 +12675,9 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.3
-    created: "2025-05-08T10:37:59.237454883Z"
+    created: "2025-08-14T10:26:30.041351222Z"
     description: Inbox Agent by AppsCode
-    digest: 702e7baed2994500f1b0ce857178daa88261305c3977b524b28b6cdb11f4c749
+    digest: 36df68bccd66a0eb5e41f4c97f363576f90b088130590760621f984b28e2dea5
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -12708,14 +12708,14 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-05-08T10:37:59.242600048Z"
+    created: "2025-08-14T10:26:30.046693285Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: oci://registry-1.docker.io/bitnamicharts
       version: 16.4.14
     description: Inbox Server by AppsCode
-    digest: 613d58515415640b5c4b1293f36f4ddd51d74bee3a6149a9caeed448903fe8c8
+    digest: cdc40c46b1e1ec1177c115a214301d0e933a524d9c9a931a813c9492693491cb
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -12746,9 +12746,9 @@ entries:
   inbox-server-distributed:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-05-08T10:37:59.243648094Z"
+    created: "2025-08-14T10:26:30.047782824Z"
     description: Inbox Server by AppsCode
-    digest: 24f1b5a4ea8e14b535cbed1c93dee6221ef3b362d83e55c553dc9c0309c0f072
+    digest: 63bf76d2381ed48d8766e08e6f63a437bd675ed48cc4ea648da731861bf9e462
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -65401,4 +65401,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-08-13T11:14:03.473472588Z"
+generated: "2025-08-14T10:26:30.003239574Z"
