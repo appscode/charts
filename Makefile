@@ -51,7 +51,7 @@ SRC_DIRS := $(SRC_PKGS) hack/scripts # directories which hold app source (not ve
 OS   := $(if $(GOOS),$(GOOS),$(shell go env GOOS))
 ARCH := $(if $(GOARCH),$(GOARCH),$(shell go env GOARCH))
 
-GO_VERSION       ?= 1.20
+GO_VERSION       ?= 1.25
 BUILD_IMAGE      ?= ghcr.io/appscode/golang-dev:$(GO_VERSION)
 
 # Directories that we need created to build/test.
