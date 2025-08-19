@@ -4938,7 +4938,7 @@ entries:
   appscode-otel-stack:
   - apiVersion: v2
     appVersion: v2025.2.28
-    created: "2025-08-18T11:16:47.070801324Z"
+    created: "2025-08-19T06:13:14.261098058Z"
     dependencies:
     - condition: kube-prometheus-stack.enabled
       name: kube-prometheus-stack
@@ -4949,7 +4949,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: 0.3.13
     description: AppsCode OpenTelemetry Stack
-    digest: cb986699b2559323a1b4ed0fdc45f5dd0e4105c8fb3d926332574068708a6fc1
+    digest: ee340b7bdb5405227267693b48c108ade22576a0b2cb26ad42fc048a7200c2a9
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -12675,7 +12675,7 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.3
-    created: "2025-08-18T11:16:47.071657755Z"
+    created: "2025-08-19T06:13:14.261959167Z"
     description: Inbox Agent by AppsCode
     digest: 36df68bccd66a0eb5e41f4c97f363576f90b088130590760621f984b28e2dea5
     home: https://github.com/ops-center
@@ -12708,14 +12708,14 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-18T11:16:47.07685948Z"
+    created: "2025-08-19T06:13:14.26735981Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: oci://registry-1.docker.io/bitnamicharts
       version: 16.4.14
     description: Inbox Server by AppsCode
-    digest: 17d8782609582e7e20433b25ee1438756594f1dd1fbefcd337efb0b54423b757
+    digest: 64f9c9a66bfcb0267e3eeba11c17d98bde605f2424f9736b3051bd101190eabb
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -12746,7 +12746,7 @@ entries:
   inbox-server-distributed:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-18T11:16:47.077953105Z"
+    created: "2025-08-19T06:13:14.269587968Z"
     description: Inbox Server by AppsCode
     digest: 63bf76d2381ed48d8766e08e6f63a437bd675ed48cc4ea648da731861bf9e462
     home: https://github.com/ops-center
@@ -65401,4 +65401,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-08-18T11:16:47.033591656Z"
+generated: "2025-08-19T06:13:14.221606059Z"
