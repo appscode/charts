@@ -40232,6 +40232,47 @@ entries:
     - https://charts.appscode.com/stable/kubepack-operator/kubepack-operator-v0.1.0.tgz
     version: v0.1.0
   kubestash:
+  - annotations:
+      charts.openshift.io/name: kubestash
+    apiVersion: v2
+    appVersion: v2025.12.9-rc.0
+    created: "2025-12-09T08:24:58.313213776Z"
+    dependencies:
+    - condition: kubestash-operator.enabled
+      name: kubestash-operator
+      repository: file://../kubestash-operator
+      version: v0.22.0-rc.0
+    - condition: kubestash-catalog.enabled
+      name: kubestash-catalog
+      repository: file://../kubestash-catalog
+      version: v2025.12.9-rc.0
+    - condition: kubestash-metrics.enabled
+      name: kubestash-metrics
+      repository: file://../kubestash-metrics
+      version: v2025.12.9-rc.0
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    - condition: global.taskQueue.enabled
+      name: taskqueue
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.12.15
+    description: KubeStash by AppsCode - Backup your Kubernetes native applications
+    digest: 6dfd4c046448ad0498b6758fc51268933612c0838ce30ad23eb9dcb29f309da9
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash
+    sources:
+    - https://github.com/kubestash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash/kubestash-v2025.12.9-rc.0.tgz
+    version: v2025.12.9-rc.0
   - apiVersion: v2
     appVersion: v2025.10.17
     created: "2025-10-17T08:11:42.646760102Z"
@@ -41024,6 +41065,26 @@ entries:
     - https://charts.appscode.com/stable/kubestash/kubestash-v2023.04.14.tgz
     version: v2023.04.14
   kubestash-catalog:
+  - annotations:
+      charts.openshift.io/name: kubestash-catalog
+    apiVersion: v2
+    appVersion: v2025.12.9-rc.0
+    created: "2025-12-09T08:24:58.313788177Z"
+    description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
+    digest: db3d90bf2a398cad3d93a63f354a064b72a0f3ee90b2a4a7f289a62150e80a11
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-catalog
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2025.12.9-rc.0.tgz
+    version: v2025.12.9-rc.0
   - apiVersion: v2
     appVersion: v2025.10.17
     created: "2025-10-17T08:11:42.647319605Z"
@@ -41467,6 +41528,26 @@ entries:
     - https://charts.appscode.com/stable/kubestash-catalog/kubestash-catalog-v2023.11.28-rc.1.tgz
     version: v2023.11.28-rc.1
   kubestash-metrics:
+  - annotations:
+      charts.openshift.io/name: kubestash-metrics
+    apiVersion: v2
+    appVersion: v2025.12.9-rc.0
+    created: "2025-12-09T08:24:58.314041669Z"
+    description: KubeStash State Metrics
+    digest: b7ca4a2a40b63d8e494313f054c28be32cc11dcabac212e07e1f2457c3b00579
+    home: https://kubestash.com
+    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-metrics
+    sources:
+    - https://github.com/kuebstash
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2025.12.9-rc.0.tgz
+    version: v2025.12.9-rc.0
   - apiVersion: v2
     appVersion: v2025.10.17
     created: "2025-10-17T08:11:42.647559713Z"
@@ -41740,6 +41821,25 @@ entries:
     - https://charts.appscode.com/stable/kubestash-metrics/kubestash-metrics-v2024.4.27.tgz
     version: v2024.4.27
   kubestash-operator:
+  - annotations:
+      charts.openshift.io/name: kubestash-operator
+    apiVersion: v1
+    appVersion: v0.22.0-rc.0
+    created: "2025-12-09T08:24:58.320581633Z"
+    description: KubeStash, Kubernetes native backup operator by AppsCode
+    digest: 0e995add8513f68f683b69a3a2518480b85f4a1d4d073165d1418ea7d30d8a59
+    home: https://kubestash.com/
+    icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubestash-operator
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/kubestash-operator/kubestash-operator-v0.22.0-rc.0.tgz
+    version: v0.22.0-rc.0
   - apiVersion: v1
     appVersion: v0.21.0
     created: "2025-10-17T08:11:42.654349176Z"
@@ -72672,4 +72772,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-12-09T05:07:43.757417992Z"
+generated: "2025-12-09T08:24:58.303966365Z"
