@@ -5676,7 +5676,7 @@ entries:
   ace-user-roles:
   - apiVersion: v2
     appVersion: v2025.3.14
-    created: "2025-12-05T17:33:33.426910793Z"
+    created: "2025-12-09T05:07:43.757926678Z"
     description: A Helm chart for ACE user roles
     digest: a76ad522f033df79c923a43125bfb9df41756e2acf330fc9bb028f6067419574
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
@@ -6221,7 +6221,7 @@ entries:
   application-crds:
   - apiVersion: v2
     appVersion: v0.8.3
-    created: "2025-12-05T17:33:33.427199318Z"
+    created: "2025-12-09T05:07:43.758183886Z"
     description: Kubernetes Application CRDs
     digest: 28659a7a4713f2df5f01cefbc4711aa818efcbbe40a6b60b054ae55588c94852
     home: https://github.com/kmodules/application
@@ -8544,7 +8544,7 @@ entries:
   cert-manager-crds:
   - apiVersion: v2
     appVersion: v1.18.2
-    created: "2025-12-05T17:33:33.427765937Z"
+    created: "2025-12-09T05:07:43.758742915Z"
     description: Jetstack cert-manager CRDs
     digest: 97e6a0c658fe39da739437e3007d5f8bee511c768d8d6ac16946296eeb02bc65
     home: https://cert-manager.io
@@ -8594,6 +8594,26 @@ entries:
     - https://charts.appscode.com/stable/cert-manager-crds/cert-manager-crds-1.2.0.tgz
     version: 1.2.0
   cert-manager-csi-driver-cacerts:
+  - annotations:
+      charts.openshift.io/name: cert-manager-csi-driver-cacerts
+    apiVersion: v2
+    appVersion: v0.4.0
+    created: "2025-12-09T05:07:43.759440281Z"
+    description: A Helm chart for cert-manager-csi-driver-cacerts
+    digest: 52a04804bab4414fdbd10457bc83ae462bc6c1a050751be1bef6e7f489be0356
+    home: https://github.com/kubeops/csi-driver-cacerts
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cert-manager-csi-driver-cacerts
+    sources:
+    - https://github.com/kubeops/csi-driver-cacerts
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cert-manager-csi-driver-cacerts/cert-manager-csi-driver-cacerts-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.3.0
     created: "2025-12-05T17:33:33.429141076Z"
@@ -9428,7 +9448,7 @@ entries:
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.12
-    created: "2025-12-05T17:33:33.429702756Z"
+    created: "2025-12-09T05:07:43.760769941Z"
     description: A Helm chart for cluster-connector
     digest: de5fcd4ae2c54c8c31a4a43f47dda2c4e5cc5ad65aaf613823557f56d7af2e48
     home: https://github.com/kubeops/cluster-connector
@@ -11874,7 +11894,7 @@ entries:
   config-syncer:
   - apiVersion: v1
     appVersion: v0.15.3
-    created: "2025-12-05T17:33:33.430394641Z"
+    created: "2025-12-09T05:07:43.761464532Z"
     description: Config Syncer by AppsCode
     digest: 8ba754ad4f551a865b43de7090544f100f5e20c247f91cb1a52709f1be5294a5
     home: https://github.com/kubeops/config-syncer
@@ -13452,13 +13472,16 @@ entries:
     - https://charts.appscode.com/stable/elasticsearch-alerts/elasticsearch-alerts-v2023.04.10.tgz
     version: v2023.04.10
   external-dns-operator:
-  - apiVersion: v2
+  - annotations:
+      charts.openshift.io/name: external-dns-operator
+    apiVersion: v2
     appVersion: v0.2.0
-    created: "2025-12-05T17:33:33.431016354Z"
+    created: "2025-12-09T05:07:43.762097578Z"
     description: A Helm chart for External DNS Operator by AppsCode
-    digest: bdd778a717e814b29fb68dc12c2274530e7f8e2e80e76cf62ce48691a22723a2
+    digest: c427a8f89576f1b9234850f266f691b945c31fdebf876960e6acc7dd00734c1a
     home: https://github.com/kubeops/external-dns-operator
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -13555,13 +13578,16 @@ entries:
     - https://charts.appscode.com/stable/external-dns-operator/external-dns-operator-v2022.06.14.tgz
     version: v2022.06.14
   falco-ui-server:
-  - apiVersion: v1
+  - annotations:
+      charts.openshift.io/name: falco-ui-server
+    apiVersion: v1
     appVersion: v0.0.4
-    created: "2025-12-05T17:33:33.432057688Z"
+    created: "2025-12-09T05:07:43.763138183Z"
     description: Falco UI Server by AppsCode
-    digest: c64633765fc847e3e5e159defef7081037dbc5c4abd30ba1cc0a9ffd6319698a
+    digest: f0ee59ecfdfac13122fd93be24373bddf122e88d38f0bf6e020e13a992f159dd
     home: https://github.com/kubeops/falco-ui-server
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -13620,6 +13646,26 @@ entries:
     - https://charts.appscode.com/stable/falco-ui-server/falco-ui-server-v2023.03.23.tgz
     version: v2023.03.23
   fargocd:
+  - annotations:
+      charts.openshift.io/name: fargocd
+    apiVersion: v2
+    appVersion: v0.0.2
+    created: "2025-12-09T05:07:43.76383031Z"
+    description: A Helm chart for FluxCD to ArgoCD Bridge
+    digest: ffb6ed413a0597ee675639fa1798cb17d59a5cb3abed2fe1b9f2a8dbcfad35f7
+    home: https://github.com/appscode-cloud
+    icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: fargocd
+    sources:
+    - https://github.com/appscode-cloud
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/fargocd/fargocd-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2025-12-05T17:33:33.432706201Z"
@@ -13861,7 +13907,7 @@ entries:
   gatekeeper-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2025-12-05T17:33:33.43342919Z"
+    created: "2025-12-09T05:07:43.764147008Z"
     description: A Helm chart for Gatekeeper Grafana Dashboards
     digest: 550084f8546be32122b9402329d18b49d6fde30b2bafab6f915b3bea7a5ae877
     home: https://github.com/appscode/grafana-dashboards
@@ -13896,7 +13942,7 @@ entries:
   gatekeeper-library:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-12-05T17:33:33.435109022Z"
+    created: "2025-12-09T05:07:43.766316795Z"
     description: A Helm chart for OPA Gatekeeper Library
     digest: ac6d20706fcf4d5a0fceaf4dcfc9f32df450a11f623514ff17b35305bc84b772
     home: https://github.com/kubeops/installer
@@ -16076,7 +16122,7 @@ entries:
   kmodules-crds:
   - apiVersion: v2
     appVersion: v0.25.1
-    created: "2025-12-05T17:33:33.435399219Z"
+    created: "2025-12-09T05:07:43.766518039Z"
     description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
     digest: 20e3dca62e0949d184cf3595bd7fbd6b06066db48ddc55566693c25bef4efd58
     home: https://appscode.com
@@ -16394,18 +16440,21 @@ entries:
     - https://charts.appscode.com/stable/kube-grafana-dashboards/kube-grafana-dashboards-v2022.03.20.tgz
     version: v2022.03.20
   kube-ui-server:
-  - apiVersion: v2
+  - annotations:
+      charts.openshift.io/name: kube-ui-server
+    apiVersion: v2
     appVersion: v0.0.67
-    created: "2025-12-05T17:33:33.436897916Z"
+    created: "2025-12-09T05:07:43.76803545Z"
     dependencies:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: file://../ace-user-roles
       version: v2025.3.14
     description: A Helm chart for kube-ui-server by AppsCode
-    digest: dd00027fc1d6e77d23f98ddc5ca37782a6240521659e4fa2ca96b473dac29c81
+    digest: dd07d67a1a8474c73560d408479dd2305159337a99730b575750b0ce72508027
     home: https://github.com/kubeops/kube-ui-server
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -48886,7 +48935,7 @@ entries:
   opencost-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2025-12-05T17:33:33.437449467Z"
+    created: "2025-12-09T05:07:43.768532504Z"
     description: A Helm chart for Opencost Grafana Dashboards
     digest: b6a9451491188ebdb6b2bbbb4e89734831629bfa25ed856af54af36da28006a4
     home: https://github.com/appscode/grafana-dashboards
@@ -48971,6 +49020,26 @@ entries:
     - https://charts.appscode.com/stable/openfga-alerts/openfga-alerts-v2025.6.30.tgz
     version: v2025.6.30
   operator-shard-manager:
+  - annotations:
+      charts.openshift.io/name: operator-shard-manager
+    apiVersion: v2
+    appVersion: v0.0.4
+    created: "2025-12-09T05:07:43.769250639Z"
+    description: A Helm chart for OpenShift
+    digest: aa437650e659c0ca53d6235b1f49dea7facabe40600d792696bbe02d929174d4
+    home: https://github.com/appscode-cloud
+    icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: operator-shard-manager
+    sources:
+    - https://github.com/appscode-cloud
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/operator-shard-manager/operator-shard-manager-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.0.3
     created: "2025-12-05T17:33:33.438796485Z"
@@ -50203,6 +50272,30 @@ entries:
     - https://charts.appscode.com/stable/outbox-syncer/outbox-syncer-v2025.2.28.tgz
     version: v2025.2.28
   panopticon:
+  - annotations:
+      charts.openshift.io/name: panopticon
+    apiVersion: v2
+    appVersion: v0.0.20
+    created: "2025-12-09T05:07:43.77121819Z"
+    dependencies:
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: file://../ace-user-roles
+      version: v2025.3.14
+    description: Kubernetes Panopticon by AppsCode
+    digest: c33f7302f1197c3ff62cb79cc109a08592101a29563787ad8f2045f3a4aaf382
+    home: https://github.com/kubeops/panopticon
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: panopticon
+    sources:
+    - https://github.com/kubeops/panopticon
+    urls:
+    - https://charts.appscode.com/stable/panopticon/panopticon-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.0.19
     created: "2025-12-05T17:33:33.440122847Z"
@@ -50628,6 +50721,25 @@ entries:
     - https://charts.appscode.com/stable/perconaxtradb-alerts/perconaxtradb-alerts-v2023.04.10.tgz
     version: v2023.04.10
   petset:
+  - annotations:
+      charts.openshift.io/name: petset
+    apiVersion: v1
+    appVersion: v0.0.15
+    created: "2025-12-09T05:07:43.772260889Z"
+    description: Petset Operator by AppsCode
+    digest: 503fe06514c4ee5721298304e6c37e3758f0c61587086f9eb5b381593f936203
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/stash/petset-icon.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: petset
+    sources:
+    - https://github.com/stashed
+    urls:
+    - https://charts.appscode.com/stable/petset/petset-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v1
     appVersion: v0.0.14
     created: "2025-12-05T17:33:33.441133082Z"
@@ -50936,13 +51048,16 @@ entries:
     - https://charts.appscode.com/stable/pgbouncer-alerts/pgbouncer-alerts-v2024.12.18.tgz
     version: v2024.12.18
   pgoutbox:
-  - apiVersion: v2
+  - annotations:
+      charts.openshift.io/name: pgoutbox
+    apiVersion: v2
     appVersion: v0.0.2
-    created: "2025-12-05T17:33:33.442265098Z"
+    created: "2025-12-09T05:07:43.773366795Z"
     description: PgOutbox by AppsCode
-    digest: 9b60503e4002830c11b331687534096b52c4b7d64ac794b3c19f70d89959cd01
+    digest: e7832606c0bdb3293f3c8631d616bbebf4d2527b2923bf3a454af179fc199ed7
     home: https://kubedb.com/
     icon: https://cdn.appscode.com/images/products/stash/petset-icon.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -54029,7 +54144,7 @@ entries:
   prometheus-operator-crds:
   - apiVersion: v2
     appVersion: v0.60.1
-    created: "2025-12-05T17:33:33.444934098Z"
+    created: "2025-12-09T05:07:43.77601471Z"
     description: Prometheus Operator CRDs
     digest: 1710191f394486f95de28bc4aca41e122c54d60b656a25178a69bd2c323d32c2
     home: https://github.com/prometheus-operator/prometheus-operator
@@ -54899,6 +55014,25 @@ entries:
     - https://charts.appscode.com/stable/s3proxy/s3proxy-v2024.6.18.tgz
     version: v2024.6.18
   scanner:
+  - annotations:
+      charts.openshift.io/name: scanner
+    apiVersion: v1
+    appVersion: v0.0.20
+    created: "2025-12-09T05:07:43.777254003Z"
+    description: Docker Image Scanner by AppsCode
+    digest: d8184f44f78b29eec18b87dd55753ef8b057a596b42b715318be0ec32f9c7d4e
+    home: https://github.com/kubeops/scanner
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: scanner
+    sources:
+    - https://github.com/kubeops/scanner
+    urls:
+    - https://charts.appscode.com/stable/scanner/scanner-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v1
     appVersion: v0.0.19
     created: "2025-12-05T17:33:33.446488696Z"
@@ -57360,6 +57494,26 @@ entries:
     - https://charts.appscode.com/stable/service-vault/service-vault-v2024.2.11.tgz
     version: v2024.2.11
   sidekick:
+  - annotations:
+      charts.openshift.io/name: sidekick
+    apiVersion: v2
+    appVersion: v0.0.12
+    created: "2025-12-09T05:07:43.778621125Z"
+    description: A Helm chart for Sidekick Operator by AppsCode
+    digest: 26efddae50b500b06f0e04c512f501679cee4751a0a19fa22c1095a3af640a1e
+    home: https://github.com/kubeops/sidekick
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: sidekick
+    sources:
+    - https://github.com/kubeops/sidekick
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/sidekick/sidekick-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.0.11
     created: "2025-12-05T17:33:33.447343778Z"
@@ -69692,6 +69846,26 @@ entries:
     - https://charts.appscode.com/stable/statefulset/statefulset-v0.0.1.tgz
     version: v0.0.1
   supervisor:
+  - annotations:
+      charts.openshift.io/name: supervisor
+    apiVersion: v2
+    appVersion: v0.0.11
+    created: "2025-12-09T05:07:43.779660719Z"
+    description: A Helm chart for Supervisor by AppsCode
+    digest: b996cede87ba63234bf4f6e1e151a617d9a0d9ea167d287b4d2a41bd7ecdded9
+    home: https://github.com/kubeops/supervisor
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: supervisor
+    sources:
+    - https://github.com/kubeops/supervisor
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/supervisor/supervisor-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.0.10
     created: "2025-12-05T17:33:33.448126795Z"
@@ -70104,6 +70278,26 @@ entries:
     - https://charts.appscode.com/stable/swift/swift-0.1.0.tgz
     version: 0.1.0
   taskqueue:
+  - annotations:
+      charts.openshift.io/name: taskqueue
+    apiVersion: v2
+    appVersion: v0.0.2
+    created: "2025-12-09T05:07:43.78026916Z"
+    description: A Helm chart for TaskQueue
+    digest: d14aa3f3f0b99738a5cef3681260f74fa0699504d61445522b97eb6a46195835
+    home: https://github.com/appscode-cloud
+    icon: https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: taskqueue
+    sources:
+    - https://github.com/appscode-cloud
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/taskqueue/taskqueue-v2025.12.15.tgz
+    version: v2025.12.15
   - apiVersion: v2
     appVersion: v0.0.1
     created: "2025-12-05T17:33:33.448688776Z"
@@ -72478,4 +72672,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2025-12-05T17:33:33.42642146Z"
+generated: "2025-12-09T05:07:43.757417992Z"
