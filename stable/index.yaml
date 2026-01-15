@@ -42430,7 +42430,7 @@ entries:
       charts.openshift.io/name: kubestash
     apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-15T09:53:57.125271486Z"
+    created: "2026-01-15T12:56:21.916477695Z"
     dependencies:
     - condition: kubestash-operator.enabled
       name: kubestash-operator
@@ -42453,7 +42453,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.1.15
     description: KubeStash by AppsCode - Backup your Kubernetes native applications
-    digest: 927cfebfbc42799d69ec78941af3e483f95cbcf6ca3f34ff221b99f7424c7118
+    digest: b5d83bddf154347c255cd387c05e7f0ea9ac25232aa6e00749c8d5d1710fa743
     home: https://kubestash.com
     icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
     kubeVersion: '>=1.28.0'
@@ -43345,7 +43345,7 @@ entries:
       charts.openshift.io/name: kubestash-catalog
     apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-15T09:53:57.125828784Z"
+    created: "2026-01-15T12:56:21.91757809Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
     digest: d2f2b4d7af9a064777e059fabc75b3d58f5128d03039b149433e0bbb5d453c04
     home: https://kubestash.com
@@ -43845,10 +43845,10 @@ entries:
     version: v2023.11.28-rc.1
   kubestash-certified:
   - annotations:
-      charts.openshift.io/name: kubestash
+      charts.openshift.io/name: kubestash-certified
     apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-15T09:53:57.135110237Z"
+    created: "2026-01-15T12:56:21.921264219Z"
     dependencies:
     - condition: kubestash-operator.enabled
       name: kubestash-operator
@@ -43871,7 +43871,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.1.15
     description: KubeStash by AppsCode - Backup your Kubernetes native applications
-    digest: 1325683c66ac55d1b2246dc0cb20ac2a6c6e37e210b2e26465313401359140f5
+    digest: 3f2f6d582e27a92fff2de9954723301cb5acb25012bcef54fe5dae5b43b1b251
     home: https://kubestash.com
     icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
     kubeVersion: '>=1.28.0'
@@ -43883,16 +43883,16 @@ entries:
     - https://github.com/kubestash
     type: application
     urls:
-    - https://charts.appscode.com/stable/kubestash-certified/kubestash-certified-v2026.1.8-rc.0.tgz
-    version: v2026.1.8-rc.0
+    - https://charts.appscode.com/stable/kubestash-certified/kubestash-certified-2026.1.8-rc.0.tgz
+    version: 2026.1.8-rc.0
   kubestash-certified-crds:
   - annotations:
-      charts.openshift.io/name: kubestash
+      charts.openshift.io/name: kubestash-certified-crds
     apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-15T09:53:57.141089814Z"
+    created: "2026-01-15T12:56:21.928376336Z"
     description: Chart containing only CRDs from kubestash chart
-    digest: e70a97b8e0dd46d75e9d1e0fe8e15308fa60215624b7bd3ef70012afd16fec61
+    digest: 14a7313a68f5220e8d958d7895f38332fd635314285dba0b779baeca20f17abb
     home: https://kubestash.com
     icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
     kubeVersion: '>=1.28.0'
@@ -43903,14 +43903,14 @@ entries:
     sources:
     - https://github.com/kubestash
     urls:
-    - https://charts.appscode.com/stable/kubestash-certified-crds/kubestash-certified-crds-v2026.1.8-rc.0.tgz
-    version: v2026.1.8-rc.0
+    - https://charts.appscode.com/stable/kubestash-certified-crds/kubestash-certified-crds-2026.1.8-rc.0.tgz
+    version: 2026.1.8-rc.0
   kubestash-metrics:
   - annotations:
       charts.openshift.io/name: kubestash-metrics
     apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-15T09:53:57.14138518Z"
+    created: "2026-01-15T12:56:21.928637356Z"
     description: KubeStash State Metrics
     digest: 0c52e84f1989080dd0fb373f414fadcd962b1ce8b320bcab7cecef7e6bec5300
     home: https://kubestash.com
@@ -44243,9 +44243,9 @@ entries:
       charts.openshift.io/name: kubestash-operator
     apiVersion: v1
     appVersion: v0.23.0-rc.0
-    created: "2026-01-15T09:53:57.150762576Z"
+    created: "2026-01-15T12:56:21.936195789Z"
     description: KubeStash, Kubernetes native backup operator by AppsCode
-    digest: 63d28368b2aaaa880c68ef71d26674d4b885b43cebbc169450d844f887c9ed1b
+    digest: e901164b345cc95e51a071f6056b2e5dabfc1d14e978ba7740f78c43e991879e
     home: https://kubestash.com/
     icon: https://cdn.appscode.com/images/products/stash/kubestash-operator-icon.png
     kubeVersion: '>=1.28.0'
@@ -76434,4 +76434,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-01-15T09:53:57.114904383Z"
+generated: "2026-01-15T12:56:21.906193809Z"
