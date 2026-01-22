@@ -45560,9 +45560,11 @@ entries:
     - https://charts.appscode.com/stable/kubestash-presets/kubestash-presets-v2023.03.23.tgz
     version: v2023.03.23
   kubevault:
-  - apiVersion: v2
+  - annotations:
+      charts.openshift.io/name: kubevault
+    apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.085626533Z"
+    created: "2026-01-22T07:06:16.360666343Z"
     dependencies:
     - condition: kubevault-crds.enabled
       name: kubevault-crds
@@ -45585,9 +45587,10 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2025.3.14
     description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
-    digest: 3c6f6f52d85c50c9ba02936df61bf8bc752c62c9ee2ba4defadbfd530d2ca84e
+    digest: 006413a4447cc66960bf105b211a39fdf0240c95460ca83a66610dea6119de5f
     home: https://kubevault.com
     icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -46527,7 +46530,7 @@ entries:
   kubevault-catalog:
   - apiVersion: v1
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.086018716Z"
+    created: "2026-01-22T07:06:16.361037074Z"
     description: KubeVault Catalog by AppsCode - Catalog for KubeVault supported versions
     digest: ef622495d11251631181cb2444c599db09eaac0e037e94cde03e38e6ee732595
     home: https://kubevault.com
@@ -46974,9 +46977,11 @@ entries:
     - https://charts.appscode.com/stable/kubevault-catalog/kubevault-catalog-v2021.07.14-rc.0.tgz
     version: v2021.07.14-rc.0
   kubevault-certified:
-  - apiVersion: v2
+  - annotations:
+      charts.openshift.io/name: kubevault-certified
+    apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.091652105Z"
+    created: "2026-01-22T07:06:16.365182677Z"
     dependencies:
     - condition: kubevault-crds.enabled
       name: kubevault-crds
@@ -46999,9 +47004,10 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2025.3.14
     description: KubeVault by AppsCode - HashiCorp Vault operator for Kubernetes
-    digest: f603877a08b8348f75a529f0a19a2171c059df928240e5b0836131e5731a7aae
+    digest: 07a5fcabdb2e5fa2b3e4d9408036a0b23ba9e3e868e1004cf8c6449933c18936
     home: https://kubevault.com
     icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -47010,16 +47016,19 @@ entries:
     - https://github.com/kubevault
     type: application
     urls:
-    - https://charts.appscode.com/stable/kubevault-certified/kubevault-certified-v2026.1.8-rc.0.tgz
-    version: v2026.1.8-rc.0
+    - https://charts.appscode.com/stable/kubevault-certified/kubevault-certified-2026.1.8-rc.0.tgz
+    version: 2026.1.8-rc.0
   kubevault-certified-crds:
-  - apiVersion: v2
+  - annotations:
+      charts.openshift.io/name: kubevault-certified-crds
+    apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.09298701Z"
+    created: "2026-01-22T07:06:16.366621919Z"
     description: Chart containing only CRDs from kubevault chart
-    digest: 9d23e2a4668e09d179c01f42436bd7bab258061327867538fa7b50bd893b6e65
+    digest: 6fd166f94efdf3ca48c87ce41b9b4b3d5af06219add529c8d83cfe5ecbaff52a
     home: https://kubevault.com
     icon: https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png
+    kubeVersion: '>=1.28.0'
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -47027,12 +47036,12 @@ entries:
     sources:
     - https://github.com/kubevault
     urls:
-    - https://charts.appscode.com/stable/kubevault-certified-crds/kubevault-certified-crds-v2026.1.8-rc.0.tgz
-    version: v2026.1.8-rc.0
+    - https://charts.appscode.com/stable/kubevault-certified-crds/kubevault-certified-crds-2026.1.8-rc.0.tgz
+    version: 2026.1.8-rc.0
   kubevault-crds:
   - apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.094024438Z"
+    created: "2026-01-22T07:06:16.368021137Z"
     description: KubeVault Custom Resource Definitions
     digest: 8e2ddb6d02565e3d8a84353395fc10dcbc09e0e19c4db21ee82ff1edf4c3ffd9
     home: https://kubevault.com
@@ -47526,7 +47535,7 @@ entries:
   kubevault-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.094459561Z"
+    created: "2026-01-22T07:06:16.36883225Z"
     description: A Helm chart for kubevault-grafana-dashboards by AppsCode
     digest: 59a134df15651c02651cf555059a71d3eefa7be48a560018f9cdbe268a4a0f83
     home: https://github.com/kubevault
@@ -47782,7 +47791,7 @@ entries:
   kubevault-metrics:
   - apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.094834602Z"
+    created: "2026-01-22T07:06:16.369058271Z"
     description: KubeVault State Metrics
     digest: b51d50a2c283d1c6695537f77149a7b53fd947594e934219d04af4fb1e1ec1ab
     home: https://kubevault.com
@@ -48208,7 +48217,7 @@ entries:
   kubevault-operator:
   - apiVersion: v1
     appVersion: v0.24.0-rc.0
-    created: "2026-01-08T13:53:27.096647987Z"
+    created: "2026-01-22T07:06:16.370474931Z"
     description: KubeVault Operator by AppsCode - HashiCorp Vault operator for Kubernetes
     digest: 3c8e357073bddc004e97cce8c571d0a41f873a5beaac8d6c271826008a5763b7
     home: https://kubevault.com
@@ -48641,7 +48650,7 @@ entries:
   kubevault-opscenter:
   - apiVersion: v2
     appVersion: v2026.1.8-rc.0
-    created: "2026-01-08T13:53:27.097812513Z"
+    created: "2026-01-22T07:06:16.371738316Z"
     dependencies:
     - condition: kubevault-metrics.enabled
       name: kubevault-metrics
@@ -49056,7 +49065,7 @@ entries:
   kubevault-webhook-server:
   - apiVersion: v1
     appVersion: v0.24.0-rc.0
-    created: "2026-01-08T13:53:27.098537558Z"
+    created: "2026-01-22T07:06:16.3725992Z"
     description: KubeVault Webhook Server by AppsCode
     digest: b75bdecc29d0c923b4f1c257a40710eb89364849c6dca2cd1f1bfe915da674b7
     home: https://kubevault.com
@@ -77232,4 +77241,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-01-21T12:22:26.517798634Z"
+generated: "2026-01-22T07:06:16.354785664Z"
