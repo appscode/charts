@@ -12964,6 +12964,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/connectcluster-alerts/connectcluster-alerts-v2024.12.18.tgz
     version: v2024.12.18
+  crd-manager:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2026-01-23T11:24:22.172423271Z"
+    description: A Helm chart for AppsCode SaaS Calalog
+    digest: 37ab1d22f601ff8fc93ee2531186febb5b1cd295b85846806b6dd685e0b81f35
+    home: https://github.com/appscode-cloud/crd-manager
+    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: crd-manager
+    sources:
+    - https://github.com/appscode-cloud/crd-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/crd-manager/crd-manager-v2026.1.15.tgz
+    version: v2026.1.15
   csi-vault:
   - apiVersion: v1
     appVersion: v0.4.0-rc.0
@@ -14884,7 +14902,7 @@ entries:
   gateway-api:
   - apiVersion: v2
     appVersion: v17.4.0
-    created: "2025-11-14T06:32:29.447544652Z"
+    created: "2026-01-23T11:24:22.174624704Z"
     description: Kubernetes Gateway API
     digest: faa6eb35b0f70cac9ee7bb73e3434f8cbfc9334682f931d7acf9ce14f47b6744
     home: https://gateway-api.sigs.k8s.io
@@ -14987,9 +15005,9 @@ entries:
   gateway-converter:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2025-11-14T06:32:29.448259205Z"
+    created: "2026-01-23T11:24:22.175352441Z"
     description: Gateway Converter by AppsCode
-    digest: aabe3ef2a08c656b9e8ade5d1d8b5267369c212964e2db0a5e7f8f793ef7593c
+    digest: 777ccc7e979aae8204450c58254bdece187d777147c54bd43036f983c96a0b96
     home: https://voyagermesh.com
     icon: https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png
     maintainers:
@@ -75289,9 +75307,9 @@ entries:
   voyager:
   - apiVersion: v1
     appVersion: v17.4.0
-    created: "2025-11-14T06:32:29.450973699Z"
+    created: "2026-01-23T11:24:22.178042749Z"
     description: Voyager by AppsCode - Secure L7/L4 Ingress Controller for Kubernetes
-    digest: 52ececd997dea7e0461de6a5f4847f248c4bbf9d184d1feabea171b4e931a946
+    digest: 1c755c8c340fe73c34b9d45462bb0b99407bd0e440be44090c9c0dfafd668425
     home: https://voyagermesh.com/
     icon: https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png
     maintainers:
@@ -76176,7 +76194,7 @@ entries:
   voyager-crds:
   - apiVersion: v2
     appVersion: v17.4.0
-    created: "2025-11-14T06:32:29.452176142Z"
+    created: "2026-01-23T11:24:22.179258555Z"
     description: Voyager Custom Resource Definitions
     digest: b0081e121d4e8f5e55fb53dfbf9df599163474f0c9cced4b15cf1d543359693f
     home: https://voyager.com
@@ -76532,6 +76550,36 @@ entries:
     - https://charts.appscode.com/stable/voyager-crds/voyager-crds-v2021.04.24-rc.0.tgz
     version: v2021.04.24-rc.0
   voyager-gateway:
+  - apiVersion: v2
+    appVersion: v1.6.2
+    created: "2026-01-23T11:24:22.182472026Z"
+    dependencies:
+    - condition: gateway-converter.enabled
+      name: gateway-converter
+      repository: file://../gateway-converter
+      version: v2024.8.30
+    - condition: crd-manager.enabled
+      name: crd-manager
+      repository: file://../crd-manager
+      version: v2026.1.15
+    description: The Helm chart for Voyager Gateway
+    digest: d97e39438c68cfb9bcaff5d3e3b8e3e26c8ef303f9ebe8411cbe609146638d59
+    home: https://gateway.voyagermesh.com/
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: voyager-gateway
+    sources:
+    - https://github.com/voyagermesh/gateway
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/voyager-gateway/voyager-gateway-v2026.1.15.tgz
+    version: v2026.1.15
   - apiVersion: v2
     appVersion: v1.5.4
     created: "2025-11-14T06:32:29.463835372Z"
@@ -77241,4 +77289,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-01-23T09:06:07.146571664Z"
+generated: "2026-01-23T11:24:22.171597682Z"
