@@ -40,11 +40,21 @@ REGISTRY_2=${REGISTRY_2:-}
 mkdir -p $SCRIPT_ROOT/.oci
 cd $SCRIPT_ROOT/.oci
 
-for file in $SCRIPT_ROOT/$CHARTS_DIR/*; do
-    if [ -d "$file" ]; then
-        helm package "$file"
-    fi
-done
+if [ $# -gt 2 ]; then
+    # Loop over the chart names provided as arguments
+    for chart in "${@:3}"; do
+        if [ -d "$SCRIPT_ROOT/$CHARTS_DIR/$chart" ]; then
+            helm package "$SCRIPT_ROOT/$CHARTS_DIR/$chart"
+        fi
+    done
+else
+    # Loop over all charts
+    for file in $SCRIPT_ROOT/$CHARTS_DIR/*; do
+        if [ -d "$file" ]; then
+            helm package "$file"
+        fi
+    done
+fi
 
 for file in $SCRIPT_ROOT/.oci/*; do
     if [ -n "$REGISTRY_0" ]; then
