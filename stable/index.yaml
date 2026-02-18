@@ -6244,6 +6244,22 @@ entries:
     version: v2023.11.14
   ace-user-roles:
   - apiVersion: v2
+    appVersion: v2026.2.16
+    created: "2026-02-18T03:00:42.492530436Z"
+    description: A Helm chart for ACE user roles
+    digest: c7d0f68dbde47cc16b505d5576bd5b459c742d3565d3eae67bf3886dd3de65f9
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: ace-user-roles
+    sources:
+    - https://github.com/kubeops/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/ace-user-roles/ace-user-roles-v2026.2.16.tgz
+    version: v2026.2.16
+  - apiVersion: v2
     appVersion: v2025.3.14
     created: "2026-02-15T09:37:40.363900647Z"
     description: A Helm chart for ACE user roles
@@ -6892,7 +6908,7 @@ entries:
   application-crds:
   - apiVersion: v2
     appVersion: v0.8.3
-    created: "2026-02-15T09:37:40.364182624Z"
+    created: "2026-02-18T03:00:42.492810811Z"
     description: Kubernetes Application CRDs
     digest: 28659a7a4713f2df5f01cefbc4711aa818efcbbe40a6b60b054ae55588c94852
     home: https://github.com/kmodules/application
@@ -9385,7 +9401,7 @@ entries:
   cert-manager-crds:
   - apiVersion: v2
     appVersion: v1.18.2
-    created: "2026-02-15T09:37:40.364774822Z"
+    created: "2026-02-18T03:00:42.493414842Z"
     description: Jetstack cert-manager CRDs
     digest: 27fc1c334fd78cb95615d0f99ddc012e5a00db96e34cd001752130699a6fccb4
     home: https://cert-manager.io
@@ -9439,7 +9455,7 @@ entries:
       charts.openshift.io/name: cert-manager-csi-driver-cacerts
     apiVersion: v2
     appVersion: v0.5.0
-    created: "2026-02-15T09:37:40.366402586Z"
+    created: "2026-02-18T03:00:42.494799065Z"
     description: A Helm chart for cert-manager-csi-driver-cacerts
     digest: 79451b5244e64a7cbe52878d921dae7bb579fe762ee9ee926d7c8f6542e541d3
     home: https://github.com/kubeops/csi-driver-cacerts
@@ -10404,7 +10420,7 @@ entries:
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.14
-    created: "2026-02-15T09:37:40.367000594Z"
+    created: "2026-02-18T03:00:42.495406412Z"
     description: A Helm chart for cluster-connector
     digest: a6ffe9ee4848f1594d258151554e421be1df09e6ca828645c5a76b9317e0faad
     home: https://github.com/kubeops/cluster-connector
@@ -13098,7 +13114,7 @@ entries:
   config-syncer:
   - apiVersion: v1
     appVersion: v0.15.4
-    created: "2026-02-15T09:37:40.367681537Z"
+    created: "2026-02-18T03:00:42.496121931Z"
     description: Config Syncer by AppsCode
     digest: a955cab5aa67985a4dec33679eac154a883884c5b9a3ef175d1c22a65fc6083e
     home: https://github.com/kubeops/config-syncer
@@ -14816,7 +14832,7 @@ entries:
       charts.openshift.io/name: external-dns-operator
     apiVersion: v2
     appVersion: v0.3.0
-    created: "2026-02-15T09:37:40.368328397Z"
+    created: "2026-02-18T03:00:42.496739858Z"
     description: A Helm chart for External DNS Operator by AppsCode
     digest: 24c22d414057bc609cbcdfddedfa1b3227058c95d3846f9e11ab01d7886261bd
     home: https://github.com/kubeops/external-dns-operator
@@ -14942,7 +14958,7 @@ entries:
       charts.openshift.io/name: falco-ui-server
     apiVersion: v1
     appVersion: v0.0.6
-    created: "2026-02-15T09:37:40.369418795Z"
+    created: "2026-02-18T03:00:42.497818036Z"
     description: Falco UI Server by AppsCode
     digest: 80065c220e8359a70d0f0c87a3d6122b261eac6fe82b8da7fc37ebec16cfb568
     home: https://github.com/kubeops/falco-ui-server
@@ -15048,7 +15064,7 @@ entries:
       charts.openshift.io/name: fargocd
     apiVersion: v2
     appVersion: v0.0.2
-    created: "2026-02-15T09:37:40.370133531Z"
+    created: "2026-02-18T03:00:42.498525831Z"
     description: A Helm chart for FluxCD to ArgoCD Bridge
     digest: 6f9fd16f9d25b2c00c17a01f9811abea9e577b2fdb3c83d3a577f68e0250c05e
     home: https://github.com/appscode-cloud
@@ -15341,7 +15357,7 @@ entries:
   gatekeeper-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2026-02-15T09:37:40.37115732Z"
+    created: "2026-02-18T03:00:42.499387728Z"
     description: A Helm chart for Gatekeeper Grafana Dashboards
     digest: 550084f8546be32122b9402329d18b49d6fde30b2bafab6f915b3bea7a5ae877
     home: https://github.com/appscode/grafana-dashboards
@@ -15376,7 +15392,7 @@ entries:
   gatekeeper-library:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-02-15T09:37:40.372625775Z"
+    created: "2026-02-18T03:00:42.500981897Z"
     description: A Helm chart for OPA Gatekeeper Library
     digest: ac6d20706fcf4d5a0fceaf4dcfc9f32df450a11f623514ff17b35305bc84b772
     home: https://github.com/kubeops/installer
@@ -17812,7 +17828,7 @@ entries:
   kmodules-crds:
   - apiVersion: v2
     appVersion: v0.25.1
-    created: "2026-02-15T09:37:40.372878017Z"
+    created: "2026-02-18T03:00:42.501190277Z"
     description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
     digest: f6577b7797cc95c66a49f2c7f8d3a79ad8eff70224060903da070bb883ece938
     home: https://appscode.com
@@ -18134,14 +18150,14 @@ entries:
       charts.openshift.io/name: kube-ui-server
     apiVersion: v2
     appVersion: v0.0.70
-    created: "2026-02-15T09:37:40.374387318Z"
+    created: "2026-02-18T03:00:42.502672722Z"
     dependencies:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: file://../ace-user-roles
-      version: v2025.3.14
+      version: v2026.2.16
     description: A Helm chart for kube-ui-server by AppsCode
-    digest: 96fd3e361400f5a2ac53d67ea10acdae3d70f628d6f946e761b9efb940a9dfb3
+    digest: e31d1b1e3a29ca5de6c287ac458feecb607586bcf57b6c139e0ff02fbf513b0d
     home: https://github.com/kubeops/kube-ui-server
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
     kubeVersion: '>=1.28.0-0'
@@ -53578,7 +53594,7 @@ entries:
   opencost-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2026-02-15T09:37:40.374927989Z"
+    created: "2026-02-18T03:00:42.503207043Z"
     description: A Helm chart for Opencost Grafana Dashboards
     digest: b6a9451491188ebdb6b2bbbb4e89734831629bfa25ed856af54af36da28006a4
     home: https://github.com/appscode/grafana-dashboards
@@ -53667,7 +53683,7 @@ entries:
       charts.openshift.io/name: operator-shard-manager
     apiVersion: v2
     appVersion: v0.0.5
-    created: "2026-02-15T09:37:40.376459202Z"
+    created: "2026-02-18T03:00:42.504760102Z"
     description: A Helm chart for OpenShift
     digest: ff84b961d52d97611d295f5feb168042a57f1e5c6d4b03ef46948c13e0b3cbf7
     home: https://github.com/appscode-cloud
@@ -55041,14 +55057,14 @@ entries:
       charts.openshift.io/name: panopticon
     apiVersion: v2
     appVersion: v0.0.21
-    created: "2026-02-15T09:37:40.377901468Z"
+    created: "2026-02-18T03:00:42.506166535Z"
     dependencies:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: file://../ace-user-roles
-      version: v2025.3.14
+      version: v2026.2.16
     description: Kubernetes Panopticon by AppsCode
-    digest: 6f67845d52bcf8dd9847b1ae3c2c1f4544fd9e6d7ec0d9050103da56b466bd07
+    digest: 339d6570fc0eb799386fcedcb9f0dd5125c8bf05582f2cec83827b7bc1e7bf3b
     home: https://github.com/kubeops/panopticon
     icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
     kubeVersion: '>=1.28.0-0'
@@ -55514,7 +55530,7 @@ entries:
       charts.openshift.io/name: petset
     apiVersion: v1
     appVersion: v0.0.16
-    created: "2026-02-15T09:37:40.378933507Z"
+    created: "2026-02-18T03:00:42.507199879Z"
     description: Petset Operator by AppsCode
     digest: 3c99f283e8782909dd5771d3c7428857e6505c5d416e2dd63e8bd1306dccf79a
     home: https://kubedb.com
@@ -55860,7 +55876,7 @@ entries:
       charts.openshift.io/name: pgoutbox
     apiVersion: v2
     appVersion: v0.0.3
-    created: "2026-02-15T09:37:40.380028164Z"
+    created: "2026-02-18T03:00:42.508306601Z"
     description: PgOutbox by AppsCode
     digest: 34569c460158030eeb4f9423d7c8707ce1cc89ce187166ca86135b8d4b9406c3
     home: https://kubedb.com/
@@ -59325,7 +59341,7 @@ entries:
   prometheus-operator-crds:
   - apiVersion: v2
     appVersion: v0.60.1
-    created: "2026-02-15T09:37:40.383132189Z"
+    created: "2026-02-18T03:00:42.511431188Z"
     description: Prometheus Operator CRDs
     digest: 1710191f394486f95de28bc4aca41e122c54d60b656a25178a69bd2c323d32c2
     home: https://github.com/prometheus-operator/prometheus-operator
@@ -60250,7 +60266,7 @@ entries:
       charts.openshift.io/name: scanner
     apiVersion: v1
     appVersion: v0.0.21
-    created: "2026-02-15T09:37:40.384732318Z"
+    created: "2026-02-18T03:00:42.513072287Z"
     description: Docker Image Scanner by AppsCode
     digest: bd771210f3f419599a34c0843250845616547463e72ea49f6a2bd6dd6a34177a
     home: https://github.com/kubeops/scanner
@@ -63016,7 +63032,7 @@ entries:
       charts.openshift.io/name: sidekick
     apiVersion: v2
     appVersion: v0.0.13
-    created: "2026-02-15T09:37:40.385711779Z"
+    created: "2026-02-18T03:00:42.5139769Z"
     description: A Helm chart for Sidekick Operator by AppsCode
     digest: da1a57b21b575d873be67403cd42d087e2ead0ebd9abe9c3716a93822ccd05bc
     home: https://github.com/kubeops/sidekick
@@ -75506,7 +75522,7 @@ entries:
       charts.openshift.io/name: supervisor
     apiVersion: v2
     appVersion: v0.0.12
-    created: "2026-02-15T09:37:40.386674749Z"
+    created: "2026-02-18T03:00:42.514764164Z"
     description: A Helm chart for Supervisor by AppsCode
     digest: cf63f94338a4fa6ba27b4878271ea816f98ee9151ff4f86b2b3b15691e639a9d
     home: https://github.com/kubeops/supervisor
@@ -75958,7 +75974,7 @@ entries:
       charts.openshift.io/name: taskqueue
     apiVersion: v2
     appVersion: v0.0.3
-    created: "2026-02-15T09:37:40.387464054Z"
+    created: "2026-02-18T03:00:42.515376119Z"
     description: A Helm chart for TaskQueue
     digest: 54b6ff8e082bdf56b3afcb51c3463cfdff4dd613f44d14875954a71132e88f56
     home: https://github.com/appscode-cloud
@@ -78486,4 +78502,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-02-18T02:38:31.774636867Z"
+generated: "2026-02-18T03:00:42.492003009Z"
