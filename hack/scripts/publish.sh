@@ -41,7 +41,7 @@ function publish_dir() {
     # sync charts
     # https://stackoverflow.com/a/38466192
     # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
-    gsutil -m -h "Cache-Control:public, max-age=600" rsync -a public-read -d -r $repo_dir gs://${BUCKET}/$repo_dir
+    aws s3 sync $repo_dir s3://${BUCKET}/$repo_dir --cache-control "public, max-age=600" --acl public-read --delete
     # gsutil -m acl ch -u AllUsers:R -r gs://${BUCKET}/$repo_dir
 
     # invalidate cache

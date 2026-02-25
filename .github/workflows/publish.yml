@@ -18,19 +18,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Configure gcloud
+      - name: Configure S3 CLI
         env:
-          GOOGLE_SERVICE_ACCOUNT_JSON_KEY: ${{ secrets.CHART_REPO_SERVICE_ACCOUNT_JSON_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          AWS_S3_ENDPOINT: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
         run: |
-          echo "install gcloud cli"
-          curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
-          echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+          echo "install aws cli"
           sudo apt-get -qq update || true
-          sudo apt-get install google-cloud-cli
+          sudo apt-get install awscli
           echo
-          echo "configure gcloud auth"
-          echo "$GOOGLE_SERVICE_ACCOUNT_JSON_KEY" > "$HOME"/gcloud.json
-          gcloud auth activate-service-account --key-file=$HOME/gcloud.json
+          echo "configure aws credentials"
+          aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+          aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+          aws configure set region us-east-1
+          aws configure set s3.signature_version s3v4
+          aws configure set endpoint_url $AWS_S3_ENDPOINT
 
       - name: Install GitHub CLI
         run: |
