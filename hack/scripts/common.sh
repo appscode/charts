@@ -16,7 +16,7 @@
 
 CLOUDFLARE_ZONE_ID=092ef15f721929a515232abd079f128b
 
-BUCKET=${BUCKET:-charts.appscode.com}
+BUCKET=${BUCKET:-charts-appscode-com}
 
 REPO_DOMAIN=${REPO_DOMAIN:-charts.appscode.com}
 REPO_DIR=${REPO_DIR:-stable}
