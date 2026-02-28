@@ -63499,6 +63499,24 @@ entries:
     version: 0.1.0
   secrets-store-csi-driver-provider-virtual-secrets:
   - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2026-02-28T05:10:59.225348717Z"
+    description: A Helm chart for Virtual Secrets Provider for Secret Store CSI Driver
+      by AppsCode
+    digest: 2859aa059a295d8753c52d7016e402dcb7d2e1af57fcf47debca5d215649c28d
+    home: https://virtual-secrets.dev
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: secrets-store-csi-driver-provider-virtual-secrets
+    sources:
+    - https://github.com/virtual-secrets
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/secrets-store-csi-driver-provider-virtual-secrets/secrets-store-csi-driver-provider-virtual-secrets-v2026.2.27.tgz
+    version: v2026.2.27
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2026-02-27T11:53:46.734512383Z"
     description: A Helm chart for Virtual Secrets Provider for Secret Store CSI Driver
@@ -79465,6 +79483,28 @@ entries:
     version: v2025.1.1
   virtual-secrets-server:
   - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2026-02-28T05:10:59.22660142Z"
+    dependencies:
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    description: A Helm chart for Virtual Secrets Server by AppsCode
+    digest: c92c3eddaa21e901c0736e747f87d08549d0bb7c699f0b72bb1fddc638ce1296
+    home: https://virtual-secrets.dev
+    icon: https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: virtual-secrets-server
+    sources:
+    - https://github.com/virtual-secrets
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/virtual-secrets-server/virtual-secrets-server-v2026.2.27.tgz
+    version: v2026.2.27
+  - apiVersion: v2
     appVersion: v0.2.0
     created: "2026-02-27T11:53:46.735703359Z"
     dependencies:
@@ -81530,4 +81570,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-02-27T12:11:52.02815262Z"
+generated: "2026-02-28T05:10:59.224862251Z"
