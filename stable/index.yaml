@@ -45683,7 +45683,7 @@ entries:
       charts.openshift.io/name: kubestash
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-05T05:28:56.252331555Z"
+    created: "2026-03-05T07:08:42.520102544Z"
     dependencies:
     - condition: kubestash-operator.enabled
       name: kubestash-operator
@@ -45700,13 +45700,13 @@ entries:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: oci://ghcr.io/appscode-charts
-      version: v2025.3.14
+      version: v2026.2.16
     - condition: global.taskQueue.enabled
       name: taskqueue
       repository: oci://ghcr.io/appscode-charts
-      version: v2026.1.15
+      version: v2026.2.16
     description: KubeStash by AppsCode - Backup your Kubernetes native applications
-    digest: 0b04088fd79407eb259641afa8b2aab3b9d06f27ab5fddcce965e961447da190
+    digest: 6f35b351f8cea34b3960581c7b9c83491096b862f3152f9a18e056221bdb8665
     home: https://kubestash.com
     icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -46761,7 +46761,7 @@ entries:
       charts.openshift.io/name: kubestash-catalog
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-05T05:28:56.2529468Z"
+    created: "2026-03-05T07:08:42.520689864Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
     digest: 2c2b9b6536d074acf13004602312ca60ddc909b4442c07c8969c60d95b168ecb
     home: https://kubestash.com
@@ -47406,7 +47406,7 @@ entries:
       charts.openshift.io/name: kubestash-certified
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-05T05:28:56.256309413Z"
+    created: "2026-03-05T07:08:42.524222095Z"
     dependencies:
     - condition: kubestash-operator.enabled
       name: kubestash-operator
@@ -47423,13 +47423,13 @@ entries:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
       repository: oci://ghcr.io/appscode-charts
-      version: v2025.3.14
+      version: v2026.2.16
     - condition: global.taskQueue.enabled
       name: taskqueue
       repository: oci://ghcr.io/appscode-charts
-      version: v2026.1.15
+      version: v2026.2.16
     description: KubeStash by AppsCode - Backup your Kubernetes native applications
-    digest: f38f9d3e12508246d4fdc9894f05eb766c2d1d5b8a003ebcec22bfac5a071b2d
+    digest: 02461723c3c61d214d0925658eb0880fa20c12ffd20be5544e8ad5ad17f4ca25
     home: https://kubestash.com
     icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -47609,9 +47609,9 @@ entries:
       charts.openshift.io/name: kubestash-certified-crds
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-05T05:28:56.263064861Z"
+    created: "2026-03-05T07:08:42.530805456Z"
     description: Chart containing only CRDs from kubestash chart
-    digest: b839f45a4725a765c7409aa37f5063c55cd310c8ee92ffbcf0cbeda20a8b2b40
+    digest: 1ba2d20ac274c70de62506d4963852d35a1e8f1b75072ac825816ae9241f1e6d
     home: https://kubestash.com
     icon: https://cdn.appscode.com/images/products/kubestash/stash-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -47726,7 +47726,7 @@ entries:
       charts.openshift.io/name: kubestash-metrics
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-05T05:28:56.26336489Z"
+    created: "2026-03-05T07:08:42.531114976Z"
     description: KubeStash State Metrics
     digest: e6c70efec38200b65e6f58a1f3210018c9b127d04bb64d342ebacfddcc386599
     home: https://kubestash.com
@@ -48119,7 +48119,7 @@ entries:
       charts.openshift.io/name: kubestash-operator
     apiVersion: v1
     appVersion: v0.26.0
-    created: "2026-03-05T05:28:56.270040845Z"
+    created: "2026-03-05T07:08:42.537433688Z"
     description: KubeStash, Kubernetes native backup operator by AppsCode
     digest: 67dbe69dee5614785f68e1fb445b4218aea425e51890f5b5c65dff461ad5ec71
     home: https://kubestash.com/
@@ -81669,4 +81669,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-03-05T06:55:42.239739872Z"
+generated: "2026-03-05T07:08:42.508892541Z"
