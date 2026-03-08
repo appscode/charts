@@ -59,7 +59,7 @@ function publish_dir() {
     fi
 }
 
-for repo_dir in stable testing; do
+for repo_dir in stable testing strict; do
     publish_dir $repo_dir
 done
 
