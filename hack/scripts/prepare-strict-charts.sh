@@ -122,8 +122,8 @@ for chart_path in "${CHARTS_DIR}"/*; do
 
     # Strip only a leading 'v' from version/appVersion values.
     sed -E -i.bak \
-        -e 's/^([[:space:]]*version:[[:space:]]*"?)v([^"[:space:]#]+)("?[[:space:]]*(#.*)?)$/\1\2\3/' \
-        -e 's/^([[:space:]]*appVersion:[[:space:]]*"?)v([^"[:space:]#]+)("?[[:space:]]*(#.*)?)$/\1\2\3/' \
+        -e 's/^(version:[[:space:]]*"?)v([^"[:space:]#]+)("?[[:space:]]*(#.*)?)$/\1\2\3/' \
+        -e 's/^(appVersion:[[:space:]]*"?)v([^"[:space:]#]+)("?[[:space:]]*(#.*)?)$/\1\2\3/' \
         "$chart_yaml"
     rm -f "${chart_yaml}.bak"
     echo "Updated chart metadata: $chart_name"
