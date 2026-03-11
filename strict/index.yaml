@@ -2,10 +2,14 @@ apiVersion: v1
 entries:
   kubedb:
   - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: KubeDB
+      catalog.cattle.io/kube-version: '>=1.28.0-0'
+      catalog.cattle.io/release-name: kubedb
       charts.openshift.io/name: kubedb
     apiVersion: v2
     appVersion: 2026.2.26
-    created: "2026-03-11T09:25:47.415230677Z"
+    created: "2026-03-11T19:05:01.690463175Z"
     dependencies:
     - condition: petset.enabled
       name: petset
@@ -72,7 +76,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.2.16
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
-    digest: 2ed5a8da2c4349689c351984516be4a28ce1cc3f68e15e4c3d38fccd36bffca0
+    digest: e918c52385087313543a9a1c36cfbe8f0c81470e4cd7fb9acd5dd1cf3c95c4f9
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -86,4 +90,4 @@ entries:
     urls:
     - https://charts.appscode.com/strict/kubedb/kubedb-2026.2.26.tgz
     version: 2026.2.26
-generated: "2026-03-11T09:25:47.393834459Z"
+generated: "2026-03-11T19:05:01.668381213Z"
