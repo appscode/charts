@@ -19672,14 +19672,10 @@ entries:
     version: 0.1.0
   kubedb:
   - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: KubeDB
-      catalog.cattle.io/kube-version: '>=1.28.0-0'
-      catalog.cattle.io/release-name: kubedb
       charts.openshift.io/name: kubedb
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.865805483Z"
+    created: "2026-03-12T10:09:14.39343983Z"
     dependencies:
     - condition: petset.enabled
       name: petset
@@ -19746,7 +19742,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.2.16
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
-    digest: 0e50b77a2651d3a68909df756638dc00a172f8e9f59b483832961e9b7d291c3e
+    digest: c1c3697f521d4db1101b87ff2746653b594750fe0c0629bdc789f59b673a52cb
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -24274,11 +24270,11 @@ entries:
       charts.openshift.io/name: kubedb-autoscaler
     apiVersion: v2
     appVersion: v0.48.0
-    created: "2026-03-11T19:04:43.866676099Z"
+    created: "2026-03-12T10:09:14.394558217Z"
     description: KubeDB Autoscaler by AppsCode - Autoscale KubeDB operated Databases
-    digest: 2bd2d7f01fc4b329863a74ab4edf0a6ed69710e2e1c411e8b45b60629a1b669c
+    digest: e882a0b4629f31eefe351cda04029361de12dfb0c46bc82f17b4b9457ebae17e
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-autoscaler-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -25493,11 +25489,11 @@ entries:
       charts.openshift.io/name: kubedb-catalog
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.870818443Z"
+    created: "2026-03-12T10:09:14.399333177Z"
     description: KubeDB Catalog by AppsCode - Catalog for database versions
-    digest: 981297790b984ffa200f2b9547f5a5b0dd576108bca42269c250aaac8efc4334
+    digest: e9e5f2adec67aa6e1ac7c95d9460a65f9f30a624ae77acb423e57c76605fb220
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/icon/kubedb.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -27013,14 +27009,10 @@ entries:
     version: 0.9.0-beta.0
   kubedb-certified:
   - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: KubeDB
-      catalog.cattle.io/kube-version: '>=1.28.0-0'
-      catalog.cattle.io/release-name: kubedb
       charts.openshift.io/name: kubedb-certified
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.891471361Z"
+    created: "2026-03-12T10:09:14.420211297Z"
     dependencies:
     - condition: petset.enabled
       name: petset
@@ -27087,7 +27079,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.2.16
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
-    digest: 50e8d35748629e2b3293d149699e7cba32f10139afce5654dad9b94db499e998
+    digest: e471f0db3787853f625fc67ab9d43c5721e5d7817af444fcf2928dcb2dae9f16
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -27435,16 +27427,12 @@ entries:
     version: v2025.12.31-rc.1
   kubedb-certified-crds:
   - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: KubeDB
-      catalog.cattle.io/kube-version: '>=1.28.0-0'
-      catalog.cattle.io/release-name: kubedb
       charts.openshift.io/name: kubedb-certified-crds
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.895176027Z"
+    created: "2026-03-12T10:09:14.422783809Z"
     description: Chart containing only CRDs from kubedb chart
-    digest: 25c387ccf00bd17646f51ead254d41f0897bc97ec4a365dc53a52b13758f7ec8
+    digest: 79786ab1db3aa0afa19a114eeef4825f314293e6a29bf613396b0115e4d3a7fc
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -27747,11 +27735,11 @@ entries:
       charts.openshift.io/name: kubedb-crd-manager
     apiVersion: v2
     appVersion: v0.18.0
-    created: "2026-03-11T19:04:43.895906655Z"
+    created: "2026-03-12T10:09:14.423554654Z"
     description: KubeDB CRD Manager by AppsCode
-    digest: bd7d90c5d722254bddcbd80e507d8393eab690e91a80973cdbd2765e17778354
+    digest: f00dda7f1891d6d7c4f9cbddc39b0a5adbcee7677f63f2179614490e4ef5dfb5
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-ops-manager-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -28342,11 +28330,11 @@ entries:
       charts.openshift.io/name: kubedb-crds
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.948055374Z"
+    created: "2026-03-12T10:09:14.481753938Z"
     description: KubeDB Custom Resource Definitions
-    digest: 445db3609193891934b73efbd5c3578d816e7ec5e7500bb6c3a76e65462d00e3
+    digest: cb6e0e540ae66f47f605d9848c65dae412fb8b3409dbe3bc154f4049d8800720
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -29619,10 +29607,10 @@ entries:
       charts.openshift.io/name: kubedb-dashboard
     apiVersion: v2
     appVersion: v0.39.0
-    created: "2026-03-11T19:04:43.948992947Z"
+    created: "2026-03-12T10:09:14.482619205Z"
     description: KubeDB Dashboard by AppsCode
-    digest: 28e3d59a6e9b30451ae01bcb5342d400bbefa2abc347c13c2958130c19bd3622
-    home: https://github.com/kubedb
+    digest: 2deadead4f8636d978773b3807261ebe2792e70f215c0b6c3a38fcf63b1f233e
+    home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
@@ -31027,10 +31015,10 @@ entries:
       charts.openshift.io/name: kubedb-gitops
     apiVersion: v2
     appVersion: v0.11.0
-    created: "2026-03-11T19:04:43.950125422Z"
+    created: "2026-03-12T10:09:14.483778824Z"
     description: KubeDB GitOps operator by AppsCode
-    digest: 73c22fa3680f3e4bfbde2ad9c0c276ab6113fcdb158650b4c86491cef2f0844a
-    home: https://github.com/kubedb/gitops
+    digest: ffb6b08cc960d03bbcfc78344d56426d9cfb27cdee399467a8515ba178bcb9d4
+    home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
@@ -31301,10 +31289,10 @@ entries:
       charts.openshift.io/name: kubedb-grafana-dashboards
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.96189806Z"
+    created: "2026-03-12T10:09:14.495146752Z"
     description: A Helm chart for kubedb-grafana-dashboards by AppsCode
-    digest: 8740fe504cae7a7dd0db3543a783dc99178e2eea4fdb9af0e80ced5543f011ec
-    home: https://github.com/kubedb
+    digest: a75f0b70b9994b70b6a1289cb25c81649c699fbea2769afb77d30a66dbb0410d
+    home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
@@ -32357,11 +32345,11 @@ entries:
       charts.openshift.io/name: kubedb-kubestash-catalog
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.962935078Z"
+    created: "2026-03-12T10:09:14.49643054Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
-    digest: 08b0c11e733361661230b9f3138477199db3a2e1bbeaa1995c7fec9bea05afc8
-    home: https://kubestash.com
-    icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
+    digest: 14d8330344d77d8aeade746e60b621094d73d7b4186afe87fdd4e77a347bf923
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -33056,11 +33044,11 @@ entries:
       charts.openshift.io/name: kubedb-metrics
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.963742599Z"
+    created: "2026-03-12T10:09:14.497247584Z"
     description: KubeDB State Metrics
-    digest: e59c0eb47423f6e9995da3d7f00f239a65cec4a680b4d1dfbd8643c582422e9b
+    digest: ab176f8fd7dfe6a8b74a5b0b4baa7b0f49e30180d10b145a732524798ee38bd2
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -34231,9 +34219,11 @@ entries:
       charts.openshift.io/name: kubedb-migrator
     apiVersion: v2
     appVersion: v0.3.0
-    created: "2026-03-11T19:04:43.964929917Z"
+    created: "2026-03-12T10:09:14.498790537Z"
     description: A Helm chart for Kubernetes
-    digest: f9bfc867a7307befe498e1f8a7859c9e823d30f5e681b0729ffcf088046fabd3
+    digest: a02f9c2e996e2c37ff7c6099da7ea8be1fa7e67e2250ca0b3abb1f396257f10f
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -35212,11 +35202,11 @@ entries:
       charts.openshift.io/name: kubedb-ops-manager
     apiVersion: v2
     appVersion: v0.50.0
-    created: "2026-03-11T19:04:43.965830491Z"
+    created: "2026-03-12T10:09:14.499738607Z"
     description: KubeDB Ops Manager by AppsCode - Enterprise features for KubeDB
-    digest: 8e8642946a5d222cd84a256ee9d650757ec18597cac4d02b39efd3e2774aeabd
+    digest: 15c59b4c89460a0e60e9577ebed466d6ae7a48b5c00b3b42cf3f632fb80e09dd
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-ops-manager-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -36175,7 +36165,7 @@ entries:
       charts.openshift.io/name: kubedb-opscenter
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.978558606Z"
+    created: "2026-03-12T10:09:14.513922903Z"
     dependencies:
     - condition: kubedb-metrics.enabled
       name: kubedb-metrics
@@ -36194,7 +36184,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.2.16
     description: KubeDB Opscenter by AppsCode
-    digest: 5d534c5f158946a7228e698e411aad7ce6d27bce62ccf0c7e0539ab3c76c15fe
+    digest: 2cc2a39a450d9e1e4df24fc5a1c99d55e30eb6829428aaa45fc21760408509b9
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
@@ -38168,10 +38158,10 @@ entries:
   kubedb-perses-dashboards:
   - apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.983079995Z"
+    created: "2026-03-12T10:09:14.519687491Z"
     description: A Helm chart for kubedb-perses-dashboards by AppsCode
-    digest: f3a7dfb2c87c387b2554c99c9db1bd781360b770799caeab7c874ae4a8643e6e
-    home: https://github.com/kubedb
+    digest: 67f6e9b2eb283baf46633eb47c53d154086b525af8e2ab848e6d16de58f47161
+    home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
     - email: support@appscode.com
@@ -38254,11 +38244,11 @@ entries:
   kubedb-provider-aws:
   - apiVersion: v2
     appVersion: v0.24.0
-    created: "2026-03-11T19:04:43.985328079Z"
+    created: "2026-03-12T10:09:14.521411732Z"
     description: A Helm chart for KubeDB AWS Provider for Crossplane
-    digest: c4711602865cb56edfdc1da949c7ebd9abe619dd26b89e62ee106ad03d0db8e6
-    home: https://github.com/kubedb/provider-aws
-    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    digest: ac04b0eef84f723bb05a1812e0a632e53004c374c0f1dd29c3bc4596c336f5cf
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -38918,11 +38908,11 @@ entries:
   kubedb-provider-azure:
   - apiVersion: v2
     appVersion: v0.24.0
-    created: "2026-03-11T19:04:43.988119331Z"
+    created: "2026-03-12T10:09:14.524067429Z"
     description: A Helm chart for KubeDB Azure Provider for Crossplane
-    digest: 8141aabd18c2de690fe89fb0fd868865c1a4b32ce4f07df697db4cb84ce78cd2
-    home: https://github.com/kubedb/provider-azure
-    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    digest: 1cfd81614fa0d275153a542e3b2b1629a95f264082612c9201099845bc6b2e3b
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -39582,11 +39572,11 @@ entries:
   kubedb-provider-gcp:
   - apiVersion: v2
     appVersion: v0.24.0
-    created: "2026-03-11T19:04:43.988964863Z"
+    created: "2026-03-12T10:09:14.524963225Z"
     description: A Helm chart for KubeDB GCP Provider for Crossplane
-    digest: 224da5656e2af59eae92edbf540407a25a1363ed1f3568a1e46538b87307a0da
-    home: https://github.com/kubedb/provider-gcp
-    icon: https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png
+    digest: bc0d315f0554c509d1f8f6c9112e29ee877eaa124b2a599aef77f37709fbb2cd
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
     - email: support@appscode.com
       name: appscode
@@ -40248,11 +40238,11 @@ entries:
       charts.openshift.io/name: kubedb-provisioner
     apiVersion: v2
     appVersion: v0.63.0
-    created: "2026-03-11T19:04:43.989800917Z"
+    created: "2026-03-12T10:09:14.525814261Z"
     description: KubeDB Provisioner by AppsCode - Community features for KubeDB
-    digest: 85ae36445339fa230eb35d619b3aa6f6cf7a479be5946c05deff031f54f39e87
+    digest: 169db0f92ef492b85d27fd192505c11e47e1977c0143e04505bef486e3b6cea9
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -41227,10 +41217,10 @@ entries:
       charts.openshift.io/name: kubedb-schema-manager
     apiVersion: v2
     appVersion: v0.39.0
-    created: "2026-03-11T19:04:43.990525344Z"
+    created: "2026-03-12T10:09:14.526566366Z"
     description: KubeDB Schema Manager by AppsCode
-    digest: 5ba827573f4faae8a63b7587f58c2b24b1d8207fa67c6ab7c7d4155afe1cc75e
-    home: https://github.com/kubedb
+    digest: 703431569b5c95fa0bb76a22b9d968cccc74b57bbf49155c9567fb79ef7da2ea
+    home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
@@ -43598,10 +43588,10 @@ entries:
       charts.openshift.io/name: kubedb-ui-server
     apiVersion: v2
     appVersion: v0.39.0
-    created: "2026-03-11T19:04:43.991468207Z"
+    created: "2026-03-12T10:09:14.527244857Z"
     description: A Helm chart for kubedb-ui-server by AppsCode
-    digest: 4e6e4a16bcd85442f76e23c60a62c4b73228619689961698bb67d778a408d3e3
-    home: https://github.com/kubedb/kubedb-ui-server
+    digest: 5a1608ecd96302b64a3d9d48d5aade45153fdef92a069cfa917c8a4c05c197cb
+    home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
@@ -44637,11 +44627,11 @@ entries:
       charts.openshift.io/name: kubedb-webhook-server
     apiVersion: v2
     appVersion: v0.39.0
-    created: "2026-03-11T19:04:43.993400883Z"
+    created: "2026-03-12T10:09:14.529517266Z"
     description: KubeDB Webhook Server by AppsCode
-    digest: 721b600359617fb064f2f25e5db07c05884d4133468303c50b082c5bc8ff7e07
+    digest: e210a1c9186d010e124dafa113885e7acd99689ef1d5988af3b097362b25447c
     home: https://kubedb.com
-    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -61671,11 +61661,11 @@ entries:
       charts.openshift.io/name: prepare-cluster
     apiVersion: v2
     appVersion: v2026.2.26
-    created: "2026-03-11T19:04:43.994053898Z"
+    created: "2026-03-12T10:09:14.530190419Z"
     description: Prepare Kubernetes Cluster by AppsCode
-    digest: 1b5933c6f4bd02ef6ed7e48dfd0fa06dd6ea5124e421e06f3e187725c4f823ff
-    home: https://appscode.com
-    icon: https://cdn.appscode.com/images/products/appscode/appscode-512x512.png
+    digest: 807fb03d9deb002828cdcc57f8f71595084ebf6b7e48976b72e355f28cd6ec6e
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.28.0-0'
     maintainers:
     - email: support@appscode.com
@@ -81853,4 +81843,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-03-12T03:46:47.703927875Z"
+generated: "2026-03-12T10:09:14.370118856Z"
