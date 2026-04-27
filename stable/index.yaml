@@ -14317,7 +14317,7 @@ entries:
   crd-manager:
   - apiVersion: v2
     appVersion: v0.2.0
-    created: "2026-04-22T12:51:32.337025784Z"
+    created: "2026-04-27T12:42:35.962672874Z"
     description: A Helm chart for AppsCode SaaS Calalog
     digest: f33f71d9bbd61b2e01286f75f19cc53eae3f0f6b14d542f34db7684812f1abe9
     home: https://github.com/appscode-cloud/crd-manager
@@ -16456,7 +16456,7 @@ entries:
   gateway-api:
   - apiVersion: v2
     appVersion: v17.4.0
-    created: "2026-04-22T12:51:32.338831256Z"
+    created: "2026-04-27T12:42:35.964468984Z"
     description: Kubernetes Gateway API
     digest: faa6eb35b0f70cac9ee7bb73e3434f8cbfc9334682f931d7acf9ce14f47b6744
     home: https://gateway-api.sigs.k8s.io
@@ -16559,7 +16559,7 @@ entries:
   gateway-converter:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2026-04-22T12:51:32.339610368Z"
+    created: "2026-04-27T12:42:35.965897509Z"
     description: Gateway Converter by AppsCode
     digest: a6fb799cba3ca234b62faacfeb7cf903d7b7e768e5a930d1447cbeddecad30aa
     home: https://voyagermesh.com
@@ -83230,7 +83230,7 @@ entries:
   voyager:
   - apiVersion: v1
     appVersion: v17.5.0
-    created: "2026-04-22T12:51:32.342430872Z"
+    created: "2026-04-27T12:42:35.968207684Z"
     description: Voyager by AppsCode - Secure L7/L4 Ingress Controller for Kubernetes
     digest: ccb247826ffa8e1697ed24dd274c7db08191f313b49672edb55a2fb3dbe61754
     home: https://voyagermesh.com/
@@ -84133,7 +84133,7 @@ entries:
   voyager-crds:
   - apiVersion: v2
     appVersion: v17.5.0
-    created: "2026-04-22T12:51:32.343721472Z"
+    created: "2026-04-27T12:42:35.970108552Z"
     description: Voyager Custom Resource Definitions
     digest: 1d3ef88d2d3ba9e4c6d3df1cd3e5b902e638de3d9f4a03bd1463b94415c26681
     home: https://voyager.com
@@ -84510,7 +84510,7 @@ entries:
       charts.openshift.io/name: voyager-gateway
     apiVersion: v2
     appVersion: v1.6.2
-    created: "2026-04-22T12:51:32.34741704Z"
+    created: "2026-04-27T12:42:35.973296541Z"
     dependencies:
     - condition: gateway-converter.enabled
       name: gateway-converter
@@ -84521,7 +84521,7 @@ entries:
       repository: file://../crd-manager
       version: v2026.3.6
     description: The Helm chart for Voyager Gateway
-    digest: 7eb33e6083fa4b075f881c4917ec6f5787b5c18f8739b9d5400395e932581c3d
+    digest: b377ad51c21f70b186de17e380f13a5c9e337e0e58c0e78879d05c3d28c7d396
     home: https://gateway.voyagermesh.com/
     keywords:
     - gateway-api
@@ -85316,4 +85316,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-04-23T07:55:19.746362849Z"
+generated: "2026-04-27T12:42:35.961926408Z"
