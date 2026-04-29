@@ -18170,9 +18170,9 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.5
-    created: "2025-12-17T04:08:03.553543789Z"
+    created: "2026-04-29T04:36:59.875002776Z"
     description: Inbox Agent by AppsCode
-    digest: bd7a923e78db93b903ed8120ab7afdfe6982de846cc1be9e81c9c1640f625cd0
+    digest: ffbc63717d3ac74a5cc187ed80faaaf43d968eb684eeeb148bd22ebf7d8c8f52
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -18219,14 +18219,14 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-12-17T04:08:03.559174021Z"
+    created: "2026-04-29T04:36:59.882337857Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: oci://registry-1.docker.io/bitnamicharts
       version: 16.4.14
     description: Inbox Server by AppsCode
-    digest: 1fab3eb8e8c74bd4442ca3c87a888db33e5cf2b12ff3f73e62b0b17fb4ca6f80
+    digest: 17abdcf2076b0036df4f8b24fe5a559df26f2d72ef8ee8b75d87bcf56de4338f
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -18278,9 +18278,9 @@ entries:
   inbox-server-distributed:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-12-17T04:08:03.560863903Z"
+    created: "2026-04-29T04:36:59.883527424Z"
     description: Inbox Server by AppsCode
-    digest: 0e497047055c65d9d015a15ffceb50460760287e4422994682cc3dbd3714320d
+    digest: 1520f0c18c4a69ebb30cd0fccc193b146ecdc326f86eadae10b879222376d53f
     home: https://github.com/ops-center
     icon: https://cdn.appscode.com/images/products/searchlight/searchlight-512x512.png
     maintainers:
@@ -61312,6 +61312,32 @@ entries:
     urls:
     - https://charts.appscode.com/stable/perconaxtradb-alerts/perconaxtradb-alerts-v2023.04.10.tgz
     version: v2023.04.10
+  perses:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/perses/helm-charts
+        - name: Upstream Project
+          url: https://github.com/perses/perses
+    apiVersion: v2
+    appVersion: v0.52.0
+    created: "2026-04-29T04:36:59.884574577Z"
+    description: Perses helm chart
+    digest: 784de8c489d51001330a5482771eee7827be0256607f576c954322a98b93dcd7
+    icon: https://avatars.githubusercontent.com/u/77209215?s=200&v=4
+    keywords:
+    - monitoring
+    - metric
+    - dashboarding
+    - prometheus
+    name: perses
+    sources:
+    - https://github.com/perses/perses
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/perses/perses-v2026.4.30.tgz
+    version: v2026.4.30
   petset:
   - annotations:
       charts.openshift.io/name: petset
@@ -65533,6 +65559,26 @@ entries:
     urls:
     - https://charts.appscode.com/stable/prepare-kubernetes-cluster/prepare-kubernetes-cluster-v0.1.0.tgz
     version: v0.1.0
+  prom-label-proxy:
+  - apiVersion: v2
+    appVersion: v0.12.1
+    created: "2026-04-29T04:36:59.885610522Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: 9f44d9339610c2aff8d0ee12bf95579e77f4d8f29117ea3a92341fa3423a1527
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/prom-label-proxy/prom-label-proxy-v2026.4.30.tgz
+    version: v2026.4.30
   prom-proxy:
   - apiVersion: v2
     appVersion: v2023.03.23
@@ -82735,6 +82781,40 @@ entries:
     urls:
     - https://charts.appscode.com/stable/taskqueue/taskqueue-v2025.5.30.tgz
     version: v2025.5.30
+  tenant-operator:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2026-04-29T04:36:59.888241333Z"
+    description: A Helm chart for Tenant Operator
+    digest: 7e833871f999417ad9ff5166c9e148f4b61dd731993a75b66ac47ed6b2fa0cbc
+    home: https://github.com/opnpluse/tenant-operator
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: tenant-operator
+    sources:
+    - https://github.com/opnpluse/tenant-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/tenant-operator/tenant-operator-v2026.4.30.tgz
+    version: v2026.4.30
+  thanos-operator:
+  - annotations:
+      kubebuilder.io/generated-by: kubebuilder
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-04-29T04:36:59.889953445Z"
+    description: A Helm chart to distribute thanos-operator
+    digest: 369543adeccd07ba7d016671c91878e010b38ee1e742b376ebc625c01447ccb5
+    keywords:
+    - kubernetes
+    - operator
+    name: thanos-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/thanos-operator/thanos-operator-v2026.4.30.tgz
+    version: v2026.4.30
   trickster:
   - apiVersion: v2
     appVersion: v2.0.0
@@ -85316,4 +85396,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-04-27T16:09:32.58585898Z"
+generated: "2026-04-29T04:36:59.873575333Z"
