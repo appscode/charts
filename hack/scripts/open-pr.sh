@@ -119,14 +119,14 @@ while true; do
     #  open pr
     pr_cmd=$(
         cat <<EOF
-hub pull-request \
-    --message "Publish $pr_branch charts" \
-    --message "$(git show -s --format=%b)"
+gh pr create \
+    --title "Publish $pr_branch charts" \
+    --body "$(git show -s --format=%b)"
 EOF
     )
     # if no Release-tracker: auto merge.
     if [ -z "$RELEASE_TRACKER" ]; then
-        pr_cmd="$pr_cmd --labels automerge"
+        pr_cmd="$pr_cmd --label automerge"
     fi
     eval "$pr_cmd" || true
     # if Release-tracker: found, report back.
@@ -134,7 +134,7 @@ EOF
         parse_url $RELEASE_TRACKER
         api_url="repos/${RELEASE_TRACKER_OWNER}/${RELEASE_TRACKER_REPO}/issues/${RELEASE_TRACKER_PR}/comments"
         msg="/chart github.com/${GITHUB_REPOSITORY} ${GIT_TAG}"
-        hub api "$api_url" -f body="$msg"
+        gh api "$api_url" -f body="$msg"
     fi
     exit 0
 done
