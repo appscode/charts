@@ -30,7 +30,7 @@ trap cleanup EXIT
 source $SCRIPT_ROOT/hack/scripts/common.sh
 
 if [ -z "$1" ]; then
-    echo "Missing argument for instller directory."
+    echo "Missing argument for installer directory."
     echo "Correct usage: $SCRIPT_NAME <path_to_installer_repo> <charts_dir, defaults to charts>."
     exit 1
 fi
@@ -66,7 +66,7 @@ fi
 
 while true; do
     cd $SCRIPT_ROOT
-    # remove all unstagged changes
+    # remove all unstaged changes
     git add --all
     git stash || true
     git stash drop || true
@@ -100,35 +100,27 @@ while true; do
     # open pr
     cd $SCRIPT_ROOT
     git add --all
-    # generate commit command
-    ct_cmd="git commit -a -s -m \"Publish ${GITHUB_REPOSITORY}@${GIT_TAG} charts\""
-    ct_cmd="$ct_cmd --message \"ProductLine: $PRODUCT_LINE\""
+    # commit
+    commit_args=(commit -a -s -m "Publish ${GITHUB_REPOSITORY}@${GIT_TAG} charts" --message "ProductLine: $PRODUCT_LINE")
     if [ ! -z "$RELEASE" ]; then
-        ct_cmd="$ct_cmd --message \"Release: $RELEASE\""
+        commit_args+=(--message "Release: $RELEASE")
     fi
     if [ ! -z "$RELEASE_TRACKER" ]; then
-        ct_cmd="$ct_cmd --message \"Release-tracker: $RELEASE_TRACKER\""
+        commit_args+=(--message "Release-tracker: $RELEASE_TRACKER")
     fi
-    # commit
-    eval "$ct_cmd"
+    git "${commit_args[@]}"
     # push successfully or { sleep and retry)
     git push -u origin HEAD || {
         sleep $((1 + RANDOM % 10))
         continue
     }
-    #  open pr
-    pr_cmd=$(
-        cat <<EOF
-gh pr create \
-    --title "Publish $pr_branch charts" \
-    --body "$(git show -s --format=%b)"
-EOF
-    )
+    # open pr
+    pr_args=(pr create --title "Publish $pr_branch charts" --body "$(git show -s --format=%b)")
     # if no Release-tracker: auto merge.
     if [ -z "$RELEASE_TRACKER" ]; then
-        pr_cmd="$pr_cmd --label automerge"
+        pr_args+=(--label automerge)
     fi
-    eval "$pr_cmd" || true
+    gh "${pr_args[@]}" || true
     # if Release-tracker: found, report back.
     if [ ! -z "$RELEASE_TRACKER" ]; then
         parse_url $RELEASE_TRACKER
