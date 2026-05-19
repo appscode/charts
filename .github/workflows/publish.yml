@@ -15,6 +15,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
@@ -43,8 +45,8 @@ jobs:
 
       - name: Publish charts
         env:
-          GITHUB_USER: 1gtm
-          GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
         run: |
           ./hack/scripts/publish.sh
