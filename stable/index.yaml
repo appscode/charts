@@ -7697,7 +7697,7 @@ entries:
     version: v0.8.3
   appscode-otel-stack:
   - apiVersion: v2
-    created: "2026-05-20T09:58:35.703653865Z"
+    created: "2026-05-20T13:47:00.6448158Z"
     dependencies:
     - condition: opentelemetry-kube-stack.enabled
       name: opentelemetry-kube-stack
@@ -18650,7 +18650,7 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.5
-    created: "2026-05-20T09:58:35.704364981Z"
+    created: "2026-05-20T13:47:00.645830721Z"
     description: Inbox Agent by AppsCode
     digest: ffbc63717d3ac74a5cc187ed80faaaf43d968eb684eeeb148bd22ebf7d8c8f52
     home: https://github.com/ops-center
@@ -18699,7 +18699,7 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-05-20T09:58:35.709278658Z"
+    created: "2026-05-20T13:47:00.652139816Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -18758,7 +18758,7 @@ entries:
   inbox-server-distributed:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-05-20T09:58:35.710194841Z"
+    created: "2026-05-20T13:47:00.653324173Z"
     description: Inbox Server by AppsCode
     digest: 1520f0c18c4a69ebb30cd0fccc193b146ecdc326f86eadae10b879222376d53f
     home: https://github.com/ops-center
@@ -60633,7 +60633,7 @@ entries:
   opentelemetry-kube-stack:
   - apiVersion: v2
     appVersion: 0.144.0
-    created: "2026-05-20T09:58:35.719285991Z"
+    created: "2026-05-20T13:47:00.664225189Z"
     dependencies:
     - condition: crds.install,crds.installOtel
       name: otel-crds
@@ -60657,7 +60657,7 @@ entries:
       version: 4.48.*
     description: 'OpenTelemetry Quickstart chart for Kubernetes. Installs an operator
       and collector for an easy way to get started with Kubernetes observability. '
-    digest: 82cad7f435a1771dcfbf9c2cc4aa535c867e700b2cb087208136391a944cf1ce
+    digest: 408731149660c68c19afe40543319eb8e17d75a15d8c25223ed74a9dfec8e4ef
     home: https://opentelemetry.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
     maintainers:
@@ -62710,7 +62710,7 @@ entries:
           url: https://github.com/perses/perses
     apiVersion: v2
     appVersion: v0.52.0
-    created: "2026-05-20T09:58:35.720464327Z"
+    created: "2026-05-20T13:47:00.665253585Z"
     description: Perses helm chart
     digest: f1b4da157714440c9b66aa3ae214f6ab862f65fc96c328520985fcb0a3379716
     icon: https://avatars.githubusercontent.com/u/77209215?s=200&v=4
@@ -67073,7 +67073,7 @@ entries:
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.12.1
-    created: "2026-05-20T09:58:35.721602283Z"
+    created: "2026-05-20T13:47:00.666120461Z"
     description: A proxy that enforces a given label in a given PromQL query.
     digest: 3cc897e753ee05308ad876fea5deef876c98216ccb5cf9622c822110cf2afd92
     home: https://github.com/prometheus-community/prom-label-proxy
@@ -84471,9 +84471,9 @@ entries:
   tenant-operator:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-05-20T09:58:35.72293431Z"
+    created: "2026-05-20T13:47:00.669973016Z"
     description: A Helm chart for Tenant Operator
-    digest: 924e96252a1b9c16e1668ab515a7e4822de4e903cfc3644b48e5313a6f9a4ef3
+    digest: 300ba6ed05ee6b1d45170009890f63a2d0f668c8e64859d4f5d2ed618b0d2e32
     home: https://github.com/opnpluse/tenant-operator
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     maintainers:
@@ -84508,7 +84508,7 @@ entries:
       kubebuilder.io/generated-by: kubebuilder
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-05-20T09:58:35.724710939Z"
+    created: "2026-05-20T13:47:00.672365296Z"
     description: A Helm chart to distribute thanos-operator
     digest: 02b0e5c931f6e2da6fd11cbfa7fca2518e0480b386c0069364a7e3f91bc1e683
     keywords:
@@ -87132,4 +87132,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-05-20T10:51:46.657607232Z"
+generated: "2026-05-20T13:47:00.632170333Z"
