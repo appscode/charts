@@ -11195,6 +11195,43 @@ entries:
     urls:
     - https://charts.appscode.com/stable/cert-manager-webhook-ace/cert-manager-webhook-ace-v2023.03.23.tgz
     version: v2023.03.23
+  cloud-platform:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2026-06-01T04:55:36.684461788Z"
+    dependencies:
+    - condition: gateway-api.enabled
+      name: gateway-api
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: oci://ghcr.io/appscode-charts
+      version: v1.19.2
+    - condition: service-gateway.enabled
+      name: service-gateway
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.2.16
+    - condition: cadence.enabled
+      name: cadence
+      repository: https://cadence-workflow.github.io/cadence-charts
+      version: 1.1.0
+    description: Cloud Platform full-stack Helm chart - backend, Cadence, Casdoor,
+      PostgreSQL, Redis, and UI
+    digest: ad3519fdf879fced3dea845f00485f4a8058d53723160f0f61dc5b163aa0be55
+    home: https://github.com/appscode-cloud/cloud-platform
+    keywords:
+    - cloud-platform
+    - cadence
+    - casdoor
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cloud-platform
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cloud-platform/cloud-platform-v0.0.1.tgz
+    version: v0.0.1
   cluster-auth:
   - apiVersion: v1
     appVersion: v0.0.1
@@ -87744,4 +87781,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-05-25T13:01:29.902924639Z"
+generated: "2026-06-01T04:55:36.651713821Z"
