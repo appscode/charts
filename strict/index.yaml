@@ -4,6 +4,91 @@ entries:
   - annotations:
       charts.openshift.io/name: kubedb
     apiVersion: v2
+    appVersion: 2026.6.5-rc.1
+    created: "2026-06-05T11:38:10.312184642Z"
+    dependencies:
+    - condition: petset.enabled
+      name: petset
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.5.22
+    - condition: operator-shard-manager.enabled
+      name: operator-shard-manager
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.2.16
+    - condition: sidekick.enabled
+      name: sidekick
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.2.16
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.2.16
+    - condition: kubedb-crd-manager.enabled
+      name: kubedb-crd-manager
+      repository: file://../kubedb-crd-manager
+      version: v0.20.0-rc.1
+    - condition: kubedb-provisioner.enabled
+      name: kubedb-provisioner
+      repository: file://../kubedb-provisioner
+      version: v0.65.0-rc.1
+    - condition: kubedb-ops-manager.enabled
+      name: kubedb-ops-manager
+      repository: file://../kubedb-ops-manager
+      version: v0.52.0-rc.1
+    - condition: kubedb-autoscaler.enabled
+      name: kubedb-autoscaler
+      repository: file://../kubedb-autoscaler
+      version: v0.50.0-rc.1
+    - condition: kubedb-schema-manager.enabled
+      name: kubedb-schema-manager
+      repository: file://../kubedb-schema-manager
+      version: v0.41.0-rc.1
+    - condition: kubedb-webhook-server.enabled
+      name: kubedb-webhook-server
+      repository: file://../kubedb-webhook-server
+      version: v0.41.0-rc.1
+    - condition: kubedb-metrics.enabled
+      name: kubedb-metrics
+      repository: file://../kubedb-metrics
+      version: v2026.6.5-rc.1
+    - condition: kubedb-catalog.enabled
+      name: kubedb-catalog
+      repository: file://../kubedb-catalog
+      version: v2026.6.5-rc.1
+    - condition: kubedb-kubestash-catalog.enabled
+      name: kubedb-kubestash-catalog
+      repository: file://../kubedb-kubestash-catalog
+      version: v2026.6.5-rc.1
+    - condition: kubedb-crd-manager.installGitOpsCRDs
+      name: kubedb-gitops
+      repository: file://../kubedb-gitops
+      version: v0.13.0-rc.1
+    - condition: kubedb-migrator.enabled
+      name: kubedb-migrator
+      repository: file://../kubedb-migrator
+      version: v0.5.0-rc.1
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.6.12
+    description: KubeDB by AppsCode - Production ready databases on Kubernetes
+    digest: 0e2298a21f209be7d18ba4fa0dd2f1b7474a5bcb2d2746baf416ec3bcb6af343
+    home: https://kubedb.com
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    kubeVersion: '>=1.26.0-0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kubedb
+    sources:
+    - https://github.com/kubedb
+    type: application
+    urls:
+    - https://charts.appscode.com/strict/kubedb/kubedb-2026.6.5-rc.1.tgz
+    version: 2026.6.5-rc.1
+  - annotations:
+      charts.openshift.io/name: kubedb
+    apiVersion: v2
     appVersion: 2026.5.18-rc.0
     created: "2026-06-01T07:39:37.783132338Z"
     dependencies:
@@ -341,4 +426,4 @@ entries:
     urls:
     - https://charts.appscode.com/strict/kubedb/kubedb-2026.2.26.tgz
     version: 2026.2.26
-generated: "2026-06-01T07:39:37.760608671Z"
+generated: "2026-06-05T11:38:10.288049218Z"
