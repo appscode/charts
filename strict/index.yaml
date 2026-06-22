@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: kubedb
     apiVersion: v2
     appVersion: 2026.6.19
-    created: "2026-06-22T05:39:48.643632816Z"
+    created: "2026-06-22T09:07:07.073302217Z"
     dependencies:
     - condition: petset.enabled
       name: petset
@@ -14,11 +14,11 @@ entries:
     - condition: operator-shard-manager.enabled
       name: operator-shard-manager
       repository: oci://ghcr.io/appscode-charts
-      version: v2026.2.16
+      version: v2026.6.22
     - condition: sidekick.enabled
       name: sidekick
       repository: oci://ghcr.io/appscode-charts
-      version: v2026.2.16
+      version: v2026.6.22
     - condition: supervisor.enabled
       name: supervisor
       repository: oci://ghcr.io/appscode-charts
@@ -72,7 +72,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.6.12
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
-    digest: 7e8c1b4f59eb1c7cb9bedbe1c09d94e2f5586e98bdfc6464a9b4b46ab452934e
+    digest: d9152cf35f5370a2261859376ac1fb4f854d22118464bcf15ecc592fb0304542
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.26.0-0'
@@ -596,4 +596,4 @@ entries:
     urls:
     - https://charts.appscode.com/strict/kubedb/kubedb-2026.2.26.tgz
     version: 2026.2.26
-generated: "2026-06-22T05:39:48.621119929Z"
+generated: "2026-06-22T09:07:07.048508735Z"
