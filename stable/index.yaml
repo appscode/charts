@@ -8525,7 +8525,7 @@ entries:
     version: v0.8.3
   appscode-otel-stack:
   - apiVersion: v2
-    created: "2026-07-16T06:36:47.075378284Z"
+    created: "2026-07-16T09:02:35.835326868Z"
     dependencies:
     - condition: opentelemetry-kube-stack.enabled
       name: opentelemetry-kube-stack
@@ -20480,7 +20480,7 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.6
-    created: "2026-07-16T06:36:47.076361865Z"
+    created: "2026-07-16T09:02:35.836354613Z"
     description: Inbox Agent by AppsCode
     digest: 401549201f9f01167b57ced64b0e00d6a79811c69c2a9e9bfd508cbe81edb185
     home: https://github.com/ops-center
@@ -20545,7 +20545,7 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-07-16T06:36:47.082501648Z"
+    created: "2026-07-16T09:02:35.842380357Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -20604,7 +20604,7 @@ entries:
   inbox-server-distributed:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-07-16T06:36:47.083639618Z"
+    created: "2026-07-16T09:02:35.843501106Z"
     description: Inbox Server by AppsCode
     digest: eabd7a27511ba4c79e3c3f7b5bac8486e99d1ca826040e083f1fe909a50b43b3
     home: https://github.com/ops-center
@@ -66548,7 +66548,7 @@ entries:
   opentelemetry-kube-stack:
   - apiVersion: v2
     appVersion: 0.144.0
-    created: "2026-07-16T06:36:47.094434342Z"
+    created: "2026-07-16T09:02:35.854425695Z"
     dependencies:
     - condition: crds.install,crds.installOtel
       name: otel-crds
@@ -66572,7 +66572,7 @@ entries:
       version: 4.48.*
     description: 'OpenTelemetry Quickstart chart for Kubernetes. Installs an operator
       and collector for an easy way to get started with Kubernetes observability. '
-    digest: 38a7c433bed9467c5ab2486aa02647594196eefa62f77ef35182555273249ee7
+    digest: c5d8cd5758658d1b32ad02c7dd8bb08778375d55d3fd2e372ddf5746180e1f59
     home: https://opentelemetry.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
     maintainers:
@@ -68805,7 +68805,7 @@ entries:
           url: https://github.com/perses/perses
     apiVersion: v2
     appVersion: v0.52.0
-    created: "2026-07-16T06:36:47.095725539Z"
+    created: "2026-07-16T09:02:35.855557486Z"
     description: Perses helm chart
     digest: e8ac9c63a400cf602314e3bc26665c61d22d11e6386c4a9741355f4f927c9088
     icon: https://avatars.githubusercontent.com/u/77209215?s=200&v=4
@@ -73682,7 +73682,7 @@ entries:
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.12.1
-    created: "2026-07-16T06:36:47.096768591Z"
+    created: "2026-07-16T09:02:35.856575882Z"
     description: A proxy that enforces a given label in a given PromQL query.
     digest: c188bc5166e18988a67065b439e2fed014d47604d49bb31237a23596c39a9504
     home: https://github.com/prometheus-community/prom-label-proxy
@@ -91792,6 +91792,23 @@ entries:
     version: v2025.5.30
   tenant-operator:
   - apiVersion: v2
+    appVersion: v0.0.2
+    created: "2026-07-16T09:02:35.860242854Z"
+    description: A Helm chart for Tenant Operator
+    digest: cd4e294cf97c0f0a8606fba3f1962d45e81a442637339e7efda0e22e43ec1ee6
+    home: https://github.com/opnpluse/tenant-operator
+    icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: tenant-operator
+    sources:
+    - https://github.com/opnpluse/tenant-operator
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/tenant-operator/tenant-operator-v2026.7.15.tgz
+    version: v2026.7.15
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2026-07-16T06:36:47.099958454Z"
     description: A Helm chart for Tenant Operator
@@ -91847,7 +91864,7 @@ entries:
       kubebuilder.io/generated-by: kubebuilder
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-07-16T06:36:47.102330444Z"
+    created: "2026-07-16T09:02:35.862651858Z"
     description: A Helm chart to distribute thanos-operator
     digest: 83a085a09c6422a12ac1342f2f4482e19fbc321d89096fc6828ef959c669bb4f
     keywords:
@@ -94604,4 +94621,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-07-16T06:36:47.062604077Z"
+generated: "2026-07-16T09:02:35.822842851Z"
