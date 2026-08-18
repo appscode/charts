@@ -63345,7 +63345,7 @@ entries:
   kubevirt-infra-csi-driver:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-08-18T07:04:07.555543767Z"
+    created: "2026-08-18T08:13:21.121096882Z"
     description: A Helm chart for KubeVirt infra csi-driver
     digest: 7f2c34b129af46fdf5b0fc290379aadf8368fe34a8a81dc70a69f8a142a37e64
     home: https://github.com/kube-virt/csi-driver
@@ -63363,7 +63363,7 @@ entries:
   kubevirt-tenant-csi-driver:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-08-18T07:04:07.556041964Z"
+    created: "2026-08-18T08:13:21.12172419Z"
     description: A Helm chart for KubeVirt tenant csi-driver
     digest: 76687ff2ac578a80d9cacf2c217c8dc5e2f30a67de98dfeaa300a68f4489310f
     home: https://github.com/kube-virt/csi-driver
@@ -64170,6 +64170,24 @@ entries:
     urls:
     - https://charts.appscode.com/stable/loadbalancer-controller/loadbalancer-controller-v0.1.0.tgz
     version: v0.1.0
+  - apiVersion: v2
+    appVersion: v0.1.0-ac
+    created: "2026-08-18T08:13:21.131673593Z"
+    description: A Helm chart for the LoadBalancer Controller (loadbalancer-controller
+      + keepalived-grpc)
+    digest: 27068efd86ad1378cff2dc1e08a68b81da773815e78098895dd7adcec3175bc1
+    home: https://github.com/kube-virt/installer
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: loadbalancer-controller
+    sources:
+    - https://github.com/kube-virt/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/loadbalancer-controller/loadbalancer-controller-v0.1.0-ac.tgz
+    version: v0.1.0-ac
   managed-serviceaccount:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -95852,4 +95870,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-08-18T07:04:07.555001458Z"
+generated: "2026-08-18T08:13:21.120438316Z"
