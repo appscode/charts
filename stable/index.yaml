@@ -8773,7 +8773,7 @@ entries:
     version: v0.8.3
   appscode-otel-stack:
   - apiVersion: v2
-    created: "2026-09-03T12:40:55.233090412Z"
+    created: "2026-09-03T18:08:36.053667431Z"
     dependencies:
     - condition: opentelemetry-kube-stack.enabled
       name: opentelemetry-kube-stack
@@ -20972,7 +20972,7 @@ entries:
   inbox-agent:
   - apiVersion: v2
     appVersion: v0.0.6
-    created: "2026-09-03T12:40:55.233877182Z"
+    created: "2026-09-03T18:08:36.054687979Z"
     description: Inbox Agent by AppsCode
     digest: 401549201f9f01167b57ced64b0e00d6a79811c69c2a9e9bfd508cbe81edb185
     home: https://github.com/ops-center
@@ -21037,7 +21037,7 @@ entries:
   inbox-server:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-09-03T12:40:55.239589408Z"
+    created: "2026-09-03T18:08:36.061173745Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -21096,7 +21096,7 @@ entries:
   inbox-server-distributed:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-09-03T12:40:55.240578505Z"
+    created: "2026-09-03T18:08:36.062328032Z"
     description: Inbox Server by AppsCode
     digest: eabd7a27511ba4c79e3c3f7b5bac8486e99d1ca826040e083f1fe909a50b43b3
     home: https://github.com/ops-center
@@ -68854,7 +68854,7 @@ entries:
   opentelemetry-kube-stack:
   - apiVersion: v2
     appVersion: 0.144.0
-    created: "2026-09-03T12:40:55.249837974Z"
+    created: "2026-09-03T18:08:36.07298406Z"
     dependencies:
     - condition: crds.install,crds.installOtel
       name: otel-crds
@@ -71145,9 +71145,9 @@ entries:
           url: https://github.com/perses/perses
     apiVersion: v2
     appVersion: v0.52.0
-    created: "2026-09-03T12:40:55.250732872Z"
+    created: "2026-09-03T18:08:36.074037218Z"
     description: Perses helm chart
-    digest: 038e34703feea947246b01d7609afd5e00bebb2fa8f2dbfa78cf60b9491c1569
+    digest: 0b7640ffbc454565f04cfca3727b437d78e95a1c73c81b38dae19b8acb3a56ab
     icon: https://avatars.githubusercontent.com/u/77209215?s=200&v=4
     keywords:
     - monitoring
@@ -76179,7 +76179,7 @@ entries:
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.12.1
-    created: "2026-09-03T12:40:55.251437063Z"
+    created: "2026-09-03T18:08:36.074921612Z"
     description: A proxy that enforces a given label in a given PromQL query.
     digest: 6919464f7ff212584bcce507f17825ad9c93ce7da017dd8a54b37b0b273d1b34
     home: https://github.com/prometheus-community/prom-label-proxy
@@ -94486,7 +94486,7 @@ entries:
   tenant-operator:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2026-09-03T12:40:55.253869631Z"
+    created: "2026-09-03T18:08:36.078247909Z"
     description: A Helm chart for Tenant Operator
     digest: cd4e294cf97c0f0a8606fba3f1962d45e81a442637339e7efda0e22e43ec1ee6
     home: https://github.com/opnpluse/tenant-operator
@@ -94557,7 +94557,7 @@ entries:
       kubebuilder.io/generated-by: kubebuilder
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-09-03T12:40:55.255211542Z"
+    created: "2026-09-03T18:08:36.079772398Z"
     description: A Helm chart to distribute thanos-operator
     digest: 83a085a09c6422a12ac1342f2f4482e19fbc321d89096fc6828ef959c669bb4f
     keywords:
@@ -97404,4 +97404,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-09-03T12:40:55.22158267Z"
+generated: "2026-09-03T18:08:36.040857968Z"
