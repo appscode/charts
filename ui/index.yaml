@@ -7811,7 +7811,7 @@ entries:
       meta.x-helm.dev/editor: '{"group":"autoscaling.kubedb.com","version":"v1alpha1","resource":"milvusautoscalers"}'
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.723592553Z"
+    created: "2026-09-09T06:07:41.150793502Z"
     description: MilvusAutoscaler Editor
     digest: 15e9275e29a484570db9708fc534849190e1b18375584ed203ce7cd56b2e4106
     home: https://appscode.com
@@ -13947,7 +13947,7 @@ entries:
       meta.x-helm.dev/editor: '{"group":"catalog.appscode.com","version":"v1alpha1","resource":"milvusbindings"}'
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.72384639Z"
+    created: "2026-09-09T06:07:41.15096455Z"
     description: MilvusBinding Editor
     digest: f9af4a7cbbf956dcf21f270d69ae87117e52ac4958855a1cc3a83712b02e821f
     home: https://appscode.com
@@ -17621,7 +17621,7 @@ entries:
       meta.x-helm.dev/editor: '{"group":"catalog.kubedb.com","version":"v1alpha1","resource":"milvusversions"}'
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.724097523Z"
+    created: "2026-09-09T06:07:41.15111939Z"
     description: MilvusVersion Editor
     digest: 1d83ebefdd0c5f8303265d2d99d2954e090d13c409375b25d9601acc4db4ef66
     home: https://appscode.com
@@ -48232,7 +48232,7 @@ entries:
       meta.x-helm.dev/editor: '{"group":"gitops.kubedb.com","version":"v1alpha1","resource":"milvuses"}'
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.728003236Z"
+    created: "2026-09-09T06:07:41.154715769Z"
     description: Milvus Editor
     digest: b1a40599d4d2ddabf6c0572247d70c39741ea2e9cd222a63cdb17280ab088195
     home: https://appscode.com
@@ -64420,7 +64420,7 @@ entries:
   - annotations:
       meta.x-helm.dev/editor: '{"group":"kubedb.com","version":"v1alpha2","resource":"milvuses"}'
       meta.x-helm.dev/form-keys: monitoringCoreosComPrometheusRule
-      meta.x-helm.dev/resource-keys: autoscalingKubedbComMilvusAutoscaler,catalogAppscodeComMilvusBinding,certManagerIoIssuer_ca,kubedbComMilvus,monitoringCoreosComServiceMonitor,secret_auth,secret_config
+      meta.x-helm.dev/resource-keys: autoscalingKubedbComMilvusAutoscaler,catalogAppscodeComMilvusBinding,certManagerIoIssuer_ca,coreKubestashComBackupBlueprint,coreKubestashComBackupConfiguration,coreKubestashComRestoreSession,kubedbComMilvus,monitoringCoreosComServiceMonitor,secret_auth,secret_config
       meta.x-helm.dev/resources: |
         - group: ""
           kind: Secret
@@ -64434,6 +64434,15 @@ entries:
         - group: cert-manager.io
           kind: Issuer
           version: v1
+        - group: core.kubestash.com
+          kind: BackupBlueprint
+          version: v1alpha1
+        - group: core.kubestash.com
+          kind: BackupConfiguration
+          version: v1alpha1
+        - group: core.kubestash.com
+          kind: RestoreSession
+          version: v1alpha1
         - group: kubedb.com
           kind: Milvus
           version: v1alpha2
@@ -64445,9 +64454,9 @@ entries:
           version: v1
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.732898724Z"
+    created: "2026-09-09T06:07:41.164642093Z"
     description: Milvus Editor
-    digest: 06a37484ccab32469f4d5217efa4aba3b974ac917c9298847945b7bf8a298fac
+    digest: 04b8526449e6467567f2315dd694b4b7a7bd8270e4329f80a6cad43a5e369df0
     home: https://appscode.com
     icon: https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-512x512.png
     keywords:
@@ -64636,7 +64645,7 @@ entries:
     version: v0.37.0
   - apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.734422513Z"
+    created: "2026-09-09T06:07:41.165718906Z"
     description: Milvus Editor UI Options
     digest: de8b09815aa3ca4671515da3e8d7be2172198773f7454443354a8e1ee003a897
     home: https://byte.builders
@@ -81813,7 +81822,7 @@ entries:
       meta.x-helm.dev/editor: '{"group":"ops.kubedb.com","version":"v1alpha1","resource":"milvusopsrequests"}'
     apiVersion: v2
     appVersion: v0.36.0
-    created: "2026-09-08T12:58:55.735638978Z"
+    created: "2026-09-09T06:07:41.166173092Z"
     description: MilvusOpsRequest Editor
     digest: d7b0aadd40f1eff5b2e5c9f61a118a4b0fa710d8d814f97f1e9c954c3cb64e03
     home: https://appscode.com
@@ -110407,4 +110416,4 @@ entries:
     urls:
     - https://charts.appscode.com/ui/workopenclustermanagementio-manifestworkreplicaset-editor/workopenclustermanagementio-manifestworkreplicaset-editor-v0.32.0.tgz
     version: v0.32.0
-generated: "2026-09-09T06:04:19.36398327Z"
+generated: "2026-09-09T06:07:41.150472593Z"
