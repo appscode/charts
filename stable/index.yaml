@@ -12732,6 +12732,42 @@ entries:
     version: v2026.3.30
   cloud-platform:
   - apiVersion: v2
+    appVersion: v0.3.0-alpha
+    created: "2026-10-11T06:17:38.319937953Z"
+    dependencies:
+    - condition: gateway-api.enabled
+      name: gateway-api
+      repository: oci://ghcr.io/appscode-charts
+      version: v2025.3.14
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: oci://ghcr.io/appscode-charts
+      version: v1.19.2
+    - condition: service-gateway.enabled
+      name: service-gateway
+      repository: oci://ghcr.io/appscode-charts
+      version: v2026.2.16
+    - condition: cadence.enabled
+      name: cadence
+      repository: https://cadence-workflow.github.io/cadence-charts
+      version: 1.1.0
+    description: Cloud Platform full-stack Helm chart - backend, Cadence, Casdoor,
+      PostgreSQL, Redis, and UI
+    digest: 6332c0ea910957a330829c1da3ca0895c5885ab9b1ddf564ee8ea6d4142d64dc
+    home: https://github.com/appscode-cloud/cloud-platform
+    keywords:
+    - cloud-platform
+    - cadence
+    - casdoor
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: cloud-platform
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cloud-platform/cloud-platform-v0.3.0-alpha.tgz
+    version: v0.3.0-alpha
+  - apiVersion: v2
     appVersion: v0.2.0
     created: "2026-10-06T05:48:39.57997954Z"
     dependencies:
@@ -97959,4 +97995,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-10-11T04:34:15.887986386Z"
+generated: "2026-10-11T06:17:38.293216749Z"
