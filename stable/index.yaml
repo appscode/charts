@@ -7839,7 +7839,7 @@ entries:
   ace-user-roles:
   - apiVersion: v2
     appVersion: v2026.6.12
-    created: "2026-10-02T09:32:57.761195857Z"
+    created: "2026-10-12T10:48:31.168914609Z"
     description: A Helm chart for ACE user roles
     digest: d85e6d91ed474d52bb59e96c490c8e6f1290120a773019719aebd783dafc2e71
     icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
@@ -8756,7 +8756,7 @@ entries:
   application-crds:
   - apiVersion: v2
     appVersion: v0.8.3
-    created: "2026-10-02T09:32:57.761465003Z"
+    created: "2026-10-12T10:48:31.16920409Z"
     description: Kubernetes Application CRDs
     digest: 28659a7a4713f2df5f01cefbc4711aa818efcbbe40a6b60b054ae55588c94852
     home: https://github.com/kmodules/application
@@ -11834,9 +11834,9 @@ entries:
       charts.openshift.io/name: cattleset
     apiVersion: v1
     appVersion: v0.0.1
-    created: "2026-10-02T09:32:57.76353632Z"
+    created: "2026-10-12T10:48:31.171341345Z"
     description: CattleSet Operator by AppsCode
-    digest: 1c3581eb56fb01c4c376273663dc7d34cd49d8fc5f256c258991535dd98aa07b
+    digest: cbbd85af683407711877e83348925f7d979919563351328008b369bce8d9be16
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/stash/cattleset-icon.png
     kubeVersion: '>=1.26.0-0'
@@ -11852,7 +11852,7 @@ entries:
   cert-manager-crds:
   - apiVersion: v2
     appVersion: v1.18.2
-    created: "2026-10-02T09:32:57.764165814Z"
+    created: "2026-10-12T10:48:31.17194263Z"
     description: Jetstack cert-manager CRDs
     digest: 27fc1c334fd78cb95615d0f99ddc012e5a00db96e34cd001752130699a6fccb4
     home: https://cert-manager.io
@@ -11906,7 +11906,7 @@ entries:
       charts.openshift.io/name: cert-manager-csi-driver-cacerts
     apiVersion: v2
     appVersion: v0.6.0
-    created: "2026-10-02T09:32:57.764613897Z"
+    created: "2026-10-12T10:48:31.172425754Z"
     description: A Helm chart for cert-manager-csi-driver-cacerts
     digest: 7200e48592158cee3a9f02160b0e3207b4d9f7ecbece6e1fa02c4cf214561588
     home: https://github.com/kubeops/csi-driver-cacerts
@@ -13217,7 +13217,7 @@ entries:
   cluster-connector:
   - apiVersion: v2
     appVersion: v0.0.14
-    created: "2026-10-02T09:32:57.765172207Z"
+    created: "2026-10-12T10:48:31.172969912Z"
     description: A Helm chart for cluster-connector
     digest: a6ffe9ee4848f1594d258151554e421be1df09e6ca828645c5a76b9317e0faad
     home: https://github.com/kubeops/cluster-connector
@@ -16330,7 +16330,7 @@ entries:
   config-syncer:
   - apiVersion: v1
     appVersion: v0.15.5
-    created: "2026-10-02T09:32:57.765872705Z"
+    created: "2026-10-12T10:48:31.173754569Z"
     description: Config Syncer by AppsCode
     digest: 8b4e4b3d5675003f10c4537da36b798802b7a0605f4114b9fd1153694d0baf9f
     home: https://github.com/kubeops/config-syncer
@@ -18157,6 +18157,57 @@ entries:
     urls:
     - https://charts.appscode.com/stable/docker-machine-operator/docker-machine-operator-v2023.9.1.tgz
     version: v2023.9.1
+  dr-controlplane:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2026-10-12T10:48:31.175633083Z"
+    description: Common DC failover service. A three data center etcd quorum and an
+      OCM control plane that exposes the Kubernetes Lease API as the cross data center
+      failover signal, plus the per DC agent and the topology controller.
+    digest: 171653f35208c2eabfafc25e63b00167bac4636e64f18de581e3c1237266663a
+    home: https://github.com/kubeops/dr-controlplane
+    keywords:
+    - disaster-recovery
+    - failover
+    - lease
+    - open-cluster-management
+    - kubedb
+    maintainers:
+    - email: support@appscode.com
+      name: AppsCode Inc.
+    name: dr-controlplane
+    sources:
+    - https://github.com/kubeops/dr-controlplane
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/dr-controlplane/dr-controlplane-v0.1.0.tgz
+    version: v0.1.0
+  dr-controlplane-agent:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2026-10-12T10:48:31.17642968Z"
+    description: OCM addon chart that installs the dr-controlplane per data center
+      agent (Deployment, ServiceAccount, Role, RoleBinding) onto a ManagedCluster.
+      Rendered by the addon-framework, one release per ManagedCluster, with the cluster
+      name injected as the agent --dc-name.
+    digest: 1052536b6c80bf336ad09415a8b73bc95ea34ae0872db7075688098daef72eb7
+    home: https://github.com/kubeops/dr-controlplane
+    keywords:
+    - disaster-recovery
+    - failover
+    - lease
+    - open-cluster-management
+    - kubedb
+    maintainers:
+    - email: support@appscode.com
+      name: AppsCode Inc.
+    name: dr-controlplane-agent
+    sources:
+    - https://github.com/kubeops/dr-controlplane
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/dr-controlplane-agent/dr-controlplane-agent-v0.1.0.tgz
+    version: v0.1.0
   druid-alerts:
   - apiVersion: v2
     appVersion: v0.7.0
@@ -18470,7 +18521,7 @@ entries:
       charts.openshift.io/name: external-dns-operator
     apiVersion: v2
     appVersion: v0.4.0
-    created: "2026-10-02T09:32:57.766547444Z"
+    created: "2026-10-12T10:48:31.177079656Z"
     description: A Helm chart for External DNS Operator by AppsCode
     digest: 9ec15520590b84c62ed82e8b7ca0535365ca6dbde3cbb6d03c70090f1530a729
     home: https://github.com/kubeops/external-dns-operator
@@ -18616,7 +18667,7 @@ entries:
       charts.openshift.io/name: falco-ui-server
     apiVersion: v1
     appVersion: v0.0.6
-    created: "2026-10-02T09:32:57.768560417Z"
+    created: "2026-10-12T10:48:31.178133878Z"
     description: Falco UI Server by AppsCode
     digest: afc8051e5639dedb2a464b2f81c02087652d30cc05077ec60393259b9ab7e8ec
     home: https://github.com/kubeops/falco-ui-server
@@ -18722,7 +18773,7 @@ entries:
       charts.openshift.io/name: fargocd
     apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-10-02T09:32:57.769392071Z"
+    created: "2026-10-12T10:48:31.178914098Z"
     description: A Helm chart for FluxCD to ArgoCD Bridge
     digest: 814a0bd7f4a1b48a9933a4afa34e2a7532103280ba2683743b5e6ebb4e4b022e
     home: https://github.com/appscode-cloud
@@ -18840,7 +18891,7 @@ entries:
       charts.openshift.io/name: fargocd-manager
     apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-10-02T09:32:57.77007695Z"
+    created: "2026-10-12T10:48:31.179618034Z"
     description: FluxCD to ArgoCD Bridge OCM AddOn Manager
     digest: 4f82795b04306cbc78508ca09cb3ef31f9ce1b7358a8fb7e97f2250ebc09f290
     home: https://github.com/kubeops/fargocd
@@ -19132,7 +19183,7 @@ entries:
   gatekeeper-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2026-10-02T09:32:57.770429373Z"
+    created: "2026-10-12T10:48:31.179918646Z"
     description: A Helm chart for Gatekeeper Grafana Dashboards
     digest: 550084f8546be32122b9402329d18b49d6fde30b2bafab6f915b3bea7a5ae877
     home: https://github.com/appscode/grafana-dashboards
@@ -19167,7 +19218,7 @@ entries:
   gatekeeper-library:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-10-02T09:32:57.771792106Z"
+    created: "2026-10-12T10:48:31.182470825Z"
     description: A Helm chart for OPA Gatekeeper Library
     digest: ac6d20706fcf4d5a0fceaf4dcfc9f32df450a11f623514ff17b35305bc84b772
     home: https://github.com/kubeops/installer
@@ -22197,7 +22248,7 @@ entries:
   kmodules-crds:
   - apiVersion: v2
     appVersion: v0.25.1
-    created: "2026-10-02T09:32:57.771987574Z"
+    created: "2026-10-12T10:48:31.18267631Z"
     description: Shared Kubernetes Custom Resource Definitions for AppsCode Projects
     digest: f6577b7797cc95c66a49f2c7f8d3a79ad8eff70224060903da070bb883ece938
     home: https://appscode.com
@@ -22515,6 +22566,31 @@ entries:
     - https://charts.appscode.com/stable/kube-grafana-dashboards/kube-grafana-dashboards-v2022.03.20.tgz
     version: v2022.03.20
   kube-ui-server:
+  - annotations:
+      charts.openshift.io/name: kube-ui-server
+    apiVersion: v2
+    appVersion: v0.8.0
+    created: "2026-10-12T10:48:31.184076078Z"
+    dependencies:
+    - condition: ace-user-roles.enabled
+      name: ace-user-roles
+      repository: file://../ace-user-roles
+      version: v2026.6.12
+    description: A Helm chart for kube-ui-server by AppsCode
+    digest: 049e30b36bd97b2f8d5e8f2971143015b9b1e6c432477395985642e6297314e9
+    home: https://github.com/kubeops/kube-ui-server
+    icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+    kubeVersion: '>=1.26.0-0'
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: kube-ui-server
+    sources:
+    - https://github.com/kubeops/kube-ui-server
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/kube-ui-server/kube-ui-server-v2026.10.12.tgz
+    version: v2026.10.12
   - annotations:
       charts.openshift.io/name: kube-ui-server
     apiVersion: v2
@@ -69889,7 +69965,7 @@ entries:
   opencost-grafana-dashboards:
   - apiVersion: v2
     appVersion: v2023.10.1
-    created: "2026-10-02T09:32:57.77476859Z"
+    created: "2026-10-12T10:48:31.184631297Z"
     description: A Helm chart for Opencost Grafana Dashboards
     digest: b6a9451491188ebdb6b2bbbb4e89734831629bfa25ed856af54af36da28006a4
     home: https://github.com/appscode/grafana-dashboards
@@ -70054,7 +70130,7 @@ entries:
       charts.openshift.io/name: operator-shard-manager
     apiVersion: v2
     appVersion: v0.0.6
-    created: "2026-10-02T09:32:57.775536745Z"
+    created: "2026-10-12T10:48:31.185380999Z"
     description: A Helm chart for OpenShift
     digest: da05ed5cba53c7c8751e82075bd1091010c2173ebaa35850e78e385d8e869f68
     home: https://github.com/appscode-cloud
@@ -71811,7 +71887,7 @@ entries:
       charts.openshift.io/name: panopticon
     apiVersion: v2
     appVersion: v0.0.24
-    created: "2026-10-02T09:32:57.776815059Z"
+    created: "2026-10-12T10:48:31.18757469Z"
     dependencies:
     - condition: ace-user-roles.enabled
       name: ace-user-roles
@@ -72491,9 +72567,9 @@ entries:
       charts.openshift.io/name: petset
     apiVersion: v1
     appVersion: v0.2.0
-    created: "2026-10-02T09:32:57.778789818Z"
+    created: "2026-10-12T10:48:31.188730522Z"
     description: Petset Operator by AppsCode
-    digest: c9418501d174c2bffbd5e88badd7986adfae050d7366e4262f98b2d87c4e791d
+    digest: ebc9300dde844329fee07054fdc0717a9e9b40e6fe592d7fd29883d39fd7dfe6
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/stash/petset-icon.png
     kubeVersion: '>=1.26.0-0'
@@ -72943,7 +73019,7 @@ entries:
       charts.openshift.io/name: pgoutbox
     apiVersion: v2
     appVersion: v0.0.4
-    created: "2026-10-02T09:32:57.779953387Z"
+    created: "2026-10-12T10:48:31.189860595Z"
     description: PgOutbox by AppsCode
     digest: 6693ad320ad975bec84c9be6419ff2341d62fadf0acdbf3475fb370d5b288527
     home: https://kubedb.com/
@@ -77618,7 +77694,7 @@ entries:
   prometheus-operator-crds:
   - apiVersion: v2
     appVersion: v0.60.1
-    created: "2026-10-02T09:32:57.78278731Z"
+    created: "2026-10-12T10:48:31.192612355Z"
     description: Prometheus Operator CRDs
     digest: e87c940ce63c142e93b8d3981a04b4a29763335490f681e684e943a736fbf6f0
     home: https://github.com/prometheus-operator/prometheus-operator
@@ -78871,7 +78947,7 @@ entries:
       charts.openshift.io/name: scanner
     apiVersion: v1
     appVersion: v0.0.21
-    created: "2026-10-02T09:32:57.784000322Z"
+    created: "2026-10-12T10:48:31.193791361Z"
     description: Docker Image Scanner by AppsCode
     digest: 1637290c6701e2f422caf732d3025be8840605f0a9163e75a192e245da44154a
     home: https://github.com/kubeops/scanner
@@ -82300,7 +82376,7 @@ entries:
       charts.openshift.io/name: sidekick
     apiVersion: v2
     appVersion: v0.0.16
-    created: "2026-10-02T09:32:57.784981017Z"
+    created: "2026-10-12T10:48:31.195623638Z"
     description: A Helm chart for Sidekick Operator by AppsCode
     digest: 75b353d800a8a5d3cccbd351d3edab2437ab326ccc2e494db216b33e9e60203c
     home: https://github.com/kubeops/sidekick
@@ -95207,7 +95283,7 @@ entries:
       charts.openshift.io/name: storage-metrics-server
     apiVersion: v1
     appVersion: v0.1.0
-    created: "2026-10-02T09:32:57.785656277Z"
+    created: "2026-10-12T10:48:31.196360056Z"
     description: Kubernetes Storage Metrics API server by AppsCode
     digest: f1851fb541b17b7240c382393e2392de75d1211df0f47bfc45d0e8cda2a1e7f9
     home: https://github.com/kubeops/storage-metrics-server
@@ -95233,7 +95309,7 @@ entries:
       charts.openshift.io/name: supervisor
     apiVersion: v2
     appVersion: v0.0.12
-    created: "2026-10-02T09:32:57.786523969Z"
+    created: "2026-10-12T10:48:31.197222819Z"
     description: A Helm chart for Supervisor by AppsCode
     digest: 6595d4ef4b8bb64b4550d78be37ec18e66eb76c777c2c223b2e1e08d76c272ed
     home: https://github.com/kubeops/supervisor
@@ -95705,7 +95781,7 @@ entries:
       charts.openshift.io/name: taskqueue
     apiVersion: v2
     appVersion: v0.0.3
-    created: "2026-10-02T09:32:57.787171457Z"
+    created: "2026-10-12T10:48:31.197840845Z"
     description: A Helm chart for TaskQueue
     digest: f0626ff4055f0d691473bf31471c70c72bb27ceb02a7e7b6002d1c3acc4d91c2
     home: https://github.com/appscode-cloud
@@ -96369,7 +96445,7 @@ entries:
   vcd-lb-gc:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-10-02T09:32:57.788327061Z"
+    created: "2026-10-12T10:48:31.198499958Z"
     description: VCD Load Balancer Garbage Collector by AppsCode
     digest: 363898a8946c10385c3299942e94d7a99f433256d8ac4aff2c0d24cd4bde4703
     home: https://github.com/kubeops/vcd-lb-gc
@@ -98766,4 +98842,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-10-12T07:25:44.699961342Z"
+generated: "2026-10-12T10:48:31.168385309Z"
