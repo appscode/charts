@@ -76315,7 +76315,7 @@ entries:
   - annotations:
       meta.x-helm.dev/editor: '{"group":"kubedb.com","version":"v1alpha2","resource":"mssqlservers"}'
       meta.x-helm.dev/form-keys: monitoringCoreosComPrometheusRule
-      meta.x-helm.dev/resource-keys: autoscalingKubedbComMSSQLServerAutoscaler,catalogAppscodeComMSSQLServerBinding,certManagerIoIssuer_ca,coreKubestashComBackupBlueprint,coreKubestashComBackupConfiguration,coreKubestashComRestoreSession,gitopsKubedbComMSSQLServer,kubedbComMSSQLServer,monitoringCoreosComServiceMonitor,secret_auth,secret_config
+      meta.x-helm.dev/resource-keys: autoscalingKubedbComMSSQLServerAutoscaler,catalogAppscodeComMSSQLServerBinding,certManagerIoIssuer_ca,coreKubestashComBackupBlueprint,coreKubestashComBackupConfiguration,coreKubestashComRestoreSession,gitopsKubedbComMSSQLServer,kubedbComMSSQLServer,monitoringCoreosComServiceMonitor,secret_auth,secret_config,secret_product_key
       meta.x-helm.dev/resources: |
         - group: ""
           kind: Secret
@@ -76352,9 +76352,9 @@ entries:
           version: v1
     apiVersion: v2
     appVersion: v0.38.0
-    created: "2026-10-12T09:05:23.64226232Z"
+    created: "2026-10-13T10:02:23.533624086Z"
     description: MSSQLServer Editor
-    digest: bc88bca53da70dff6fe27cc347e1fdb15069d0c6569ae1bb97d059944b1da339
+    digest: 5dce35df429074b83dbe1043d42cc6d6e29b1f9275ce18882d1d778fe22479d0
     home: https://appscode.com
     icon: https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-512x512.png
     keywords:
@@ -76707,9 +76707,9 @@ entries:
   kubedbcom-mssqlserver-editor-options:
   - apiVersion: v2
     appVersion: v0.38.0
-    created: "2026-10-12T09:05:23.644273278Z"
+    created: "2026-10-13T10:02:23.535771008Z"
     description: MSSQLServer Editor UI Options
-    digest: dac057b9b1b808fc39c1356d15480354b4f6578a51ae1b38453a42387a13cb3a
+    digest: 331ca2c8bcb480a651f269f0eafb3f01e8876d99a8c9e2a7fd977d1aa99ccfe8
     home: https://byte.builders
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-community-icon.png
     maintainers:
@@ -129104,4 +129104,4 @@ entries:
     urls:
     - https://charts.appscode.com/ui/workopenclustermanagementio-manifestworkreplicaset-editor/workopenclustermanagementio-manifestworkreplicaset-editor-v0.32.0.tgz
     version: v0.32.0
-generated: "2026-10-12T09:05:23.164447143Z"
+generated: "2026-10-13T10:02:23.522927294Z"
