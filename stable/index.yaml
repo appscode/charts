@@ -67367,7 +67367,7 @@ entries:
   kubevirt-infra-csi-driver:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-10-27T09:15:03.030129303Z"
+    created: "2026-10-27T09:34:18.58869017Z"
     description: A Helm chart for KubeVirt infra csi-driver
     digest: b90c432628c27880b4be8930ffe44cbe87f09b8a5ab39f2e1d472ae9ee9bfecf
     home: https://github.com/kontainercloud/csi-driver
@@ -67385,7 +67385,7 @@ entries:
   kubevirt-tenant-csi-driver:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-10-27T09:15:03.030735014Z"
+    created: "2026-10-27T09:34:18.589105213Z"
     description: A Helm chart for KubeVirt tenant csi-driver
     digest: 0faa19bde598f7d3fb05698c465e844af5a9f3690ecf71aeb96fe155b83bd5ca
     home: https://github.com/kontainercloud/csi-driver
@@ -68206,6 +68206,24 @@ entries:
     - https://charts.appscode.com/stable/license-proxyserver-user-roles/license-proxyserver-user-roles-v2025.1.17.tgz
     version: v2025.1.17
   loadbalancer-controller:
+  - apiVersion: v2
+    appVersion: v0.2.0-ac
+    created: "2026-10-27T09:34:18.595793423Z"
+    description: A Helm chart for the LoadBalancer Controller (loadbalancer-controller
+      + keepalived-grpc)
+    digest: c5afb9ebc847fbc1b8b633e7883c578290628b031c4d395243eb4dd44c247ce6
+    home: https://github.com/kontainercloud/installer
+    icon: https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png
+    maintainers:
+    - email: support@appscode.com
+      name: appscode
+    name: loadbalancer-controller
+    sources:
+    - https://github.com/kontainercloud/installer
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/loadbalancer-controller/loadbalancer-controller-v0.2.0-ac.tgz
+    version: v0.2.0-ac
   - apiVersion: v2
     appVersion: v0.1.0
     created: "2026-08-18T07:04:07.565404685Z"
@@ -101680,4 +101698,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-10-27T09:15:03.029436679Z"
+generated: "2026-10-27T09:34:18.588200706Z"
