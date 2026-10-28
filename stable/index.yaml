@@ -25594,7 +25594,7 @@ entries:
       charts.openshift.io/name: kubedb
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.063972158Z"
+    created: "2026-10-28T03:20:38.274109218Z"
     dependencies:
     - condition: petset.enabled
       name: petset
@@ -25661,7 +25661,7 @@ entries:
       repository: oci://ghcr.io/appscode-charts
       version: v2026.6.12
     description: KubeDB by AppsCode - Production ready databases on Kubernetes
-    digest: 5c3f7cb0a4ab78e4fee5fb1827e7cfcd1f2f0adc46e6dd8f322acdf3d1338812
+    digest: fc7a2f48ac3b261b30a9f656c3db166727e8a8ced6d50a28fa162b5cb76c1d27
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.26.0-0'
@@ -31039,7 +31039,7 @@ entries:
       charts.openshift.io/name: kubedb-autoscaler
     apiVersion: v2
     appVersion: v0.53.0
-    created: "2026-10-16T07:23:47.065801773Z"
+    created: "2026-10-28T03:20:38.275845213Z"
     dependencies:
     - condition: storage-metrics-server.enabled
       name: storage-metrics-server
@@ -32468,7 +32468,7 @@ entries:
       charts.openshift.io/name: kubedb-catalog
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.06994151Z"
+    created: "2026-10-28T03:20:38.279982445Z"
     description: KubeDB Catalog by AppsCode - Catalog for database versions
     digest: ee84b55bb6dcfb24c51c903043c14ba24ed37676e1e466379fe27d9f482a47aa
     home: https://kubedb.com
@@ -35279,7 +35279,7 @@ entries:
       charts.openshift.io/name: kubedb-certified-crds
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.074598994Z"
+    created: "2026-10-28T03:20:38.28409079Z"
     description: Chart containing only CRDs from kubedb chart
     digest: 6ad1784e08192a97f0da2062e08212b4c18de6c5e6c47a41b727d7da57b9d450
     home: https://kubedb.com
@@ -35774,7 +35774,7 @@ entries:
       charts.openshift.io/name: kubedb-courier
     apiVersion: v2
     appVersion: v0.8.0
-    created: "2026-10-16T07:23:47.076719277Z"
+    created: "2026-10-28T03:20:38.286472988Z"
     description: A Helm chart for Kubernetes
     digest: 10ddcaecdc0f9dc70eb45ea507d4eaa430349058cb3069e4977c3fed5e7b24a2
     home: https://kubedb.com
@@ -35853,7 +35853,7 @@ entries:
   kubedb-courier-addon-manager:
   - apiVersion: v2
     appVersion: v0.8.0
-    created: "2026-10-16T07:23:47.078417897Z"
+    created: "2026-10-28T03:20:38.287990659Z"
     description: 'Hub-side KubeDB Courier addon manager. It installs the kubedb-courier
       manager Deployment, the hub RBAC it needs, and registers the courier Open Cluster
       Management addon so the per-cluster branch operator (kubedb-courier run) rolls
@@ -35908,7 +35908,7 @@ entries:
       charts.openshift.io/name: kubedb-crd-manager
     apiVersion: v2
     appVersion: v0.23.0
-    created: "2026-10-16T07:23:47.078980618Z"
+    created: "2026-10-28T03:20:38.288789973Z"
     description: KubeDB CRD Manager by AppsCode
     digest: 440854376990bed46669fa0405ead42fadbcb0a3936767c07251bded89631056
     home: https://kubedb.com
@@ -36693,7 +36693,7 @@ entries:
       charts.openshift.io/name: kubedb-crds
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.146157321Z"
+    created: "2026-10-28T03:20:38.359521434Z"
     description: KubeDB Custom Resource Definitions
     digest: b46761a3b6626c3b59e3adb60daa6d9f27756aa1c3bbce71f132d784bf096b03
     home: https://kubedb.com
@@ -38170,7 +38170,7 @@ entries:
       charts.openshift.io/name: kubedb-dashboard
     apiVersion: v2
     appVersion: v0.44.0
-    created: "2026-10-16T07:23:47.147116288Z"
+    created: "2026-10-28T03:20:38.360459978Z"
     description: KubeDB Dashboard by AppsCode
     digest: 466b054baf6d241c7fe3dbdc429c041b31154caade807950e666b48507c11c58
     home: https://kubedb.com
@@ -39778,7 +39778,7 @@ entries:
       charts.openshift.io/name: kubedb-gitops
     apiVersion: v2
     appVersion: v0.16.0
-    created: "2026-10-16T07:23:47.148100513Z"
+    created: "2026-10-28T03:20:38.361619274Z"
     description: KubeDB GitOps operator by AppsCode
     digest: 63ed3401050eb28223db0af40ac5688123147fa7f6caff843411d3a6ae3ed5b6
     home: https://kubedb.com
@@ -40252,7 +40252,7 @@ entries:
       charts.openshift.io/name: kubedb-grafana-dashboards
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.160070651Z"
+    created: "2026-10-28T03:20:38.373365508Z"
     description: A Helm chart for kubedb-grafana-dashboards by AppsCode
     digest: 10877227ac75d57e24c69a36e4352ed92a7b32851a4167a221fa10478f62c927
     home: https://kubedb.com
@@ -41508,7 +41508,7 @@ entries:
       charts.openshift.io/name: kubedb-kubestash-catalog
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.16117599Z"
+    created: "2026-10-28T03:20:38.374660279Z"
     description: KubeStash Catalog by AppsCode - Catalog of KubeStash Addons
     digest: 42e5964fef15531230b76c53eb9658619cbd8d7fa96be41e77767f113f7c4df1
     home: https://kubedb.com
@@ -42407,7 +42407,7 @@ entries:
       charts.openshift.io/name: kubedb-metrics
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.161934784Z"
+    created: "2026-10-28T03:20:38.375645343Z"
     description: KubeDB State Metrics
     digest: 19ef68d1bf6d5dea78b1661d20756ab58a2c967dbe9e7f4ebe776618d6891554
     home: https://kubedb.com
@@ -44884,10 +44884,10 @@ entries:
   - annotations:
       charts.openshift.io/name: kubedb-ops-manager
     apiVersion: v2
-    appVersion: v0.55.0
-    created: "2026-10-16T07:23:47.162743997Z"
+    appVersion: v0.55.1
+    created: "2026-10-28T03:20:38.376601002Z"
     description: KubeDB Ops Manager by AppsCode - Enterprise features for KubeDB
-    digest: b0cb0d3e34f05cfdc4b22c24fc5dd03d50ad28fa7ef98ead3342e03adcc204e8
+    digest: c4ebe32652a89931c8156e73885ab407c1ee914e8e0809b72b137b389353782a
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.26.0-0'
@@ -46038,7 +46038,7 @@ entries:
       charts.openshift.io/name: kubedb-opscenter
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.183893506Z"
+    created: "2026-10-28T03:20:38.399656614Z"
     dependencies:
     - condition: kubedb-metrics.enabled
       name: kubedb-metrics
@@ -48437,7 +48437,7 @@ entries:
   kubedb-perses-dashboards:
   - apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.190132429Z"
+    created: "2026-10-28T03:20:38.407939421Z"
     description: A Helm chart for kubedb-perses-dashboards by AppsCode
     digest: f9545a5c46e7059b3a1dfe27e0f9bfb4306e93f4cb3bcd00defaa75947b7fcbd
     home: https://kubedb.com
@@ -48693,7 +48693,7 @@ entries:
   kubedb-provider-aws:
   - apiVersion: v2
     appVersion: v0.29.0
-    created: "2026-10-16T07:23:47.192017738Z"
+    created: "2026-10-28T03:20:38.409650679Z"
     description: A Helm chart for KubeDB AWS Provider for Crossplane
     digest: 6d2e7e290789eef3fdb831200ccf5dcc926b37479d101c978e3055652fc32d0c
     home: https://kubedb.com
@@ -49527,7 +49527,7 @@ entries:
   kubedb-provider-azure:
   - apiVersion: v2
     appVersion: v0.29.0
-    created: "2026-10-16T07:23:47.194572859Z"
+    created: "2026-10-28T03:20:38.412394542Z"
     description: A Helm chart for KubeDB Azure Provider for Crossplane
     digest: aff164f1db454532cbfdfecd4771a4d68ccd2da7c188d83aa2060316e241c75b
     home: https://kubedb.com
@@ -50361,7 +50361,7 @@ entries:
   kubedb-provider-gcp:
   - apiVersion: v2
     appVersion: v0.29.0
-    created: "2026-10-16T07:23:47.195360493Z"
+    created: "2026-10-28T03:20:38.413278954Z"
     description: A Helm chart for KubeDB GCP Provider for Crossplane
     digest: 8dc5346bbe4c551a50e2e4da6241fe292e5867c4e4b4d6ac83f58c25a5f6920a
     home: https://kubedb.com
@@ -51196,10 +51196,10 @@ entries:
   - annotations:
       charts.openshift.io/name: kubedb-provisioner
     apiVersion: v2
-    appVersion: v0.68.0
-    created: "2026-10-16T07:23:47.197044995Z"
+    appVersion: v0.68.1
+    created: "2026-10-28T03:20:38.415230269Z"
     description: KubeDB Provisioner by AppsCode - Community features for KubeDB
-    digest: feee31d255107d480836882ce3fb485c8fdc7d62d8f41b4d92196d2451f7a39c
+    digest: f02c1a86cf76ea69cb95b6fb24eeae8aedc62ef22544ba03e4742780d80af8c9
     home: https://kubedb.com
     icon: https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png
     kubeVersion: '>=1.26.0-0'
@@ -52366,7 +52366,7 @@ entries:
       charts.openshift.io/name: kubedb-schema-manager
     apiVersion: v2
     appVersion: v0.44.0
-    created: "2026-10-16T07:23:47.197753419Z"
+    created: "2026-10-28T03:20:38.416162648Z"
     description: KubeDB Schema Manager by AppsCode
     digest: fda993cfe8d0339e8a2563a24d292b2a1aac01e90c74f6cd934a4481083eb00b
     home: https://kubedb.com
@@ -55277,7 +55277,7 @@ entries:
       charts.openshift.io/name: kubedb-ui-server
     apiVersion: v2
     appVersion: v0.44.0
-    created: "2026-10-16T07:23:47.198361484Z"
+    created: "2026-10-28T03:20:38.417065989Z"
     description: A Helm chart for kubedb-ui-server by AppsCode
     digest: 7902196731f5f84a2481972aee0314f74e0736f8c19c0b3f9a7b613a20de80d2
     home: https://kubedb.com
@@ -56516,7 +56516,7 @@ entries:
       charts.openshift.io/name: kubedb-webhook-server
     apiVersion: v2
     appVersion: v0.44.0
-    created: "2026-10-16T07:23:47.199454808Z"
+    created: "2026-10-28T03:20:38.418337965Z"
     description: KubeDB Webhook Server by AppsCode
     digest: 05ec425595734c5b675c30c4b4c9c959529c835a6568995011d109a672aafa92
     home: https://kubedb.com
@@ -78862,7 +78862,7 @@ entries:
       charts.openshift.io/name: prepare-cluster
     apiVersion: v2
     appVersion: v2026.10.12
-    created: "2026-10-16T07:23:47.19999309Z"
+    created: "2026-10-28T03:20:38.418967604Z"
     description: Prepare Kubernetes Cluster by AppsCode
     digest: 0d1efb11b1f450e9e233de6ab59e7339d67719d6dfe78170a9ffa79e096f8e6d
     home: https://kubedb.com
@@ -101698,4 +101698,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-10-27T09:59:55.508515207Z"
+generated: "2026-10-28T03:20:38.247726044Z"
