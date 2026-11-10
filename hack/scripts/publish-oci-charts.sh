@@ -56,14 +56,31 @@ else
     done
 fi
 
+# GHCR intermittently fails the post-upload tag step with "not found"; retry with backoff.
+function pushWithRetry() {
+    local file=$1
+    local registry=$2
+    local maxAttempts=5
+    for attempt in $(seq 1 $maxAttempts); do
+        if helm push "$file" "$registry"; then
+            return 0
+        fi
+        if [ "$attempt" -eq "$maxAttempts" ]; then
+            echo "failed to push $file to $registry after $maxAttempts attempts" >&2
+            return 1
+        fi
+        sleep $((attempt * 5))
+    done
+}
+
 for file in $SCRIPT_ROOT/.oci/*; do
     if [ -n "$REGISTRY_0" ]; then
-        helm push "$file" "$REGISTRY_0"
+        pushWithRetry "$file" "$REGISTRY_0"
     fi
     if [ -n "$REGISTRY_1" ]; then
-        helm push "$file" "$REGISTRY_1"
+        pushWithRetry "$file" "$REGISTRY_1"
     fi
     if [ -n "$REGISTRY_2" ]; then
-        helm push "$file" "$REGISTRY_2"
+        pushWithRetry "$file" "$REGISTRY_2"
     fi
 done
