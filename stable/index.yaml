@@ -14471,7 +14471,7 @@ entries:
   cluster-auth-agent:
   - apiVersion: v1
     appVersion: v0.5.1
-    created: "2026-11-10T10:09:20.981663108Z"
+    created: "2026-11-11T06:00:58.039672403Z"
     description: Cluster Auth Agent
     digest: 75be9c2a956acfae183d0f4fe8c7ff9723bdaceb8d13eada06a56e85057ce8a5
     home: https://github.com/kluster-manager/cluster-auth
@@ -14632,7 +14632,7 @@ entries:
   cluster-auth-manager:
   - apiVersion: v1
     appVersion: v0.5.1
-    created: "2026-11-10T10:09:20.982543196Z"
+    created: "2026-11-11T06:00:58.040645275Z"
     description: Cluster Auth Manager
     digest: 9592ce9ae211fa63a079cd20506d78f90f92bd634a2a73534cf1f8847c84b7bd
     home: https://github.com/kluster-manager/cluster-auth
@@ -14913,7 +14913,7 @@ entries:
   cluster-gateway:
   - apiVersion: v2
     appVersion: v1.12.1
-    created: "2026-11-10T10:09:20.982759431Z"
+    created: "2026-11-11T06:00:58.040892593Z"
     description: A Helm chart for Cluster-Gateway
     digest: fca5152d5ef747ddcef16f372f79408144288f7cd5f458c95cba37699b6b3500
     name: cluster-gateway
@@ -15005,7 +15005,7 @@ entries:
   cluster-gateway-manager:
   - apiVersion: v2
     appVersion: v1.12.1
-    created: "2026-11-10T10:09:20.984291426Z"
+    created: "2026-11-11T06:00:58.041739239Z"
     description: A Helm chart for Cluster-Gateway Addon-Manager
     digest: 01efa911cfd1c08106bd14b218df98405b28e47f3ae552c9677371eb8551d526
     name: cluster-gateway-manager
@@ -15954,7 +15954,7 @@ entries:
   cluster-manager-hub:
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2026-11-10T10:09:20.984885358Z"
+    created: "2026-11-11T06:00:58.042350305Z"
     description: A Helm chart for Open Cluster Manager Hub
     digest: 24a551b51a75b99b0f6b75d3f85cfe7028c6923dfa77da48c9bb3648a14cf9ee
     home: https://open-cluster-management.io
@@ -16067,7 +16067,7 @@ entries:
   cluster-manager-spoke:
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2026-11-10T10:09:20.985535556Z"
+    created: "2026-11-11T06:00:58.044048629Z"
     description: A Helm chart to join a spoke cluster to Open Cluster Manager Hub
     digest: 49f1441e357b8dac6403a16693f2f3b0785a912fd70c6f9adca9dd3d211dbca4
     home: https://open-cluster-management.io
@@ -16943,7 +16943,7 @@ entries:
   cluster-profile-manager:
   - apiVersion: v1
     appVersion: v0.14.0
-    created: "2026-11-10T10:09:20.986345462Z"
+    created: "2026-11-11T06:00:58.045142241Z"
     description: Cluster Profile Manager
     digest: 3b79e4ec0545a2f854e84259d27610728682453a49341dcfbd98b7dd895a84e4
     home: https://github.com/kluster-manager/cluster-profile
@@ -17161,6 +17161,16 @@ entries:
     - https://charts.appscode.com/stable/cluster-proxy-manager/cluster-proxy-v2024.2.25.tgz
     version: v2024.2.25
   cluster-proxy-manager:
+  - apiVersion: v2
+    appVersion: v0.10.1
+    created: "2026-11-11T06:00:58.045976181Z"
+    description: A Helm chart for Cluster-Proxy OCM Addon
+    digest: ec0df7e3e30d1ee752de586e8952358e8d335796762e654d093ec8b599cddcc7
+    name: cluster-proxy-manager
+    type: application
+    urls:
+    - https://charts.appscode.com/stable/cluster-proxy-manager/cluster-proxy-manager-v2026.11.11.tgz
+    version: v2026.11.11
   - apiVersion: v2
     appVersion: v0.10.1
     created: "2026-11-10T10:09:20.987099223Z"
@@ -20910,7 +20920,7 @@ entries:
   fluxcd-manager:
   - apiVersion: v2
     appVersion: v0.0.11
-    created: "2026-11-10T10:09:20.989108497Z"
+    created: "2026-11-11T06:00:58.047231977Z"
     description: Installs FluxCD in managed clusters
     digest: 03f99e75bc3506dbe4123dcf49f9c298b61ee17dd57f537f4b4fe521ce6f34a5
     home: https://open-cluster-management.io
@@ -23174,7 +23184,7 @@ entries:
   hub-cluster-robot:
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2026-11-10T10:09:20.989317588Z"
+    created: "2026-11-11T06:00:58.047620043Z"
     description: Hub Cluster Robot
     digest: b5a69362ef9f3fee197b4fd75e1de1eee62abc376d913e2cccbca9e266150980
     home: https://github.com/kluster-manager/cluster-auth
@@ -68975,7 +68985,7 @@ entries:
   managed-serviceaccount-manager:
   - apiVersion: v2
     appVersion: v0.10.0
-    created: "2026-11-10T10:09:20.989993333Z"
+    created: "2026-11-11T06:00:58.049022222Z"
     description: A Helm chart for Managed ServiceAccount Addon Manager
     digest: a6a16157f5df4aa44bec1f1a9e2a186cd88691901dc4c0c2dce81b5e21b0fd89
     name: managed-serviceaccount-manager
@@ -71709,7 +71719,7 @@ entries:
   multicluster-controlplane:
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2026-11-10T10:09:20.990369758Z"
+    created: "2026-11-11T06:00:58.049475572Z"
     description: A Helm chart for multicluster-controlplane
     digest: f6816691fd094c9b6da2bda8b6015416871d7976e6b5420ade481488b05cb710
     name: multicluster-controlplane
@@ -71750,7 +71760,7 @@ entries:
   multicluster-ingress-reader:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2026-11-10T10:09:20.990701058Z"
+    created: "2026-11-11T06:00:58.049759766Z"
     description: A Helm chart for Kubernetes
     digest: a30a806a49082053cd303a22ffa55b7d41692be649db9231cce9c1249a77d251
     home: https://github.com/kluster-manager/installer
@@ -87213,7 +87223,7 @@ entries:
   spoke-cluster-addons:
   - apiVersion: v1
     appVersion: v0.0.3
-    created: "2026-11-10T10:09:20.991030926Z"
+    created: "2026-11-11T06:00:58.050138249Z"
     description: Spoke Cluster Addons
     digest: bbdcb998c44662185d45a020682d137e9c354fc3da211fa85ec6f44ff11eddce
     home: https://github.com/kluster-manager/cluster-proxy
@@ -102778,4 +102788,4 @@ entries:
     urls:
     - https://charts.appscode.com/stable/zookeeper-alerts/zookeeper-alerts-v2024.2.14.tgz
     version: v2024.2.14
-generated: "2026-11-10T21:35:37.310973079Z"
+generated: "2026-11-11T06:00:58.038716467Z"
